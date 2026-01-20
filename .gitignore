@@ -35,6 +35,9 @@
 .vscode/
 *.code-workspace
 
+# Rider
+.idea/
+
 # Gradle cache directory
 .gradle/
 
