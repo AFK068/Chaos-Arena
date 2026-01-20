@@ -28,6 +28,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        _movement = _movement.normalized;
+        // Debug.Log(_movement);
         rb.MovePosition(rb.position + _movement * (speed * Time.fixedDeltaTime));
     }
 }
