@@ -13,55 +13,56 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float dashCooldown = 1f;
     [SerializeField] private TrailRenderer trail;
 
-    private Rigidbody2D rb;
-    private Vector2 moveInput;
-    private TrailRenderer tr;
-    private Animator animator;
+    private Rigidbody2D _rb;
+    private Vector2 _moveInput;
+    private TrailRenderer _tr;
+    private Animator _animator;
 
-    private bool canDash = true;
-    private bool isDashing = false;
+    private bool _canDash = true;
+    private bool _isFacingRight = true;
+    private bool _isDashing = false;
 
-    private bool isFacingRight = true;
+    public bool IsDashing => _isDashing;
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
     {
-        if (isDashing) { return; }
+        if (_isDashing) { return; }
 
-        rb.linearVelocity = moveInput * moveSpeed;
+        _rb.linearVelocity = _moveInput * moveSpeed;
 
         // Animation
-        animator.SetFloat("Horizontal", moveInput.x);
-        animator.SetFloat("Vertical", moveInput.y);
-        animator.SetFloat("Speed", moveInput.sqrMagnitude);
+        _animator.SetFloat("Horizontal", _moveInput.x);
+        _animator.SetFloat("Vertical", _moveInput.y);
+        _animator.SetFloat("Speed", _moveInput.sqrMagnitude);
 
         // Flip 
-        if (moveInput.x > 0 && !isFacingRight)
+        if (_moveInput.x > 0 && !_isFacingRight)
         {
             Flip();
         }
-        else if (moveInput.x < 0 && isFacingRight)
+        else if (_moveInput.x < 0 && _isFacingRight)
         {
             Flip();
         }
     }
 
-    public void OnMove(InputAction.CallbackContext context)
+    private void OnMove(InputAction.CallbackContext context)
     {
-        moveInput = context.ReadValue<Vector2>();
+        _moveInput = context.ReadValue<Vector2>();
     }
 
-    public void OnDash(InputAction.CallbackContext context)
+    private void OnDash(InputAction.CallbackContext context)
     {
         if (!context.started)
             return;
 
-        if (!canDash || moveInput == Vector2.zero)
+        if (!_canDash || _moveInput == Vector2.zero)
             return;
 
         StartCoroutine(Dash());
@@ -69,27 +70,27 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator Dash()
     {
-        canDash = false;
-        isDashing = true;
+        _canDash = false;
+        _isDashing = true;
 
-        Vector2 dashDirection = moveInput.normalized;
+        Vector2 dashDirection = _moveInput.normalized;
 
         trail.emitting = true;
-        rb.linearVelocity = dashDirection * dashSpeed;
+        _rb.linearVelocity = dashDirection * dashSpeed;
 
 
         yield return new WaitForSeconds(dashDuration);
 
         trail.emitting = false;
-        isDashing = false;
+        _isDashing = false;
 
         yield return new WaitForSeconds(dashCooldown);
-        canDash = true;
+        _canDash = true;
     }
 
     private void Flip()
     {
-        isFacingRight = !isFacingRight;
+        _isFacingRight = !_isFacingRight;
         Vector3 localScale = transform.localScale;
         localScale.x *= -1;
         transform.localScale = localScale;
