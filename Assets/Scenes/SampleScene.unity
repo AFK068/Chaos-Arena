@@ -731,6 +731,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1225756555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1225756556}
+  m_Layer: 0
+  m_Name: shootPoin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1225756556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225756555}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1867968312}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1867968309
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,6 +778,7 @@ GameObject:
   - component: {fileID: 1867968317}
   - component: {fileID: 1867968314}
   - component: {fileID: 1867968318}
+  - component: {fileID: 1867968319}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -854,6 +886,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1212186539}
+  - {fileID: 1225756556}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1867968314
@@ -868,7 +901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 732d0e8f216b64cfcb49a9c2fa85c10d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 7
+  moveSpeed: 6
   dashSpeed: 20
   dashDuration: 0.15
   dashCooldown: 1
@@ -978,6 +1011,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: bbffc0b4-cf66-4656-a736-af5a1055c7d9
     m_ActionName: 'Player/Dash[/Keyboard/shift]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1867968319}
+        m_TargetAssemblyTypeName: PlayerShoot, Assembly-CSharp
+        m_MethodName: OnShoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2a9725f7-0079-4215-90f4-947a32c14705
+    m_ActionName: 'Player/Shoot[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1142,6 +1191,21 @@ MonoBehaviour:
   - {fileID: 107600688}
   - {fileID: 820953207}
   maxHealth: 4
+--- !u!114 &1867968319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867968309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575d6809c607d4b7da94586e4a4d615d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerShoot
+  shootPoint: {fileID: 1225756556}
+  projectilePrefab: {fileID: 6186537617237227091, guid: 2502ed7e126a14f7b9871c7cec12189b, type: 3}
+  fireRate: 0.2
 --- !u!1 &1961077212
 GameObject:
   m_ObjectHideFlags: 0
