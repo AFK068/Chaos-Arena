@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Move")]
-    [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float moveSpeed = 6f;
 
     [Header("Dash")]
     [SerializeField] private float dashSpeed = 20f;
@@ -52,12 +52,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnMove(InputAction.CallbackContext context)
+    public void OnMove(InputAction.CallbackContext context)
     {
         _moveInput = context.ReadValue<Vector2>();
     }
 
-    private void OnDash(InputAction.CallbackContext context)
+    public void OnDash(InputAction.CallbackContext context)
     {
         if (!context.started)
             return;
