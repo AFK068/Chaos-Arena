@@ -15,8 +15,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D _rb;
     private Vector2 _moveInput;
-    private TrailRenderer _tr;
+    private Vector2 _lastFacingDirection = Vector2.down;
     private Animator _animator;
+    private PlayerShoot _playerShoot;
 
     private bool _canDash = true;
     private bool _isFacingRight = true;
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _playerShoot = GetComponent<PlayerShoot>();
     }
 
     private void FixedUpdate()
@@ -36,19 +38,54 @@ public class PlayerMovement : MonoBehaviour
 
         _rb.linearVelocity = _moveInput * moveSpeed;
 
-        // Animation
-        _animator.SetFloat("Horizontal", _moveInput.x);
-        _animator.SetFloat("Vertical", _moveInput.y);
+        // Если не стреляем и двигаемся - обновляем направление взгляда
+        if (_playerShoot != null && !_playerShoot.IsShooting && _moveInput.sqrMagnitude > 0.01f)
+        {
+            _lastFacingDirection = _moveInput.normalized;
+        }
+
+        UpdateAnimation();
+    }
+
+    public void UpdateAnimation()
+    {
+        // Направление для Idle
+        _animator.SetFloat("Horizontal", _lastFacingDirection.x);
+        _animator.SetFloat("Vertical", _lastFacingDirection.y);
+
+        Vector2 moveDirection = _moveInput;
+
+        // Если движемся и смотрим в противоположные стороны - инвертируем движение
+        if (_moveInput.sqrMagnitude > 0.01f && _lastFacingDirection.sqrMagnitude > 0.01f)
+        {
+            float dot = Vector2.Dot(_moveInput.normalized, _lastFacingDirection);
+
+            if (dot < 0)
+            {
+                moveDirection = -_moveInput;
+            }
+        }
+
+        _animator.SetFloat("MoveX", moveDirection.x);
+        _animator.SetFloat("MoveY", moveDirection.y);
         _animator.SetFloat("Speed", _moveInput.sqrMagnitude);
 
-        // Flip 
-        if (_moveInput.x > 0 && !_isFacingRight)
+        // Flip по направлению взгляда
+        if (_lastFacingDirection.x > 0 && !_isFacingRight)
         {
             Flip();
         }
-        else if (_moveInput.x < 0 && _isFacingRight)
+        else if (_lastFacingDirection.x < 0 && _isFacingRight)
         {
             Flip();
+        }
+    }
+
+    public void SetFacingDirection(Vector2 direction)
+    {
+        if (direction.sqrMagnitude > 0.01f)
+        {
+            _lastFacingDirection = direction.normalized;
         }
     }
 
@@ -77,7 +114,6 @@ public class PlayerMovement : MonoBehaviour
 
         trail.emitting = true;
         _rb.linearVelocity = dashDirection * dashSpeed;
-
 
         yield return new WaitForSeconds(dashDuration);
 

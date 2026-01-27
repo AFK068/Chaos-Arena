@@ -15,10 +15,28 @@ public class PlayerShoot : MonoBehaviour
 
     private Vector2 shootDir = Vector2.zero;
     private float fireTimer = 0f;
+    private PlayerMovement playerMovement;
+    private bool isShooting = false;
+
+    public bool IsShooting => isShooting;
+
+    private void Awake()
+    {
+        playerMovement = GetComponent<PlayerMovement>();
+    }
 
     public void OnShoot(InputAction.CallbackContext context)
     {
         shootDir = context.ReadValue<Vector2>();
+
+        if (shootDir.sqrMagnitude < 0.01f)
+        {
+            isShooting = false;
+        }
+        else
+        {
+            isShooting = true;
+        }
     }
 
     void Update()
@@ -33,6 +51,9 @@ public class PlayerShoot : MonoBehaviour
 
     private void Shoot(Vector2 direction)
     {
+        // Поворачиваем персонажа в сторону стрельбы
+        playerMovement?.SetFacingDirection(direction);
+
         ProjectileBase projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
         projectile.Launch(direction);
     }
