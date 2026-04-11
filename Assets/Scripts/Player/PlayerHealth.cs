@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -8,13 +9,29 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private Sprite fullHeartSprite;
     [SerializeField] private Sprite halfHeartSprite;
     [SerializeField] private int maxHealth = 8;
+    [SerializeField] private SpriteRenderer playerRenderer;
+    [SerializeField] private float hitFlashDuration = 0.1f;
+    [SerializeField] private Color hitFlashColor = new Color(1f, 0.45f, 0.45f, 1f);
 
     private int _currentHealth;
     private Image[] hearts;
+    private Color _baseColor;
+    private Coroutine _flashCoroutine;
 
     void Start()
     {
         _currentHealth = maxHealth;
+
+        if (playerRenderer == null)
+        {
+            playerRenderer = GetComponentInChildren<SpriteRenderer>();
+        }
+
+        if (playerRenderer != null)
+        {
+            _baseColor = playerRenderer.color;
+        }
+
         GenerateHearts();
         UpdateHearts();
     }
@@ -38,9 +55,24 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        _currentHealth -= amount;
+        _currentHealth -= Mathf.Max(amount, 0);
         _currentHealth = Mathf.Max(_currentHealth, 0);
         UpdateHearts();
+
+        if (playerRenderer != null)
+        {
+            if (_flashCoroutine != null)
+            {
+                StopCoroutine(_flashCoroutine);
+            }
+
+            _flashCoroutine = StartCoroutine(HitFlash());
+        }
+
+        if (_currentHealth == 0)
+        {
+            Debug.LogWarning("TODO: Add player death logic when HP reaches 0.");
+        }
     }
 
     public void Heal(int amount)
@@ -71,5 +103,12 @@ public class PlayerHealth : MonoBehaviour
                 hearts[i].enabled = false;
             }
         }
+    }
+
+    private IEnumerator HitFlash()
+    {
+        playerRenderer.color = hitFlashColor;
+        yield return new WaitForSeconds(hitFlashDuration);
+        playerRenderer.color = _baseColor;
     }
 }
