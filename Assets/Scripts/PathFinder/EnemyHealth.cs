@@ -7,11 +7,13 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private float hitFlashDuration = 0.08f;
     [SerializeField] private Color hitFlashColor = new Color(1f, 0.45f, 0.45f, 1f);
-    [SerializeField] private EnemyAI enemyAI;
+    [SerializeField] private Color poisonTickColor = new Color(0.45f, 1f, 0.45f, 1f);
+    [SerializeField] private float poisonTickFlashDuration = 0.1f;
 
     private int _currentHealth;
     private Color _baseColor;
     private Coroutine _flashCoroutine;
+    private Coroutine _poisonCoroutine;
 
     private void Awake()
     {
@@ -20,11 +22,6 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         if (spriteRenderer == null)
         {
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        }
-
-        if (enemyAI == null)
-        {
-            enemyAI = GetComponent<EnemyAI>();
         }
 
         if (spriteRenderer != null)
@@ -47,12 +44,12 @@ public class EnemyHealth : MonoBehaviour, IDamageable
                 StopCoroutine(_flashCoroutine);
             }
 
-            _flashCoroutine = StartCoroutine(HitFlash());
+            _flashCoroutine = StartCoroutine(FlashColor(hitFlashColor, hitFlashDuration));
         }
 
-        if (hitData.DebuffType == DebuffType.Slow && enemyAI != null)
+        if (hitData.DebuffType == DebuffType.Poison)
         {
-            enemyAI.ApplySlow(hitData.DebuffDuration, hitData.DebuffPower);
+            StartPoison(hitData.DebuffDuration, hitData.DebuffPower, hitData.DebuffTickInterval);
         }
 
         TakeDamage(hitData.Damage);
@@ -71,13 +68,65 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 
     private void Die()
     {
+        if (_poisonCoroutine != null)
+        {
+            StopCoroutine(_poisonCoroutine);
+            _poisonCoroutine = null;
+        }
+
         Destroy(gameObject);
     }
 
-    private IEnumerator HitFlash()
+    private void StartPoison(float duration, float damagePerTick, float tickInterval)
     {
-        spriteRenderer.color = hitFlashColor;
-        yield return new WaitForSeconds(hitFlashDuration);
+        if (_poisonCoroutine != null)
+        {
+            StopCoroutine(_poisonCoroutine);
+        }
+
+        _poisonCoroutine = StartCoroutine(PoisonRoutine(duration, damagePerTick, tickInterval));
+    }
+
+    private IEnumerator PoisonRoutine(float duration, float damagePerTick, float tickInterval)
+    {
+        var totalDuration = Mathf.Max(duration, 0f);
+        var interval = Mathf.Max(tickInterval, 0.05f);
+        var tickDamage = Mathf.Max(Mathf.RoundToInt(damagePerTick), 0);
+        var elapsed = 0f;
+
+        while (elapsed < totalDuration && _currentHealth > 0)
+        {
+            yield return new WaitForSeconds(interval);
+            elapsed += interval;
+
+            if (_currentHealth <= 0)
+            {
+                break;
+            }
+
+            if (tickDamage > 0)
+            {
+                TakeDamage(tickDamage);
+            }
+
+            if (spriteRenderer != null)
+            {
+                if (_flashCoroutine != null)
+                {
+                    StopCoroutine(_flashCoroutine);
+                }
+
+                _flashCoroutine = StartCoroutine(FlashColor(poisonTickColor, poisonTickFlashDuration));
+            }
+        }
+
+        _poisonCoroutine = null;
+    }
+
+    private IEnumerator FlashColor(Color targetColor, float duration)
+    {
+        spriteRenderer.color = targetColor;
+        yield return new WaitForSeconds(Mathf.Max(duration, 0.01f));
         spriteRenderer.color = _baseColor;
     }
 }

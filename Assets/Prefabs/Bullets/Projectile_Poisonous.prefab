@@ -176,6 +176,7 @@ MonoBehaviour:
   debuffType: 1
   debuffDuration: 1
   debuffPower: 0.5
+  debuffTickInterval: 0.5
   pickupPrefab: {fileID: 6725619004127860285, guid: 33a7ff2f1697d483d87d15c549db8097, type: 3}
   rotateToDirection: 1
   spriteForwardAngleOffset: 0

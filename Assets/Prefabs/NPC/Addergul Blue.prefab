@@ -284,6 +284,9 @@ MonoBehaviour:
   chaseSpeed: 5
   canLeavePatrolArea: 0
   patrolRadius: 5
+  contactDamage: 1
+  contactDamageCooldown: 0.8
+  slowMultiplierMin: 0.1
 --- !u!114 &8875422342807312938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,4 +299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f0462ad53644c57856e2a8f89e95f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 3
+  maxHealth: 20
+  spriteRenderer: {fileID: 0}
+  hitFlashDuration: 0.08
+  hitFlashColor: {r: 1, g: 0.45, b: 0.45, a: 1}
+  enemyAI: {fileID: 0}
