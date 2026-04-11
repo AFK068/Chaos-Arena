@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 1857848308383305785}
   - component: {fileID: -6927740455700311194}
   - component: {fileID: 166482588693554979}
+  - component: {fileID: 5536446663019517481}
   m_Layer: 0
   m_Name: Frank Blue
   m_TagString: Untagged
@@ -286,7 +287,6 @@ MonoBehaviour:
   patrolRadius: 5
   contactDamage: 1
   contactDamageCooldown: 0.8
-  slowMultiplierMin: 0.1
 --- !u!114 &166482588693554979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,5 +302,26 @@ MonoBehaviour:
   maxHealth: 20
   spriteRenderer: {fileID: 0}
   hitFlashDuration: 0.08
-  hitFlashColor: {r: 1, g: 0.45, b: 0.45, a: 1}
-  enemyAI: {fileID: 0}
+  defaultHitColor: {r: 1, g: 0.45, b: 0.45, a: 1}
+  poisonHitColor: {r: 0.45, g: 1, b: 0.45, a: 1}
+  frozenHitColor: {r: 0.45, g: 0.75, b: 1, a: 1}
+  burnHitColor: {r: 1, g: 0.4, b: 0, a: 1}
+  freezeSlowMultiplier: 0.3
+  poisonSlowMultiplier: 0.7
+--- !u!114 &5536446663019517481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3323176362265702555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515fc2c292ff1475bb8b604b6a8ef52a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DebuffVisualHandler
+  effects:
+  - type: 3
+    prefab: {fileID: 1022105811692557038, guid: f0fef14951f0a4b18881469215d007d6, type: 3}
+    offset: {x: 0, y: -0.8}
+    scale: {x: 6, y: 5}

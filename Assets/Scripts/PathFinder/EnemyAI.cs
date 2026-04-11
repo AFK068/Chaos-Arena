@@ -25,6 +25,7 @@ public class EnemyAI : MonoBehaviour
     private Vector3 currentPatrolPoint;
     private bool isChasing = false;
     private float _nextDamageTime;
+    private float _speedMultiplier = 1f;
 
     void Start()
     {
@@ -52,7 +53,7 @@ public class EnemyAI : MonoBehaviour
             if (!isChasing)
             {
                 isChasing = true;
-                aiPath.maxSpeed = chaseSpeed;
+                aiPath.maxSpeed = chaseSpeed * _speedMultiplier;
             }
             aiPath.destination = player.position;
         }
@@ -61,7 +62,7 @@ public class EnemyAI : MonoBehaviour
             if (isChasing)
             {
                 isChasing = false;
-                aiPath.maxSpeed = patrolSpeed;
+                aiPath.maxSpeed = patrolSpeed * _speedMultiplier;
                 UpdatePatrolCenter();
                 SetNewPatrolPoint();
             }
@@ -125,6 +126,12 @@ public class EnemyAI : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other)
     {
         TryDealContactDamage(other);
+    }
+
+    public void SetSpeedMultiplier(float multiplier)
+    {
+        _speedMultiplier = Mathf.Max(multiplier, 0f);
+        aiPath.maxSpeed = (isChasing ? chaseSpeed : patrolSpeed) * _speedMultiplier;
     }
 
     private void TryDealContactDamage(Collider2D other)

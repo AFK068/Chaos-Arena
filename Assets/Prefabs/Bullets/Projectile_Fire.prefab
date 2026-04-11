@@ -173,10 +173,11 @@ MonoBehaviour:
   speed: 10
   lifeTime: 2
   damage: 1
-  debuffType: 1
+  debuffType: 3
   debuffDuration: 1
   debuffPower: 0.5
   debuffTickInterval: 0.5
+  debuffEffectPrefab: {fileID: 1022105811692557038, guid: f0fef14951f0a4b18881469215d007d6, type: 3}
   pickupPrefab: {fileID: 6725619004127860285, guid: dbb74df63e89a45efb6aa18be2939ebe, type: 3}
   rotateToDirection: 1
   spriteForwardAngleOffset: 0

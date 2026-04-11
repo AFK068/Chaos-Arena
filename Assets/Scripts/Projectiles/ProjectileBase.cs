@@ -11,6 +11,7 @@ public class ProjectileBase : MonoBehaviour
     [SerializeField] protected float debuffDuration = 0f;
     [SerializeField] protected float debuffPower = 0f; // poison: damage per tick
     [SerializeField] protected float debuffTickInterval = 0.4f;
+    [SerializeField] protected GameObject debuffEffectPrefab;
     [SerializeField] private ProjectilePickup pickupPrefab;
     [SerializeField] private bool rotateToDirection = false;
     [SerializeField] private float spriteForwardAngleOffset = 0f;
@@ -70,7 +71,7 @@ public class ProjectileBase : MonoBehaviour
         }
 
         _hasHit = true;
-        var hitData = new HitData(damage, debuffType, debuffDuration, debuffPower, debuffTickInterval);
+        var hitData = new HitData(damage, debuffType, debuffDuration, debuffPower, debuffTickInterval, debuffEffectPrefab);
         damageable.ApplyHit(hitData);
         Destroy(gameObject);
     }
