@@ -8,7 +8,7 @@ public class PlayerInteractor : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (!context.performed && !context.started)
+        if (!context.performed)
         {
             return;
         }
