@@ -10,9 +10,14 @@ public class ProjectileBase : MonoBehaviour
     [SerializeField] protected DebuffType debuffType = DebuffType.None;
     [SerializeField] protected float debuffDuration = 0f;
     [SerializeField] protected float debuffPower = 0f;
+    [SerializeField] private ProjectilePickup pickupPrefab;
+    [SerializeField] private bool rotateToDirection = false;
+    [SerializeField] private float spriteForwardAngleOffset = 0f;
 
     protected Rigidbody2D rb;
     private bool _hasHit;
+
+    public ProjectilePickup PickupPrefab => pickupPrefab;
 
     protected virtual void Awake()
     {
@@ -28,8 +33,16 @@ public class ProjectileBase : MonoBehaviour
 
     public virtual void Launch(Vector2 direction)
     {
+        var normalizedDirection = direction.normalized;
+
+        if (rotateToDirection && normalizedDirection.sqrMagnitude > 0.0001f)
+        {
+            var angle = Mathf.Atan2(normalizedDirection.y, normalizedDirection.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0f, 0f, angle + spriteForwardAngleOffset);
+        }
+
         if (rb != null)
-            rb.linearVelocity = direction.normalized * speed;
+            rb.linearVelocity = normalizedDirection * speed;
         Destroy(gameObject, lifeTime);
     }
 

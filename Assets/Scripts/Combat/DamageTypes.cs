@@ -4,6 +4,13 @@ public enum DebuffType
     Slow = 1,
 }
 
+public enum ProjectileKind
+{
+    Basic = 0,
+    Slow = 1,
+}
+
+
 public readonly struct HitData
 {
     public int Damage { get; }

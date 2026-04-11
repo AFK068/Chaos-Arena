@@ -1,5 +1,6 @@
 using UnityEngine;
 using Pathfinding;
+using System.Collections;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -19,12 +20,17 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private int contactDamage = 1;
     [SerializeField] private float contactDamageCooldown = 0.8f;
 
+    [Header("Debuff")]
+    [SerializeField] private float slowMultiplierMin = 0.1f;
+
     private AIPath aiPath;
     private Vector3 patrolCenter;
     private Vector3 spawnPoint;
     private Vector3 currentPatrolPoint;
     private bool isChasing = false;
     private float _nextDamageTime;
+    private Coroutine _slowCoroutine;
+    private float _currentSlowMultiplier = 1f;
 
     void Start()
     {
@@ -41,6 +47,20 @@ public class EnemyAI : MonoBehaviour
         SetNewPatrolPoint();
     }
 
+    public void ApplySlow(float duration, float power)
+    {
+        var clampedPower = Mathf.Clamp01(power);
+        var multiplier = Mathf.Clamp01(1f - clampedPower);
+        multiplier = Mathf.Max(multiplier, slowMultiplierMin);
+
+        if (_slowCoroutine != null)
+        {
+            StopCoroutine(_slowCoroutine);
+        }
+
+        _slowCoroutine = StartCoroutine(SlowRoutine(duration, multiplier));
+    }
+
     void Update()
     {
         if (player == null) return;
@@ -52,7 +72,7 @@ public class EnemyAI : MonoBehaviour
             if (!isChasing)
             {
                 isChasing = true;
-                aiPath.maxSpeed = chaseSpeed;
+                aiPath.maxSpeed = chaseSpeed * _currentSlowMultiplier;
             }
             aiPath.destination = player.position;
         }
@@ -61,7 +81,7 @@ public class EnemyAI : MonoBehaviour
             if (isChasing)
             {
                 isChasing = false;
-                aiPath.maxSpeed = patrolSpeed;
+                aiPath.maxSpeed = patrolSpeed * _currentSlowMultiplier;
                 UpdatePatrolCenter();
                 SetNewPatrolPoint();
             }
@@ -141,5 +161,16 @@ public class EnemyAI : MonoBehaviour
 
         playerHealth.TakeDamage(contactDamage);
         _nextDamageTime = Time.time + contactDamageCooldown;
+    }
+
+    private IEnumerator SlowRoutine(float duration, float multiplier)
+    {
+        _currentSlowMultiplier = multiplier;
+        aiPath.maxSpeed = (isChasing ? chaseSpeed : patrolSpeed) * _currentSlowMultiplier;
+        yield return new WaitForSeconds(Mathf.Max(duration, 0f));
+
+        _currentSlowMultiplier = 1f;
+        aiPath.maxSpeed = (isChasing ? chaseSpeed : patrolSpeed) * _currentSlowMultiplier;
+        _slowCoroutine = null;
     }
 }

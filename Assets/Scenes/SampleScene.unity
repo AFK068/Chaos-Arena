@@ -634,10 +634,12 @@ GameObject:
   - component: {fileID: 1867968315}
   - component: {fileID: 1867968316}
   - component: {fileID: 1867968317}
+  - component: {fileID: 1867968320}
   - component: {fileID: 1867968314}
   - component: {fileID: 1867968318}
   - component: {fileID: 1867968319}
-  - component: {fileID: 1867968320}
+  - component: {fileID: 1867968322}
+  - component: {fileID: 1867968321}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -886,6 +888,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 2a9725f7-0079-4215-90f4-947a32c14705
     m_ActionName: 'Player/Shoot[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1867968322}
+        m_TargetAssemblyTypeName: PlayerInteractor, Assembly-CSharp
+        m_MethodName: OnInteract
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a4ace3d5-150d-47af-844c-3e9507fbfbe5
+    m_ActionName: 'Player/PickUp[/Keyboard/e]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1049,6 +1067,9 @@ MonoBehaviour:
   fullHeartSprite: {fileID: 1235773518496698137, guid: 4251e9c4469024eb4b6d0d708da2dafb, type: 3}
   halfHeartSprite: {fileID: -5879525426268322432, guid: 4251e9c4469024eb4b6d0d708da2dafb, type: 3}
   maxHealth: 8
+  playerRenderer: {fileID: 0}
+  hitFlashDuration: 0.1
+  hitFlashColor: {r: 1, g: 0.45, b: 0.45, a: 1}
 --- !u!114 &1867968319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1100,6 +1121,37 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.6
+--- !u!114 &1867968321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867968309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5591ed7c2cb14bbf8e89e90649fbe3dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerProjectileLoadout
+  playerShoot: {fileID: 1867968319}
+  dropOffset: {x: 0, y: -0.35}
+  droppedPickupCooldown: 0.5
+--- !u!114 &1867968322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867968309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c271656a1864a8b84ea2520ff101cf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractor
+  interactRadius: 1.2
+  interactLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1961077212
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private float hitFlashDuration = 0.08f;
     [SerializeField] private Color hitFlashColor = new Color(1f, 0.45f, 0.45f, 1f);
+    [SerializeField] private EnemyAI enemyAI;
 
     private int _currentHealth;
     private Color _baseColor;
@@ -19,6 +20,11 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         if (spriteRenderer == null)
         {
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        }
+
+        if (enemyAI == null)
+        {
+            enemyAI = GetComponent<EnemyAI>();
         }
 
         if (spriteRenderer != null)
@@ -42,6 +48,11 @@ public class EnemyHealth : MonoBehaviour, IDamageable
             }
 
             _flashCoroutine = StartCoroutine(HitFlash());
+        }
+
+        if (hitData.DebuffType == DebuffType.Slow && enemyAI != null)
+        {
+            enemyAI.ApplySlow(hitData.DebuffDuration, hitData.DebuffPower);
         }
 
         TakeDamage(hitData.Damage);
