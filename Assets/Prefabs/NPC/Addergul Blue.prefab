@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5360459170180475499}
   - component: {fileID: -5346616508186615601}
   - component: {fileID: 8641879368957908058}
+  - component: {fileID: 8875422342807312938}
   m_Layer: 0
   m_Name: Addergul Blue
   m_TagString: Untagged
@@ -283,3 +284,16 @@ MonoBehaviour:
   chaseSpeed: 5
   canLeavePatrolArea: 0
   patrolRadius: 5
+--- !u!114 &8875422342807312938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9119490756670326097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0462ad53644c57856e2a8f89e95f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 3
