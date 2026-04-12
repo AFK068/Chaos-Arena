@@ -4,6 +4,7 @@ public class SpriteSheetAnimator : MonoBehaviour
 {
     [SerializeField] private Sprite[] frames;
     [SerializeField] private float fps = 12f;
+    [SerializeField] private bool autoResizeCollider = false;
 
     private SpriteRenderer _renderer;
     private BoxCollider2D _boxCollider;
@@ -20,7 +21,8 @@ public class SpriteSheetAnimator : MonoBehaviour
         if (frames != null && frames.Length > 0)
         {
             _renderer.sprite = frames[0];
-            UpdateCollider(frames[0]);
+            if (autoResizeCollider)
+                UpdateCollider(frames[0]);
         }
     }
 
@@ -37,7 +39,8 @@ public class SpriteSheetAnimator : MonoBehaviour
             _currentFrame = (_currentFrame + 1) % frames.Length;
             var sprite = frames[_currentFrame];
             _renderer.sprite = sprite;
-            UpdateCollider(sprite);
+            if (autoResizeCollider)
+                UpdateCollider(sprite);
         }
     }
 

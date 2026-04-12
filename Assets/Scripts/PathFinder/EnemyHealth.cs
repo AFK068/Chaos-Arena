@@ -115,6 +115,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         _debuffVisuals?.HideEffect(DebuffType.Poison);
         _debuffVisuals?.HideEffect(DebuffType.Frozen);
         _debuffVisuals?.HideEffect(DebuffType.Burn);
+
         Destroy(gameObject);
     }
 

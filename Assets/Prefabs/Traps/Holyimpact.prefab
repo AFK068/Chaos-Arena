@@ -164,6 +164,7 @@ MonoBehaviour:
   - {fileID: -1497076936864851516, guid: 28b5a91d042ee4bd89ec6b1a00b13fb0, type: 3}
   - {fileID: 4475122670559623040, guid: 6881bf3f44cfc4cf6a6fd068282297d3, type: 3}
   fps: 12
+  autoResizeCollider: 1
 --- !u!114 &2699156554947479394
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -640,6 +640,7 @@ GameObject:
   - component: {fileID: 1867968319}
   - component: {fileID: 1867968322}
   - component: {fileID: 1867968321}
+  - component: {fileID: 1867968323}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1152,6 +1153,18 @@ MonoBehaviour:
   interactLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1867968323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867968309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1105de9a975764c5cad1dc469722d2c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerWallet
 --- !u!1 &1961077212
 GameObject:
   m_ObjectHideFlags: 0
