@@ -52,7 +52,8 @@ public class DebuffVisualHandler : MonoBehaviour
 
         GameObject prefabToUse = null;
         var effectOffset = Vector2.zero;
-        var effectScale = Vector2.one;
+        var effectScale = Vector2.zero;
+        var entryFound = false;
 
         foreach (var entry in effects)
         {
@@ -60,7 +61,8 @@ public class DebuffVisualHandler : MonoBehaviour
             {
                 prefabToUse = entry.prefab;
                 effectOffset = entry.offset;
-                effectScale = entry.scale == Vector2.zero ? Vector2.one : entry.scale;
+                effectScale = entry.scale;
+                entryFound = true;
                 break;
             }
         }
@@ -73,7 +75,11 @@ public class DebuffVisualHandler : MonoBehaviour
 
         var instance = Instantiate(prefabToUse, transform);
         instance.transform.localPosition = new Vector3(effectOffset.x, effectOffset.y, 0f);
-        instance.transform.localScale = new Vector3(effectScale.x, effectScale.y, 1f);
+
+        // Применяем scale только если запись в Effects явно задана и scale не нулевой
+        if (entryFound && effectScale != Vector2.zero)
+            instance.transform.localScale = new Vector3(effectScale.x, effectScale.y, 1f);
+
         _originalScales[debuffType] = instance.transform.localScale;
         _offsets[debuffType] = effectOffset;
 
