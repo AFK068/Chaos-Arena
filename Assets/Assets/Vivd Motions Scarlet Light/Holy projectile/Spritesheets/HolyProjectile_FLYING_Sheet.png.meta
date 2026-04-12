@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 6670cd5d6a515445a98822a3e8564cd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5883520630516854888
+    second: HolyProjectile_FLYING_Sheet_0
+  - first:
+      213: 6950429538217089238
+    second: HolyProjectile_FLYING_Sheet_1
+  - first:
+      213: 6080828047445782551
+    second: HolyProjectile_FLYING_Sheet_2
+  - first:
+      213: 895681022416110838
+    second: HolyProjectile_FLYING_Sheet_3
+  - first:
+      213: 7906555958128704265
+    second: HolyProjectile_FLYING_Sheet_4
+  - first:
+      213: -6496342046695853791
+    second: HolyProjectile_FLYING_Sheet_5
+  - first:
+      213: 72442588272472334
+    second: HolyProjectile_FLYING_Sheet_6
+  - first:
+      213: 7892492104424397599
+    second: HolyProjectile_FLYING_Sheet_7
+  - first:
+      213: 5518438701748510963
+    second: HolyProjectile_FLYING_Sheet_8
+  - first:
+      213: 9053727023664922347
+    second: HolyProjectile_FLYING_Sheet_9
+  - first:
+      213: -897898068165259937
+    second: HolyProjectile_FLYING_Sheet_10
+  - first:
+      213: -6647234858634252531
+    second: HolyProjectile_FLYING_Sheet_11
+  - first:
+      213: 696987101748199478
+    second: HolyProjectile_FLYING_Sheet_12
+  - first:
+      213: -6717820082102336374
+    second: HolyProjectile_FLYING_Sheet_13
+  - first:
+      213: -9087506120737725827
+    second: HolyProjectile_FLYING_Sheet_14
+  - first:
+      213: 7317934722137947795
+    second: HolyProjectile_FLYING_Sheet_15
+  - first:
+      213: 2977778152370892238
+    second: HolyProjectile_FLYING_Sheet_16
+  - first:
+      213: -3880691759363778220
+    second: HolyProjectile_FLYING_Sheet_17
+  - first:
+      213: 8938369925832787270
+    second: HolyProjectile_FLYING_Sheet_18
+  - first:
+      213: -8611532323234682416
+    second: HolyProjectile_FLYING_Sheet_19
+  - first:
+      213: 5515136038686718426
+    second: HolyProjectile_FLYING_Sheet_20
+  - first:
+      213: 1199415767100648466
+    second: HolyProjectile_FLYING_Sheet_21
+  - first:
+      213: 3837477281988331788
+    second: HolyProjectile_FLYING_Sheet_22
+  - first:
+      213: -3881431577963747663
+    second: HolyProjectile_FLYING_Sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1186
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860b3aa57d676a150800000000000000
+      internalID: 5883520630516854888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1188
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8dfcd07d2e47060800000000000000
+      internalID: 6950429538217089238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1187
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710fc3c34e0736450800000000000000
+      internalID: 6080828047445782551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1188
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4cb25f4291e6c00800000000000000
+      internalID: 895681022416110838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1187
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b7201d0cab9bd60800000000000000
+      internalID: 7906555958128704265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1187
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121724fd35b58d5a0800000000000000
+      internalID: -6496342046695853791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1186
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e013794762e510100800000000000000
+      internalID: 72442588272472334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b9ac4b0c3c78d60800000000000000
+      internalID: 7892492104424397599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0ec74e2ce659c40800000000000000
+      internalID: 5518438701748510963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beef6e262cc45ad70800000000000000
+      internalID: 9053727023664922347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1058
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d008ad6760a83f0800000000000000
+      internalID: -897898068165259937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1058
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fe2885d1740c3a0800000000000000
+      internalID: -6647234858634252531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1059
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6300bb483123ca900800000000000000
+      internalID: 696987101748199478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1058
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a840e455a3285c2a0800000000000000
+      internalID: -6717820082102336374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1060
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d726d33b451b2e180800000000000000
+      internalID: -9087506120737725827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1059
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e77829bd68e8560800000000000000
+      internalID: 7317934722137947795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1061
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd6cffd371335920800000000000000
+      internalID: 2977778152370892238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1058
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4591658d763052ac0800000000000000
+      internalID: -3880691759363778220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1060
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6454c4c07187b0c70800000000000000
+      internalID: 8938369925832787270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1058
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d96dc55af0bd7880800000000000000
+      internalID: -8611532323234682416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 931
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad970e9b103b98c40800000000000000
+      internalID: 5515136038686718426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 929
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c6900194e25a010800000000000000
+      internalID: 1199415767100648466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 930
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09cb829145714530800000000000000
+      internalID: 3837477281988331788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_FLYING_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 929
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6ac776b82622ac0800000000000000
+      internalID: -3881431577963747663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HolyProjectile_FLYING_Sheet_0: 5883520630516854888
+      HolyProjectile_FLYING_Sheet_1: 6950429538217089238
+      HolyProjectile_FLYING_Sheet_10: -897898068165259937
+      HolyProjectile_FLYING_Sheet_11: -6647234858634252531
+      HolyProjectile_FLYING_Sheet_12: 696987101748199478
+      HolyProjectile_FLYING_Sheet_13: -6717820082102336374
+      HolyProjectile_FLYING_Sheet_14: -9087506120737725827
+      HolyProjectile_FLYING_Sheet_15: 7317934722137947795
+      HolyProjectile_FLYING_Sheet_16: 2977778152370892238
+      HolyProjectile_FLYING_Sheet_17: -3880691759363778220
+      HolyProjectile_FLYING_Sheet_18: 8938369925832787270
+      HolyProjectile_FLYING_Sheet_19: -8611532323234682416
+      HolyProjectile_FLYING_Sheet_2: 6080828047445782551
+      HolyProjectile_FLYING_Sheet_20: 5515136038686718426
+      HolyProjectile_FLYING_Sheet_21: 1199415767100648466
+      HolyProjectile_FLYING_Sheet_22: 3837477281988331788
+      HolyProjectile_FLYING_Sheet_23: -3881431577963747663
+      HolyProjectile_FLYING_Sheet_3: 895681022416110838
+      HolyProjectile_FLYING_Sheet_4: 7906555958128704265
+      HolyProjectile_FLYING_Sheet_5: -6496342046695853791
+      HolyProjectile_FLYING_Sheet_6: 72442588272472334
+      HolyProjectile_FLYING_Sheet_7: 7892492104424397599
+      HolyProjectile_FLYING_Sheet_8: 5518438701748510963
+      HolyProjectile_FLYING_Sheet_9: 9053727023664922347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

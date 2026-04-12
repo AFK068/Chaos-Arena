@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2279592339674409845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8989749261284137880}
+  - component: {fileID: 4677564836057231876}
+  - component: {fileID: 8009928631885994688}
+  - component: {fileID: 7769404946724191054}
+  - component: {fileID: 2699156554947479394}
+  m_Layer: 0
+  m_Name: Holyimpact
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8989749261284137880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279592339674409845}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.94389, y: -0.08209, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4677564836057231876
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279592339674409845}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &8009928631885994688
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279592339674409845}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
+--- !u!114 &7769404946724191054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279592339674409845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56673f2ca443b4ff48f8a0a1bb046b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteSheetAnimator
+  frames:
+  - {fileID: 1916852376684457420, guid: 5194c0c409a724054946e53c1d873f62, type: 3}
+  - {fileID: 7192586381067035296, guid: 184f083ceb6b34caabb846f063f39f69, type: 3}
+  - {fileID: -4578369771370653444, guid: bd4a5ebac011540c0a4e7b003294e6ad, type: 3}
+  - {fileID: -6652587125942049410, guid: fca29f71c8dfd469f94d583c53a4659d, type: 3}
+  - {fileID: 6137871236657449420, guid: b0aac056a58384aa6aaa878bf95fe360, type: 3}
+  - {fileID: 1820412231998915947, guid: a7943bff9d1f34106a09ddfda5d04c6b, type: 3}
+  - {fileID: 5412869199389763041, guid: 38f6e350a04944e0b8a08565c676ad69, type: 3}
+  - {fileID: 4847737532747405957, guid: c6031e8368d074f24942159c3faba49e, type: 3}
+  - {fileID: -5553992439935515957, guid: 3ce63e6af26ee4c3483d2e22037502e4, type: 3}
+  - {fileID: 4860969236164022388, guid: 922573d700f80453ea5511c685dda267, type: 3}
+  - {fileID: -4380368155053265939, guid: c101647b374104be0916a6f97d13c28d, type: 3}
+  - {fileID: 3317771604114749569, guid: 4eea358b46f2847ebbd98014944a8d16, type: 3}
+  - {fileID: 7486896514603819441, guid: 3e233ec14d3c94bf685e8ce8d2481de8, type: 3}
+  - {fileID: -3643902455418195422, guid: dfc92830edc6549648687e1d432f3fb4, type: 3}
+  - {fileID: 121879719427346218, guid: 5c54c827a525d4413bc84eb3ad0cc7a7, type: 3}
+  - {fileID: 2691546441397883600, guid: 156c461944317465b910f5ebfd20f31c, type: 3}
+  - {fileID: 4335588495572445795, guid: 09daab24778db4a009eafd8d412169b7, type: 3}
+  - {fileID: -2780213112413841587, guid: b7173c24623af49039c2f0160af105a2, type: 3}
+  - {fileID: -1497076936864851516, guid: 28b5a91d042ee4bd89ec6b1a00b13fb0, type: 3}
+  - {fileID: 4475122670559623040, guid: 6881bf3f44cfc4cf6a6fd068282297d3, type: 3}
+  fps: 12
+--- !u!114 &2699156554947479394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279592339674409845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a88c77d45929409c9a875b878b83ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HazardZone
+  damage: 1
+  damageCooldown: 0.8

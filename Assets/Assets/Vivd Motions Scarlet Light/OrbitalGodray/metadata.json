@@ -1,0 +1,9 @@
+{
+  "name": "OrbitalGodRay",
+  "frameWidth": 256,
+  "frameHeight": 512,
+  "frameCount": 80,
+  "columns": 8,
+  "fps": 30,
+  "loop": true
+}

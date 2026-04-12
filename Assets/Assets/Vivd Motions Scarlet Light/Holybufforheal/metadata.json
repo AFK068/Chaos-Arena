@@ -1,0 +1,9 @@
+{
+  "name": "HolyBuff",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "frameCount": 45,
+  "columns": 5,
+  "fps": 30,
+  "loop": true
+}

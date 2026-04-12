@@ -1,0 +1,9 @@
+{
+  "name": "HolyShield",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "frameCount": 60,
+  "columns": 10,
+  "fps": 30,
+  "loop": true
+}

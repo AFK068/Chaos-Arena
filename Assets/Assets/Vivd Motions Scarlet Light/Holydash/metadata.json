@@ -1,0 +1,9 @@
+{
+  "name": "HolyDash",
+  "frameWidth": 256,
+  "frameHeight": 128,
+  "frameCount": 7,
+  "columns": 7,
+  "fps": 30,
+  "loop": true
+}

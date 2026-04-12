@@ -1,0 +1,9 @@
+{
+  "name": "HolyBeamHorizontal",
+  "frameWidth": 512,
+  "frameHeight": 128,
+  "frameCount": 80,
+  "columns": 10,
+  "fps": 30,
+  "loop": true
+}

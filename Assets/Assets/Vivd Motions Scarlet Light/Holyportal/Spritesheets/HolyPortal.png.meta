@@ -1,0 +1,5642 @@
+fileFormatVersion: 2
+guid: 2f23103b60266415f88abc7a9472a95e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2370954091428694608
+    second: HolyPortal_0
+  - first:
+      213: -1126377434408425284
+    second: HolyPortal_1
+  - first:
+      213: -3560947391866307347
+    second: HolyPortal_2
+  - first:
+      213: -7267427947629157172
+    second: HolyPortal_3
+  - first:
+      213: -1290532477743331417
+    second: HolyPortal_4
+  - first:
+      213: 5543599905417254661
+    second: HolyPortal_5
+  - first:
+      213: 750846632611866267
+    second: HolyPortal_6
+  - first:
+      213: -4990618397593138861
+    second: HolyPortal_7
+  - first:
+      213: 6857281030277358448
+    second: HolyPortal_8
+  - first:
+      213: 4877137808360081232
+    second: HolyPortal_9
+  - first:
+      213: -4165082611621705944
+    second: HolyPortal_10
+  - first:
+      213: 8618291598624680719
+    second: HolyPortal_11
+  - first:
+      213: 6166517489315758987
+    second: HolyPortal_12
+  - first:
+      213: 806270074000105719
+    second: HolyPortal_13
+  - first:
+      213: -5286873339254341694
+    second: HolyPortal_14
+  - first:
+      213: 149066478935997158
+    second: HolyPortal_15
+  - first:
+      213: -3740132054174599487
+    second: HolyPortal_16
+  - first:
+      213: 6102727740146056320
+    second: HolyPortal_17
+  - first:
+      213: -5643629208775980858
+    second: HolyPortal_18
+  - first:
+      213: -3111279662918142308
+    second: HolyPortal_19
+  - first:
+      213: -7629741626024185296
+    second: HolyPortal_20
+  - first:
+      213: -3366985489570150930
+    second: HolyPortal_21
+  - first:
+      213: -3831033431324439251
+    second: HolyPortal_22
+  - first:
+      213: 2109496621656980597
+    second: HolyPortal_23
+  - first:
+      213: 1382160831822132776
+    second: HolyPortal_24
+  - first:
+      213: 1709101759485400997
+    second: HolyPortal_25
+  - first:
+      213: 1993608080481321337
+    second: HolyPortal_26
+  - first:
+      213: 5057173824759712186
+    second: HolyPortal_27
+  - first:
+      213: -3759915960671105726
+    second: HolyPortal_28
+  - first:
+      213: 6044230981925357599
+    second: HolyPortal_29
+  - first:
+      213: 966316037562091060
+    second: HolyPortal_30
+  - first:
+      213: -744040586239250898
+    second: HolyPortal_31
+  - first:
+      213: -2346941345453878649
+    second: HolyPortal_32
+  - first:
+      213: -1717813610682511818
+    second: HolyPortal_33
+  - first:
+      213: -6345500781722811455
+    second: HolyPortal_34
+  - first:
+      213: 4644223360010202550
+    second: HolyPortal_35
+  - first:
+      213: 9000050013822762508
+    second: HolyPortal_36
+  - first:
+      213: 104274879644456736
+    second: HolyPortal_37
+  - first:
+      213: 7255475669733004446
+    second: HolyPortal_38
+  - first:
+      213: 7567496896670256937
+    second: HolyPortal_39
+  - first:
+      213: -6901489687033597419
+    second: HolyPortal_40
+  - first:
+      213: 32493369786388049
+    second: HolyPortal_41
+  - first:
+      213: 6365210585694037468
+    second: HolyPortal_42
+  - first:
+      213: -8457602858202161025
+    second: HolyPortal_43
+  - first:
+      213: -7001574809125079840
+    second: HolyPortal_44
+  - first:
+      213: 4693431213515851406
+    second: HolyPortal_45
+  - first:
+      213: -6825162901094997147
+    second: HolyPortal_46
+  - first:
+      213: 8038377013713645656
+    second: HolyPortal_47
+  - first:
+      213: -8246005340350295177
+    second: HolyPortal_48
+  - first:
+      213: 2184644414654625443
+    second: HolyPortal_49
+  - first:
+      213: 6600463171827657888
+    second: HolyPortal_50
+  - first:
+      213: 6240984822502561155
+    second: HolyPortal_51
+  - first:
+      213: 5549971688401573469
+    second: HolyPortal_52
+  - first:
+      213: 1448846262343633840
+    second: HolyPortal_53
+  - first:
+      213: 4167102108702111614
+    second: HolyPortal_54
+  - first:
+      213: -5417600970709313883
+    second: HolyPortal_55
+  - first:
+      213: -8435205266487121044
+    second: HolyPortal_56
+  - first:
+      213: -1729718696033410197
+    second: HolyPortal_57
+  - first:
+      213: 6552003784079809098
+    second: HolyPortal_58
+  - first:
+      213: 8512069620912838099
+    second: HolyPortal_59
+  - first:
+      213: -5889999395729034950
+    second: HolyPortal_60
+  - first:
+      213: -2727054563569001241
+    second: HolyPortal_61
+  - first:
+      213: 1683407816894938638
+    second: HolyPortal_62
+  - first:
+      213: -2124594367986557835
+    second: HolyPortal_63
+  - first:
+      213: 485385558378932955
+    second: HolyPortal_64
+  - first:
+      213: 7731364109354752577
+    second: HolyPortal_65
+  - first:
+      213: 2263666784896807792
+    second: HolyPortal_66
+  - first:
+      213: -2631742114912105043
+    second: HolyPortal_67
+  - first:
+      213: 5784155076233364032
+    second: HolyPortal_68
+  - first:
+      213: -2552374415549285855
+    second: HolyPortal_69
+  - first:
+      213: 2055806429440659170
+    second: HolyPortal_70
+  - first:
+      213: -4825358882696391377
+    second: HolyPortal_71
+  - first:
+      213: 2080074078379847516
+    second: HolyPortal_72
+  - first:
+      213: -3204614813405003053
+    second: HolyPortal_73
+  - first:
+      213: 5457953708640066547
+    second: HolyPortal_74
+  - first:
+      213: -414131325419887958
+    second: HolyPortal_75
+  - first:
+      213: 4436333572312679363
+    second: HolyPortal_76
+  - first:
+      213: -5493615235153345615
+    second: HolyPortal_77
+  - first:
+      213: -8696551140300627654
+    second: HolyPortal_78
+  - first:
+      213: -2573240447553211300
+    second: HolyPortal_79
+  - first:
+      213: 8534070827921036467
+    second: HolyPortal_80
+  - first:
+      213: -8782712353829888517
+    second: HolyPortal_81
+  - first:
+      213: -6727991470009232630
+    second: HolyPortal_82
+  - first:
+      213: -5151084863878054953
+    second: HolyPortal_83
+  - first:
+      213: -3978214988716355236
+    second: HolyPortal_84
+  - first:
+      213: -4338765705414843325
+    second: HolyPortal_85
+  - first:
+      213: -2970969196831370581
+    second: HolyPortal_86
+  - first:
+      213: 4243157173819971191
+    second: HolyPortal_87
+  - first:
+      213: -7698028529995510893
+    second: HolyPortal_88
+  - first:
+      213: 7382607029347335952
+    second: HolyPortal_89
+  - first:
+      213: -908966284590835844
+    second: HolyPortal_90
+  - first:
+      213: -3868742336367629834
+    second: HolyPortal_91
+  - first:
+      213: 2880233987010368146
+    second: HolyPortal_92
+  - first:
+      213: 7039898459580416902
+    second: HolyPortal_93
+  - first:
+      213: -737599007428241238
+    second: HolyPortal_94
+  - first:
+      213: -4155246777309034429
+    second: HolyPortal_95
+  - first:
+      213: -3512176739713245977
+    second: HolyPortal_96
+  - first:
+      213: -4226522091731711883
+    second: HolyPortal_97
+  - first:
+      213: 4354944170320501376
+    second: HolyPortal_98
+  - first:
+      213: -1851157421770717665
+    second: HolyPortal_99
+  - first:
+      213: 5171345864539308390
+    second: HolyPortal_100
+  - first:
+      213: 5795828647765627401
+    second: HolyPortal_101
+  - first:
+      213: 1809793726926745426
+    second: HolyPortal_102
+  - first:
+      213: -4047350820168216143
+    second: HolyPortal_103
+  - first:
+      213: -3462608682952638549
+    second: HolyPortal_104
+  - first:
+      213: -5852492725637609980
+    second: HolyPortal_105
+  - first:
+      213: -8117720569916725558
+    second: HolyPortal_106
+  - first:
+      213: -1333721713462831093
+    second: HolyPortal_107
+  - first:
+      213: -3120263522594146102
+    second: HolyPortal_108
+  - first:
+      213: 9008849310574460176
+    second: HolyPortal_109
+  - first:
+      213: 49624932059370674
+    second: HolyPortal_110
+  - first:
+      213: -3433486067071417327
+    second: HolyPortal_111
+  - first:
+      213: 8439217516950564886
+    second: HolyPortal_112
+  - first:
+      213: -9211785584784733314
+    second: HolyPortal_113
+  - first:
+      213: 5690848760906777684
+    second: HolyPortal_114
+  - first:
+      213: 313777638188530843
+    second: HolyPortal_115
+  - first:
+      213: 2894760861680015857
+    second: HolyPortal_116
+  - first:
+      213: 1874507589139453315
+    second: HolyPortal_117
+  - first:
+      213: 2208364347436286231
+    second: HolyPortal_118
+  - first:
+      213: 6994219158168615876
+    second: HolyPortal_119
+  - first:
+      213: -5265540487848295394
+    second: HolyPortal_120
+  - first:
+      213: 537352298633926794
+    second: HolyPortal_121
+  - first:
+      213: 1415334277056889952
+    second: HolyPortal_122
+  - first:
+      213: -2044886137556811609
+    second: HolyPortal_123
+  - first:
+      213: -7982381590830364420
+    second: HolyPortal_124
+  - first:
+      213: 311830798885806141
+    second: HolyPortal_125
+  - first:
+      213: -8320330000174486237
+    second: HolyPortal_126
+  - first:
+      213: 4080892382957015596
+    second: HolyPortal_127
+  - first:
+      213: 6394408974302930044
+    second: HolyPortal_128
+  - first:
+      213: 929303327606373542
+    second: HolyPortal_129
+  - first:
+      213: 2940124035543839958
+    second: HolyPortal_130
+  - first:
+      213: -8490163789994979468
+    second: HolyPortal_131
+  - first:
+      213: -5362672853174728850
+    second: HolyPortal_132
+  - first:
+      213: -5739162382233301928
+    second: HolyPortal_133
+  - first:
+      213: 4718501098714914327
+    second: HolyPortal_134
+  - first:
+      213: -8904381892248937114
+    second: HolyPortal_135
+  - first:
+      213: -5639707208940881406
+    second: HolyPortal_136
+  - first:
+      213: 3115355060416144958
+    second: HolyPortal_137
+  - first:
+      213: -7086598801887267505
+    second: HolyPortal_138
+  - first:
+      213: -9099784397694162000
+    second: HolyPortal_139
+  - first:
+      213: 6320427141347086707
+    second: HolyPortal_140
+  - first:
+      213: -4174281077637859928
+    second: HolyPortal_141
+  - first:
+      213: -2116051251270566852
+    second: HolyPortal_142
+  - first:
+      213: -7619984768490968687
+    second: HolyPortal_143
+  - first:
+      213: 1615012480625825199
+    second: HolyPortal_144
+  - first:
+      213: -6647930699874935408
+    second: HolyPortal_145
+  - first:
+      213: 6448876859264145960
+    second: HolyPortal_146
+  - first:
+      213: 3240898302084040852
+    second: HolyPortal_147
+  - first:
+      213: -3772135173780728442
+    second: HolyPortal_148
+  - first:
+      213: 4710470278300484257
+    second: HolyPortal_149
+  - first:
+      213: -4135095885248648027
+    second: HolyPortal_150
+  - first:
+      213: 4488845317703058514
+    second: HolyPortal_151
+  - first:
+      213: -1338590538251038101
+    second: HolyPortal_152
+  - first:
+      213: 5615826869397822929
+    second: HolyPortal_153
+  - first:
+      213: 4503962335614886623
+    second: HolyPortal_154
+  - first:
+      213: 7296913436941060953
+    second: HolyPortal_155
+  - first:
+      213: 18835015158240093
+    second: HolyPortal_156
+  - first:
+      213: -2284916505736516681
+    second: HolyPortal_157
+  - first:
+      213: -6056275935343748133
+    second: HolyPortal_158
+  - first:
+      213: 2415725784675534584
+    second: HolyPortal_159
+  - first:
+      213: -6480221331958241430
+    second: HolyPortal_160
+  - first:
+      213: -8137615806525761570
+    second: HolyPortal_161
+  - first:
+      213: -4953982219267345899
+    second: HolyPortal_162
+  - first:
+      213: -3505043826786685142
+    second: HolyPortal_163
+  - first:
+      213: -5221096851246441596
+    second: HolyPortal_164
+  - first:
+      213: 8349296456814758563
+    second: HolyPortal_165
+  - first:
+      213: 4280145746997501742
+    second: HolyPortal_166
+  - first:
+      213: 4103397532903694232
+    second: HolyPortal_167
+  - first:
+      213: 5219454478614430711
+    second: HolyPortal_168
+  - first:
+      213: -7495601473163738653
+    second: HolyPortal_169
+  - first:
+      213: 3234521816824692731
+    second: HolyPortal_170
+  - first:
+      213: -8660952209272076304
+    second: HolyPortal_171
+  - first:
+      213: -3627015662124293174
+    second: HolyPortal_172
+  - first:
+      213: 5592100895687379047
+    second: HolyPortal_173
+  - first:
+      213: 1307733982251144794
+    second: HolyPortal_174
+  - first:
+      213: -3607980302332839302
+    second: HolyPortal_175
+  - first:
+      213: -3038165448578199993
+    second: HolyPortal_176
+  - first:
+      213: 741101752714472646
+    second: HolyPortal_177
+  - first:
+      213: -5353486119536651630
+    second: HolyPortal_178
+  - first:
+      213: 4556622569341428815
+    second: HolyPortal_179
+  - first:
+      213: -2222709853429774854
+    second: HolyPortal_180
+  - first:
+      213: -609065636129397439
+    second: HolyPortal_181
+  - first:
+      213: 495438429224226076
+    second: HolyPortal_182
+  - first:
+      213: 1120496277551934040
+    second: HolyPortal_183
+  - first:
+      213: -3699909184479412865
+    second: HolyPortal_184
+  - first:
+      213: 3795692914858432833
+    second: HolyPortal_185
+  - first:
+      213: -8809333543156645584
+    second: HolyPortal_186
+  - first:
+      213: 4313151722926698554
+    second: HolyPortal_187
+  - first:
+      213: 551190764878193240
+    second: HolyPortal_188
+  - first:
+      213: 3269965478000584338
+    second: HolyPortal_189
+  - first:
+      213: -641483346720590785
+    second: HolyPortal_190
+  - first:
+      213: 104158737564077221
+    second: HolyPortal_191
+  - first:
+      213: 8351389566030914593
+    second: HolyPortal_192
+  - first:
+      213: -9218093387037653767
+    second: HolyPortal_193
+  - first:
+      213: 783161447181447101
+    second: HolyPortal_194
+  - first:
+      213: 7539922175401732512
+    second: HolyPortal_195
+  - first:
+      213: -5301028444533728243
+    second: HolyPortal_196
+  - first:
+      213: 5279142650351774656
+    second: HolyPortal_197
+  - first:
+      213: 2698438052044787679
+    second: HolyPortal_198
+  - first:
+      213: -543497863843633483
+    second: HolyPortal_199
+  - first:
+      213: -3125234604807937734
+    second: HolyPortal_200
+  - first:
+      213: 2027389982412222929
+    second: HolyPortal_201
+  - first:
+      213: -4091685253447958638
+    second: HolyPortal_202
+  - first:
+      213: 6707277666669129225
+    second: HolyPortal_203
+  - first:
+      213: -6861270939339829788
+    second: HolyPortal_204
+  - first:
+      213: -9086054102471165443
+    second: HolyPortal_205
+  - first:
+      213: -259198815141497667
+    second: HolyPortal_206
+  - first:
+      213: -2641615183988674621
+    second: HolyPortal_207
+  - first:
+      213: 6869832960252831318
+    second: HolyPortal_208
+  - first:
+      213: -984840858011447735
+    second: HolyPortal_209
+  - first:
+      213: 1754291682776711528
+    second: HolyPortal_210
+  - first:
+      213: 6473751133701810614
+    second: HolyPortal_211
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HolyPortal_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2924
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05acd5e2f2257e020800000000000000
+      internalID: 2370954091428694608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2923
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8e113f0bd4e50f0800000000000000
+      internalID: -1126377434408425284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 2923
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec74fbb639f49ec0800000000000000
+      internalID: -3560947391866307347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2923
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc461de39c8e42b90800000000000000
+      internalID: -7267427947629157172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2923
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7010d8c8b171ee0800000000000000
+      internalID: -1290532477743331417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 2923
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507d8432eb2deec40800000000000000
+      internalID: 5543599905417254661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_6
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 2897
+        width: 40
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96e0a1c80b8b6a00800000000000000
+      internalID: 750846632611866267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_7
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 2894
+        width: 41
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3598ee14203cdbab0800000000000000
+      internalID: -4990618397593138861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_8
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 2886
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073e4bef3c4f92f50800000000000000
+      internalID: 6857281030277358448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_9
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 2878
+        width: 60
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0570eeb1ff21fa340800000000000000
+      internalID: 4877137808360081232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2615
+        width: 68
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827c12aae67a236c0800000000000000
+      internalID: -4165082611621705944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2608
+        width: 76
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0be1ca1c825a9770800000000000000
+      internalID: 8618291598624680719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_12
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 2603
+        width: 82
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8346e32cfed39550800000000000000
+      internalID: 6166517489315758987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_13
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2598
+        width: 87
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0edc94c52703b00800000000000000
+      internalID: 806270074000105719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_14
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2594
+        width: 92
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cff24185b041a6b0800000000000000
+      internalID: -5286873339254341694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_15
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2592
+        width: 94
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eaf5ec3c27911200800000000000000
+      internalID: 149066478935997158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_16
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 2589
+        width: 98
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6fed976b1681cc0800000000000000
+      internalID: -3740132054174599487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_17
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 2587
+        width: 100
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cf358cb8e31b450800000000000000
+      internalID: 6102727740146056320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_18
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 2586
+        width: 103
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c883e6c22dcda1b0800000000000000
+      internalID: -5643629208775980858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_19
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 2577
+        width: 115
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96fdde71a382d4d0800000000000000
+      internalID: -3111279662918142308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2320
+        width: 115
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03231dc4a66bd1690800000000000000
+      internalID: -7629741626024185296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_21
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2320
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5c64a49801641d0800000000000000
+      internalID: -3366985489570150930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_22
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2320
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dc243546f65dac0800000000000000
+      internalID: -3831033431324439251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_23
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2320
+        width: 115
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c30c43000764d10800000000000000
+      internalID: 2109496621656980597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_24
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2320
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826773b14fb6e2310800000000000000
+      internalID: 1382160831822132776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_25
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2320
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a75f1bbef2f7b710800000000000000
+      internalID: 1709101759485400997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_26
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 2382
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97100729cf7baab10800000000000000
+      internalID: 1993608080481321337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_27
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2320
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9c430bcc0be2640800000000000000
+      internalID: 5057173824759712186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_28
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 2384
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d80eaca5812dbc0800000000000000
+      internalID: -3759915960671105726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_29
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 2321
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18421aed0c61e350800000000000000
+      internalID: 6044230981925357599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_30
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 2321
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436c6aff05b096d00800000000000000
+      internalID: 966316037562091060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_31
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2322
+        width: 111
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e6cb66703aca5f0800000000000000
+      internalID: -744040586239250898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2066
+        width: 110
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7825b8be74dfd6fd0800000000000000
+      internalID: -2346941345453878649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2066
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e00f85f991928e0800000000000000
+      internalID: -1717813610682511818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_34
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2066
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3c27fa8a040f7a0800000000000000
+      internalID: -6345500781722811455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_35
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2065
+        width: 114
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdaafe2a88937040800000000000000
+      internalID: 4644223360010202550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_36
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2065
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eb7a2adc996ec70800000000000000
+      internalID: 9000050013822762508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_37
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2066
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02754385375727100800000000000000
+      internalID: 104274879644456736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_38
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2066
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94dce23ea0a0b460800000000000000
+      internalID: 7255475669733004446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_39
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 2066
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fc6ec4556250960800000000000000
+      internalID: 7567496896670256937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_40
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 2067
+        width: 112
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512375ff1bbf830a0800000000000000
+      internalID: -6901489687033597419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_41
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 2172
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e4ca33c80737000800000000000000
+      internalID: 32493369786388049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_42
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2068
+        width: 112
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd569d8ad45c55850800000000000000
+      internalID: 6365210585694037468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_43
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f702881c20f80aa80800000000000000
+      internalID: -8457602858202161025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_44
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4b6c99ec865de90800000000000000
+      internalID: -7001574809125079840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_45
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2150
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86c75362da622140800000000000000
+      internalID: 4693431213515851406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_46
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2150
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563ee02b0862841a0800000000000000
+      internalID: -6825162901094997147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_47
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85031190e4d0e8f60800000000000000
+      internalID: 8038377013713645656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_48
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 2106
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773527805dd409d80800000000000000
+      internalID: -8246005340350295177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_49
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1916
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6b708358a615e10800000000000000
+      internalID: 2184644414654625443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_50
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1812
+        width: 112
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ace5d5b84e899b50800000000000000
+      internalID: 6600463171827657888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1811
+        width: 115
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3859ed141ae6c9650800000000000000
+      internalID: 6240984822502561155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_52
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1811
+        width: 113
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5696a878d5750d40800000000000000
+      internalID: 5549971688401573469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_53
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1811
+        width: 114
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb0521dff55b1410800000000000000
+      internalID: 1448846262343633840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_54
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1810
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7778f32a4584d930800000000000000
+      internalID: 4167102108702111614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_55
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1810
+        width: 110
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a65f0eee90d0d4b0800000000000000
+      internalID: -5417600970709313883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_56
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1811
+        width: 110
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6be783708120fa80800000000000000
+      internalID: -8435205266487121044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_57
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1811
+        width: 110
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63a399a20ecef7e0800000000000000
+      internalID: -1729718696033410197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_58
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1811
+        width: 113
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a97154ab46dea50800000000000000
+      internalID: 6552003784079809098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_59
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1812
+        width: 109
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d557e9a832f02670800000000000000
+      internalID: 8512069620912838099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_60
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1870
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a313e4291c4824ea0800000000000000
+      internalID: -5889999395729034950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_61
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1863
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec9c5fa25e872ad0800000000000000
+      internalID: -2727054563569001241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1556
+        width: 109
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e732a8d7aac5710800000000000000
+      internalID: 1683407816894938638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_63
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1608
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c9d5ccdace382e0800000000000000
+      internalID: -2124594367986557835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1555
+        width: 110
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdae74af79f6cb600800000000000000
+      internalID: 485385558378932955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_65
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1554
+        width: 110
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a5b47e1b25b4b60800000000000000
+      internalID: 7731364109354752577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1554
+        width: 110
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073ff9b82f82a6f10800000000000000
+      internalID: 2263666784896807792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_67
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1554
+        width: 114
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad8a347d7c2a7bd0800000000000000
+      internalID: -2631742114912105043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_68
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1553
+        width: 113
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04289a46562754050800000000000000
+      internalID: 5784155076233364032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_69
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1553
+        width: 113
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ab36bfdf4249cd0800000000000000
+      internalID: -2552374415549285855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_70
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1553
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee46c13e01b78c10800000000000000
+      internalID: 2055806429440659170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_71
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1554
+        width: 114
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f251b1b79a1e80db0800000000000000
+      internalID: -4825358882696391377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_72
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1554
+        width: 114
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f24548a58eddc10800000000000000
+      internalID: 2080074078379847516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_73
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1594
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d24a055ecbe683d0800000000000000
+      internalID: -3204614813405003053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_74
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1298
+        width: 114
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb54040bfb8ebb40800000000000000
+      internalID: 5457953708640066547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_75
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1297
+        width: 115
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa26cf1f0c5b04af0800000000000000
+      internalID: -414131325419887958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_76
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1297
+        width: 114
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c346da11e5019d30800000000000000
+      internalID: 4436333572312679363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_77
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1296
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3c200dc02c2c3b0800000000000000
+      internalID: -5493615235153345615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1429
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31ec5f60d4af4780800000000000000
+      internalID: -8696551140300627654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_79
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1296
+        width: 115
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c547ce152730a4cd0800000000000000
+      internalID: -2573240447553211300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_80
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1428
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4d14ad33c1f6670800000000000000
+      internalID: 8534070827921036467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_81
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1296
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdd881a5a98d1680800000000000000
+      internalID: -8782712353829888517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_82
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1428
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03dd3a876f51a2a0800000000000000
+      internalID: -6727991470009232630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_83
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1296
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db38a0ab9ba388b0800000000000000
+      internalID: -5151084863878054953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_84
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1428
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c515d659b8a8ac8c0800000000000000
+      internalID: -3978214988716355236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_85
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1296
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344e915249b99c3c0800000000000000
+      internalID: -4338765705414843325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_86
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1428
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba21d30a14ff4c6d0800000000000000
+      internalID: -2970969196831370581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_87
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1296
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77690b7e7f8b2ea30800000000000000
+      internalID: 4243157173819971191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_88
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1296
+        width: 118
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b8bce76db1b2590800000000000000
+      internalID: -7698028529995510893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_89
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1427
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fbc8c7af9447660800000000000000
+      internalID: 7382607029347335952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_90
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1419
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c771826eaf3b263f0800000000000000
+      internalID: -908966284590835844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_91
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1404
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9ea41b7577f4ac0800000000000000
+      internalID: -3868742336367629834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_92
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1368
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29292c11d85a8f720800000000000000
+      internalID: 2880233987010368146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_93
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1370
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6834c1a995eb2b160800000000000000
+      internalID: 7039898459580416902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_94
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1371
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa81f875c9583c5f0800000000000000
+      internalID: -737599007428241238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_95
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348886c42199556c0800000000000000
+      internalID: -4155246777309034429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1041
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec90011ddd324fc0800000000000000
+      internalID: -3512176739713245977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_97
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1040
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5788df6fc806855c0800000000000000
+      internalID: -4226522091731711883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_98
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1039
+        width: 114
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a9c9046aedf6c30800000000000000
+      internalID: 4354944170320501376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_99
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1039
+        width: 114
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16470cf12e5f46e0800000000000000
+      internalID: -1851157421770717665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_100
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1039
+        width: 115
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6610d823aaf44c740800000000000000
+      internalID: 5171345864539308390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_101
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1039
+        width: 116
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9025a11927bee6050800000000000000
+      internalID: 5795828647765627401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_102
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1039
+        width: 116
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fe2325ecdad1910800000000000000
+      internalID: 1809793726926745426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_103
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1039
+        width: 116
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1dc727fdbe4d7c0800000000000000
+      internalID: -4047350820168216143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_104
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1040
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafbc60afb752ffc0800000000000000
+      internalID: -3462608682952638549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_105
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1040
+        width: 115
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40600d5bfd4c7cea0800000000000000
+      internalID: -5852492725637609980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_106
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1131
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac66b34b620185f80800000000000000
+      internalID: -8117720569916725558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_107
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1132
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0892dffa2bad7de0800000000000000
+      internalID: -1333721713462831093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_108
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1132
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8ba2aabd892b4d0800000000000000
+      internalID: -3120263522594146102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_109
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1116
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d30df87bcd50d70800000000000000
+      internalID: 9008849310574460176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_110
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1097
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4d66fdc9d40b000800000000000000
+      internalID: 49624932059370674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_111
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 785
+        width: 116
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11484f60d9ec950d0800000000000000
+      internalID: -3433486067071417327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_112
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 784
+        width: 115
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610b7186e9f1e1570800000000000000
+      internalID: 8439217516950564886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_113
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 784
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b87d711d9292080800000000000000
+      internalID: -9211785584784733314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_114
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 784
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4540250fbc4f9fe40800000000000000
+      internalID: 5690848760906777684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_115
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 784
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c30b67913ca5400800000000000000
+      internalID: 313777638188530843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_116
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 922
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f91426aaa14c2820800000000000000
+      internalID: 2894760861680015857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_117
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 784
+        width: 115
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3855e6388b6930a10800000000000000
+      internalID: 1874507589139453315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_118
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 922
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711c39f6cafa5ae10800000000000000
+      internalID: 2208364347436286231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_119
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 784
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb3fd37445701160800000000000000
+      internalID: 6994219158168615876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_120
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 921
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e148d5703da0de6b0800000000000000
+      internalID: -5265540487848295394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_121
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 785
+        width: 114
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88905f811f057700800000000000000
+      internalID: 537352298633926794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_122
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 920
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0640966b60744a310800000000000000
+      internalID: 1415334277056889952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_123
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 785
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a04ec464ea1f93e0800000000000000
+      internalID: -2044886137556811609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_124
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 920
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf840f05c32e83190800000000000000
+      internalID: -7982381590830364420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_125
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 786
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d306d9d9578d35400800000000000000
+      internalID: 311830798885806141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_126
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 876
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32de295a2ff388c80800000000000000
+      internalID: -8320330000174486237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_127
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 877
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2210c4300e32a830800000000000000
+      internalID: 4080892382957015596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_128
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 834
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7465e545118db850800000000000000
+      internalID: 6394408974302930044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acf09ae37c85ec00800000000000000
+      internalID: 929303327606373542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_130
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 530
+        width: 111
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4bd2e9b3b6dc820800000000000000
+      internalID: 2940124035543839958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_131
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 654
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f077c0401ec2a80800000000000000
+      internalID: -8490163789994979468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 530
+        width: 110
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67c3e3e375f395b0800000000000000
+      internalID: -5362672853174728850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_133
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 654
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c03b288366a50b0800000000000000
+      internalID: -5739162382233301928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_134
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 530
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e5135efbb7b7140800000000000000
+      internalID: 4718501098714914327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_135
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 653
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dd410b8d74d6480800000000000000
+      internalID: -8904381892248937114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_136
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 530
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a7ed58c2cbbb1b0800000000000000
+      internalID: -5639707208940881406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_137
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 653
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36e15debe6fb3b20800000000000000
+      internalID: 3115355060416144958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_138
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 529
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45fcc3afe757ad90800000000000000
+      internalID: -7086598801887267505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_139
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 530
+        width: 113
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb2cc29d4217b180800000000000000
+      internalID: -9099784397694162000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_140
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 530
+        width: 114
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3711bbc7ffaa6b750800000000000000
+      internalID: 6320427141347086707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_141
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 530
+        width: 114
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5b2c6e979f116c0800000000000000
+      internalID: -4174281077637859928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_142
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 531
+        width: 112
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c3f79299642a2e0800000000000000
+      internalID: -2116051251270566852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_143
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 531
+        width: 113
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1996538b930604690800000000000000
+      internalID: -7619984768490968687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_144
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 576
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5568f5b4da96610800000000000000
+      internalID: 1615012480625825199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_145
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 289
+        width: 95
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d5a8e204ecdb3a0800000000000000
+      internalID: -6647930699874935408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_146
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 300
+        width: 99
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a1dacf5530f7950800000000000000
+      internalID: 6448876859264145960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_147
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 472
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498c2e0b5dbf9fc20800000000000000
+      internalID: 3240898302084040852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_148
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 469
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6851b0a8b0fa6abc0800000000000000
+      internalID: -3772135173780728442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_149
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 466
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2c22fc2c3fe5140800000000000000
+      internalID: 4710470278300484257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_150
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 309
+        width: 70
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac239773303d96c0800000000000000
+      internalID: -4135095885248648027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_151
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 464
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254cd5598059b4e30800000000000000
+      internalID: 4488845317703058514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_152
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 318
+        width: 40
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6219d36ffe5c6de0800000000000000
+      internalID: -1338590538251038101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_153
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 318
+        width: 63
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd1d86a8cc6fed40800000000000000
+      internalID: 5615826869397822929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_154
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 394
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2601891e9418e30800000000000000
+      internalID: 4503962335614886623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_155
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 394
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b85a53c18d34560800000000000000
+      internalID: 7296913436941060953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_156
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 314
+        width: 60
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5398d3b85ae24000800000000000000
+      internalID: 18835015158240093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_157
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 394
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbe5264b885a40e0800000000000000
+      internalID: -2284916505736516681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_158
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 317
+        width: 52
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbd614df19c3fba0800000000000000
+      internalID: -6056275935343748133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_159
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 394
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f646565dc1668120800000000000000
+      internalID: 2415725784675534584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_160
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 318
+        width: 44
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6768b24801a116a0800000000000000
+      internalID: -6480221331958241430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_161
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 394
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed79d65f981611f80800000000000000
+      internalID: -8137615806525761570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_162
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 393
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512f7fc3b6bef3bb0800000000000000
+      internalID: -4953982219267345899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_163
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 318
+        width: 40
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f2436c5359b5fc0800000000000000
+      internalID: -3505043826786685142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_164
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 318
+        width: 42
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b9b8b8310fa87b0800000000000000
+      internalID: -5221096851246441596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_165
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 382
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa0fd814e8aed370800000000000000
+      internalID: 8349296456814758563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_166
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 382
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f5fa431e1266b30800000000000000
+      internalID: 4280145746997501742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_167
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 382
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f50f0c05232f830800000000000000
+      internalID: 4103397532903694232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_168
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 382
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f38227c13a3f6840800000000000000
+      internalID: 5219454478614430711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_169
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 382
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e14e2e6c264af790800000000000000
+      internalID: -7495601473163738653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_170
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 382
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff3616847453ec20800000000000000
+      internalID: 3234521816824692731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_171
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 382
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f704b57add1ec780800000000000000
+      internalID: -8660952209272076304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_172
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 364
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3ad48d8704aadc0800000000000000
+      internalID: -3627015662124293174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_173
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 382
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768079be2222b9d40800000000000000
+      internalID: 5592100895687379047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_174
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 383
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5659c0d021062210800000000000000
+      internalID: 1307733982251144794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_175
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 360
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a38dae701ededc0800000000000000
+      internalID: -3607980302332839302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_176
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 360
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e81a41f9446d5d0800000000000000
+      internalID: -3038165448578199993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_177
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 362
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc27f81e1ce84a00800000000000000
+      internalID: 741101752714472646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_178
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 362
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292980ffcb894b5b0800000000000000
+      internalID: -5353486119536651630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_179
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 363
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44af15b5106c3f30800000000000000
+      internalID: 4556622569341428815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_180
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5ce8b2a295721e0800000000000000
+      internalID: -2222709853429774854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_181
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1452c99e70a2c87f0800000000000000
+      internalID: -609065636129397439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_182
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 332
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1dccfd50a620e600800000000000000
+      internalID: 495438429224226076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_183
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 334
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a61a38d6dcc8f00800000000000000
+      internalID: 1120496277551934040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_184
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 337
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d36ed133847acc0800000000000000
+      internalID: -3699909184479412865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_185
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 338
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1499a9a78920da430800000000000000
+      internalID: 3795692914858432833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_186
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 324
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031073cf0d5feb580800000000000000
+      internalID: -8809333543156645584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_187
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 326
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30f863d3a46bdb30800000000000000
+      internalID: 4313151722926698554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_188
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 327
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8526a00941936a700800000000000000
+      internalID: 551190764878193240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_189
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 329
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296e308f640416d20800000000000000
+      internalID: 3269965478000584338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_190
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 330
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34f36d7b4ef817f0800000000000000
+      internalID: -641483346720590785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_191
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 62
+        width: 57
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac82c8e1db027100800000000000000
+      internalID: 104158737564077221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_192
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1242d20109816e370800000000000000
+      internalID: 8351389566030914593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_193
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 62
+        width: 55
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f44e3f67e0c21080800000000000000
+      internalID: -9218093387037653767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_194
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfe705df295eda00800000000000000
+      internalID: 783161447181447101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_195
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 62
+        width: 51
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a929e2354f23a860800000000000000
+      internalID: 7539922175401732512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_196
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 62
+        width: 43
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c535b37b6fe66b0800000000000000
+      internalID: -5301028444533728243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_197
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 76
+        width: 46
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbe4d83548434940800000000000000
+      internalID: 5279142650351774656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_198
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 87
+        width: 44
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfc6848c17c27520800000000000000
+      internalID: 2698438052044787679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_199
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 93
+        width: 42
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6aa69829b1578f0800000000000000
+      internalID: -543497863843633483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_200
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 102
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a312aa46fafe0a4d0800000000000000
+      internalID: -3125234604807937734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_201
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 103
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1bdda827cb22c10800000000000000
+      internalID: 2027389982412222929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_202
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 104
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fb78fc0f96737c0800000000000000
+      internalID: -4091685253447958638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_203
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e69bb4089051d50800000000000000
+      internalID: 6707277666669129225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_204
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed40f8ee6ed7c0a0800000000000000
+      internalID: -6861270939339829788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_205
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 92
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9b93c0fe9d7e180800000000000000
+      internalID: -9086054102471165443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_206
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 94
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4f9490d04276cf0800000000000000
+      internalID: -259198815141497667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_207
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfa31d6cf8175bd0800000000000000
+      internalID: -2641615183988674621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_208
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 84
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656e32eedac865f50800000000000000
+      internalID: 6869832960252831318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_209
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ecfe125742552f0800000000000000
+      internalID: -984840858011447735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_210
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 88
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8610458adfe785810800000000000000
+      internalID: 1754291682776711528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_211
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b924905b5267d950800000000000000
+      internalID: 6473751133701810614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HolyPortal_0: 2370954091428694608
+      HolyPortal_1: -1126377434408425284
+      HolyPortal_10: -4165082611621705944
+      HolyPortal_100: 5171345864539308390
+      HolyPortal_101: 5795828647765627401
+      HolyPortal_102: 1809793726926745426
+      HolyPortal_103: -4047350820168216143
+      HolyPortal_104: -3462608682952638549
+      HolyPortal_105: -5852492725637609980
+      HolyPortal_106: -8117720569916725558
+      HolyPortal_107: -1333721713462831093
+      HolyPortal_108: -3120263522594146102
+      HolyPortal_109: 9008849310574460176
+      HolyPortal_11: 8618291598624680719
+      HolyPortal_110: 49624932059370674
+      HolyPortal_111: -3433486067071417327
+      HolyPortal_112: 8439217516950564886
+      HolyPortal_113: -9211785584784733314
+      HolyPortal_114: 5690848760906777684
+      HolyPortal_115: 313777638188530843
+      HolyPortal_116: 2894760861680015857
+      HolyPortal_117: 1874507589139453315
+      HolyPortal_118: 2208364347436286231
+      HolyPortal_119: 6994219158168615876
+      HolyPortal_12: 6166517489315758987
+      HolyPortal_120: -5265540487848295394
+      HolyPortal_121: 537352298633926794
+      HolyPortal_122: 1415334277056889952
+      HolyPortal_123: -2044886137556811609
+      HolyPortal_124: -7982381590830364420
+      HolyPortal_125: 311830798885806141
+      HolyPortal_126: -8320330000174486237
+      HolyPortal_127: 4080892382957015596
+      HolyPortal_128: 6394408974302930044
+      HolyPortal_129: 929303327606373542
+      HolyPortal_13: 806270074000105719
+      HolyPortal_130: 2940124035543839958
+      HolyPortal_131: -8490163789994979468
+      HolyPortal_132: -5362672853174728850
+      HolyPortal_133: -5739162382233301928
+      HolyPortal_134: 4718501098714914327
+      HolyPortal_135: -8904381892248937114
+      HolyPortal_136: -5639707208940881406
+      HolyPortal_137: 3115355060416144958
+      HolyPortal_138: -7086598801887267505
+      HolyPortal_139: -9099784397694162000
+      HolyPortal_14: -5286873339254341694
+      HolyPortal_140: 6320427141347086707
+      HolyPortal_141: -4174281077637859928
+      HolyPortal_142: -2116051251270566852
+      HolyPortal_143: -7619984768490968687
+      HolyPortal_144: 1615012480625825199
+      HolyPortal_145: -6647930699874935408
+      HolyPortal_146: 6448876859264145960
+      HolyPortal_147: 3240898302084040852
+      HolyPortal_148: -3772135173780728442
+      HolyPortal_149: 4710470278300484257
+      HolyPortal_15: 149066478935997158
+      HolyPortal_150: -4135095885248648027
+      HolyPortal_151: 4488845317703058514
+      HolyPortal_152: -1338590538251038101
+      HolyPortal_153: 5615826869397822929
+      HolyPortal_154: 4503962335614886623
+      HolyPortal_155: 7296913436941060953
+      HolyPortal_156: 18835015158240093
+      HolyPortal_157: -2284916505736516681
+      HolyPortal_158: -6056275935343748133
+      HolyPortal_159: 2415725784675534584
+      HolyPortal_16: -3740132054174599487
+      HolyPortal_160: -6480221331958241430
+      HolyPortal_161: -8137615806525761570
+      HolyPortal_162: -4953982219267345899
+      HolyPortal_163: -3505043826786685142
+      HolyPortal_164: -5221096851246441596
+      HolyPortal_165: 8349296456814758563
+      HolyPortal_166: 4280145746997501742
+      HolyPortal_167: 4103397532903694232
+      HolyPortal_168: 5219454478614430711
+      HolyPortal_169: -7495601473163738653
+      HolyPortal_17: 6102727740146056320
+      HolyPortal_170: 3234521816824692731
+      HolyPortal_171: -8660952209272076304
+      HolyPortal_172: -3627015662124293174
+      HolyPortal_173: 5592100895687379047
+      HolyPortal_174: 1307733982251144794
+      HolyPortal_175: -3607980302332839302
+      HolyPortal_176: -3038165448578199993
+      HolyPortal_177: 741101752714472646
+      HolyPortal_178: -5353486119536651630
+      HolyPortal_179: 4556622569341428815
+      HolyPortal_18: -5643629208775980858
+      HolyPortal_180: -2222709853429774854
+      HolyPortal_181: -609065636129397439
+      HolyPortal_182: 495438429224226076
+      HolyPortal_183: 1120496277551934040
+      HolyPortal_184: -3699909184479412865
+      HolyPortal_185: 3795692914858432833
+      HolyPortal_186: -8809333543156645584
+      HolyPortal_187: 4313151722926698554
+      HolyPortal_188: 551190764878193240
+      HolyPortal_189: 3269965478000584338
+      HolyPortal_19: -3111279662918142308
+      HolyPortal_190: -641483346720590785
+      HolyPortal_191: 104158737564077221
+      HolyPortal_192: 8351389566030914593
+      HolyPortal_193: -9218093387037653767
+      HolyPortal_194: 783161447181447101
+      HolyPortal_195: 7539922175401732512
+      HolyPortal_196: -5301028444533728243
+      HolyPortal_197: 5279142650351774656
+      HolyPortal_198: 2698438052044787679
+      HolyPortal_199: -543497863843633483
+      HolyPortal_2: -3560947391866307347
+      HolyPortal_20: -7629741626024185296
+      HolyPortal_200: -3125234604807937734
+      HolyPortal_201: 2027389982412222929
+      HolyPortal_202: -4091685253447958638
+      HolyPortal_203: 6707277666669129225
+      HolyPortal_204: -6861270939339829788
+      HolyPortal_205: -9086054102471165443
+      HolyPortal_206: -259198815141497667
+      HolyPortal_207: -2641615183988674621
+      HolyPortal_208: 6869832960252831318
+      HolyPortal_209: -984840858011447735
+      HolyPortal_21: -3366985489570150930
+      HolyPortal_210: 1754291682776711528
+      HolyPortal_211: 6473751133701810614
+      HolyPortal_22: -3831033431324439251
+      HolyPortal_23: 2109496621656980597
+      HolyPortal_24: 1382160831822132776
+      HolyPortal_25: 1709101759485400997
+      HolyPortal_26: 1993608080481321337
+      HolyPortal_27: 5057173824759712186
+      HolyPortal_28: -3759915960671105726
+      HolyPortal_29: 6044230981925357599
+      HolyPortal_3: -7267427947629157172
+      HolyPortal_30: 966316037562091060
+      HolyPortal_31: -744040586239250898
+      HolyPortal_32: -2346941345453878649
+      HolyPortal_33: -1717813610682511818
+      HolyPortal_34: -6345500781722811455
+      HolyPortal_35: 4644223360010202550
+      HolyPortal_36: 9000050013822762508
+      HolyPortal_37: 104274879644456736
+      HolyPortal_38: 7255475669733004446
+      HolyPortal_39: 7567496896670256937
+      HolyPortal_4: -1290532477743331417
+      HolyPortal_40: -6901489687033597419
+      HolyPortal_41: 32493369786388049
+      HolyPortal_42: 6365210585694037468
+      HolyPortal_43: -8457602858202161025
+      HolyPortal_44: -7001574809125079840
+      HolyPortal_45: 4693431213515851406
+      HolyPortal_46: -6825162901094997147
+      HolyPortal_47: 8038377013713645656
+      HolyPortal_48: -8246005340350295177
+      HolyPortal_49: 2184644414654625443
+      HolyPortal_5: 5543599905417254661
+      HolyPortal_50: 6600463171827657888
+      HolyPortal_51: 6240984822502561155
+      HolyPortal_52: 5549971688401573469
+      HolyPortal_53: 1448846262343633840
+      HolyPortal_54: 4167102108702111614
+      HolyPortal_55: -5417600970709313883
+      HolyPortal_56: -8435205266487121044
+      HolyPortal_57: -1729718696033410197
+      HolyPortal_58: 6552003784079809098
+      HolyPortal_59: 8512069620912838099
+      HolyPortal_6: 750846632611866267
+      HolyPortal_60: -5889999395729034950
+      HolyPortal_61: -2727054563569001241
+      HolyPortal_62: 1683407816894938638
+      HolyPortal_63: -2124594367986557835
+      HolyPortal_64: 485385558378932955
+      HolyPortal_65: 7731364109354752577
+      HolyPortal_66: 2263666784896807792
+      HolyPortal_67: -2631742114912105043
+      HolyPortal_68: 5784155076233364032
+      HolyPortal_69: -2552374415549285855
+      HolyPortal_7: -4990618397593138861
+      HolyPortal_70: 2055806429440659170
+      HolyPortal_71: -4825358882696391377
+      HolyPortal_72: 2080074078379847516
+      HolyPortal_73: -3204614813405003053
+      HolyPortal_74: 5457953708640066547
+      HolyPortal_75: -414131325419887958
+      HolyPortal_76: 4436333572312679363
+      HolyPortal_77: -5493615235153345615
+      HolyPortal_78: -8696551140300627654
+      HolyPortal_79: -2573240447553211300
+      HolyPortal_8: 6857281030277358448
+      HolyPortal_80: 8534070827921036467
+      HolyPortal_81: -8782712353829888517
+      HolyPortal_82: -6727991470009232630
+      HolyPortal_83: -5151084863878054953
+      HolyPortal_84: -3978214988716355236
+      HolyPortal_85: -4338765705414843325
+      HolyPortal_86: -2970969196831370581
+      HolyPortal_87: 4243157173819971191
+      HolyPortal_88: -7698028529995510893
+      HolyPortal_89: 7382607029347335952
+      HolyPortal_9: 4877137808360081232
+      HolyPortal_90: -908966284590835844
+      HolyPortal_91: -3868742336367629834
+      HolyPortal_92: 2880233987010368146
+      HolyPortal_93: 7039898459580416902
+      HolyPortal_94: -737599007428241238
+      HolyPortal_95: -4155246777309034429
+      HolyPortal_96: -3512176739713245977
+      HolyPortal_97: -4226522091731711883
+      HolyPortal_98: 4354944170320501376
+      HolyPortal_99: -1851157421770717665
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

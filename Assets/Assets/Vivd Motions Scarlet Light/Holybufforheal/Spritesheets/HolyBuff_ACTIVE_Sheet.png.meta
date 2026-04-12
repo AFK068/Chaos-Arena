@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 4ab7c92fbc7c64c0dade0983e4708116
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3209135030562063404
+    second: HolyBuff_ACTIVE_Sheet_0
+  - first:
+      213: -8732930732628251660
+    second: HolyBuff_ACTIVE_Sheet_1
+  - first:
+      213: 6763676806364593478
+    second: HolyBuff_ACTIVE_Sheet_2
+  - first:
+      213: -7329778256878697792
+    second: HolyBuff_ACTIVE_Sheet_3
+  - first:
+      213: 7086157517287886060
+    second: HolyBuff_ACTIVE_Sheet_4
+  - first:
+      213: -5881113410162090574
+    second: HolyBuff_ACTIVE_Sheet_5
+  - first:
+      213: 7783036527672053895
+    second: HolyBuff_ACTIVE_Sheet_6
+  - first:
+      213: -804061056679275407
+    second: HolyBuff_ACTIVE_Sheet_7
+  - first:
+      213: 6882368030398532859
+    second: HolyBuff_ACTIVE_Sheet_8
+  - first:
+      213: 4900587168747168796
+    second: HolyBuff_ACTIVE_Sheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HolyBuff_ACTIVE_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 895
+        width: 118
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbf51341bcd673d0800000000000000
+      internalID: -3209135030562063404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyBuff_ACTIVE_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 895
+        width: 118
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbe99984c56ec680800000000000000
+      internalID: -8732930732628251660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyBuff_ACTIVE_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 895
+        width: 118
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64df8ea48386ddd50800000000000000
+      internalID: 6763676806364593478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyBuff_ACTIVE_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 895
+        width: 118
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c20d5c9285674a90800000000000000
+      internalID: -7329778256878697792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyBuff_ACTIVE_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 895
+        width: 116
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec8868c7b6175260800000000000000
+      internalID: 7086157517287886060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyBuff_ACTIVE_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 895
+        width: 116
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd908f4386126ea0800000000000000
+      internalID: -5881113410162090574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyBuff_ACTIVE_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 895
+        width: 115
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78058c15c76e20c60800000000000000
+      internalID: 7783036527672053895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyBuff_ACTIVE_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1023
+        width: 114
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17418e2aab667d4f0800000000000000
+      internalID: -804061056679275407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyBuff_ACTIVE_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1023
+        width: 114
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcc8616245138f50800000000000000
+      internalID: 6882368030398532859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyBuff_ACTIVE_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1023
+        width: 112
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c142308c012620440800000000000000
+      internalID: 4900587168747168796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HolyBuff_ACTIVE_Sheet_0: -3209135030562063404
+      HolyBuff_ACTIVE_Sheet_1: -8732930732628251660
+      HolyBuff_ACTIVE_Sheet_2: 6763676806364593478
+      HolyBuff_ACTIVE_Sheet_3: -7329778256878697792
+      HolyBuff_ACTIVE_Sheet_4: 7086157517287886060
+      HolyBuff_ACTIVE_Sheet_5: -5881113410162090574
+      HolyBuff_ACTIVE_Sheet_6: 7783036527672053895
+      HolyBuff_ACTIVE_Sheet_7: -804061056679275407
+      HolyBuff_ACTIVE_Sheet_8: 6882368030398532859
+      HolyBuff_ACTIVE_Sheet_9: 4900587168747168796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

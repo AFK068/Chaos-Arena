@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 4fbbcf26b060a44dfbd99c27b45827c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7969800174652494400
+    second: HolyCast_0
+  - first:
+      213: 3178601441191417231
+    second: HolyCast_1
+  - first:
+      213: 567156534812208454
+    second: HolyCast_2
+  - first:
+      213: 2849158130584929513
+    second: HolyCast_3
+  - first:
+      213: -1095913777464738774
+    second: HolyCast_4
+  - first:
+      213: 5169448285132325353
+    second: HolyCast_5
+  - first:
+      213: 8671195426962453193
+    second: HolyCast_6
+  - first:
+      213: -3892190094861111141
+    second: HolyCast_7
+  - first:
+      213: -550743234651737153
+    second: HolyCast_8
+  - first:
+      213: 2677641766686801284
+    second: HolyCast_9
+  - first:
+      213: -5552046982466271188
+    second: HolyCast_10
+  - first:
+      213: -4495114231797524791
+    second: HolyCast_11
+  - first:
+      213: -1547982940955582969
+    second: HolyCast_12
+  - first:
+      213: -7582202601722757083
+    second: HolyCast_13
+  - first:
+      213: 4104450151501303299
+    second: HolyCast_14
+  - first:
+      213: 5204309757657487406
+    second: HolyCast_15
+  - first:
+      213: 2500608507639595614
+    second: HolyCast_16
+  - first:
+      213: 3274729971761204898
+    second: HolyCast_17
+  - first:
+      213: 70841379037322538
+    second: HolyCast_18
+  - first:
+      213: -5489452489334774303
+    second: HolyCast_19
+  - first:
+      213: -3009730105221724686
+    second: HolyCast_20
+  - first:
+      213: 2238263228454315362
+    second: HolyCast_21
+  - first:
+      213: 8553729122798803748
+    second: HolyCast_22
+  - first:
+      213: 4526947435581430218
+    second: HolyCast_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HolyCast_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 685
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0421205780b6a9e60800000000000000
+      internalID: 7969800174652494400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 681
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8552c87b29ac1c20800000000000000
+      internalID: 3178601441191417231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 677
+        width: 85
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64de58d0dd1fed700800000000000000
+      internalID: 567156534812208454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 672
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e44e6a693e3a8720800000000000000
+      internalID: 2849158130584929513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 539
+        width: 95
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cf1cdc9388ac0f0800000000000000
+      internalID: -1095913777464738774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 536
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1801093d19db740800000000000000
+      internalID: 5169448285132325353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 535
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2b6128c46465870800000000000000
+      internalID: 8671195426962453193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_7
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 533
+        width: 94
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90728dfab92cf9c0800000000000000
+      internalID: -3892190094861111141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 387
+        width: 94
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3322032fd5b58f0800000000000000
+      internalID: -550743234651737153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 385
+        width: 96
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dbd130005e82520800000000000000
+      internalID: 2677641766686801284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_10
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 388
+        width: 98
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2881d97faa23f2b0800000000000000
+      internalID: -5552046982466271188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_11
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 391
+        width: 96
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6d7ec1c652e91c0800000000000000
+      internalID: -4495114231797524791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 113
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e5afd77b5748ae0800000000000000
+      internalID: -1547982940955582969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 268
+        width: 113
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520c54de7ea96c690800000000000000
+      internalID: -7582202601722757083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 256
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e888e9aafe5f830800000000000000
+      internalID: 4104450151501303299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 260
+        width: 108
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e281646a62c693840800000000000000
+      internalID: 5204309757657487406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 135
+        width: 111
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e528d2c5032f3b220800000000000000
+      internalID: 2500608507639595614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_17
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 138
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aec62e1f8d227d20800000000000000
+      internalID: 3274729971761204898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 138
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d1be0ebddabf000800000000000000
+      internalID: 70841379037322538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 136
+        width: 115
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e521d99b0c81d3b0800000000000000
+      internalID: -5489452489334774303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5c5706a6a4b36d0800000000000000
+      internalID: -3009730105221724686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_21
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265a6d52c88ef0f10800000000000000
+      internalID: 2238263228454315362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_22
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 5
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b165d4153f4b670800000000000000
+      internalID: 8553729122798803748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_23
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 4
+        width: 121
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac952b635b2f2de30800000000000000
+      internalID: 4526947435581430218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HolyCast_0: 7969800174652494400
+      HolyCast_1: 3178601441191417231
+      HolyCast_10: -5552046982466271188
+      HolyCast_11: -4495114231797524791
+      HolyCast_12: -1547982940955582969
+      HolyCast_13: -7582202601722757083
+      HolyCast_14: 4104450151501303299
+      HolyCast_15: 5204309757657487406
+      HolyCast_16: 2500608507639595614
+      HolyCast_17: 3274729971761204898
+      HolyCast_18: 70841379037322538
+      HolyCast_19: -5489452489334774303
+      HolyCast_2: 567156534812208454
+      HolyCast_20: -3009730105221724686
+      HolyCast_21: 2238263228454315362
+      HolyCast_22: 8553729122798803748
+      HolyCast_23: 4526947435581430218
+      HolyCast_3: 2849158130584929513
+      HolyCast_4: -1095913777464738774
+      HolyCast_5: 5169448285132325353
+      HolyCast_6: 8671195426962453193
+      HolyCast_7: -3892190094861111141
+      HolyCast_8: -550743234651737153
+      HolyCast_9: 2677641766686801284
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

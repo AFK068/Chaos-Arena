@@ -1,0 +1,9 @@
+{
+  "name": "HolyNova",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "frameCount": 15,
+  "columns": 5,
+  "fps": 30,
+  "loop": true
+}

@@ -1,0 +1,9 @@
+{
+  "name": "HolyImpact",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "frameCount": 20,
+  "columns": 5,
+  "fps": 30,
+  "loop": true
+}

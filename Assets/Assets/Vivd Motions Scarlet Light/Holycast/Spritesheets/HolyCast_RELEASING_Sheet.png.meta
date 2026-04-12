@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 86fbeda33231c4342944f17630b63cee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4098267485190435203
+    second: HolyCast_RELEASING_Sheet_0
+  - first:
+      213: -909000784901874549
+    second: HolyCast_RELEASING_Sheet_1
+  - first:
+      213: -440694856155383118
+    second: HolyCast_RELEASING_Sheet_2
+  - first:
+      213: -5571382795109227829
+    second: HolyCast_RELEASING_Sheet_3
+  - first:
+      213: -2906845427818471769
+    second: HolyCast_RELEASING_Sheet_4
+  - first:
+      213: 3269793113833065677
+    second: HolyCast_RELEASING_Sheet_5
+  - first:
+      213: -4423916050771516894
+    second: HolyCast_RELEASING_Sheet_6
+  - first:
+      213: 8826097781569229963
+    second: HolyCast_RELEASING_Sheet_7
+  - first:
+      213: 6189018577615383140
+    second: HolyCast_RELEASING_Sheet_8
+  - first:
+      213: 4949854186299156072
+    second: HolyCast_RELEASING_Sheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HolyCast_RELEASING_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1160
+        width: 106
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ec0be8f670027c0800000000000000
+      internalID: -4098267485190435203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_RELEASING_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1159
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c5f5b2a949263f0800000000000000
+      internalID: -909000784901874549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_RELEASING_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1158
+        width: 112
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba348cfc5652e9f0800000000000000
+      internalID: -440694856155383118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_RELEASING_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1158
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2aac5cdd87ea2b0800000000000000
+      internalID: -5571382795109227829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_RELEASING_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1157
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae59e90c7fc8a7d0800000000000000
+      internalID: -2906845427818471769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_RELEASING_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1155
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccc90f4383a06d20800000000000000
+      internalID: 3269793113833065677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_RELEASING_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1153
+        width: 126
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2226d9d6ac71b92c0800000000000000
+      internalID: -4423916050771516894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_RELEASING_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b841c4f6b299c7a70800000000000000
+      internalID: 8826097781569229963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_RELEASING_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1151
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46aee030b9fc3e550800000000000000
+      internalID: 6189018577615383140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyCast_RELEASING_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1151
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8666750382a61b440800000000000000
+      internalID: 4949854186299156072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HolyCast_RELEASING_Sheet_0: -4098267485190435203
+      HolyCast_RELEASING_Sheet_1: -909000784901874549
+      HolyCast_RELEASING_Sheet_2: -440694856155383118
+      HolyCast_RELEASING_Sheet_3: -5571382795109227829
+      HolyCast_RELEASING_Sheet_4: -2906845427818471769
+      HolyCast_RELEASING_Sheet_5: 3269793113833065677
+      HolyCast_RELEASING_Sheet_6: -4423916050771516894
+      HolyCast_RELEASING_Sheet_7: 8826097781569229963
+      HolyCast_RELEASING_Sheet_8: 6189018577615383140
+      HolyCast_RELEASING_Sheet_9: 4949854186299156072
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,14 +6,22 @@ public class SpriteSheetAnimator : MonoBehaviour
     [SerializeField] private float fps = 12f;
 
     private SpriteRenderer _renderer;
+    private BoxCollider2D _boxCollider;
+    private CircleCollider2D _circleCollider;
     private float _timer;
     private int _currentFrame;
 
     private void Awake()
     {
         _renderer = GetComponent<SpriteRenderer>();
+        _boxCollider = GetComponent<BoxCollider2D>();
+        _circleCollider = GetComponent<CircleCollider2D>();
+
         if (frames != null && frames.Length > 0)
+        {
             _renderer.sprite = frames[0];
+            UpdateCollider(frames[0]);
+        }
     }
 
     private void Update()
@@ -27,7 +35,26 @@ public class SpriteSheetAnimator : MonoBehaviour
         {
             _timer -= 1f / fps;
             _currentFrame = (_currentFrame + 1) % frames.Length;
-            _renderer.sprite = frames[_currentFrame];
+            var sprite = frames[_currentFrame];
+            _renderer.sprite = sprite;
+            UpdateCollider(sprite);
+        }
+    }
+
+    private void UpdateCollider(Sprite sprite)
+    {
+        if (sprite == null) return;
+
+        var size = sprite.bounds.size;
+
+        if (_boxCollider != null)
+        {
+            _boxCollider.size = new Vector2(size.x, size.y);
+        }
+
+        if (_circleCollider != null)
+        {
+            _circleCollider.radius = Mathf.Max(size.x, size.y) / 2f;
         }
     }
 }

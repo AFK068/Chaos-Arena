@@ -1,0 +1,2158 @@
+fileFormatVersion: 2
+guid: 8cf3d48486ff044d79c4949322d296b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 754899760132507716
+    second: OrbitalGodRay Full_0
+  - first:
+      213: 7821987890168757654
+    second: OrbitalGodRay Full_1
+  - first:
+      213: -4632757974039345719
+    second: OrbitalGodRay Full_2
+  - first:
+      213: -3176297041006177729
+    second: OrbitalGodRay Full_3
+  - first:
+      213: 5585743217185273379
+    second: OrbitalGodRay Full_4
+  - first:
+      213: 2327772353706184570
+    second: OrbitalGodRay Full_5
+  - first:
+      213: -5347889041692167484
+    second: OrbitalGodRay Full_6
+  - first:
+      213: 766512924452061833
+    second: OrbitalGodRay Full_7
+  - first:
+      213: -510618123478067465
+    second: OrbitalGodRay Full_8
+  - first:
+      213: 3230493477931957180
+    second: OrbitalGodRay Full_9
+  - first:
+      213: 876758500370179521
+    second: OrbitalGodRay Full_10
+  - first:
+      213: 1789131431828419320
+    second: OrbitalGodRay Full_11
+  - first:
+      213: 4648338106427790007
+    second: OrbitalGodRay Full_12
+  - first:
+      213: -6454913236624573792
+    second: OrbitalGodRay Full_13
+  - first:
+      213: 8554895792222955721
+    second: OrbitalGodRay Full_14
+  - first:
+      213: -8782796823959678232
+    second: OrbitalGodRay Full_15
+  - first:
+      213: 3154588753840621176
+    second: OrbitalGodRay Full_16
+  - first:
+      213: 1237278380835070667
+    second: OrbitalGodRay Full_17
+  - first:
+      213: 6474238621186955579
+    second: OrbitalGodRay Full_18
+  - first:
+      213: -5898466690776056368
+    second: OrbitalGodRay Full_19
+  - first:
+      213: -5897709595590568373
+    second: OrbitalGodRay Full_20
+  - first:
+      213: 8041072543683070270
+    second: OrbitalGodRay Full_21
+  - first:
+      213: 6173598028591396698
+    second: OrbitalGodRay Full_22
+  - first:
+      213: 1471037807552461593
+    second: OrbitalGodRay Full_23
+  - first:
+      213: -5056278456775499642
+    second: OrbitalGodRay Full_24
+  - first:
+      213: 1695878180927245572
+    second: OrbitalGodRay Full_25
+  - first:
+      213: 1989005775118797035
+    second: OrbitalGodRay Full_26
+  - first:
+      213: 9213423846752435099
+    second: OrbitalGodRay Full_27
+  - first:
+      213: 1039343193551317088
+    second: OrbitalGodRay Full_28
+  - first:
+      213: 5616415335005093295
+    second: OrbitalGodRay Full_29
+  - first:
+      213: 711659517574456681
+    second: OrbitalGodRay Full_30
+  - first:
+      213: -2857920018761079098
+    second: OrbitalGodRay Full_31
+  - first:
+      213: -1219651622030876452
+    second: OrbitalGodRay Full_32
+  - first:
+      213: -5878389983038345270
+    second: OrbitalGodRay Full_33
+  - first:
+      213: 5839604925551602836
+    second: OrbitalGodRay Full_34
+  - first:
+      213: -6556193113310923709
+    second: OrbitalGodRay Full_35
+  - first:
+      213: -3891506263246179944
+    second: OrbitalGodRay Full_36
+  - first:
+      213: 308078388307650565
+    second: OrbitalGodRay Full_37
+  - first:
+      213: 1019972109882312884
+    second: OrbitalGodRay Full_38
+  - first:
+      213: 2752949960062669499
+    second: OrbitalGodRay Full_39
+  - first:
+      213: 9039323334223195592
+    second: OrbitalGodRay Full_40
+  - first:
+      213: 1800933725369183621
+    second: OrbitalGodRay Full_41
+  - first:
+      213: -5670405466527059625
+    second: OrbitalGodRay Full_42
+  - first:
+      213: 2160047800764548200
+    second: OrbitalGodRay Full_43
+  - first:
+      213: -4043125801242977142
+    second: OrbitalGodRay Full_44
+  - first:
+      213: -4921934145656671575
+    second: OrbitalGodRay Full_45
+  - first:
+      213: -7382707952173244893
+    second: OrbitalGodRay Full_46
+  - first:
+      213: -5929434332523581279
+    second: OrbitalGodRay Full_47
+  - first:
+      213: 2965217526060005585
+    second: OrbitalGodRay Full_48
+  - first:
+      213: -6624389477890531779
+    second: OrbitalGodRay Full_49
+  - first:
+      213: -6628557071048403684
+    second: OrbitalGodRay Full_50
+  - first:
+      213: 3959929234147330419
+    second: OrbitalGodRay Full_51
+  - first:
+      213: 5537691642204277853
+    second: OrbitalGodRay Full_52
+  - first:
+      213: -4784651659392696653
+    second: OrbitalGodRay Full_53
+  - first:
+      213: 2297892500997572260
+    second: OrbitalGodRay Full_54
+  - first:
+      213: -7943518402048273164
+    second: OrbitalGodRay Full_55
+  - first:
+      213: 8199835409936588712
+    second: OrbitalGodRay Full_56
+  - first:
+      213: -1969447365625801840
+    second: OrbitalGodRay Full_57
+  - first:
+      213: -4969142746155411934
+    second: OrbitalGodRay Full_58
+  - first:
+      213: -2007222602217137402
+    second: OrbitalGodRay Full_59
+  - first:
+      213: 148997105131643996
+    second: OrbitalGodRay Full_60
+  - first:
+      213: 2087481285876454731
+    second: OrbitalGodRay Full_61
+  - first:
+      213: 8640840770854328919
+    second: OrbitalGodRay Full_62
+  - first:
+      213: -5964136787496282718
+    second: OrbitalGodRay Full_63
+  - first:
+      213: -6839351563050087541
+    second: OrbitalGodRay Full_64
+  - first:
+      213: 5384161381973187074
+    second: OrbitalGodRay Full_65
+  - first:
+      213: -3272407775261620928
+    second: OrbitalGodRay Full_66
+  - first:
+      213: -468913628524683048
+    second: OrbitalGodRay Full_67
+  - first:
+      213: -9221535183560177165
+    second: OrbitalGodRay Full_68
+  - first:
+      213: 1260554285140534502
+    second: OrbitalGodRay Full_69
+  - first:
+      213: 1961402802784877521
+    second: OrbitalGodRay Full_70
+  - first:
+      213: -1396572553989493523
+    second: OrbitalGodRay Full_71
+  - first:
+      213: -3750314919562335119
+    second: OrbitalGodRay Full_72
+  - first:
+      213: -4298992708084974754
+    second: OrbitalGodRay Full_73
+  - first:
+      213: 1348644110670154679
+    second: OrbitalGodRay Full_74
+  - first:
+      213: -719899359343148382
+    second: OrbitalGodRay Full_75
+  - first:
+      213: 5543315674105887923
+    second: OrbitalGodRay Full_76
+  - first:
+      213: 3008022709230596915
+    second: OrbitalGodRay Full_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 4845
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448c9bb0551f97a00800000000000000
+      internalID: 754899760132507716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 4843
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d7aee1b884d8c60800000000000000
+      internalID: 7821987890168757654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 4840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5c6030b2325bfb0800000000000000
+      internalID: -4632757974039345719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_3
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 4838
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32d3b18ba68be3d0800000000000000
+      internalID: -3176297041006177729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_4
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 4836
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32630ea8cdb848d40800000000000000
+      internalID: 5585743217185273379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_5
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 4833
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fc1a46f98ed4020800000000000000
+      internalID: 2327772353706184570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_6
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 4831
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2fbbb304b78c5b0800000000000000
+      internalID: -5347889041692167484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_7
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 4826
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98206b1917333aa00800000000000000
+      internalID: 766512924452061833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 4310
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f69636a58be9e8f0800000000000000
+      internalID: -510618123478067465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 4306
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbb959c3b405dc20800000000000000
+      internalID: 3230493477931957180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_10
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 4302
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c56e58f53fda2c00800000000000000
+      internalID: 876758500370179521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_11
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 4299
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f27e9ade8544d810800000000000000
+      internalID: 1789131431828419320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_12
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 4295
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b25a8d31e6328040800000000000000
+      internalID: 4648338106427790007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_13
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 4291
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa76036c9a8b66a0800000000000000
+      internalID: -6454913236624573792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_14
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8eee1b56819b670800000000000000
+      internalID: 8554895792222955721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_15
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 4284
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2547562dc3d1680800000000000000
+      internalID: -8782796823959678232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 3768
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876cc1502c957cb20800000000000000
+      internalID: 3154588753840621176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 3764
+        width: 153
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2e1f9c122bb2110800000000000000
+      internalID: 1237278380835070667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_18
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 3759
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3996f659bd19d950800000000000000
+      internalID: 6474238621186955579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_19
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 3755
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddb1d0dbcf642ea0800000000000000
+      internalID: -5898466690776056368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_20
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 3751
+        width: 178
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b465966ce50272ea0800000000000000
+      internalID: -5897709595590568373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_21
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 3714
+        width: 245
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39406300e0a79f60800000000000000
+      internalID: 8041072543683070270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_22
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 3730
+        width: 224
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57fd38a2b60da550800000000000000
+      internalID: 6173598028591396698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_23
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 3730
+        width: 222
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b7552971d2a6410800000000000000
+      internalID: 1471037807552461593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3219
+        width: 211
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680af6a688d74d9b0800000000000000
+      internalID: -5056278456775499642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_25
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 3228
+        width: 195
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d018c6838f88710800000000000000
+      internalID: 1695878180927245572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_26
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 3246
+        width: 170
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8082ad63e5a9b10800000000000000
+      internalID: 1989005775118797035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_27
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 3233
+        width: 205
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bbace7c28acdf70800000000000000
+      internalID: 9213423846752435099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_28
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3235
+        width: 440
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068a85bb02d7c6e00800000000000000
+      internalID: 1039343193551317088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_29
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 3233
+        width: 195
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadf80a7df381fd40800000000000000
+      internalID: 5616415335005093295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_30
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 3224
+        width: 227
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9652d0a8f8250e900800000000000000
+      internalID: 711659517574456681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_31
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2694
+        width: 486
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6a44582e0a658d0800000000000000
+      internalID: -2857920018761079098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_32
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2700
+        width: 245
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0ee1fcf4de21fe0800000000000000
+      internalID: -1219651622030876452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_33
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 2686
+        width: 254
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfe8c99473cb6ea0800000000000000
+      internalID: -5878389983038345270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_34
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2699
+        width: 228
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cef108db17a0150800000000000000
+      internalID: 5839604925551602836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_35
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 2708
+        width: 237
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3447d328919b305a0800000000000000
+      internalID: -6556193113310923709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_36
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 2698
+        width: 243
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891f002fba79ef9c0800000000000000
+      internalID: -3891506263246179944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_37
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2710
+        width: 234
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5086d0279a3864400800000000000000
+      internalID: 308078388307650565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_38
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2205
+        width: 193
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8475ada3ba72e00800000000000000
+      internalID: 1019972109882312884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_39
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 2212
+        width: 183
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb216f52761743620800000000000000
+      internalID: 2752949960062669499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_40
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2212
+        width: 209
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cde54a1ea0227d70800000000000000
+      internalID: 9039323334223195592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_41
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2211
+        width: 183
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58da6a47ea33ef810800000000000000
+      internalID: 1800933725369183621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_42
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2220
+        width: 215
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751b833754cae41b0800000000000000
+      internalID: -5670405466527059625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_43
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 2213
+        width: 183
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8644f66c7080afd10800000000000000
+      internalID: 2160047800764548200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_44
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2191
+        width: 230
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c12b2518ee3e7c0800000000000000
+      internalID: -4043125801242977142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_45
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 2203
+        width: 204
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2b448d8f6c1bbb0800000000000000
+      internalID: -4921934145656671575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1688
+        width: 238
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e13469b3a5b8990800000000000000
+      internalID: -7382707952173244893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_47
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1676
+        width: 230
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a03dead3ea66bda0800000000000000
+      internalID: -5929434332523581279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_48
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1662
+        width: 253
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8b19a21a1962920800000000000000
+      internalID: 2965217526060005585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_49
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1670
+        width: 247
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3edf7c0ed07114a0800000000000000
+      internalID: -6624389477890531779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_50
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1672
+        width: 249
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1591c6a672a204a0800000000000000
+      internalID: -6628557071048403684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_51
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1678
+        width: 226
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379490968ae74f630800000000000000
+      internalID: 3959929234147330419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_52
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1693
+        width: 202
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c4c396535d9dc40800000000000000
+      internalID: 5537691642204277853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_53
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1691
+        width: 202
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be3aeb7aa0899db0800000000000000
+      internalID: -4784651659392696653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_54
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1186
+        width: 186
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a68efd0e01c3ef10800000000000000
+      internalID: 2297892500997572260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_55
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1189
+        width: 184
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f452239914f2c190800000000000000
+      internalID: -7943518402048273164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_56
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1182
+        width: 188
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af90f95cdaabc170800000000000000
+      internalID: 8199835409936588712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_57
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1187
+        width: 188
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0939b083e0e1ba4e0800000000000000
+      internalID: -1969447365625801840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_58
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1188
+        width: 184
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2269231000f0a0bb0800000000000000
+      internalID: -4969142746155411934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_59
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1185
+        width: 186
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b56b19da9e424e0800000000000000
+      internalID: -2007222602217137402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_60
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1183
+        width: 203
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54eee3e318511200800000000000000
+      internalID: 148997105131643996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_61
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1175
+        width: 201
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4511f76b2938fc10800000000000000
+      internalID: 2087481285876454731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_62
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 656
+        width: 220
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a1c7366ee6ae770800000000000000
+      internalID: 8640840770854328919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_63
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 683
+        width: 170
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5d17de0312b3da0800000000000000
+      internalID: -5964136787496282718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_64
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 698
+        width: 149
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b03666dfdb511a0800000000000000
+      internalID: -6839351563050087541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_65
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 704
+        width: 137
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a53e9104268ba40800000000000000
+      internalID: 5384161381973187074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_66
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 710
+        width: 127
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0450e4367721692d0800000000000000
+      internalID: -3272407775261620928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_67
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 714
+        width: 116
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0627d0a851e79f0800000000000000
+      internalID: -468913628524683048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_68
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 718
+        width: 109
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9012cbb96860080800000000000000
+      internalID: -9221535183560177165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_69
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 722
+        width: 107
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4e5e191736e7110800000000000000
+      internalID: 1260554285140534502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_70
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 213
+        width: 100
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbb279057d483b10800000000000000
+      internalID: 1961402802784877521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_71
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 217
+        width: 96
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec656859a06e9ce0800000000000000
+      internalID: -1396572553989493523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_72
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 217
+        width: 93
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ca3af537434fbc0800000000000000
+      internalID: -3750314919562335119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_73
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 220
+        width: 92
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bb996b8e8e654c0800000000000000
+      internalID: -4298992708084974754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_74
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 223
+        width: 88
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbcae85ca857b210800000000000000
+      internalID: 1348644110670154679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_75
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 224
+        width: 85
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2025cc8576206f0800000000000000
+      internalID: -719899359343148382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_76
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 225
+        width: 85
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcbfe06c30ddec40800000000000000
+      internalID: 5543315674105887923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbitalGodRay Full_77
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 226
+        width: 81
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3337ff387b4aeb920800000000000000
+      internalID: 3008022709230596915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OrbitalGodRay Full_0: 754899760132507716
+      OrbitalGodRay Full_1: 7821987890168757654
+      OrbitalGodRay Full_10: 876758500370179521
+      OrbitalGodRay Full_11: 1789131431828419320
+      OrbitalGodRay Full_12: 4648338106427790007
+      OrbitalGodRay Full_13: -6454913236624573792
+      OrbitalGodRay Full_14: 8554895792222955721
+      OrbitalGodRay Full_15: -8782796823959678232
+      OrbitalGodRay Full_16: 3154588753840621176
+      OrbitalGodRay Full_17: 1237278380835070667
+      OrbitalGodRay Full_18: 6474238621186955579
+      OrbitalGodRay Full_19: -5898466690776056368
+      OrbitalGodRay Full_2: -4632757974039345719
+      OrbitalGodRay Full_20: -5897709595590568373
+      OrbitalGodRay Full_21: 8041072543683070270
+      OrbitalGodRay Full_22: 6173598028591396698
+      OrbitalGodRay Full_23: 1471037807552461593
+      OrbitalGodRay Full_24: -5056278456775499642
+      OrbitalGodRay Full_25: 1695878180927245572
+      OrbitalGodRay Full_26: 1989005775118797035
+      OrbitalGodRay Full_27: 9213423846752435099
+      OrbitalGodRay Full_28: 1039343193551317088
+      OrbitalGodRay Full_29: 5616415335005093295
+      OrbitalGodRay Full_3: -3176297041006177729
+      OrbitalGodRay Full_30: 711659517574456681
+      OrbitalGodRay Full_31: -2857920018761079098
+      OrbitalGodRay Full_32: -1219651622030876452
+      OrbitalGodRay Full_33: -5878389983038345270
+      OrbitalGodRay Full_34: 5839604925551602836
+      OrbitalGodRay Full_35: -6556193113310923709
+      OrbitalGodRay Full_36: -3891506263246179944
+      OrbitalGodRay Full_37: 308078388307650565
+      OrbitalGodRay Full_38: 1019972109882312884
+      OrbitalGodRay Full_39: 2752949960062669499
+      OrbitalGodRay Full_4: 5585743217185273379
+      OrbitalGodRay Full_40: 9039323334223195592
+      OrbitalGodRay Full_41: 1800933725369183621
+      OrbitalGodRay Full_42: -5670405466527059625
+      OrbitalGodRay Full_43: 2160047800764548200
+      OrbitalGodRay Full_44: -4043125801242977142
+      OrbitalGodRay Full_45: -4921934145656671575
+      OrbitalGodRay Full_46: -7382707952173244893
+      OrbitalGodRay Full_47: -5929434332523581279
+      OrbitalGodRay Full_48: 2965217526060005585
+      OrbitalGodRay Full_49: -6624389477890531779
+      OrbitalGodRay Full_5: 2327772353706184570
+      OrbitalGodRay Full_50: -6628557071048403684
+      OrbitalGodRay Full_51: 3959929234147330419
+      OrbitalGodRay Full_52: 5537691642204277853
+      OrbitalGodRay Full_53: -4784651659392696653
+      OrbitalGodRay Full_54: 2297892500997572260
+      OrbitalGodRay Full_55: -7943518402048273164
+      OrbitalGodRay Full_56: 8199835409936588712
+      OrbitalGodRay Full_57: -1969447365625801840
+      OrbitalGodRay Full_58: -4969142746155411934
+      OrbitalGodRay Full_59: -2007222602217137402
+      OrbitalGodRay Full_6: -5347889041692167484
+      OrbitalGodRay Full_60: 148997105131643996
+      OrbitalGodRay Full_61: 2087481285876454731
+      OrbitalGodRay Full_62: 8640840770854328919
+      OrbitalGodRay Full_63: -5964136787496282718
+      OrbitalGodRay Full_64: -6839351563050087541
+      OrbitalGodRay Full_65: 5384161381973187074
+      OrbitalGodRay Full_66: -3272407775261620928
+      OrbitalGodRay Full_67: -468913628524683048
+      OrbitalGodRay Full_68: -9221535183560177165
+      OrbitalGodRay Full_69: 1260554285140534502
+      OrbitalGodRay Full_7: 766512924452061833
+      OrbitalGodRay Full_70: 1961402802784877521
+      OrbitalGodRay Full_71: -1396572553989493523
+      OrbitalGodRay Full_72: -3750314919562335119
+      OrbitalGodRay Full_73: -4298992708084974754
+      OrbitalGodRay Full_74: 1348644110670154679
+      OrbitalGodRay Full_75: -719899359343148382
+      OrbitalGodRay Full_76: 5543315674105887923
+      OrbitalGodRay Full_77: 3008022709230596915
+      OrbitalGodRay Full_8: -510618123478067465
+      OrbitalGodRay Full_9: 3230493477931957180
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

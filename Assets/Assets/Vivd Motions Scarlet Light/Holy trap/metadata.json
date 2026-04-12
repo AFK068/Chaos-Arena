@@ -1,0 +1,9 @@
+{
+  "name": "HolyTrap",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "frameCount": 24,
+  "columns": 4,
+  "fps": 30,
+  "loop": true
+}

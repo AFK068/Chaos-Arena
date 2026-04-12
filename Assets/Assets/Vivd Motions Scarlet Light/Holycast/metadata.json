@@ -1,0 +1,9 @@
+{
+  "name": "HolyCast",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "frameCount": 24,
+  "columns": 4,
+  "fps": 60,
+  "loop": true
+}

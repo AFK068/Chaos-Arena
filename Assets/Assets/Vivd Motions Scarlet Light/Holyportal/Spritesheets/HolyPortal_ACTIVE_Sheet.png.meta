@@ -1,0 +1,3848 @@
+fileFormatVersion: 2
+guid: 78b6779cb44c244f2bb2204732590d3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7918481573033369553
+    second: HolyPortal_ACTIVE_Sheet_0
+  - first:
+      213: 293354059307646613
+    second: HolyPortal_ACTIVE_Sheet_1
+  - first:
+      213: -2685590275284746516
+    second: HolyPortal_ACTIVE_Sheet_2
+  - first:
+      213: 120574658978474186
+    second: HolyPortal_ACTIVE_Sheet_3
+  - first:
+      213: 1694354005769723618
+    second: HolyPortal_ACTIVE_Sheet_4
+  - first:
+      213: -6062068188573841357
+    second: HolyPortal_ACTIVE_Sheet_5
+  - first:
+      213: -8432391142460710979
+    second: HolyPortal_ACTIVE_Sheet_6
+  - first:
+      213: 4738112817882675879
+    second: HolyPortal_ACTIVE_Sheet_7
+  - first:
+      213: 702737646319696560
+    second: HolyPortal_ACTIVE_Sheet_8
+  - first:
+      213: 5403149675243871622
+    second: HolyPortal_ACTIVE_Sheet_9
+  - first:
+      213: 5330545519081134322
+    second: HolyPortal_ACTIVE_Sheet_10
+  - first:
+      213: 5459684246971395263
+    second: HolyPortal_ACTIVE_Sheet_11
+  - first:
+      213: 5890476200374748014
+    second: HolyPortal_ACTIVE_Sheet_12
+  - first:
+      213: -8778234062054374738
+    second: HolyPortal_ACTIVE_Sheet_13
+  - first:
+      213: -986629409142562931
+    second: HolyPortal_ACTIVE_Sheet_14
+  - first:
+      213: -1940266178796043490
+    second: HolyPortal_ACTIVE_Sheet_15
+  - first:
+      213: -2525432321407801556
+    second: HolyPortal_ACTIVE_Sheet_16
+  - first:
+      213: 1911393793070178155
+    second: HolyPortal_ACTIVE_Sheet_17
+  - first:
+      213: 5992434489643061660
+    second: HolyPortal_ACTIVE_Sheet_18
+  - first:
+      213: 2646476728678890221
+    second: HolyPortal_ACTIVE_Sheet_19
+  - first:
+      213: -2525317742921893522
+    second: HolyPortal_ACTIVE_Sheet_20
+  - first:
+      213: -2602425779015372542
+    second: HolyPortal_ACTIVE_Sheet_21
+  - first:
+      213: 702932467747682029
+    second: HolyPortal_ACTIVE_Sheet_22
+  - first:
+      213: 5291026223732878580
+    second: HolyPortal_ACTIVE_Sheet_23
+  - first:
+      213: -5733056620931389192
+    second: HolyPortal_ACTIVE_Sheet_24
+  - first:
+      213: 4162865152033229808
+    second: HolyPortal_ACTIVE_Sheet_25
+  - first:
+      213: 5650946700159575482
+    second: HolyPortal_ACTIVE_Sheet_26
+  - first:
+      213: 6501846035161103555
+    second: HolyPortal_ACTIVE_Sheet_27
+  - first:
+      213: 4465556944012100212
+    second: HolyPortal_ACTIVE_Sheet_28
+  - first:
+      213: 553813849163917331
+    second: HolyPortal_ACTIVE_Sheet_29
+  - first:
+      213: 3715582773630179039
+    second: HolyPortal_ACTIVE_Sheet_30
+  - first:
+      213: 5324217766141532459
+    second: HolyPortal_ACTIVE_Sheet_31
+  - first:
+      213: -6964350980701099529
+    second: HolyPortal_ACTIVE_Sheet_32
+  - first:
+      213: -2970888725754925013
+    second: HolyPortal_ACTIVE_Sheet_33
+  - first:
+      213: 2243155147396405937
+    second: HolyPortal_ACTIVE_Sheet_34
+  - first:
+      213: 2522245527710581567
+    second: HolyPortal_ACTIVE_Sheet_35
+  - first:
+      213: -5222837854469791995
+    second: HolyPortal_ACTIVE_Sheet_36
+  - first:
+      213: -7141899937864328323
+    second: HolyPortal_ACTIVE_Sheet_37
+  - first:
+      213: -3823660991149759767
+    second: HolyPortal_ACTIVE_Sheet_38
+  - first:
+      213: 6984671841145472893
+    second: HolyPortal_ACTIVE_Sheet_39
+  - first:
+      213: -3140869710373479181
+    second: HolyPortal_ACTIVE_Sheet_40
+  - first:
+      213: 4830380363396656651
+    second: HolyPortal_ACTIVE_Sheet_41
+  - first:
+      213: 5910495320855860891
+    second: HolyPortal_ACTIVE_Sheet_42
+  - first:
+      213: 7565155383462742133
+    second: HolyPortal_ACTIVE_Sheet_43
+  - first:
+      213: -1301420382345146344
+    second: HolyPortal_ACTIVE_Sheet_44
+  - first:
+      213: 8168038334797940288
+    second: HolyPortal_ACTIVE_Sheet_45
+  - first:
+      213: -5930225287902369780
+    second: HolyPortal_ACTIVE_Sheet_46
+  - first:
+      213: -2272878240420787875
+    second: HolyPortal_ACTIVE_Sheet_47
+  - first:
+      213: -7674636298651801665
+    second: HolyPortal_ACTIVE_Sheet_48
+  - first:
+      213: -5178691493523770354
+    second: HolyPortal_ACTIVE_Sheet_49
+  - first:
+      213: 3064165514845962332
+    second: HolyPortal_ACTIVE_Sheet_50
+  - first:
+      213: -527327988125539086
+    second: HolyPortal_ACTIVE_Sheet_51
+  - first:
+      213: -6259970716071891843
+    second: HolyPortal_ACTIVE_Sheet_52
+  - first:
+      213: 105026489288048822
+    second: HolyPortal_ACTIVE_Sheet_53
+  - first:
+      213: -1175344280360161067
+    second: HolyPortal_ACTIVE_Sheet_54
+  - first:
+      213: 5030417147748328940
+    second: HolyPortal_ACTIVE_Sheet_55
+  - first:
+      213: -1353333111552243405
+    second: HolyPortal_ACTIVE_Sheet_56
+  - first:
+      213: 1111607267189518080
+    second: HolyPortal_ACTIVE_Sheet_57
+  - first:
+      213: -8149415455695486240
+    second: HolyPortal_ACTIVE_Sheet_58
+  - first:
+      213: -4739797360686411520
+    second: HolyPortal_ACTIVE_Sheet_59
+  - first:
+      213: 637601480088709535
+    second: HolyPortal_ACTIVE_Sheet_60
+  - first:
+      213: 6189147604028742680
+    second: HolyPortal_ACTIVE_Sheet_61
+  - first:
+      213: 8701925307910081558
+    second: HolyPortal_ACTIVE_Sheet_62
+  - first:
+      213: 3676126602709876179
+    second: HolyPortal_ACTIVE_Sheet_63
+  - first:
+      213: 6982322013702233410
+    second: HolyPortal_ACTIVE_Sheet_64
+  - first:
+      213: -7681041084661643750
+    second: HolyPortal_ACTIVE_Sheet_65
+  - first:
+      213: 7403792286608429812
+    second: HolyPortal_ACTIVE_Sheet_66
+  - first:
+      213: 2716937443476506480
+    second: HolyPortal_ACTIVE_Sheet_67
+  - first:
+      213: -1433255568895117767
+    second: HolyPortal_ACTIVE_Sheet_68
+  - first:
+      213: 436251079720189138
+    second: HolyPortal_ACTIVE_Sheet_69
+  - first:
+      213: 3605266618449557018
+    second: HolyPortal_ACTIVE_Sheet_70
+  - first:
+      213: -8914117881503893247
+    second: HolyPortal_ACTIVE_Sheet_71
+  - first:
+      213: 3406857344403740031
+    second: HolyPortal_ACTIVE_Sheet_72
+  - first:
+      213: 6814543655982719158
+    second: HolyPortal_ACTIVE_Sheet_73
+  - first:
+      213: 3718099520002850854
+    second: HolyPortal_ACTIVE_Sheet_74
+  - first:
+      213: 1637245684991660399
+    second: HolyPortal_ACTIVE_Sheet_75
+  - first:
+      213: -5979011528054704366
+    second: HolyPortal_ACTIVE_Sheet_76
+  - first:
+      213: 6484580214552518933
+    second: HolyPortal_ACTIVE_Sheet_77
+  - first:
+      213: -3508309941317547584
+    second: HolyPortal_ACTIVE_Sheet_78
+  - first:
+      213: -5689961115644626594
+    second: HolyPortal_ACTIVE_Sheet_79
+  - first:
+      213: 7067244179857364253
+    second: HolyPortal_ACTIVE_Sheet_80
+  - first:
+      213: -5600897998177354655
+    second: HolyPortal_ACTIVE_Sheet_81
+  - first:
+      213: -6034426966184901414
+    second: HolyPortal_ACTIVE_Sheet_82
+  - first:
+      213: -7371391119610374911
+    second: HolyPortal_ACTIVE_Sheet_83
+  - first:
+      213: -545634081011194379
+    second: HolyPortal_ACTIVE_Sheet_84
+  - first:
+      213: 6605588627878138330
+    second: HolyPortal_ACTIVE_Sheet_85
+  - first:
+      213: 8690894398476041306
+    second: HolyPortal_ACTIVE_Sheet_86
+  - first:
+      213: -2469348383387014331
+    second: HolyPortal_ACTIVE_Sheet_87
+  - first:
+      213: 7212206261933348115
+    second: HolyPortal_ACTIVE_Sheet_88
+  - first:
+      213: -3484643835459546363
+    second: HolyPortal_ACTIVE_Sheet_89
+  - first:
+      213: -5022521695435325255
+    second: HolyPortal_ACTIVE_Sheet_90
+  - first:
+      213: -8943855604169278523
+    second: HolyPortal_ACTIVE_Sheet_91
+  - first:
+      213: 6067525954509793270
+    second: HolyPortal_ACTIVE_Sheet_92
+  - first:
+      213: 7765846336878604397
+    second: HolyPortal_ACTIVE_Sheet_93
+  - first:
+      213: 7770281827867966064
+    second: HolyPortal_ACTIVE_Sheet_94
+  - first:
+      213: 2164146949323940678
+    second: HolyPortal_ACTIVE_Sheet_95
+  - first:
+      213: 7788402751429252154
+    second: HolyPortal_ACTIVE_Sheet_96
+  - first:
+      213: -542720413225374719
+    second: HolyPortal_ACTIVE_Sheet_97
+  - first:
+      213: 3409479551965126055
+    second: HolyPortal_ACTIVE_Sheet_98
+  - first:
+      213: -291027811357627766
+    second: HolyPortal_ACTIVE_Sheet_99
+  - first:
+      213: 1405225207537399770
+    second: HolyPortal_ACTIVE_Sheet_100
+  - first:
+      213: -6248330990645177277
+    second: HolyPortal_ACTIVE_Sheet_101
+  - first:
+      213: -5969541893171403462
+    second: HolyPortal_ACTIVE_Sheet_102
+  - first:
+      213: 8923618190942336294
+    second: HolyPortal_ACTIVE_Sheet_103
+  - first:
+      213: -1136731505087515052
+    second: HolyPortal_ACTIVE_Sheet_104
+  - first:
+      213: 6939915370491518416
+    second: HolyPortal_ACTIVE_Sheet_105
+  - first:
+      213: -3467770061562453548
+    second: HolyPortal_ACTIVE_Sheet_106
+  - first:
+      213: 2668565371969207
+    second: HolyPortal_ACTIVE_Sheet_107
+  - first:
+      213: 8024305543484590646
+    second: HolyPortal_ACTIVE_Sheet_108
+  - first:
+      213: -8942336810359936302
+    second: HolyPortal_ACTIVE_Sheet_109
+  - first:
+      213: -5586220134378824182
+    second: HolyPortal_ACTIVE_Sheet_110
+  - first:
+      213: -6983523141931657371
+    second: HolyPortal_ACTIVE_Sheet_111
+  - first:
+      213: 6553148100298390180
+    second: HolyPortal_ACTIVE_Sheet_112
+  - first:
+      213: 6105289009030044154
+    second: HolyPortal_ACTIVE_Sheet_113
+  - first:
+      213: 600468357513805560
+    second: HolyPortal_ACTIVE_Sheet_114
+  - first:
+      213: -5025671063325160143
+    second: HolyPortal_ACTIVE_Sheet_115
+  - first:
+      213: 5235730852499619097
+    second: HolyPortal_ACTIVE_Sheet_116
+  - first:
+      213: 7424844560915745798
+    second: HolyPortal_ACTIVE_Sheet_117
+  - first:
+      213: 6621220824607345704
+    second: HolyPortal_ACTIVE_Sheet_118
+  - first:
+      213: 5318338454219354556
+    second: HolyPortal_ACTIVE_Sheet_119
+  - first:
+      213: 219800322256280629
+    second: HolyPortal_ACTIVE_Sheet_120
+  - first:
+      213: -117009952318903262
+    second: HolyPortal_ACTIVE_Sheet_121
+  - first:
+      213: 3025110966235133910
+    second: HolyPortal_ACTIVE_Sheet_122
+  - first:
+      213: 1880115854323849395
+    second: HolyPortal_ACTIVE_Sheet_123
+  - first:
+      213: 7667139051056583762
+    second: HolyPortal_ACTIVE_Sheet_124
+  - first:
+      213: -6561432951487613012
+    second: HolyPortal_ACTIVE_Sheet_125
+  - first:
+      213: 7522636926029169788
+    second: HolyPortal_ACTIVE_Sheet_126
+  - first:
+      213: 1590185795645763420
+    second: HolyPortal_ACTIVE_Sheet_127
+  - first:
+      213: 2910672320329400206
+    second: HolyPortal_ACTIVE_Sheet_128
+  - first:
+      213: 2145624992957747515
+    second: HolyPortal_ACTIVE_Sheet_129
+  - first:
+      213: 4450751570504151291
+    second: HolyPortal_ACTIVE_Sheet_130
+  - first:
+      213: 8909047820424558785
+    second: HolyPortal_ACTIVE_Sheet_131
+  - first:
+      213: -4645660057277463279
+    second: HolyPortal_ACTIVE_Sheet_132
+  - first:
+      213: 4333207021211852129
+    second: HolyPortal_ACTIVE_Sheet_133
+  - first:
+      213: -1448324239248184387
+    second: HolyPortal_ACTIVE_Sheet_134
+  - first:
+      213: -5619121298775871878
+    second: HolyPortal_ACTIVE_Sheet_135
+  - first:
+      213: -850080743558175287
+    second: HolyPortal_ACTIVE_Sheet_136
+  - first:
+      213: 14647067365260948
+    second: HolyPortal_ACTIVE_Sheet_137
+  - first:
+      213: 7121245582596323029
+    second: HolyPortal_ACTIVE_Sheet_138
+  - first:
+      213: -5574874213734587975
+    second: HolyPortal_ACTIVE_Sheet_139
+  - first:
+      213: -7909264362735014683
+    second: HolyPortal_ACTIVE_Sheet_140
+  - first:
+      213: -1492149924595441906
+    second: HolyPortal_ACTIVE_Sheet_141
+  - first:
+      213: -3472309642515535908
+    second: HolyPortal_ACTIVE_Sheet_142
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2315
+        width: 123
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20aed696f6eb1290800000000000000
+      internalID: -7918481573033369553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2314
+        width: 115
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e737276f3321400800000000000000
+      internalID: 293354059307646613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2420
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceeb86d9fdddabad0800000000000000
+      internalID: -2685590275284746516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2314
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac86355730e5ca100800000000000000
+      internalID: 120574658978474186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 2421
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee1aadbdfd838710800000000000000
+      internalID: 1694354005769723618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2314
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3384cd7c9153fdba0800000000000000
+      internalID: -6062068188573841357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2421
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf9a72cee02afa80800000000000000
+      internalID: -8432391142460710979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2314
+        width: 117
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa3f97118821c140800000000000000
+      internalID: 4738112817882675879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2314
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bafd238a20a0c900800000000000000
+      internalID: 702737646319696560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2314
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d9d25a008dbfa40800000000000000
+      internalID: 5403149675243871622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 2314
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f891eb38e6e9f940800000000000000
+      internalID: 5330545519081134322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 2315
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbca68e55e1b4cb40800000000000000
+      internalID: 5459684246971395263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2315
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63ca3925ec2fb150800000000000000
+      internalID: 5890476200374748014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2376
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2c30031a27d2680800000000000000
+      internalID: -8778234062054374738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 2378
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f9a1f97c9ce42f0800000000000000
+      internalID: -986629409142562931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2060
+        width: 111
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13482bb03ac215e0800000000000000
+      internalID: -1940266178796043490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2060
+        width: 110
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27a23a1facd3fcd0800000000000000
+      internalID: -2525432321407801556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2060
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f95dd1782a68a10800000000000000
+      internalID: 1911393793070178155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2060
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9159f64b67692350800000000000000
+      internalID: 5992434489643061660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2059
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea3e37209c2ab420800000000000000
+      internalID: 2646476728678890221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2059
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69362c74e444fcd0800000000000000
+      internalID: -2525317742921893522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2060
+        width: 121
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201387fca8352ebd0800000000000000
+      internalID: -2602425779015372542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 2144
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de67039ea5151c900800000000000000
+      internalID: 702932467747682029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2060
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcefd241508d6940800000000000000
+      internalID: 5291026223732878580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2144
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8ee28d0671070b0800000000000000
+      internalID: -5733056620931389192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 2060
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb0bcaccc775c930800000000000000
+      internalID: 4162865152033229808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 2145
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab56da375123c6e40800000000000000
+      internalID: 5650946700159575482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2061
+        width: 112
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc3f0e45823b3a50800000000000000
+      internalID: 6501846035161103555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2098
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472ce1c8168d8fd30800000000000000
+      internalID: 4465556944012100212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2100
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3186b17f2ca8fa700800000000000000
+      internalID: 553813849163917331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1910
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd699cbb8d6609330800000000000000
+      internalID: 3715582773630179039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1806
+        width: 112
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2990b179db63e940800000000000000
+      internalID: 5324217766141532459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1910
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9ea288ea7a95f90800000000000000
+      internalID: -6964350980701099529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1806
+        width: 112
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b203a22c17845c6d0800000000000000
+      internalID: -2970888725754925013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1805
+        width: 115
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bad6a8c8b9412f10800000000000000
+      internalID: 2243155147396405937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1805
+        width: 112
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33c18ba1f0d00320800000000000000
+      internalID: 2522245527710581567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1805
+        width: 111
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f5dd4a4a0c487b0800000000000000
+      internalID: -5222837854469791995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1804
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b563e88dfd2ec90800000000000000
+      internalID: -7141899937864328323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1804
+        width: 110
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e220015690afeac0800000000000000
+      internalID: -3823660991149759767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1805
+        width: 110
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77462c780a8ee060800000000000000
+      internalID: 6984671841145472893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1805
+        width: 110
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc9763b3a36964d0800000000000000
+      internalID: -3140869710373479181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1805
+        width: 110
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ea74a1955f80340800000000000000
+      internalID: 4830380363396656651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1859
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96d83edd2c460250800000000000000
+      internalID: 5910495320855860891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1860
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5784ee54db4dcf860800000000000000
+      internalID: 7565155383462742133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1862
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8105dd6be0d60fde0800000000000000
+      internalID: -1301420382345146344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1864
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0468761e693ba5170800000000000000
+      internalID: 8168038334797940288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1854
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c086a84358b93bda0800000000000000
+      internalID: -5930225287902369780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1856
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d590106584d1570e0800000000000000
+      internalID: -2272878240420787875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1550
+        width: 109
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb76a86c2f63e7590800000000000000
+      internalID: -7674636298651801665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1550
+        width: 109
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04bd2746879128b0800000000000000
+      internalID: -5178691493523770354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1549
+        width: 120
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5045651d4a168a20800000000000000
+      internalID: 3064165514845962332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1548
+        width: 119
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4e7ab1dfd8ea8f0800000000000000
+      internalID: -527327988125539086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1548
+        width: 110
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cef2ceccd1029a0800000000000000
+      internalID: -6259970716071891843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1548
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0450a1901257100800000000000000
+      internalID: 105026489288048822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1547
+        width: 121
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d07850ba9650bfe0800000000000000
+      internalID: -1175344280360161067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1547
+        width: 122
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5a29b5eb1afc540800000000000000
+      internalID: 5030417147748328940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1682
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339872f84bef73de0800000000000000
+      internalID: -1353333111552243405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1547
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fe2928be83d6f00800000000000000
+      internalID: 1111607267189518080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1682
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2413c02d577ee80800000000000000
+      internalID: -8149415455695486240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1548
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001d3f8b96bd83eb0800000000000000
+      internalID: -4739797360686411520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1681
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9963f00b2739d800800000000000000
+      internalID: 637601480088709535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1654
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cd79054f444e550800000000000000
+      internalID: 6189147604028742680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1654
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c46f776f273c870800000000000000
+      internalID: 8701925307910081558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1618
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddb2ef0ba9340330800000000000000
+      internalID: 3676126602709876179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1619
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d9c16a0e036e060800000000000000
+      internalID: 6982322013702233410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1601
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16cf8354d5776590800000000000000
+      internalID: -7681041084661643750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1602
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f292129bdd8fb660800000000000000
+      internalID: 7403792286608429812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1292
+        width: 114
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077006bb53084b520800000000000000
+      internalID: 2716937443476506480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1292
+        width: 114
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936f7af57ad0c1ce0800000000000000
+      internalID: -1433255568895117767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1291
+        width: 115
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc3a9fab00ed0600800000000000000
+      internalID: 436251079720189138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1291
+        width: 114
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16724153ea780230800000000000000
+      internalID: 3605266618449557018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1290
+        width: 117
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109b00b0401ba4480800000000000000
+      internalID: -8914117881503893247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1290
+        width: 115
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f759d9554b6974f20800000000000000
+      internalID: 3406857344403740031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1290
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0ed31a95f129e50800000000000000
+      internalID: 6814543655982719158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1290
+        width: 122
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620025960d7599330800000000000000
+      internalID: 3718099520002850854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1290
+        width: 122
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6118f7a64aa8b610800000000000000
+      internalID: 1637245684991660399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1422
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217755281b8460da0800000000000000
+      internalID: -5979011528054704366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1290
+        width: 118
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511eded295bddf950800000000000000
+      internalID: 6484580214552518933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1413
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9cbc932baff4fc0800000000000000
+      internalID: -3508309941317547584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1398
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59773413823901b0800000000000000
+      internalID: -5689961115644626594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1558514325e31260800000000000000
+      internalID: 7067244179857364253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1366
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c317b02fc9542b0800000000000000
+      internalID: -5600897998177354655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4c28165a8614ca0800000000000000
+      internalID: -6034426966184901414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1034
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105972ff4de83b990800000000000000
+      internalID: -7371391119610374911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1035
+        width: 115
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f52bf7b1b48d68f0800000000000000
+      internalID: -545634081011194379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1034
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad15901fbd3cbab50800000000000000
+      internalID: 6605588627878138330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1033
+        width: 114
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cb899b8624c9870800000000000000
+      internalID: 8690894398476041306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1033
+        width: 114
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b288d7abc1bbdd0800000000000000
+      internalID: -2469348383387014331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1033
+        width: 115
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31592612267e61460800000000000000
+      internalID: 7212206261933348115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1033
+        width: 116
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503dda2e4ee04afc0800000000000000
+      internalID: -3484643835459546363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1033
+        width: 116
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b082e2e02b6c4ab0800000000000000
+      internalID: -5022521695435325255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1033
+        width: 116
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb7a1fe6ba01e380800000000000000
+      internalID: -8943855604169278523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1034
+        width: 123
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7e40065be243450800000000000000
+      internalID: 6067525954509793270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1204
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60fae12914d5cb60800000000000000
+      internalID: 7765846336878604397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1165
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a3eba572695db60800000000000000
+      internalID: 7770281827867966064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1157
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643e23c2f28980e10800000000000000
+      internalID: 2164146949323940678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1109
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a349d96a907f51c60800000000000000
+      internalID: 7788402751429252154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1110
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c295dd8aed778f0800000000000000
+      internalID: -542720413225374719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1091
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7add6db9697e05f20800000000000000
+      internalID: 3409479551965126055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 778
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ae44c5fbf06fbf0800000000000000
+      internalID: -291027811357627766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 779
+        width: 116
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7f0bc81ec508310800000000000000
+      internalID: 1405225207537399770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 778
+        width: 115
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344978fa1187949a0800000000000000
+      internalID: -6248330990645177277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 778
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35a4b1b64de72da0800000000000000
+      internalID: -5969541893171403462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 778
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625f45e177f07db70800000000000000
+      internalID: 8923618190942336294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 954
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456734208b48930f0800000000000000
+      internalID: -1136731505087515052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 778
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd9b6d92488f4060800000000000000
+      internalID: 6939915370491518416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 952
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1e5d5808100efc0800000000000000
+      internalID: -3467770061562453548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 778
+        width: 114
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be5e0bcb0b790000800000000000000
+      internalID: 2668565371969207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 951
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ac890906f0c5f60800000000000000
+      internalID: 8024305543484590646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 778
+        width: 122
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2daa89cac0076e380800000000000000
+      internalID: -8942336810359936302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 779
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e17358262c972b0800000000000000
+      internalID: -5586220134378824182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 779
+        width: 112
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5679174e3ba851f90800000000000000
+      internalID: -6983523141931657371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 946
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aabfc62a7571fa50800000000000000
+      internalID: 6553148100298390180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 944
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9155aa1085ab450800000000000000
+      internalID: 6105289009030044154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 944
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fef87c2aca455800800000000000000
+      internalID: 600468357513805560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 915
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d4b888bca314ab0800000000000000
+      internalID: -5025671063325160143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 914
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dfac2687d09a840800000000000000
+      internalID: 5235730852499619097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ccfd52ac85a0760800000000000000
+      internalID: 7424844560915745798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 870
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cc32e524d43eb50800000000000000
+      internalID: 6621220824607345704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 871
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb17b0775a88ec940800000000000000
+      internalID: 5318338454219354556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 826
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c1a918a33ec0300800000000000000
+      internalID: 219800322256280629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 827
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ca8dc711c406ef0800000000000000
+      internalID: -117009952318903262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 828
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d77594656a5bf920800000000000000
+      internalID: 3025110966235133910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 658
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b89d818863871a10800000000000000
+      internalID: 1880115854323849395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 524
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254d0cd3856276a60800000000000000
+      internalID: 7667139051056583762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 524
+        width: 111
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7b90d9e7b11f4a0800000000000000
+      internalID: -6561432951487613012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 524
+        width: 120
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7484367d66c56860800000000000000
+      internalID: 7522636926029169788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 524
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f66545e89711610800000000000000
+      internalID: 1590185795645763420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 524
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fbbcecd09c46820800000000000000
+      internalID: 2910672320329400206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 523
+        width: 116
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b315276209ac6cd10800000000000000
+      internalID: 2145624992957747515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 524
+        width: 114
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf07967e8fe34cd30800000000000000
+      internalID: 4450751570504151291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 524
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8bf5f5acb43ab70800000000000000
+      internalID: 8909047820424558785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 524
+        width: 114
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11581caaacc478fb0800000000000000
+      internalID: -4645660057277463279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 525
+        width: 120
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d9f85d3d4a22c30800000000000000
+      internalID: 4333207021211852129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 648
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb260827c486ebe0800000000000000
+      internalID: -1448324239248184387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 647
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ee1ac33fed402b0800000000000000
+      internalID: -5619121298775871878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 631
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5a0d15118e334f0800000000000000
+      internalID: -850080743558175287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 631
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ebe4f1e69043000800000000000000
+      internalID: 14647067365260948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 566
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d639fc902fb3d260800000000000000
+      internalID: 7121245582596323029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 568
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b16dd6807112a2b0800000000000000
+      internalID: -5574874213734587975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 570
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ece58897f5ac3290800000000000000
+      internalID: -7909264362735014683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 269
+        width: 116
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fdcd0ac81da4be0800000000000000
+      internalID: -1492149924595441906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyPortal_ACTIVE_Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 352
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7a2b7f6c0efcfc0800000000000000
+      internalID: -3472309642515535908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HolyPortal_ACTIVE_Sheet_0: -7918481573033369553
+      HolyPortal_ACTIVE_Sheet_1: 293354059307646613
+      HolyPortal_ACTIVE_Sheet_10: 5330545519081134322
+      HolyPortal_ACTIVE_Sheet_100: 1405225207537399770
+      HolyPortal_ACTIVE_Sheet_101: -6248330990645177277
+      HolyPortal_ACTIVE_Sheet_102: -5969541893171403462
+      HolyPortal_ACTIVE_Sheet_103: 8923618190942336294
+      HolyPortal_ACTIVE_Sheet_104: -1136731505087515052
+      HolyPortal_ACTIVE_Sheet_105: 6939915370491518416
+      HolyPortal_ACTIVE_Sheet_106: -3467770061562453548
+      HolyPortal_ACTIVE_Sheet_107: 2668565371969207
+      HolyPortal_ACTIVE_Sheet_108: 8024305543484590646
+      HolyPortal_ACTIVE_Sheet_109: -8942336810359936302
+      HolyPortal_ACTIVE_Sheet_11: 5459684246971395263
+      HolyPortal_ACTIVE_Sheet_110: -5586220134378824182
+      HolyPortal_ACTIVE_Sheet_111: -6983523141931657371
+      HolyPortal_ACTIVE_Sheet_112: 6553148100298390180
+      HolyPortal_ACTIVE_Sheet_113: 6105289009030044154
+      HolyPortal_ACTIVE_Sheet_114: 600468357513805560
+      HolyPortal_ACTIVE_Sheet_115: -5025671063325160143
+      HolyPortal_ACTIVE_Sheet_116: 5235730852499619097
+      HolyPortal_ACTIVE_Sheet_117: 7424844560915745798
+      HolyPortal_ACTIVE_Sheet_118: 6621220824607345704
+      HolyPortal_ACTIVE_Sheet_119: 5318338454219354556
+      HolyPortal_ACTIVE_Sheet_12: 5890476200374748014
+      HolyPortal_ACTIVE_Sheet_120: 219800322256280629
+      HolyPortal_ACTIVE_Sheet_121: -117009952318903262
+      HolyPortal_ACTIVE_Sheet_122: 3025110966235133910
+      HolyPortal_ACTIVE_Sheet_123: 1880115854323849395
+      HolyPortal_ACTIVE_Sheet_124: 7667139051056583762
+      HolyPortal_ACTIVE_Sheet_125: -6561432951487613012
+      HolyPortal_ACTIVE_Sheet_126: 7522636926029169788
+      HolyPortal_ACTIVE_Sheet_127: 1590185795645763420
+      HolyPortal_ACTIVE_Sheet_128: 2910672320329400206
+      HolyPortal_ACTIVE_Sheet_129: 2145624992957747515
+      HolyPortal_ACTIVE_Sheet_13: -8778234062054374738
+      HolyPortal_ACTIVE_Sheet_130: 4450751570504151291
+      HolyPortal_ACTIVE_Sheet_131: 8909047820424558785
+      HolyPortal_ACTIVE_Sheet_132: -4645660057277463279
+      HolyPortal_ACTIVE_Sheet_133: 4333207021211852129
+      HolyPortal_ACTIVE_Sheet_134: -1448324239248184387
+      HolyPortal_ACTIVE_Sheet_135: -5619121298775871878
+      HolyPortal_ACTIVE_Sheet_136: -850080743558175287
+      HolyPortal_ACTIVE_Sheet_137: 14647067365260948
+      HolyPortal_ACTIVE_Sheet_138: 7121245582596323029
+      HolyPortal_ACTIVE_Sheet_139: -5574874213734587975
+      HolyPortal_ACTIVE_Sheet_14: -986629409142562931
+      HolyPortal_ACTIVE_Sheet_140: -7909264362735014683
+      HolyPortal_ACTIVE_Sheet_141: -1492149924595441906
+      HolyPortal_ACTIVE_Sheet_142: -3472309642515535908
+      HolyPortal_ACTIVE_Sheet_15: -1940266178796043490
+      HolyPortal_ACTIVE_Sheet_16: -2525432321407801556
+      HolyPortal_ACTIVE_Sheet_17: 1911393793070178155
+      HolyPortal_ACTIVE_Sheet_18: 5992434489643061660
+      HolyPortal_ACTIVE_Sheet_19: 2646476728678890221
+      HolyPortal_ACTIVE_Sheet_2: -2685590275284746516
+      HolyPortal_ACTIVE_Sheet_20: -2525317742921893522
+      HolyPortal_ACTIVE_Sheet_21: -2602425779015372542
+      HolyPortal_ACTIVE_Sheet_22: 702932467747682029
+      HolyPortal_ACTIVE_Sheet_23: 5291026223732878580
+      HolyPortal_ACTIVE_Sheet_24: -5733056620931389192
+      HolyPortal_ACTIVE_Sheet_25: 4162865152033229808
+      HolyPortal_ACTIVE_Sheet_26: 5650946700159575482
+      HolyPortal_ACTIVE_Sheet_27: 6501846035161103555
+      HolyPortal_ACTIVE_Sheet_28: 4465556944012100212
+      HolyPortal_ACTIVE_Sheet_29: 553813849163917331
+      HolyPortal_ACTIVE_Sheet_3: 120574658978474186
+      HolyPortal_ACTIVE_Sheet_30: 3715582773630179039
+      HolyPortal_ACTIVE_Sheet_31: 5324217766141532459
+      HolyPortal_ACTIVE_Sheet_32: -6964350980701099529
+      HolyPortal_ACTIVE_Sheet_33: -2970888725754925013
+      HolyPortal_ACTIVE_Sheet_34: 2243155147396405937
+      HolyPortal_ACTIVE_Sheet_35: 2522245527710581567
+      HolyPortal_ACTIVE_Sheet_36: -5222837854469791995
+      HolyPortal_ACTIVE_Sheet_37: -7141899937864328323
+      HolyPortal_ACTIVE_Sheet_38: -3823660991149759767
+      HolyPortal_ACTIVE_Sheet_39: 6984671841145472893
+      HolyPortal_ACTIVE_Sheet_4: 1694354005769723618
+      HolyPortal_ACTIVE_Sheet_40: -3140869710373479181
+      HolyPortal_ACTIVE_Sheet_41: 4830380363396656651
+      HolyPortal_ACTIVE_Sheet_42: 5910495320855860891
+      HolyPortal_ACTIVE_Sheet_43: 7565155383462742133
+      HolyPortal_ACTIVE_Sheet_44: -1301420382345146344
+      HolyPortal_ACTIVE_Sheet_45: 8168038334797940288
+      HolyPortal_ACTIVE_Sheet_46: -5930225287902369780
+      HolyPortal_ACTIVE_Sheet_47: -2272878240420787875
+      HolyPortal_ACTIVE_Sheet_48: -7674636298651801665
+      HolyPortal_ACTIVE_Sheet_49: -5178691493523770354
+      HolyPortal_ACTIVE_Sheet_5: -6062068188573841357
+      HolyPortal_ACTIVE_Sheet_50: 3064165514845962332
+      HolyPortal_ACTIVE_Sheet_51: -527327988125539086
+      HolyPortal_ACTIVE_Sheet_52: -6259970716071891843
+      HolyPortal_ACTIVE_Sheet_53: 105026489288048822
+      HolyPortal_ACTIVE_Sheet_54: -1175344280360161067
+      HolyPortal_ACTIVE_Sheet_55: 5030417147748328940
+      HolyPortal_ACTIVE_Sheet_56: -1353333111552243405
+      HolyPortal_ACTIVE_Sheet_57: 1111607267189518080
+      HolyPortal_ACTIVE_Sheet_58: -8149415455695486240
+      HolyPortal_ACTIVE_Sheet_59: -4739797360686411520
+      HolyPortal_ACTIVE_Sheet_6: -8432391142460710979
+      HolyPortal_ACTIVE_Sheet_60: 637601480088709535
+      HolyPortal_ACTIVE_Sheet_61: 6189147604028742680
+      HolyPortal_ACTIVE_Sheet_62: 8701925307910081558
+      HolyPortal_ACTIVE_Sheet_63: 3676126602709876179
+      HolyPortal_ACTIVE_Sheet_64: 6982322013702233410
+      HolyPortal_ACTIVE_Sheet_65: -7681041084661643750
+      HolyPortal_ACTIVE_Sheet_66: 7403792286608429812
+      HolyPortal_ACTIVE_Sheet_67: 2716937443476506480
+      HolyPortal_ACTIVE_Sheet_68: -1433255568895117767
+      HolyPortal_ACTIVE_Sheet_69: 436251079720189138
+      HolyPortal_ACTIVE_Sheet_7: 4738112817882675879
+      HolyPortal_ACTIVE_Sheet_70: 3605266618449557018
+      HolyPortal_ACTIVE_Sheet_71: -8914117881503893247
+      HolyPortal_ACTIVE_Sheet_72: 3406857344403740031
+      HolyPortal_ACTIVE_Sheet_73: 6814543655982719158
+      HolyPortal_ACTIVE_Sheet_74: 3718099520002850854
+      HolyPortal_ACTIVE_Sheet_75: 1637245684991660399
+      HolyPortal_ACTIVE_Sheet_76: -5979011528054704366
+      HolyPortal_ACTIVE_Sheet_77: 6484580214552518933
+      HolyPortal_ACTIVE_Sheet_78: -3508309941317547584
+      HolyPortal_ACTIVE_Sheet_79: -5689961115644626594
+      HolyPortal_ACTIVE_Sheet_8: 702737646319696560
+      HolyPortal_ACTIVE_Sheet_80: 7067244179857364253
+      HolyPortal_ACTIVE_Sheet_81: -5600897998177354655
+      HolyPortal_ACTIVE_Sheet_82: -6034426966184901414
+      HolyPortal_ACTIVE_Sheet_83: -7371391119610374911
+      HolyPortal_ACTIVE_Sheet_84: -545634081011194379
+      HolyPortal_ACTIVE_Sheet_85: 6605588627878138330
+      HolyPortal_ACTIVE_Sheet_86: 8690894398476041306
+      HolyPortal_ACTIVE_Sheet_87: -2469348383387014331
+      HolyPortal_ACTIVE_Sheet_88: 7212206261933348115
+      HolyPortal_ACTIVE_Sheet_89: -3484643835459546363
+      HolyPortal_ACTIVE_Sheet_9: 5403149675243871622
+      HolyPortal_ACTIVE_Sheet_90: -5022521695435325255
+      HolyPortal_ACTIVE_Sheet_91: -8943855604169278523
+      HolyPortal_ACTIVE_Sheet_92: 6067525954509793270
+      HolyPortal_ACTIVE_Sheet_93: 7765846336878604397
+      HolyPortal_ACTIVE_Sheet_94: 7770281827867966064
+      HolyPortal_ACTIVE_Sheet_95: 2164146949323940678
+      HolyPortal_ACTIVE_Sheet_96: 7788402751429252154
+      HolyPortal_ACTIVE_Sheet_97: -542720413225374719
+      HolyPortal_ACTIVE_Sheet_98: 3409479551965126055
+      HolyPortal_ACTIVE_Sheet_99: -291027811357627766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 2ea61491e39ca4d879de68e42a6df754
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4073116820376893155
+    second: FIRING_Sheet_0
+  - first:
+      213: 26126802493197234
+    second: FIRING_Sheet_1
+  - first:
+      213: 2381031946356758230
+    second: FIRING_Sheet_2
+  - first:
+      213: -6356439648950561877
+    second: FIRING_Sheet_3
+  - first:
+      213: -1157576143758418513
+    second: FIRING_Sheet_4
+  - first:
+      213: 6039168511869082605
+    second: FIRING_Sheet_5
+  - first:
+      213: -1881304421085212806
+    second: FIRING_Sheet_6
+  - first:
+      213: 4346577573936211478
+    second: FIRING_Sheet_7
+  - first:
+      213: -8594683424519039305
+    second: FIRING_Sheet_8
+  - first:
+      213: 355019070472425879
+    second: FIRING_Sheet_9
+  - first:
+      213: 5610464674171709891
+    second: FIRING_Sheet_10
+  - first:
+      213: 8849745385081345167
+    second: FIRING_Sheet_11
+  - first:
+      213: 3088005315652789981
+    second: FIRING_Sheet_12
+  - first:
+      213: 2358355401310011583
+    second: FIRING_Sheet_13
+  - first:
+      213: 4560554748938799479
+    second: FIRING_Sheet_14
+  - first:
+      213: -654806470610684632
+    second: FIRING_Sheet_15
+  - first:
+      213: 6620570612779944132
+    second: FIRING_Sheet_16
+  - first:
+      213: 6671959274201249061
+    second: FIRING_Sheet_17
+  - first:
+      213: -2406664356162733220
+    second: FIRING_Sheet_18
+  - first:
+      213: -136833934300065645
+    second: FIRING_Sheet_19
+  - first:
+      213: -4551403286300013059
+    second: FIRING_Sheet_20
+  - first:
+      213: 1920127378786950422
+    second: FIRING_Sheet_21
+  - first:
+      213: 6911038615532665562
+    second: FIRING_Sheet_22
+  - first:
+      213: 7935827840041398109
+    second: FIRING_Sheet_23
+  - first:
+      213: -5124035682790775420
+    second: FIRING_Sheet_24
+  - first:
+      213: -4919187194866707027
+    second: FIRING_Sheet_25
+  - first:
+      213: 8296047190602314616
+    second: FIRING_Sheet_26
+  - first:
+      213: -2757496687357302546
+    second: FIRING_Sheet_27
+  - first:
+      213: -4474844831686759694
+    second: FIRING_Sheet_28
+  - first:
+      213: -4022161801183037385
+    second: FIRING_Sheet_29
+  - first:
+      213: 2743258818189008821
+    second: FIRING_Sheet_30
+  - first:
+      213: 7795856161516379470
+    second: FIRING_Sheet_31
+  - first:
+      213: -5805579692839527829
+    second: FIRING_Sheet_32
+  - first:
+      213: 6945768097338150565
+    second: FIRING_Sheet_33
+  - first:
+      213: 8181527812361689195
+    second: FIRING_Sheet_34
+  - first:
+      213: 8880306992727427943
+    second: FIRING_Sheet_35
+  - first:
+      213: -3080273918770962718
+    second: FIRING_Sheet_36
+  - first:
+      213: -7399001452690136746
+    second: FIRING_Sheet_37
+  - first:
+      213: 1353428235722883100
+    second: FIRING_Sheet_38
+  - first:
+      213: -2924610525961952253
+    second: FIRING_Sheet_39
+  - first:
+      213: 5792274810209403637
+    second: FIRING_Sheet_40
+  - first:
+      213: -6883722803263341658
+    second: FIRING_Sheet_41
+  - first:
+      213: -6452454887857124049
+    second: FIRING_Sheet_42
+  - first:
+      213: 908973800644599342
+    second: FIRING_Sheet_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FIRING_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 4738
+        width: 245
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1944c805d16977c0800000000000000
+      internalID: -4073116820376893155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 4756
+        width: 239
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb49bd3032dc5000800000000000000
+      internalID: 26126802493197234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 4758
+        width: 216
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d69371a0ff1b0120800000000000000
+      internalID: 2381031946356758230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 4775
+        width: 225
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3d71031d369c7a0800000000000000
+      internalID: -6356439648950561877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 4782
+        width: 201
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad10de51a67fefe0800000000000000
+      internalID: -1157576143758418513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 4779
+        width: 173
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb5ea0c3cf6fc350800000000000000
+      internalID: 6039168511869082605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3241
+        y: 4774
+        width: 174
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f08dab89344e5e0800000000000000
+      internalID: -1881304421085212806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 4776
+        width: 179
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616a52b3645225c30800000000000000
+      internalID: 4346577573936211478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4257
+        y: 4761
+        width: 198
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6da9446fc89b880800000000000000
+      internalID: -8594683424519039305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4775
+        y: 4768
+        width: 185
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7919fffa6f74de400800000000000000
+      internalID: 355019070472425879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 4237
+        width: 230
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9e1e845ef5cdd40800000000000000
+      internalID: 5610464674171709891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 4237
+        width: 229
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f841d6e2a8c90da70800000000000000
+      internalID: 8849745385081345167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 4236
+        width: 255
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6a000497ccada20800000000000000
+      internalID: 3088005315652789981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 4231
+        width: 240
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0053d0ebf8ab020800000000000000
+      internalID: 2358355401310011583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 4229
+        width: 243
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779c73d91685a4f30800000000000000
+      internalID: 4560554748938799479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 4236
+        width: 229
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8257f9afbf8a9e6f0800000000000000
+      internalID: -654806470610684632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 4233
+        width: 265
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8832125edf0eb50800000000000000
+      internalID: 6620570612779944132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 4245
+        width: 212
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52573ae3c9f879c50800000000000000
+      internalID: 6671959274201249061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4245
+        y: 4246
+        width: 210
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b7355e48fc99ed0800000000000000
+      internalID: -2406664356162733220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4772
+        y: 4260
+        width: 188
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39053d0034ed91ef0800000000000000
+      internalID: -136833934300065645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3743
+        width: 201
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdca8253da26d0c0800000000000000
+      internalID: -4551403286300013059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 3748
+        width: 178
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d19108da9a5aa10800000000000000
+      internalID: 1920127378786950422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 3745
+        width: 200
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaf4db2101f8ef50800000000000000
+      internalID: 6911038615532665562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 3752
+        width: 172
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fa25cef59b12e60800000000000000
+      internalID: 7935827840041398109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 3734
+        width: 205
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48564ded1b4c3e8b0800000000000000
+      internalID: -5124035682790775420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 3736
+        width: 204
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5d15a2f498bbbb0800000000000000
+      internalID: -4919187194866707027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 3725
+        width: 227
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8737abb27fa712370800000000000000
+      internalID: 8296047190602314616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 3721
+        width: 236
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee860c86f576bb9d0800000000000000
+      internalID: -2757496687357302546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4229
+        y: 3714
+        width: 248
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa6156955826e1c0800000000000000
+      internalID: -4474844831686759694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 4756
+        y: 3729
+        width: 224
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738f653f6296e28c0800000000000000
+      internalID: -4022161801183037385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3217
+        width: 224
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf1d195c53021620800000000000000
+      internalID: 2743258818189008821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 3208
+        width: 239
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d593befd1703c60800000000000000
+      internalID: 7795856161516379470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 3207
+        width: 251
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a141557007e6fa0800000000000000
+      internalID: -5805579692839527829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 3229
+        width: 198
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aec416c843546060800000000000000
+      internalID: 6945768097338150565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3227
+        width: 248
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b681ccf9230aa8170800000000000000
+      internalID: 8181527812361689195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 3227
+        width: 237
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b8fe5f8203d3b70800000000000000
+      internalID: 8880306992727427943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 3231
+        width: 193
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee91ccd03ba045d0800000000000000
+      internalID: -3080273918770962718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 3231
+        width: 188
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6512ecf5167715990800000000000000
+      internalID: -7399001452690136746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 4234
+        y: 3237
+        width: 213
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c100f334fc758c210800000000000000
+      internalID: 1353428235722883100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 4769
+        y: 3239
+        width: 184
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3046badc832b967d0800000000000000
+      internalID: -2924610525961952253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2721
+        width: 191
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f289f7404b426050800000000000000
+      internalID: 5792274810209403637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 2712
+        width: 235
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab7b3bf49a1870a0800000000000000
+      internalID: -6883722803263341658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2702
+        width: 233
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d0b0057764476a0800000000000000
+      internalID: -6452454887857124049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FIRING_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 2705
+        width: 218
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ede811bd25d9c00800000000000000
+      internalID: 908973800644599342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FIRING_Sheet_0: -4073116820376893155
+      FIRING_Sheet_1: 26126802493197234
+      FIRING_Sheet_10: 5610464674171709891
+      FIRING_Sheet_11: 8849745385081345167
+      FIRING_Sheet_12: 3088005315652789981
+      FIRING_Sheet_13: 2358355401310011583
+      FIRING_Sheet_14: 4560554748938799479
+      FIRING_Sheet_15: -654806470610684632
+      FIRING_Sheet_16: 6620570612779944132
+      FIRING_Sheet_17: 6671959274201249061
+      FIRING_Sheet_18: -2406664356162733220
+      FIRING_Sheet_19: -136833934300065645
+      FIRING_Sheet_2: 2381031946356758230
+      FIRING_Sheet_20: -4551403286300013059
+      FIRING_Sheet_21: 1920127378786950422
+      FIRING_Sheet_22: 6911038615532665562
+      FIRING_Sheet_23: 7935827840041398109
+      FIRING_Sheet_24: -5124035682790775420
+      FIRING_Sheet_25: -4919187194866707027
+      FIRING_Sheet_26: 8296047190602314616
+      FIRING_Sheet_27: -2757496687357302546
+      FIRING_Sheet_28: -4474844831686759694
+      FIRING_Sheet_29: -4022161801183037385
+      FIRING_Sheet_3: -6356439648950561877
+      FIRING_Sheet_30: 2743258818189008821
+      FIRING_Sheet_31: 7795856161516379470
+      FIRING_Sheet_32: -5805579692839527829
+      FIRING_Sheet_33: 6945768097338150565
+      FIRING_Sheet_34: 8181527812361689195
+      FIRING_Sheet_35: 8880306992727427943
+      FIRING_Sheet_36: -3080273918770962718
+      FIRING_Sheet_37: -7399001452690136746
+      FIRING_Sheet_38: 1353428235722883100
+      FIRING_Sheet_39: -2924610525961952253
+      FIRING_Sheet_4: -1157576143758418513
+      FIRING_Sheet_40: 5792274810209403637
+      FIRING_Sheet_41: -6883722803263341658
+      FIRING_Sheet_42: -6452454887857124049
+      FIRING_Sheet_43: 908973800644599342
+      FIRING_Sheet_5: 6039168511869082605
+      FIRING_Sheet_6: -1881304421085212806
+      FIRING_Sheet_7: 4346577573936211478
+      FIRING_Sheet_8: -8594683424519039305
+      FIRING_Sheet_9: 355019070472425879
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

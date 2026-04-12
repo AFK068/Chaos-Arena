@@ -1,0 +1,9 @@
+{
+  "name": "HolyProjectile",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "frameCount": 30,
+  "columns": 5,
+  "fps": 30,
+  "loop": true
+}

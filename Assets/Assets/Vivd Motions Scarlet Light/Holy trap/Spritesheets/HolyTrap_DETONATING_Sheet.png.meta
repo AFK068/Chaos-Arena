@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 606f9db8e18434586ab9dcd98c850102
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4986636645923549030
+    second: HolyTrap_DETONATING_Sheet_0
+  - first:
+      213: -7356502763615041631
+    second: HolyTrap_DETONATING_Sheet_1
+  - first:
+      213: 2914654903222035787
+    second: HolyTrap_DETONATING_Sheet_2
+  - first:
+      213: 6095110134118382373
+    second: HolyTrap_DETONATING_Sheet_3
+  - first:
+      213: 7871213903685707063
+    second: HolyTrap_DETONATING_Sheet_4
+  - first:
+      213: 6139762710822303019
+    second: HolyTrap_DETONATING_Sheet_5
+  - first:
+      213: 41046633181926546
+    second: HolyTrap_DETONATING_Sheet_6
+  - first:
+      213: 3747728848717223049
+    second: HolyTrap_DETONATING_Sheet_7
+  - first:
+      213: 802928505886858808
+    second: HolyTrap_DETONATING_Sheet_8
+  - first:
+      213: 1462629838104403517
+    second: HolyTrap_DETONATING_Sheet_9
+  - first:
+      213: 8841431780577000559
+    second: HolyTrap_DETONATING_Sheet_10
+  - first:
+      213: 2132303695278241441
+    second: HolyTrap_DETONATING_Sheet_11
+  - first:
+      213: -1851291100322392530
+    second: HolyTrap_DETONATING_Sheet_12
+  - first:
+      213: -5793946632994759934
+    second: HolyTrap_DETONATING_Sheet_13
+  - first:
+      213: -2411252581689617265
+    second: HolyTrap_DETONATING_Sheet_14
+  - first:
+      213: -393588369355714036
+    second: HolyTrap_DETONATING_Sheet_15
+  - first:
+      213: 6611239271452579192
+    second: HolyTrap_DETONATING_Sheet_16
+  - first:
+      213: 7487184946960091514
+    second: HolyTrap_DETONATING_Sheet_17
+  - first:
+      213: 2285079130514973136
+    second: HolyTrap_DETONATING_Sheet_18
+  - first:
+      213: -1500249908001762797
+    second: HolyTrap_DETONATING_Sheet_19
+  - first:
+      213: -8573849649104739185
+    second: HolyTrap_DETONATING_Sheet_20
+  - first:
+      213: -2031109872915532121
+    second: HolyTrap_DETONATING_Sheet_21
+  - first:
+      213: 8994855403435439562
+    second: HolyTrap_DETONATING_Sheet_22
+  - first:
+      213: 2574288481803379280
+    second: HolyTrap_DETONATING_Sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2396
+        width: 98
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9018cf0468ebcab0800000000000000
+      internalID: -4986636645923549030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2400
+        width: 85
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7cb8186b378e990800000000000000
+      internalID: -7356502763615041631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 2402
+        width: 77
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b456665213fe27820800000000000000
+      internalID: 2914654903222035787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 2404
+        width: 71
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b720baf5e269450800000000000000
+      internalID: 6095110134118382373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 2405
+        width: 69
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7356d48875b2c3d60800000000000000
+      internalID: 7871213903685707063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 2406
+        width: 69
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25b0c7d7a1d43550800000000000000
+      internalID: 6139762710822303019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 2407
+        width: 70
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294d80602b3d19000800000000000000
+      internalID: 41046633181926546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 2406
+        width: 73
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9841646188b920430800000000000000
+      internalID: 3747728848717223049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 2404
+        width: 70
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83edb65d833942b00800000000000000
+      internalID: 802928505886858808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 2432
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e9912a61e4c4410800000000000000
+      internalID: 1462629838104403517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 2403
+        width: 72
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c342b4c5313ba70800000000000000
+      internalID: 8841431780577000559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 2432
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6ff46d9e6779d10800000000000000
+      internalID: 2132303695278241441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 2401
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2611758d84ee46e0800000000000000
+      internalID: -1851291100322392530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2151
+        width: 74
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bd6c42c34c79fa0800000000000000
+      internalID: -5793946632994759934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2176
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8495a46d82898ed0800000000000000
+      internalID: -2411252581689617265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2143
+        width: 73
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02d3d0a671b98af0800000000000000
+      internalID: -393588369355714036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 2177
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8751b0ce617dfbb50800000000000000
+      internalID: 6611239271452579192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2166
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79453b5a03d7e760800000000000000
+      internalID: 7487184946960091514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2143
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1e002cc5b36bf10800000000000000
+      internalID: 2285079130514973136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2145
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3121e3748aa0e2be0800000000000000
+      internalID: -1500249908001762797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2149
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84218b9b21930980800000000000000
+      internalID: -8573849649104739185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2146
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6b415f45c00d3e0800000000000000
+      internalID: -2031109872915532121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2149
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5b5c7255524dc70800000000000000
+      internalID: 8994855403435439562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyTrap_DETONATING_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 2141
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052254b2cb5b9b320800000000000000
+      internalID: 2574288481803379280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HolyTrap_DETONATING_Sheet_0: -4986636645923549030
+      HolyTrap_DETONATING_Sheet_1: -7356502763615041631
+      HolyTrap_DETONATING_Sheet_10: 8841431780577000559
+      HolyTrap_DETONATING_Sheet_11: 2132303695278241441
+      HolyTrap_DETONATING_Sheet_12: -1851291100322392530
+      HolyTrap_DETONATING_Sheet_13: -5793946632994759934
+      HolyTrap_DETONATING_Sheet_14: -2411252581689617265
+      HolyTrap_DETONATING_Sheet_15: -393588369355714036
+      HolyTrap_DETONATING_Sheet_16: 6611239271452579192
+      HolyTrap_DETONATING_Sheet_17: 7487184946960091514
+      HolyTrap_DETONATING_Sheet_18: 2285079130514973136
+      HolyTrap_DETONATING_Sheet_19: -1500249908001762797
+      HolyTrap_DETONATING_Sheet_2: 2914654903222035787
+      HolyTrap_DETONATING_Sheet_20: -8573849649104739185
+      HolyTrap_DETONATING_Sheet_21: -2031109872915532121
+      HolyTrap_DETONATING_Sheet_22: 8994855403435439562
+      HolyTrap_DETONATING_Sheet_23: 2574288481803379280
+      HolyTrap_DETONATING_Sheet_3: 6095110134118382373
+      HolyTrap_DETONATING_Sheet_4: 7871213903685707063
+      HolyTrap_DETONATING_Sheet_5: 6139762710822303019
+      HolyTrap_DETONATING_Sheet_6: 41046633181926546
+      HolyTrap_DETONATING_Sheet_7: 3747728848717223049
+      HolyTrap_DETONATING_Sheet_8: 802928505886858808
+      HolyTrap_DETONATING_Sheet_9: 1462629838104403517
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: f19646e8a74f1418e928a5cf91f248a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8284694998022237806
+    second: HolyProjectile_0
+  - first:
+      213: -8830542301459877625
+    second: HolyProjectile_1
+  - first:
+      213: -6012047703226159218
+    second: HolyProjectile_2
+  - first:
+      213: 2909142418965086776
+    second: HolyProjectile_3
+  - first:
+      213: -7580318698294541034
+    second: HolyProjectile_4
+  - first:
+      213: 7714687761445261439
+    second: HolyProjectile_5
+  - first:
+      213: 9137361623154387441
+    second: HolyProjectile_6
+  - first:
+      213: -7086168922914400908
+    second: HolyProjectile_7
+  - first:
+      213: -315602274675923736
+    second: HolyProjectile_8
+  - first:
+      213: 3607191504066556368
+    second: HolyProjectile_9
+  - first:
+      213: -1678195392359251406
+    second: HolyProjectile_10
+  - first:
+      213: 2475371564133271829
+    second: HolyProjectile_11
+  - first:
+      213: -2995476826601762906
+    second: HolyProjectile_12
+  - first:
+      213: 1459695489079034027
+    second: HolyProjectile_13
+  - first:
+      213: -9057145830254677709
+    second: HolyProjectile_14
+  - first:
+      213: -1004616195653394326
+    second: HolyProjectile_15
+  - first:
+      213: 8403082683994870254
+    second: HolyProjectile_16
+  - first:
+      213: 4802682945765896772
+    second: HolyProjectile_17
+  - first:
+      213: 3391640164209719002
+    second: HolyProjectile_18
+  - first:
+      213: -1469278883589395867
+    second: HolyProjectile_19
+  - first:
+      213: -4634886467261085966
+    second: HolyProjectile_20
+  - first:
+      213: -7555321407534048167
+    second: HolyProjectile_21
+  - first:
+      213: 1805278562257089277
+    second: HolyProjectile_22
+  - first:
+      213: -4095338408034417270
+    second: HolyProjectile_23
+  - first:
+      213: 1394441596013060135
+    second: HolyProjectile_24
+  - first:
+      213: -1656075819002209636
+    second: HolyProjectile_25
+  - first:
+      213: -2258132849429631731
+    second: HolyProjectile_26
+  - first:
+      213: 5739471921741309012
+    second: HolyProjectile_27
+  - first:
+      213: 1438716109472871788
+    second: HolyProjectile_28
+  - first:
+      213: 346170317185999861
+    second: HolyProjectile_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HolyProjectile_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 681
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291dd622bc9d60d80800000000000000
+      internalID: -8284694998022237806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 678
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7017c63209c937580800000000000000
+      internalID: -8830542301459877625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 677
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f6084977ae09ca0800000000000000
+      internalID: -6012047703226159218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_3
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 676
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8324f63ed995f5820800000000000000
+      internalID: 2909142418965086776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 676
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61507ef5e4c4dc690800000000000000
+      internalID: -7580318698294541034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 548
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f709ff515a3101b60800000000000000
+      internalID: 7714687761445261439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 546
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f967640cfd6ece70800000000000000
+      internalID: 9137361623154387441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_7
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 548
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4755643a8eed8ad90800000000000000
+      internalID: -7086168922914400908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_8
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 547
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4e2af3761ce9bf0800000000000000
+      internalID: -315602274675923736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_9
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 548
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1b1bcaf815f0230800000000000000
+      internalID: 3607191504066556368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 419
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232cabe9e2ad5b8e0800000000000000
+      internalID: -1678195392359251406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 419
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519444f82594a5220800000000000000
+      internalID: 2475371564133271829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 418
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afcc7962bded66d0800000000000000
+      internalID: -2995476826601762906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 418
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0cbc24051e14410800000000000000
+      internalID: 1459695489079034027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_14
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 418
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33172ccaadd8e4280800000000000000
+      internalID: -9057145830254677709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 290
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60a97a84e2ee02f0800000000000000
+      internalID: -1004616195653394326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 290
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee110cdfd2fbd9470800000000000000
+      internalID: 8403082683994870254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_17
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 290
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442f33781be86a240800000000000000
+      internalID: 4802682945765896772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_18
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 291
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6faa972c6811f20800000000000000
+      internalID: 3391640164209719002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_19
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 290
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56aeba3d3a21c9be0800000000000000
+      internalID: -1469278883589395867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 164
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f643a090539dafb0800000000000000
+      internalID: -4634886467261085966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 163
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c570ca53b162790800000000000000
+      internalID: -7555321407534048167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 165
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df236ff9943ad0910800000000000000
+      internalID: 1805278562257089277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 162
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85481a7a6f6a27c0800000000000000
+      internalID: -4095338408034417270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_24
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 164
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72023665e3d0a5310800000000000000
+      internalID: 1394441596013060135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 34
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a524f11df6409e0800000000000000
+      internalID: -1656075819002209636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 35
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d2b16332089a0e0800000000000000
+      internalID: -2258132849429631731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_27
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 33
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45428b5cd43b6af40800000000000000
+      internalID: 5739471921741309012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_28
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 34
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6533cdcda857f310800000000000000
+      internalID: 1438716109472871788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyProjectile_29
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 33
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3e7a3c118ddc400800000000000000
+      internalID: 346170317185999861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HolyProjectile_0: -8284694998022237806
+      HolyProjectile_1: -8830542301459877625
+      HolyProjectile_10: -1678195392359251406
+      HolyProjectile_11: 2475371564133271829
+      HolyProjectile_12: -2995476826601762906
+      HolyProjectile_13: 1459695489079034027
+      HolyProjectile_14: -9057145830254677709
+      HolyProjectile_15: -1004616195653394326
+      HolyProjectile_16: 8403082683994870254
+      HolyProjectile_17: 4802682945765896772
+      HolyProjectile_18: 3391640164209719002
+      HolyProjectile_19: -1469278883589395867
+      HolyProjectile_2: -6012047703226159218
+      HolyProjectile_20: -4634886467261085966
+      HolyProjectile_21: -7555321407534048167
+      HolyProjectile_22: 1805278562257089277
+      HolyProjectile_23: -4095338408034417270
+      HolyProjectile_24: 1394441596013060135
+      HolyProjectile_25: -1656075819002209636
+      HolyProjectile_26: -2258132849429631731
+      HolyProjectile_27: 5739471921741309012
+      HolyProjectile_28: 1438716109472871788
+      HolyProjectile_29: 346170317185999861
+      HolyProjectile_3: 2909142418965086776
+      HolyProjectile_4: -7580318698294541034
+      HolyProjectile_5: 7714687761445261439
+      HolyProjectile_6: 9137361623154387441
+      HolyProjectile_7: -7086168922914400908
+      HolyProjectile_8: -315602274675923736
+      HolyProjectile_9: 3607191504066556368
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
