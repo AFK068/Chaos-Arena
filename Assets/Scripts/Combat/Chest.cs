@@ -16,10 +16,12 @@ public class Chest : MonoBehaviour, IInteractable
     private SpriteRenderer _renderer;
     private bool _opened;
     private float _baseBottomY;
+    private Collider2D _collider;
 
     private void Awake()
     {
         _renderer = GetComponentInChildren<SpriteRenderer>();
+        _collider = GetComponent<Collider2D>();
         if (_renderer != null && _renderer.sprite != null)
         {
             var scale = _renderer.transform.lossyScale.y;
@@ -79,10 +81,13 @@ public class Chest : MonoBehaviour, IInteractable
                 var scale = _renderer.transform.lossyScale.y;
                 var pos = _renderer.transform.position;
                 pos.y = _baseBottomY - frame.bounds.min.y * scale;
-_renderer.transform.position = pos;
+                _renderer.transform.position = pos;
                 yield return new WaitForSeconds(interval);
             }
         }
+
+        if (_collider != null)
+            _collider.enabled = false;
 
         yield return new WaitForSeconds(destroyDelay);
 
