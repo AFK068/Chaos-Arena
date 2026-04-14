@@ -4,6 +4,8 @@ using UnityEngine;
 public class Chest : MonoBehaviour, IInteractable
 {
     [SerializeField] private Sprite[] openFrames;
+    [SerializeField] private Sprite[] disappearFrames;
+    [SerializeField] private Color disappearColor = Color.white;
     [SerializeField] private float openFps = 12f;
     [SerializeField] private float destroyDelay = 3f;
     private SpriteRenderer _renderer;
@@ -49,6 +51,22 @@ _renderer.transform.position = pos;
         }
 
         yield return new WaitForSeconds(destroyDelay);
+
+        var shadow = transform.Find("Shadow");
+        if (shadow != null)
+            Destroy(shadow.gameObject);
+
+        if (disappearFrames != null && disappearFrames.Length > 0 && _renderer != null)
+        {
+            _renderer.color = disappearColor;
+            var interval = 1f / Mathf.Max(openFps, 1f);
+            foreach (var frame in disappearFrames)
+            {
+                _renderer.sprite = frame;
+                yield return new WaitForSeconds(interval);
+            }
+        }
+
         Destroy(gameObject);
     }
 }

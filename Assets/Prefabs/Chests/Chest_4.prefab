@@ -169,8 +169,16 @@ MonoBehaviour:
   - {fileID: -1687530539618711491, guid: aea7f82c0fe5c4a13859627d7f032581, type: 3}
   - {fileID: -4314903932029464055, guid: aea7f82c0fe5c4a13859627d7f032581, type: 3}
   - {fileID: 1812896436559144138, guid: aea7f82c0fe5c4a13859627d7f032581, type: 3}
+  disappearFrames:
+  - {fileID: -1767103687961742494, guid: 7d3e41f7a2c9b48a4a6f6ec70ffc626a, type: 3}
+  - {fileID: -330686504290200089, guid: 7d3e41f7a2c9b48a4a6f6ec70ffc626a, type: 3}
+  - {fileID: -8752039300726188132, guid: 7d3e41f7a2c9b48a4a6f6ec70ffc626a, type: 3}
+  - {fileID: -547331350, guid: 7d3e41f7a2c9b48a4a6f6ec70ffc626a, type: 3}
+  - {fileID: -1025426312, guid: 7d3e41f7a2c9b48a4a6f6ec70ffc626a, type: 3}
+  - {fileID: 710866681, guid: 7d3e41f7a2c9b48a4a6f6ec70ffc626a, type: 3}
+  disappearColor: {r: 0.7254902, g: 0.8784314, b: 0.98039216, a: 1}
   openFps: 10
-  destroyDelay: 3
+  destroyDelay: 0.5
 --- !u!1 &4559699886158853739
 GameObject:
   m_ObjectHideFlags: 0
