@@ -10,7 +10,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Dash")]
     [SerializeField] private float dashSpeed = 20f;
     [SerializeField] private float dashDuration = 0.15f;
-    [SerializeField] private float dashCooldown = 1f;
+    [SerializeField] private float dashCooldown = 3f;
+    [SerializeField] private int dashCharges = 1;
     [SerializeField] private TrailRenderer trail;
 
     private Rigidbody2D _rb;
@@ -19,74 +20,113 @@ public class PlayerMovement : MonoBehaviour
     private Animator _animator;
     private PlayerShoot _playerShoot;
 
-    private bool _canDash = true;
     private bool _isFacingRight = true;
     private bool _isDashing = false;
 
+    private int _currentCharges;
+    private float[] _chargesCooldown;
+    private float _recoveryTimer;
+
     public bool IsDashing => _isDashing;
+    public int MaxCharges => dashCharges;
+    public float[] ChargesCooldownNormalized => _chargesCooldown;
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _playerShoot = GetComponent<PlayerShoot>();
+        InitCharges(dashCharges);
+    }
+
+    private void InitCharges(int count)
+    {
+        _chargesCooldown = new float[count];
+        for (int i = 0; i < count; i++)
+            _chargesCooldown[i] = 1f;
+        _currentCharges = count;
+        _recoveryTimer = 0f;
+    }
+
+    public void AddDashCharge()
+    {
+        dashCharges++;
+        _currentCharges++;
+        var newCooldowns = new float[dashCharges];
+        for (int i = 0; i < _chargesCooldown.Length; i++)
+            newCooldowns[i] = _chargesCooldown[i];
+        newCooldowns[dashCharges - 1] = 1f;
+        _chargesCooldown = newCooldowns;
+    }
+
+    private void Update()
+    {
+        if (dashCharges != _chargesCooldown.Length)
+            InitCharges(dashCharges);
+
+        // Находим самый левый пустой слот — он восстанавливается
+        int leftmost = -1;
+        for (int i = 0; i < _chargesCooldown.Length; i++)
+        {
+            if (_chargesCooldown[i] < 1f) { leftmost = i; break; }
+        }
+
+        if (leftmost >= 0)
+        {
+            _recoveryTimer += Time.deltaTime;
+            _chargesCooldown[leftmost] = Mathf.Clamp01(_recoveryTimer / dashCooldown);
+
+            if (_recoveryTimer >= dashCooldown)
+            {
+                _chargesCooldown[leftmost] = 1f;
+                _currentCharges++;
+                _recoveryTimer = 0f;
+            }
+        }
+        else
+        {
+            _recoveryTimer = 0f;
+        }
     }
 
     private void FixedUpdate()
     {
-        if (_isDashing) { return; }
+        if (_isDashing) return;
 
         _rb.linearVelocity = _moveInput * moveSpeed;
 
-        // Если не стреляем и двигаемся - обновляем направление взгляда
         if (_playerShoot != null && !_playerShoot.IsShooting && _moveInput.sqrMagnitude > 0.01f)
-        {
             _lastFacingDirection = _moveInput.normalized;
-        }
 
         UpdateAnimation();
     }
 
     public void UpdateAnimation()
     {
-        // Направление для Idle
         _animator.SetFloat("Horizontal", _lastFacingDirection.x);
         _animator.SetFloat("Vertical", _lastFacingDirection.y);
 
         Vector2 moveDirection = _moveInput;
 
-        // Если движемся и смотрим в противоположные стороны - инвертируем движение
         if (_moveInput.sqrMagnitude > 0.01f && _lastFacingDirection.sqrMagnitude > 0.01f)
         {
             float dot = Vector2.Dot(_moveInput.normalized, _lastFacingDirection);
-
             if (dot < 0)
-            {
                 moveDirection = -_moveInput;
-            }
         }
 
         _animator.SetFloat("MoveX", moveDirection.x);
         _animator.SetFloat("MoveY", moveDirection.y);
         _animator.SetFloat("Speed", _moveInput.sqrMagnitude);
 
-        // Flip по направлению взгляда
-        if (_lastFacingDirection.x > 0 && !_isFacingRight)
-        {
-            Flip();
-        }
-        else if (_lastFacingDirection.x < 0 && _isFacingRight)
-        {
-            Flip();
-        }
+        if (_lastFacingDirection.x > 0 && !_isFacingRight) Flip();
+        else if (_lastFacingDirection.x < 0 && _isFacingRight) Flip();
     }
 
     public void SetFacingDirection(Vector2 direction)
     {
         if (direction.sqrMagnitude > 0.01f)
-        {
             _lastFacingDirection = direction.normalized;
-        }
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -96,32 +136,36 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnDash(InputAction.CallbackContext context)
     {
-        if (!context.started)
-            return;
+        if (!context.started) return;
+        if (_currentCharges <= 0 || _moveInput == Vector2.zero) return;
 
-        if (!_canDash || _moveInput == Vector2.zero)
-            return;
+        int slot = -1;
+        for (int i = _chargesCooldown.Length - 1; i >= 0; i--)
+        {
+            if (_chargesCooldown[i] >= 1f) { slot = i; break; }
+        }
+        if (slot == -1) return;
 
-        StartCoroutine(Dash());
+        _currentCharges--;
+        _chargesCooldown[slot] = 0f;
+
+        // Сбрасываем таймер только если это первый потраченный заряд
+        if (_currentCharges == dashCharges - 1)
+            _recoveryTimer = 0f;
+
+        StartCoroutine(DashRoutine());
     }
 
-    private IEnumerator Dash()
+    private IEnumerator DashRoutine()
     {
-        _canDash = false;
         _isDashing = true;
-
-        Vector2 dashDirection = _moveInput.normalized;
-
         trail.emitting = true;
-        _rb.linearVelocity = dashDirection * dashSpeed;
+        _rb.linearVelocity = _moveInput.normalized * dashSpeed;
 
         yield return new WaitForSeconds(dashDuration);
 
         trail.emitting = false;
         _isDashing = false;
-
-        yield return new WaitForSeconds(dashCooldown);
-        _canDash = true;
     }
 
     private void Flip()

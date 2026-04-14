@@ -1021,7 +1021,8 @@ MonoBehaviour:
   moveSpeed: 6
   dashSpeed: 20
   dashDuration: 0.15
-  dashCooldown: 1
+  dashCooldown: 3
+  dashCharges: 3
   trail: {fileID: 1867968316}
 --- !u!114 &1867968315
 MonoBehaviour:
@@ -1336,8 +1337,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   heartPrefab: {fileID: 943449886316603864, guid: f36bf44cb1a87473887e31d564bea14b, type: 3}
   heartsContainer: {fileID: 924298226}
-  fullHeartSprite: {fileID: 1235773518496698137, guid: 4251e9c4469024eb4b6d0d708da2dafb, type: 3}
-  halfHeartSprite: {fileID: -5879525426268322432, guid: 4251e9c4469024eb4b6d0d708da2dafb, type: 3}
+  fullHeartSprite: {fileID: 2438762673827339831, guid: a08cffde7253944269a8e5db6c802fb4, type: 3}
+  halfHeartSprite: {fileID: -2579907860141009172, guid: 52baea084a8684c218bec8f02c1cfd2f, type: 3}
   maxHealth: 8
   playerRenderer: {fileID: 0}
   hitFlashDuration: 0.1
@@ -1515,6 +1516,84 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2011579683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2011579684}
+  - component: {fileID: 2011579686}
+  - component: {fileID: 2011579685}
+  m_Layer: 5
+  m_Name: DashContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2011579684
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011579683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2087991796}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -323.75, y: 154.6}
+  m_SizeDelta: {x: 100, y: 24}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2011579685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011579683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27917cc1fcdd64896879ab0866b0f60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DashUI
+  fullChargeSprite: {fileID: 5586905256701855597, guid: e60cb1924dfbe4d778eddf4926f0884a, type: 3}
+  emptyChargeSprite: {fileID: 758934857094884725, guid: d44f336cd4d034aedb2b9698e5d25a4a, type: 3}
+  chargesContainer: {fileID: 2011579684}
+--- !u!114 &2011579686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011579683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.HorizontalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 3
+  m_Spacing: 1
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &2087991792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1611,6 +1690,7 @@ RectTransform:
   m_Children:
   - {fileID: 924298226}
   - {fileID: 2090211608}
+  - {fileID: 2011579684}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1654,7 +1734,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -312.27872, y: 143.65938}
+  m_AnchoredPosition: {x: -312.28, y: 111.86}
   m_SizeDelta: {x: 122.9451, y: 61.4725}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2090211609

@@ -17,6 +17,7 @@ public class PlayerHealth : MonoBehaviour
     private Image[] hearts;
     private Color _baseColor;
     private Coroutine _flashCoroutine;
+    private Coroutine _shakeCoroutine;
 
     void Start()
     {
@@ -62,12 +63,13 @@ public class PlayerHealth : MonoBehaviour
         if (playerRenderer != null)
         {
             if (_flashCoroutine != null)
-            {
                 StopCoroutine(_flashCoroutine);
-            }
-
             _flashCoroutine = StartCoroutine(HitFlash());
         }
+
+        if (_shakeCoroutine != null)
+            StopCoroutine(_shakeCoroutine);
+        _shakeCoroutine = StartCoroutine(ShakeHearts());
 
         if (_currentHealth == 0)
         {
@@ -110,5 +112,36 @@ public class PlayerHealth : MonoBehaviour
         playerRenderer.color = hitFlashColor;
         yield return new WaitForSeconds(hitFlashDuration);
         playerRenderer.color = _baseColor;
+    }
+
+    private IEnumerator ShakeHearts()
+    {
+        float duration = 0.3f;
+        float magnitude = 2f;
+        float elapsed = 0f;
+
+        var originalPositions = new Vector3[hearts.Length];
+        for (int i = 0; i < hearts.Length; i++)
+            originalPositions[i] = hearts[i].rectTransform.anchoredPosition3D;
+
+        while (elapsed < duration)
+        {
+            float x = Random.Range(-1f, 1f) * magnitude;
+            float y = Random.Range(-1f, 1f) * magnitude;
+
+            for (int i = 0; i < hearts.Length; i++)
+            {
+                var pos = originalPositions[i];
+                pos.x += x;
+                pos.y += y;
+                hearts[i].rectTransform.anchoredPosition3D = pos;
+            }
+
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        for (int i = 0; i < hearts.Length; i++)
+            hearts[i].rectTransform.anchoredPosition3D = originalPositions[i];
     }
 }
