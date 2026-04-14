@@ -8,6 +8,11 @@ public class Chest : MonoBehaviour, IInteractable
     [SerializeField] private Color disappearColor = Color.white;
     [SerializeField] private float openFps = 12f;
     [SerializeField] private float destroyDelay = 3f;
+
+    [Header("Drops")]
+    [SerializeField] private GameObject[] dropPrefabs;
+    [SerializeField] private float dropRadius = 1f;
+    [SerializeField] private float dropDuration = 0.4f;
     private SpriteRenderer _renderer;
     private bool _opened;
     private float _baseBottomY;
@@ -33,6 +38,35 @@ public class Chest : MonoBehaviour, IInteractable
 
     public Vector3 GetInteractionPosition() => transform.position;
 
+    private void SpawnDrops()
+    {
+        if (dropPrefabs == null || dropPrefabs.Length == 0) return;
+
+        var count = dropPrefabs.Length;
+        // Случайный начальный угол чтобы было не всегда одинаково
+        var startAngle = Random.Range(0f, 360f / count);
+
+        for (var i = 0; i < count; i++)
+        {
+            if (dropPrefabs[i] == null) continue;
+
+            // Равномерно по кругу
+            var angle = startAngle + i * (360f / count);
+            var rad = angle * Mathf.Deg2Rad;
+            var target = transform.position + new Vector3(
+                Mathf.Cos(rad) * dropRadius,
+                Mathf.Sin(rad) * dropRadius,
+                0f
+            );
+
+            var instance = Instantiate(dropPrefabs[i], transform.position, Quaternion.identity);
+            var drop = instance.GetComponent<ItemDrop>();
+            if (drop == null)
+                drop = instance.AddComponent<ItemDrop>();
+            drop.Throw(target, dropDuration);
+        }
+    }
+
     private IEnumerator OpenRoutine()
     {
         if (openFrames != null && openFrames.Length > 0 && _renderer != null)
@@ -51,6 +85,8 @@ _renderer.transform.position = pos;
         }
 
         yield return new WaitForSeconds(destroyDelay);
+
+        SpawnDrops();
 
         var shadow = transform.Find("Shadow");
         if (shadow != null)
