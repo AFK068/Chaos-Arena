@@ -17,8 +17,10 @@ public class AIAnimationController : MonoBehaviour
     void Update()
     {
         float currentSpeed = aiPath.velocity.magnitude;
-        animator.SetFloat("Speed", currentSpeed);
-        
+
+        if (animator != null)
+            animator.SetFloat("Speed", currentSpeed);
+
         if (aiPath.velocity.x != 0)
         {
             spriteRenderer.flipX = aiPath.velocity.x < 0;
