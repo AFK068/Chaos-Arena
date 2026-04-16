@@ -48,6 +48,21 @@ public class PlayerMovement : MonoBehaviour
         _recoveryTimer = 0f;
     }
 
+    public void RestoreDashCharge()
+    {
+        if (_currentCharges >= dashCharges) return;
+        for (int i = 0; i < _chargesCooldown.Length; i++)
+        {
+            if (_chargesCooldown[i] < 1f)
+            {
+                _chargesCooldown[i] = 1f;
+                _currentCharges++;
+                _recoveryTimer = 0f;
+                break;
+            }
+        }
+    }
+
     public void AddDashCharge()
     {
         dashCharges++;
