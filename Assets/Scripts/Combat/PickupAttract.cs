@@ -1,13 +1,11 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class PickupAttract : MonoBehaviour
 {
     [SerializeField] private float attractSpeed = 5f;
     [SerializeField] private float fadeStartDistance = 0.8f;
     [SerializeField] private float destroyDistance = 0.2f;
-    [SerializeField] private UnityEvent onPickedUp;
 
     private Transform _target;
     private SpriteRenderer[] _renderers;
@@ -29,10 +27,10 @@ public class PickupAttract : MonoBehaviour
         var floatScript = GetComponent<PickupFloat>();
         if (floatScript != null) floatScript.enabled = false;
 
-        StartCoroutine(AttractRoutine());
+        StartCoroutine(AttractRoutine(other.gameObject));
     }
 
-    private IEnumerator AttractRoutine()
+    private IEnumerator AttractRoutine(GameObject player)
     {
         yield return null;
         yield return null;
@@ -52,7 +50,9 @@ public class PickupAttract : MonoBehaviour
 
             if (dist <= destroyDistance)
             {
-                onPickedUp.Invoke();
+                foreach (var effect in GetComponents<IPickupEffect>())
+                    effect.OnPickup(player);
+
                 Destroy(gameObject);
                 yield break;
             }
