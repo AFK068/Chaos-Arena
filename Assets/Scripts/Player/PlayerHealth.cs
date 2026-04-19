@@ -84,6 +84,21 @@ public class PlayerHealth : MonoBehaviour
         UpdateHearts();
     }
 
+    [SerializeField] private int absoluteMaxHealth = 10;
+
+    public void AddMaxHealth(int amount)
+    {
+        if (maxHealth >= absoluteMaxHealth)
+        {
+            Heal(amount);
+            return;
+        }
+        maxHealth = Mathf.Min(maxHealth + amount, absoluteMaxHealth);
+        _currentHealth = Mathf.Min(_currentHealth + amount, maxHealth);
+        GenerateHearts();
+        UpdateHearts();
+    }
+
     private void UpdateHearts()
     {
         for (int i = 0; i < hearts.Length; i++)

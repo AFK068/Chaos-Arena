@@ -1023,6 +1023,7 @@ MonoBehaviour:
   dashDuration: 0.15
   dashCooldown: 3
   dashCharges: 3
+  maxDashCharges: 3
   trail: {fileID: 1867968316}
 --- !u!114 &1867968315
 MonoBehaviour:
@@ -1343,6 +1344,7 @@ MonoBehaviour:
   playerRenderer: {fileID: 0}
   hitFlashDuration: 0.1
   hitFlashColor: {r: 1, g: 0.45, b: 0.45, a: 1}
+  absoluteMaxHealth: 10
 --- !u!114 &1867968319
 MonoBehaviour:
   m_ObjectHideFlags: 0
