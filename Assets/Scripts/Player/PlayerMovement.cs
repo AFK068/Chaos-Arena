@@ -65,6 +65,29 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private bool _rageActive;
+    private Coroutine _rageCoroutine;
+
+    public void ApplyRageBuff(float speedMult, float dashMult, float duration)
+    {
+        if (_rageCoroutine != null) StopCoroutine(_rageCoroutine);
+        _rageCoroutine = StartCoroutine(RageBuffRoutine(speedMult, dashMult, duration));
+    }
+
+    private IEnumerator RageBuffRoutine(float speedMult, float dashMult, float duration)
+    {
+        if (!_rageActive)
+        {
+            moveSpeed *= speedMult;
+            dashCooldown /= dashMult;
+            _rageActive = true;
+        }
+        yield return new WaitForSeconds(duration);
+        moveSpeed /= speedMult;
+        dashCooldown *= dashMult;
+        _rageActive = false;
+    }
+
     public void AddDashCharge()
     {
         if (dashCharges >= maxDashCharges) return;

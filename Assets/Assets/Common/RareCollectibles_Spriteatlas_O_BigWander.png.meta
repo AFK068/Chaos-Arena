@@ -1,0 +1,2184 @@
+fileFormatVersion: 2
+guid: 283fc272370f84795b04c1b60b3e8ec2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2037425444016496419
+    second: RareCollectibles_Spriteatlas_O_BigWander_0
+  - first:
+      213: 7138845768789331695
+    second: RareCollectibles_Spriteatlas_O_BigWander_1
+  - first:
+      213: -4578994445835215877
+    second: RareCollectibles_Spriteatlas_O_BigWander_2
+  - first:
+      213: -458198777656967135
+    second: RareCollectibles_Spriteatlas_O_BigWander_3
+  - first:
+      213: -3884733852844860836
+    second: RareCollectibles_Spriteatlas_O_BigWander_4
+  - first:
+      213: 2507705423395983245
+    second: RareCollectibles_Spriteatlas_O_BigWander_5
+  - first:
+      213: -960539550924963556
+    second: RareCollectibles_Spriteatlas_O_BigWander_6
+  - first:
+      213: -5827657114103824690
+    second: RareCollectibles_Spriteatlas_O_BigWander_7
+  - first:
+      213: -6271422835792584230
+    second: RareCollectibles_Spriteatlas_O_BigWander_8
+  - first:
+      213: 5035945253877186187
+    second: RareCollectibles_Spriteatlas_O_BigWander_9
+  - first:
+      213: -5252385274679593649
+    second: RareCollectibles_Spriteatlas_O_BigWander_10
+  - first:
+      213: 3613077042200198273
+    second: RareCollectibles_Spriteatlas_O_BigWander_11
+  - first:
+      213: 26065948206801466
+    second: RareCollectibles_Spriteatlas_O_BigWander_12
+  - first:
+      213: 98483554891496418
+    second: RareCollectibles_Spriteatlas_O_BigWander_13
+  - first:
+      213: -5464252229891504739
+    second: RareCollectibles_Spriteatlas_O_BigWander_14
+  - first:
+      213: -6897114361353761449
+    second: RareCollectibles_Spriteatlas_O_BigWander_15
+  - first:
+      213: -3484950720323176635
+    second: RareCollectibles_Spriteatlas_O_BigWander_16
+  - first:
+      213: -2197875349249779887
+    second: RareCollectibles_Spriteatlas_O_BigWander_17
+  - first:
+      213: 5624860750495563852
+    second: RareCollectibles_Spriteatlas_O_BigWander_18
+  - first:
+      213: 4982334179030684879
+    second: RareCollectibles_Spriteatlas_O_BigWander_19
+  - first:
+      213: 4156405544652410058
+    second: RareCollectibles_Spriteatlas_O_BigWander_20
+  - first:
+      213: -6204668648566086168
+    second: RareCollectibles_Spriteatlas_O_BigWander_21
+  - first:
+      213: -1250753232481118362
+    second: RareCollectibles_Spriteatlas_O_BigWander_22
+  - first:
+      213: -4013072132822140124
+    second: RareCollectibles_Spriteatlas_O_BigWander_23
+  - first:
+      213: -469524923267907376
+    second: RareCollectibles_Spriteatlas_O_BigWander_24
+  - first:
+      213: 730920480028177188
+    second: RareCollectibles_Spriteatlas_O_BigWander_25
+  - first:
+      213: -1519306101274897112
+    second: RareCollectibles_Spriteatlas_O_BigWander_26
+  - first:
+      213: 3905751501818840689
+    second: RareCollectibles_Spriteatlas_O_BigWander_27
+  - first:
+      213: 1717212481786359178
+    second: RareCollectibles_Spriteatlas_O_BigWander_28
+  - first:
+      213: -5586470007026425142
+    second: RareCollectibles_Spriteatlas_O_BigWander_29
+  - first:
+      213: 8930707282765082327
+    second: RareCollectibles_Spriteatlas_O_BigWander_30
+  - first:
+      213: 1500896585933872435
+    second: RareCollectibles_Spriteatlas_O_BigWander_31
+  - first:
+      213: -3734967999806579673
+    second: RareCollectibles_Spriteatlas_O_BigWander_32
+  - first:
+      213: -7951286141658829253
+    second: RareCollectibles_Spriteatlas_O_BigWander_33
+  - first:
+      213: 2749226802556391901
+    second: RareCollectibles_Spriteatlas_O_BigWander_34
+  - first:
+      213: -9055416430579629129
+    second: RareCollectibles_Spriteatlas_O_BigWander_35
+  - first:
+      213: -7983884252224848662
+    second: RareCollectibles_Spriteatlas_O_BigWander_36
+  - first:
+      213: 5538260141681429940
+    second: RareCollectibles_Spriteatlas_O_BigWander_37
+  - first:
+      213: -4110866754122872032
+    second: RareCollectibles_Spriteatlas_O_BigWander_38
+  - first:
+      213: -1066947482044913574
+    second: RareCollectibles_Spriteatlas_O_BigWander_39
+  - first:
+      213: -1687179194382275650
+    second: RareCollectibles_Spriteatlas_O_BigWander_40
+  - first:
+      213: -724802179657725495
+    second: RareCollectibles_Spriteatlas_O_BigWander_41
+  - first:
+      213: 4514570438677000017
+    second: RareCollectibles_Spriteatlas_O_BigWander_42
+  - first:
+      213: 1634934814223715897
+    second: RareCollectibles_Spriteatlas_O_BigWander_43
+  - first:
+      213: 8035459459962146324
+    second: RareCollectibles_Spriteatlas_O_BigWander_44
+  - first:
+      213: -4487089080200899481
+    second: RareCollectibles_Spriteatlas_O_BigWander_45
+  - first:
+      213: -4216254307904248379
+    second: RareCollectibles_Spriteatlas_O_BigWander_46
+  - first:
+      213: -6127816210244802438
+    second: RareCollectibles_Spriteatlas_O_BigWander_47
+  - first:
+      213: 8259740917940803402
+    second: RareCollectibles_Spriteatlas_O_BigWander_48
+  - first:
+      213: 7593378427272985646
+    second: RareCollectibles_Spriteatlas_O_BigWander_49
+  - first:
+      213: -8928807030187883578
+    second: RareCollectibles_Spriteatlas_O_BigWander_50
+  - first:
+      213: 2340881636444927372
+    second: RareCollectibles_Spriteatlas_O_BigWander_51
+  - first:
+      213: 3498650322404618396
+    second: RareCollectibles_Spriteatlas_O_BigWander_52
+  - first:
+      213: 2183169835883305122
+    second: RareCollectibles_Spriteatlas_O_BigWander_53
+  - first:
+      213: -8477250408977587952
+    second: RareCollectibles_Spriteatlas_O_BigWander_54
+  - first:
+      213: -6600184664251468532
+    second: RareCollectibles_Spriteatlas_O_BigWander_55
+  - first:
+      213: -2644852417498417464
+    second: RareCollectibles_Spriteatlas_O_BigWander_56
+  - first:
+      213: -1600222662995949946
+    second: RareCollectibles_Spriteatlas_O_BigWander_57
+  - first:
+      213: -9206911661723259880
+    second: RareCollectibles_Spriteatlas_O_BigWander_58
+  - first:
+      213: 3435056610531283184
+    second: RareCollectibles_Spriteatlas_O_BigWander_59
+  - first:
+      213: -6081279599646722081
+    second: RareCollectibles_Spriteatlas_O_BigWander_60
+  - first:
+      213: -4536905188010017700
+    second: RareCollectibles_Spriteatlas_O_BigWander_61
+  - first:
+      213: 2051616239232961391
+    second: RareCollectibles_Spriteatlas_O_BigWander_62
+  - first:
+      213: 2795609848485760129
+    second: RareCollectibles_Spriteatlas_O_BigWander_63
+  - first:
+      213: 1207508076767670700
+    second: RareCollectibles_Spriteatlas_O_BigWander_64
+  - first:
+      213: 6780233006583605753
+    second: RareCollectibles_Spriteatlas_O_BigWander_65
+  - first:
+      213: -5672287948840452350
+    second: RareCollectibles_Spriteatlas_O_BigWander_66
+  - first:
+      213: 833192153532832898
+    second: RareCollectibles_Spriteatlas_O_BigWander_67
+  - first:
+      213: 8993364184753945227
+    second: RareCollectibles_Spriteatlas_O_BigWander_68
+  - first:
+      213: -4332625131628012403
+    second: RareCollectibles_Spriteatlas_O_BigWander_69
+  - first:
+      213: -1840505593074650415
+    second: RareCollectibles_Spriteatlas_O_BigWander_70
+  - first:
+      213: 5591345620426690051
+    second: RareCollectibles_Spriteatlas_O_BigWander_71
+  - first:
+      213: 8821001678362095541
+    second: RareCollectibles_Spriteatlas_O_BigWander_72
+  - first:
+      213: 315465720022693773
+    second: RareCollectibles_Spriteatlas_O_BigWander_73
+  - first:
+      213: 8140378135600188791
+    second: RareCollectibles_Spriteatlas_O_BigWander_74
+  - first:
+      213: 5116372301380284924
+    second: RareCollectibles_Spriteatlas_O_BigWander_75
+  - first:
+      213: -7444247297103485673
+    second: RareCollectibles_Spriteatlas_O_BigWander_76
+  - first:
+      213: -360339284436381932
+    second: RareCollectibles_Spriteatlas_O_BigWander_77
+  - first:
+      213: 5168241645382989440
+    second: RareCollectibles_Spriteatlas_O_BigWander_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f12f685a3664c10800000000000000
+      internalID: 2037425444016496419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee0dfa4766421360800000000000000
+      internalID: 7138845768789331695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 145
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb5183efc42470c0800000000000000
+      internalID: -4578994445835215877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 145
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1200d3da3a624a9f0800000000000000
+      internalID: -458198777656967135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 145
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a5f3e9427a61ac0800000000000000
+      internalID: -3884733852844860836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 146
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f86d2dbc82dc220800000000000000
+      internalID: 2507705423395983245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 147
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11876a1e5a7ba2f0800000000000000
+      internalID: -960539550924963556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 144
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece30112bb0002fa0800000000000000
+      internalID: -5827657114103824690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 145
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad16f44882e67f8a0800000000000000
+      internalID: -6271422835792584230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 143
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ef9add68543e540800000000000000
+      internalID: 5035945253877186187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45fa37cb67cb17b0800000000000000
+      internalID: -5252385274679593649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 129
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c367e4d6a342230800000000000000
+      internalID: 3613077042200198273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32a99f77da9c5000800000000000000
+      internalID: 26065948206801466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 128
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb76897542ed5100800000000000000
+      internalID: 98483554891496418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 131
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d954e2a3c831b24b0800000000000000
+      internalID: -5464252229891504739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 131
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d8344e7078840a0800000000000000
+      internalID: -6897114361353761449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547356fa8c7f2afc0800000000000000
+      internalID: -3484950720323176635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 128
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1571163c3049f71e0800000000000000
+      internalID: -2197875349249779887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 128
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4043500d058f0e40800000000000000
+      internalID: 5624860750495563852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 127
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4596dc98ec42540800000000000000
+      internalID: 4982334179030684879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 95
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc887f32d48ea930800000000000000
+      internalID: 4156405544652410058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e52735ecb694e9a0800000000000000
+      internalID: -6204668648566086168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6679a44df8e64aee0800000000000000
+      internalID: -1250753232481118362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_23
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 114
+        width: 81
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bfd194824be48c0800000000000000
+      internalID: -4013072132822140124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 95
+        width: 66
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d08c67e199eb79f0800000000000000
+      internalID: -469524923267907376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 82
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4233323dd40c42a00800000000000000
+      internalID: 730920480028177188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 82
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8251d6886275aeae0800000000000000
+      internalID: -1519306101274897112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 81
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1764cde1c44043630800000000000000
+      internalID: 3905751501818840689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 79
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d2ebc67a3c4d710800000000000000
+      internalID: 1717212481786359178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 79
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2e0d2802fd872b0800000000000000
+      internalID: -5586470007026425142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 95
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dee43ee4fe30fb70800000000000000
+      internalID: 8930707282765082327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_31
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d5f292e7144d410800000000000000
+      internalID: 1500896585933872435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 95
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cd314946aba2cc0800000000000000
+      internalID: -3734967999806579673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e60f2c16b57a190800000000000000
+      internalID: -7951286141658829253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_34
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 95
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd15b5df537372620800000000000000
+      internalID: 2749226802556391901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_35
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 82
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3c01aebb2b45280800000000000000
+      internalID: -9055416430579629129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 82
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec7d42b29b833190800000000000000
+      internalID: -7983884252224848662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 81
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd40a2814adbdc40800000000000000
+      internalID: 5538260141681429940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 81
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b0b89a77443f6c0800000000000000
+      internalID: -4110866754122872032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_39
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 64
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5827b20be07131f0800000000000000
+      internalID: -1066947482044913574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 64
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb2a66367fe598e0800000000000000
+      internalID: -1687179194382275650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 64
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9821df14cf0f5f0800000000000000
+      internalID: -724802179657725495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_42
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f62de05e9f6ae30800000000000000
+      internalID: 4514570438677000017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_43
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e49b02d8470b610800000000000000
+      internalID: 1634934814223715897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_44
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 64
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e881e1ecfa38f60800000000000000
+      internalID: 8035459459962146324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_45
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 64
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76457135148aab1c0800000000000000
+      internalID: -4487089080200899481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 64
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c528aeab0bdc75c0800000000000000
+      internalID: -4216254307904248379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_47
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 64
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a786a739f9f95faa0800000000000000
+      internalID: -6127816210244802438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_48
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 47
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47de965a9e70a270800000000000000
+      internalID: 8259740917940803402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_49
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 64
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c78bab279116960800000000000000
+      internalID: 7593378427272985646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_50
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 31
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c304a91051861480800000000000000
+      internalID: -8928807030187883578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 64
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85f881227b7c7020800000000000000
+      internalID: 2340881636444927372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_52
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 48
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90bb3c7ee3bd8030800000000000000
+      internalID: 3498650322404618396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_53
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 49
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a81c28166d2c4e10800000000000000
+      internalID: 2183169835883305122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_54
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 48
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0112bdcdaa1ca5a80800000000000000
+      internalID: -8477250408977587952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_55
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 48
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c057f43640f6764a0800000000000000
+      internalID: -6600184664251468532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_56
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 48
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c67ca34db89b4bd0800000000000000
+      internalID: -2644852417498417464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_57
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 48
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686c89267fddac9e0800000000000000
+      internalID: -1600222662995949946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_58
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c659cbf9a7a3080800000000000000
+      internalID: -9206911661723259880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0131e99c5cbaf20800000000000000
+      internalID: 3435056610531283184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd73a339c64fa9ba0800000000000000
+      internalID: -6081279599646722081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_61
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 15
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c3901e4cca901c0800000000000000
+      internalID: -4536905188010017700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b47e2891ec87c10800000000000000
+      internalID: 2051616239232961391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_63
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cc39d68500cc620800000000000000
+      internalID: 2795609848485760129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_64
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1f62bb23ee1c010800000000000000
+      internalID: 1207508076767670700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_65
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f96bcb0ff9381e50800000000000000
+      internalID: 6780233006583605753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_66
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fb2a1e92cf741b0800000000000000
+      internalID: -5672287948840452350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_67
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c97f469d7109b00800000000000000
+      internalID: 833192153532832898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_68
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 16
+        width: 82
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8abaffb319decc70800000000000000
+      internalID: 8993364184753945227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_69
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 15
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cd164e56c6fd3c0800000000000000
+      internalID: -4332625131628012403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_70
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d27aad1ae53576e0800000000000000
+      internalID: -1840505593074650415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e08f1b733789d40800000000000000
+      internalID: 5591345620426690051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfa5e17a4e7a6a70800000000000000
+      internalID: 8821001678362095541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87f3c4a662c06400800000000000000
+      internalID: 315465720022693773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_74
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d4ec5e8ce68f070800000000000000
+      internalID: 8140378135600188791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_75
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf17b6a1081010740800000000000000
+      internalID: 5116372301380284924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_76
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7152cfb4688b0b890800000000000000
+      internalID: -7444247297103485673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_77
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f0d887451dffaf0800000000000000
+      internalID: -360339284436381932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RareCollectibles_Spriteatlas_O_BigWander_78
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086fe6ad46849b740800000000000000
+      internalID: 5168241645382989440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b7684d07fc767428baedd3fcee7b4bdd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RareCollectibles_Spriteatlas_O_BigWander_0: 2037425444016496419
+      RareCollectibles_Spriteatlas_O_BigWander_1: 7138845768789331695
+      RareCollectibles_Spriteatlas_O_BigWander_10: -5252385274679593649
+      RareCollectibles_Spriteatlas_O_BigWander_11: 3613077042200198273
+      RareCollectibles_Spriteatlas_O_BigWander_13: 98483554891496418
+      RareCollectibles_Spriteatlas_O_BigWander_14: -5464252229891504739
+      RareCollectibles_Spriteatlas_O_BigWander_15: -6897114361353761449
+      RareCollectibles_Spriteatlas_O_BigWander_16: -3484950720323176635
+      RareCollectibles_Spriteatlas_O_BigWander_17: -2197875349249779887
+      RareCollectibles_Spriteatlas_O_BigWander_18: 5624860750495563852
+      RareCollectibles_Spriteatlas_O_BigWander_19: 4982334179030684879
+      RareCollectibles_Spriteatlas_O_BigWander_2: -4578994445835215877
+      RareCollectibles_Spriteatlas_O_BigWander_20: 4156405544652410058
+      RareCollectibles_Spriteatlas_O_BigWander_21: -6204668648566086168
+      RareCollectibles_Spriteatlas_O_BigWander_22: -1250753232481118362
+      RareCollectibles_Spriteatlas_O_BigWander_23: -4013072132822140124
+      RareCollectibles_Spriteatlas_O_BigWander_24: -469524923267907376
+      RareCollectibles_Spriteatlas_O_BigWander_25: 730920480028177188
+      RareCollectibles_Spriteatlas_O_BigWander_26: -1519306101274897112
+      RareCollectibles_Spriteatlas_O_BigWander_27: 3905751501818840689
+      RareCollectibles_Spriteatlas_O_BigWander_28: 1717212481786359178
+      RareCollectibles_Spriteatlas_O_BigWander_29: -5586470007026425142
+      RareCollectibles_Spriteatlas_O_BigWander_3: -458198777656967135
+      RareCollectibles_Spriteatlas_O_BigWander_30: 8930707282765082327
+      RareCollectibles_Spriteatlas_O_BigWander_31: 1500896585933872435
+      RareCollectibles_Spriteatlas_O_BigWander_32: -3734967999806579673
+      RareCollectibles_Spriteatlas_O_BigWander_33: -7951286141658829253
+      RareCollectibles_Spriteatlas_O_BigWander_34: 2749226802556391901
+      RareCollectibles_Spriteatlas_O_BigWander_35: -9055416430579629129
+      RareCollectibles_Spriteatlas_O_BigWander_36: -7983884252224848662
+      RareCollectibles_Spriteatlas_O_BigWander_37: 5538260141681429940
+      RareCollectibles_Spriteatlas_O_BigWander_38: -4110866754122872032
+      RareCollectibles_Spriteatlas_O_BigWander_39: -1066947482044913574
+      RareCollectibles_Spriteatlas_O_BigWander_4: -3884733852844860836
+      RareCollectibles_Spriteatlas_O_BigWander_40: -1687179194382275650
+      RareCollectibles_Spriteatlas_O_BigWander_41: -724802179657725495
+      RareCollectibles_Spriteatlas_O_BigWander_42: 4514570438677000017
+      RareCollectibles_Spriteatlas_O_BigWander_43: 1634934814223715897
+      RareCollectibles_Spriteatlas_O_BigWander_44: 8035459459962146324
+      RareCollectibles_Spriteatlas_O_BigWander_45: -4487089080200899481
+      RareCollectibles_Spriteatlas_O_BigWander_46: -4216254307904248379
+      RareCollectibles_Spriteatlas_O_BigWander_47: -6127816210244802438
+      RareCollectibles_Spriteatlas_O_BigWander_48: 8259740917940803402
+      RareCollectibles_Spriteatlas_O_BigWander_49: 7593378427272985646
+      RareCollectibles_Spriteatlas_O_BigWander_5: 2507705423395983245
+      RareCollectibles_Spriteatlas_O_BigWander_50: -8928807030187883578
+      RareCollectibles_Spriteatlas_O_BigWander_51: 2340881636444927372
+      RareCollectibles_Spriteatlas_O_BigWander_52: 3498650322404618396
+      RareCollectibles_Spriteatlas_O_BigWander_53: 2183169835883305122
+      RareCollectibles_Spriteatlas_O_BigWander_54: -8477250408977587952
+      RareCollectibles_Spriteatlas_O_BigWander_55: -6600184664251468532
+      RareCollectibles_Spriteatlas_O_BigWander_56: -2644852417498417464
+      RareCollectibles_Spriteatlas_O_BigWander_57: -1600222662995949946
+      RareCollectibles_Spriteatlas_O_BigWander_58: -9206911661723259880
+      RareCollectibles_Spriteatlas_O_BigWander_59: 3435056610531283184
+      RareCollectibles_Spriteatlas_O_BigWander_6: -960539550924963556
+      RareCollectibles_Spriteatlas_O_BigWander_60: -6081279599646722081
+      RareCollectibles_Spriteatlas_O_BigWander_61: -4536905188010017700
+      RareCollectibles_Spriteatlas_O_BigWander_62: 2051616239232961391
+      RareCollectibles_Spriteatlas_O_BigWander_63: 2795609848485760129
+      RareCollectibles_Spriteatlas_O_BigWander_64: 1207508076767670700
+      RareCollectibles_Spriteatlas_O_BigWander_65: 6780233006583605753
+      RareCollectibles_Spriteatlas_O_BigWander_66: -5672287948840452350
+      RareCollectibles_Spriteatlas_O_BigWander_67: 833192153532832898
+      RareCollectibles_Spriteatlas_O_BigWander_68: 8993364184753945227
+      RareCollectibles_Spriteatlas_O_BigWander_69: -4332625131628012403
+      RareCollectibles_Spriteatlas_O_BigWander_7: -5827657114103824690
+      RareCollectibles_Spriteatlas_O_BigWander_70: -1840505593074650415
+      RareCollectibles_Spriteatlas_O_BigWander_71: 5591345620426690051
+      RareCollectibles_Spriteatlas_O_BigWander_72: 8821001678362095541
+      RareCollectibles_Spriteatlas_O_BigWander_73: 315465720022693773
+      RareCollectibles_Spriteatlas_O_BigWander_74: 8140378135600188791
+      RareCollectibles_Spriteatlas_O_BigWander_75: 5116372301380284924
+      RareCollectibles_Spriteatlas_O_BigWander_76: -7444247297103485673
+      RareCollectibles_Spriteatlas_O_BigWander_77: -360339284436381932
+      RareCollectibles_Spriteatlas_O_BigWander_78: 5168241645382989440
+      RareCollectibles_Spriteatlas_O_BigWander_8: -6271422835792584230
+      RareCollectibles_Spriteatlas_O_BigWander_9: 5035945253877186187
+      mask: 26065948206801466
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -27,6 +27,9 @@ public class PickupAttract : MonoBehaviour
         var floatScript = GetComponent<PickupFloat>();
         if (floatScript != null) floatScript.enabled = false;
 
+        var rareEffect = GetComponent<RareItemEffect>();
+        if (rareEffect != null) rareEffect.enabled = false;
+
         StartCoroutine(AttractRoutine(other.gameObject));
     }
 

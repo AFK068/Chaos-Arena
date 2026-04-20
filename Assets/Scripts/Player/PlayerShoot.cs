@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -19,6 +20,27 @@ public class PlayerShoot : MonoBehaviour
     private bool isShooting = false;
 
     public bool IsShooting => isShooting;
+
+    private bool _fireRageActive;
+    private Coroutine _fireRageCoroutine;
+
+    public void ApplyFireRateBuff(float multiplier, float duration)
+    {
+        if (_fireRageCoroutine != null) StopCoroutine(_fireRageCoroutine);
+        _fireRageCoroutine = StartCoroutine(FireRateRoutine(multiplier, duration));
+    }
+
+    private IEnumerator FireRateRoutine(float multiplier, float duration)
+    {
+        if (!_fireRageActive)
+        {
+            fireRate /= multiplier;
+            _fireRageActive = true;
+        }
+        yield return new WaitForSeconds(duration);
+        fireRate *= multiplier;
+        _fireRageActive = false;
+    }
 
     private void Awake()
     {
