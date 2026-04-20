@@ -8,7 +8,6 @@ public class EnemyDeathNotifier : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (!Application.isQuitting)
-            OnDied?.Invoke();
+        OnDied?.Invoke();
     }
 }

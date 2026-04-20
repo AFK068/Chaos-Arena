@@ -9,6 +9,7 @@ public class FloorNode
     public RoomType type;
     public Vector2Int gridPos;
     public int?[] neighbors = new int?[4]; // индекс по Direction
+    public RoomData data;
 
     public int NeighborCount()
     {
