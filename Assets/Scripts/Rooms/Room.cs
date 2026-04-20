@@ -53,6 +53,8 @@ public class Room : MonoBehaviour
         {
             SetDoorsLocked(true);
             _spawner.Spawn(Node.data, RegisterEnemy);
+            if (_aliveEnemies.Count == 0)
+                ClearRoom();
         }
         // Challenge — очищается через ChallengeGoal.OnReached → OnChallengeGoalReached()
         // Start/Chest/Shop/Empty/Secret — сразу Cleared
