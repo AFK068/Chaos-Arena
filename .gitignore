@@ -103,6 +103,9 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
 
+# ==== Claude Code local context ==== #
+Assets/Scripts/.claude/
+
 # ==== MacOS ==== #
 
 # General
