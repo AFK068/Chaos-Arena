@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float dashDuration = 0.15f;
     [SerializeField] private float dashCooldown = 3f;
     [SerializeField] private int dashCharges = 1;
+    [SerializeField] private int maxDashCharges = 3;
     [SerializeField] private TrailRenderer trail;
 
     private Rigidbody2D _rb;
@@ -29,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool IsDashing => _isDashing;
     public int MaxCharges => dashCharges;
+    public int AbsoluteMaxCharges => maxDashCharges;
     public float[] ChargesCooldownNormalized => _chargesCooldown;
 
     private void Awake()
@@ -63,8 +65,32 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private bool _rageActive;
+    private Coroutine _rageCoroutine;
+
+    public void ApplyRageBuff(float speedMult, float dashMult, float duration)
+    {
+        if (_rageCoroutine != null) StopCoroutine(_rageCoroutine);
+        _rageCoroutine = StartCoroutine(RageBuffRoutine(speedMult, dashMult, duration));
+    }
+
+    private IEnumerator RageBuffRoutine(float speedMult, float dashMult, float duration)
+    {
+        if (!_rageActive)
+        {
+            moveSpeed *= speedMult;
+            dashCooldown /= dashMult;
+            _rageActive = true;
+        }
+        yield return new WaitForSeconds(duration);
+        moveSpeed /= speedMult;
+        dashCooldown *= dashMult;
+        _rageActive = false;
+    }
+
     public void AddDashCharge()
     {
+        if (dashCharges >= maxDashCharges) return;
         dashCharges++;
         _currentCharges++;
         var newCooldowns = new float[dashCharges];

@@ -13,7 +13,10 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float hitFlashDuration = 0.1f;
     [SerializeField] private Color hitFlashColor = new Color(1f, 0.45f, 0.45f, 1f);
 
+    public event System.Action OnDamageTaken;
+
     private int _currentHealth;
+    private float _dodgeChance;
     private Image[] hearts;
     private Color _baseColor;
     private Coroutine _flashCoroutine;
@@ -54,10 +57,18 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    public void AddDodgeChance(float amount)
+    {
+        _dodgeChance = Mathf.Max(_dodgeChance, Mathf.Clamp01(amount));
+    }
+
     public void TakeDamage(int amount)
     {
+        if (_dodgeChance > 0f && Random.value < _dodgeChance) return;
+
         _currentHealth -= Mathf.Max(amount, 0);
         _currentHealth = Mathf.Max(_currentHealth, 0);
+        OnDamageTaken?.Invoke();
         UpdateHearts();
 
         if (playerRenderer != null)
@@ -81,6 +92,21 @@ public class PlayerHealth : MonoBehaviour
     {
         _currentHealth += amount;
         _currentHealth = Mathf.Min(_currentHealth, maxHealth);
+        UpdateHearts();
+    }
+
+    [SerializeField] private int absoluteMaxHealth = 10;
+
+    public void AddMaxHealth(int amount)
+    {
+        if (maxHealth >= absoluteMaxHealth)
+        {
+            Heal(amount);
+            return;
+        }
+        maxHealth = Mathf.Min(maxHealth + amount, absoluteMaxHealth);
+        _currentHealth = Mathf.Min(_currentHealth + amount, maxHealth);
+        GenerateHearts();
         UpdateHearts();
     }
 
