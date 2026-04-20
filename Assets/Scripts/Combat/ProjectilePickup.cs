@@ -5,6 +5,10 @@ public class ProjectilePickup : MonoBehaviour, IInteractable
     [SerializeField] private ProjectileBase projectilePrefab;
     [SerializeField] private SpriteRenderer pickupRenderer;
     [SerializeField] private float pickupCooldown = 0f;
+    [SerializeField] private int price = 0;
+
+    public event System.Action OnPurchased;
+    public void SetPrice(int p) => price = p;
 
     private float _spawnTime;
 
@@ -24,31 +28,27 @@ public class ProjectilePickup : MonoBehaviour, IInteractable
 
     public bool CanInteract(GameObject interactor)
     {
-        if (projectilePrefab == null || interactor == null)
+        if (projectilePrefab == null || interactor == null) return false;
+        if (Time.time < _spawnTime + pickupCooldown) return false;
+        if (!interactor.TryGetComponent<PlayerProjectileLoadout>(out var loadout)) return false;
+        if (!loadout.CanSwapTo(projectilePrefab)) return false;
+        if (price > 0)
         {
-            return false;
+            var wallet = interactor.GetComponent<PlayerWallet>();
+            return wallet != null && wallet.Coins >= price;
         }
-
-        if (Time.time < _spawnTime + pickupCooldown)
-        {
-            return false;
-        }
-
-        if (!interactor.TryGetComponent<PlayerProjectileLoadout>(out var loadout))
-        {
-            return false;
-        }
-
-        return loadout.CanSwapTo(projectilePrefab);
+        return true;
     }
 
     public void Interact(GameObject interactor)
     {
-        if (!interactor.TryGetComponent<PlayerProjectileLoadout>(out var loadout))
+        if (!interactor.TryGetComponent<PlayerProjectileLoadout>(out var loadout)) return;
+        if (price > 0)
         {
-            return;
+            var wallet = interactor.GetComponent<PlayerWallet>();
+            if (wallet == null || !wallet.TrySpend(price)) return;
         }
-
+        OnPurchased?.Invoke();
         loadout.SwapProjectile(projectilePrefab);
         Destroy(gameObject);
     }

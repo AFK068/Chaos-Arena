@@ -178,7 +178,7 @@ MonoBehaviour:
   debuffPower: 0.5
   debuffTickInterval: 0.5
   debuffEffectPrefab: {fileID: 2827190419046451042, guid: 4ed942b8e53a1441eb6b8a2bffc93ac1, type: 3}
-  pickupPrefab: {fileID: 6725619004127860285, guid: 33a7ff2f1697d483d87d15c549db8097, type: 3}
+  pickupPrefab: {fileID: 6725619004127860285, guid: 8c1149b95f282490abd623154dfb88cd, type: 3}
   rotateToDirection: 1
   spriteForwardAngleOffset: 0
 --- !u!95 &4153557294511258877

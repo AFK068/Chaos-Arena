@@ -239,7 +239,7 @@ MonoBehaviour:
   labelText: "Death Mask\\n\\nThey feared what hid beneath.\\nNow something wears
     your face.\\n\\nOn hit: 20% \u2192 Rage 3s\\nSpeed +50%  |  Fire rate x2  | 
     Dash CD /2"
-  offset: {x: 0, y: 1.2, z: 0}
+  offset: {x: 0, y: 1.4, z: 0}
 --- !u!114 &2850388466197509773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,6 +256,7 @@ MonoBehaviour:
   destroyDistance: 0.2
   playerShakeDuration: 0.3
   playerShakeMagnitude: 0.08
+  price: 0
 --- !u!114 &8987042729627545804
 MonoBehaviour:
   m_ObjectHideFlags: 0

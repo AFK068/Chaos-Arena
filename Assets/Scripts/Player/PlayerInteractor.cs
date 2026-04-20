@@ -14,12 +14,15 @@ public class PlayerInteractor : MonoBehaviour
         }
 
         var target = FindBestInteractable();
-        if (target == null)
+        if (target != null)
         {
+            target.Interact(gameObject);
             return;
         }
 
-        target.Interact(gameObject);
+        var nearest = FindNearestInteractable();
+        if (nearest is MonoBehaviour mb)
+            mb.GetComponent<ShopPriceTag>()?.OnCannotAfford();
     }
 
     private IInteractable FindBestInteractable()
@@ -61,6 +64,25 @@ public class PlayerInteractor : MonoBehaviour
             }
         }
 
+        return best;
+    }
+
+    private IInteractable FindNearestInteractable()
+    {
+        var hits = Physics2D.OverlapCircleAll(transform.position, interactRadius, interactLayerMask);
+        IInteractable best = null;
+        var bestDist = float.MaxValue;
+
+        foreach (var hit in hits)
+        {
+            if (hit == null) continue;
+            foreach (var mb in hit.GetComponents<MonoBehaviour>())
+            {
+                if (mb is not IInteractable candidate) continue;
+                var dist = (candidate.GetInteractionPosition() - transform.position).sqrMagnitude;
+                if (dist < bestDist) { bestDist = dist; best = candidate; }
+            }
+        }
         return best;
     }
 

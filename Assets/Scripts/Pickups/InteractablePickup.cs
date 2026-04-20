@@ -7,15 +7,35 @@ public class InteractablePickup : MonoBehaviour, IInteractable
     [SerializeField] private float destroyDistance = 0.2f;
     [SerializeField] private float playerShakeDuration = 0.3f;
     [SerializeField] private float playerShakeMagnitude = 0.08f;
+    [SerializeField] private int price = 0;
+
+    public void SetPrice(int p) => price = p;
+
+    public event System.Action OnPurchased;
 
     private bool _interacted;
 
-    public bool CanInteract(GameObject interactor) => !_interacted;
+    public bool CanInteract(GameObject interactor)
+    {
+        if (_interacted) return false;
+        if (price > 0)
+        {
+            var wallet = interactor.GetComponent<PlayerWallet>();
+            return wallet != null && wallet.Coins >= price;
+        }
+        return true;
+    }
 
     public void Interact(GameObject interactor)
     {
         if (_interacted) return;
+        if (price > 0)
+        {
+            var wallet = interactor.GetComponent<PlayerWallet>();
+            if (wallet == null || !wallet.TrySpend(price)) return;
+        }
         _interacted = true;
+        OnPurchased?.Invoke();
 
         var floatScript = GetComponent<PickupFloat>();
         if (floatScript != null) floatScript.enabled = false;
