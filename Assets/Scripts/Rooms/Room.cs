@@ -60,7 +60,7 @@ public class Room : MonoBehaviour
         // Start/Chest/Shop/Empty/Secret — сразу Cleared
         else if (!needsClearing)
         {
-            State = RoomState.Cleared;
+            ClearRoom();
         }
     }
 

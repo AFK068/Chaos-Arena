@@ -9,6 +9,7 @@ public class FloorManager : MonoBehaviour
     [SerializeField] private RoomDataPool[] floorPools;
     [SerializeField] private CameraFollow cameraFollow;
     [SerializeField] private Transform player;
+    [SerializeField] private MinimapUI minimap;
 
     public int CurrentFloor { get; private set; } = 1;
 
@@ -18,7 +19,9 @@ public class FloorManager : MonoBehaviour
     private bool _transitioning;
 
     private RoomDataPool ActivePool =>
-        floorPools[Mathf.Clamp(CurrentFloor - 1, 0, floorPools.Length - 1)];
+        floorPools != null && floorPools.Length > 0
+            ? floorPools[Mathf.Clamp(CurrentFloor - 1, 0, floorPools.Length - 1)]
+            : null;
 
     private void Awake()
     {
@@ -35,6 +38,8 @@ public class FloorManager : MonoBehaviour
         foreach (var room in _rooms.Values)
             if (room != null) Destroy(room.gameObject);
         _rooms.Clear();
+
+        if (ActivePool == null) { Debug.LogError("FloorManager: назначь хотя бы один пул в floorPools!"); return; }
 
         _nodes = generator.Generate();
 
@@ -54,6 +59,7 @@ public class FloorManager : MonoBehaviour
         }
 
         AstarPath.active.Scan();
+        minimap.BuildMinimap(_nodes);
 
         var startRoom = _rooms[0];
         player.position = startRoom.Center;
@@ -86,6 +92,8 @@ public class FloorManager : MonoBehaviour
     {
         _currentRoom = room;
         room.OnRoomEntered();
+        minimap.RevealRoom(room.Node.id);
+        minimap.SetCurrentRoom(room.Node.id);
     }
 
     private static Vector3 GridToWorld(Vector2Int gridPos) =>
