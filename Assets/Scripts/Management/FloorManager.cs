@@ -48,6 +48,8 @@ public class FloorManager : MonoBehaviour
             _rooms[node.id] = room;
         }
 
+        AstarPath.active.Scan();
+
         var startRoom = _rooms[0];
         player.position = startRoom.Center;
         cameraFollow.SnapToRoom(startRoom.Center);
