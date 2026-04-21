@@ -6,14 +6,19 @@ public class FloorManager : MonoBehaviour
     public static FloorManager Instance { get; private set; }
 
     [SerializeField] private FloorGenerator generator;
-    [SerializeField] private RoomDataPool roomPool;
+    [SerializeField] private RoomDataPool[] floorPools;
     [SerializeField] private CameraFollow cameraFollow;
     [SerializeField] private Transform player;
+
+    public int CurrentFloor { get; private set; } = 1;
 
     private List<FloorNode> _nodes;
     private readonly Dictionary<int, Room> _rooms = new();
     private Room _currentRoom;
     private bool _transitioning;
+
+    private RoomDataPool ActivePool =>
+        floorPools[Mathf.Clamp(CurrentFloor - 1, 0, floorPools.Length - 1)];
 
     private void Awake()
     {
@@ -35,10 +40,10 @@ public class FloorManager : MonoBehaviour
 
         foreach (var node in _nodes)
         {
-            node.data = roomPool.GetRandom(node.type);
+            node.data = ActivePool.GetRandom(node.type);
             if (node.data?.roomPrefab == null)
             {
-                Debug.LogWarning($"FloorManager: нет prefab для типа {node.type}");
+                Debug.LogWarning($"FloorManager: нет prefab для типа {node.type} на этаже {CurrentFloor}");
                 continue;
             }
 
@@ -54,6 +59,12 @@ public class FloorManager : MonoBehaviour
         player.position = startRoom.Center;
         cameraFollow.SnapToRoom(startRoom.Center);
         EnterRoom(startRoom);
+    }
+
+    public void GoToNextFloor()
+    {
+        CurrentFloor++;
+        GenerateFloor();
     }
 
     public void TransitionToRoom(int targetNodeId, Direction fromDirection)
