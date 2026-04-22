@@ -6,6 +6,10 @@ public class SpriteSheetAnimator : MonoBehaviour
     [SerializeField] private float fps = 12f;
     [SerializeField] private bool autoResizeCollider = false;
 
+    public int FrameCount => frames != null ? frames.Length : 0;
+    public float FramesPerSecond => fps;
+    public float AnimationDuration => (fps > 0f && FrameCount > 0) ? FrameCount / fps : 0f;
+
     private SpriteRenderer _renderer;
     private BoxCollider2D _boxCollider;
     private CircleCollider2D _circleCollider;

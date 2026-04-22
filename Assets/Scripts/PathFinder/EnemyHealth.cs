@@ -19,14 +19,18 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     private Coroutine _poisonCoroutine;
     private Coroutine _freezeCoroutine;
     private Coroutine _burnCoroutine;
+    private IDamageable[] _damageReceivers;
     private DebuffVisualHandler _debuffVisuals;
     private EnemyAI _enemyAI;
+    private CacodaemonBoss _cacodaemonBoss;
 
     private void Awake()
     {
         _currentHealth = maxHealth;
+        _damageReceivers = GetComponents<IDamageable>();
         _debuffVisuals = GetComponent<DebuffVisualHandler>();
         _enemyAI = GetComponent<EnemyAI>();
+        _cacodaemonBoss = GetComponent<CacodaemonBoss>();
 
         if (spriteRenderer == null)
         {
@@ -78,6 +82,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
             StartBurn(hitData.DebuffDuration, hitData.DebuffPower, hitData.DebuffTickInterval, hitData.DebuffEffectPrefab);
         }
 
+        NotifyAdditionalDamageReceivers(hitData);
         TakeDamage(hitData.Damage);
     }
 
@@ -115,6 +120,12 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         _debuffVisuals?.HideEffect(DebuffType.Poison);
         _debuffVisuals?.HideEffect(DebuffType.Frozen);
         _debuffVisuals?.HideEffect(DebuffType.Burn);
+
+        if (_cacodaemonBoss != null && _cacodaemonBoss.TryPlayDeathAnimation())
+        {
+            enabled = false;
+            return;
+        }
 
         Destroy(gameObject);
     }
@@ -223,5 +234,24 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         spriteRenderer.color = targetColor;
         yield return new WaitForSeconds(Mathf.Max(duration, 0.01f));
         spriteRenderer.color = _baseColor;
+    }
+
+    private void NotifyAdditionalDamageReceivers(HitData hitData)
+    {
+        if (_damageReceivers == null || _damageReceivers.Length == 0)
+        {
+            return;
+        }
+
+        for (int i = 0; i < _damageReceivers.Length; i++)
+        {
+            var receiver = _damageReceivers[i];
+            if (receiver == null || ReferenceEquals(receiver, this))
+            {
+                continue;
+            }
+
+            receiver.ApplyHit(hitData);
+        }
     }
 }
