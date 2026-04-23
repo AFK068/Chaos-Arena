@@ -43,6 +43,7 @@ public class HulkZBoss : MonoBehaviour, IDamageable
     [Header("Death")]
     [SerializeField] private float deathLingerDuration = 3f;
 
+    [SerializeField] private SpriteRenderer spriteRenderer;
     private SpriteRenderer _sr;
     private Rigidbody2D _rb;
     private AIPath _aiPath;
@@ -64,7 +65,7 @@ public class HulkZBoss : MonoBehaviour, IDamageable
 
     private void Awake()
     {
-        _sr = GetComponent<SpriteRenderer>();
+        _sr = spriteRenderer != null ? spriteRenderer : GetComponent<SpriteRenderer>();
         _rb = GetComponent<Rigidbody2D>();
         _aiPath = GetComponent<AIPath>();
         _enemyAI = GetComponent<EnemyAI>();
@@ -72,6 +73,8 @@ public class HulkZBoss : MonoBehaviour, IDamageable
 
         if (_enemyAI != null) _enemyAI.enabled = false;
         if (_aiAnimationController != null) _aiAnimationController.enabled = false;
+        var animator = GetComponentInChildren<Animator>();
+        if (animator != null) animator.enabled = false;
         if (_rb != null)
         {
             _rb.bodyType = RigidbodyType2D.Dynamic;
@@ -87,6 +90,8 @@ public class HulkZBoss : MonoBehaviour, IDamageable
     private void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        Debug.Log($"[HulkZ] Start — player={_player != null}, sr={_sr != null}, rb={_rb != null}, aiPath={_aiPath != null}");
+        Debug.Log($"[HulkZ] Frames — idle={idleFrames?.Length}, walk={walkFrames?.Length}, attack={attackFrames?.Length}, death={deathFrames?.Length}");
         if (_aiPath != null)
         {
             _aiPath.enabled = true;
@@ -95,10 +100,11 @@ public class HulkZBoss : MonoBehaviour, IDamageable
             _aiPath.maxSpeed = wanderSpeed;
             _aiPath.destination = transform.position;
         }
-        SetFrames(idleFrames);
+        SetFrames(walkFrames);
         _mainRoutine = StartCoroutine(WanderRoutine());
     }
 
+    private int _debugFrameLog;
     private void Update()
     {
         if (_currentFrames == null || _currentFrames.Length == 0 || _currentFps <= 0f) return;
@@ -108,6 +114,9 @@ public class HulkZBoss : MonoBehaviour, IDamageable
             _frameTimer -= 1f / _currentFps;
             _frameIndex = (_frameIndex + 1) % _currentFrames.Length;
             if (_sr != null) _sr.sprite = _currentFrames[_frameIndex];
+            _debugFrameLog++;
+            if (_debugFrameLog % 10 == 0)
+                Debug.Log($"[HulkZ] Frame tick — sr_go={_sr?.gameObject?.name} sprite={_sr?.sprite?.name} idx={_frameIndex}/{_currentFrames.Length}");
         }
     }
 
@@ -128,7 +137,6 @@ public class HulkZBoss : MonoBehaviour, IDamageable
 
     private IEnumerator WanderRoutine()
     {
-        SetFrames(idleFrames);
         float chargeTimer = chargeInterval;
         float trapTimer = 0f;
 
@@ -140,12 +148,11 @@ public class HulkZBoss : MonoBehaviour, IDamageable
 
             if (dist > followStopDistance)
             {
-                SetFrames(walkFrames);
+                if (_contactAnimRoutine == null) SetFrames(walkFrames);
                 MoveTowardsTarget(_player.position, wanderSpeed);
             }
             else
             {
-                SetFrames(idleFrames);
                 StopVelocity();
             }
 
@@ -171,7 +178,8 @@ public class HulkZBoss : MonoBehaviour, IDamageable
     private IEnumerator ChargeRoutine()
     {
         // разгон — стоп, анимация атаки
-        SetFrames(attackFrames);
+        Debug.Log("[HulkZ] ChargeRoutine START — windup");
+        SetFrames(HasFrames(attackFrames) ? attackFrames : idleFrames);
         StopVelocity();
 
         var chargeDir = _player != null
@@ -182,19 +190,24 @@ public class HulkZBoss : MonoBehaviour, IDamageable
         yield return new WaitForSeconds(chargeWindupDuration);
 
         // выключаем A* только на время заряда и задаём velocity каждый фрейм
+        Debug.Log($"[HulkZ] ChargeRoutine — charging dir={chargeDir}");
         if (_aiPath != null) _aiPath.canMove = false;
-        SetFrames(walkFrames);
 
         var chargeStart = transform.position;
         float elapsed = 0f;
+        int loopCount = 0;
         while (elapsed < chargeDuration)
         {
-            if (Vector2.Distance(transform.position, chargeStart) >= chargeMaxDistance) break;
+            float dist = Vector2.Distance(transform.position, chargeStart);
+            if (dist >= chargeMaxDistance) { Debug.Log($"[HulkZ] Charge stopped by distance {dist:F2}"); break; }
             if (_rb != null) _rb.linearVelocity = chargeDir * chargeSpeed;
             elapsed += Time.fixedDeltaTime;
+            loopCount++;
+            if (loopCount % 30 == 0) Debug.Log($"[HulkZ] Charge loop — elapsed={elapsed:F2} pos={transform.position}");
             yield return new WaitForFixedUpdate();
         }
 
+        Debug.Log("[HulkZ] ChargeRoutine END — back to wander");
         if (_rb != null) _rb.linearVelocity = Vector2.zero;
         if (_aiPath != null) _aiPath.canMove = true;
 
@@ -314,6 +327,26 @@ public class HulkZBoss : MonoBehaviour, IDamageable
         if (!other.TryGetComponent<PlayerHealth>(out var ph)) return;
         ph.TakeDamage(contactDamage);
         _nextContactDamageTime = Time.time + Mathf.Max(0.01f, contactDamageCooldown);
+        if (_contactAnimRoutine != null) StopCoroutine(_contactAnimRoutine);
+        _contactAnimRoutine = StartCoroutine(ContactAttackAnim());
+    }
+
+    private Coroutine _contactAnimRoutine;
+
+    private IEnumerator ContactAttackAnim()
+    {
+        if (!HasFrames(attackFrames)) yield break;
+
+        var prev = _currentFrames;
+        var prevFps = _currentFps;
+        SetFrames(attackFrames);
+
+        float duration = attackFrames.Length / (attackFps > 0 ? attackFps : fps);
+        yield return new WaitForSeconds(duration);
+
+        if (!_dead) SetFrames(prev == null || prev.Length == 0 ? idleFrames : prev);
+        _currentFps = prevFps;
+        _contactAnimRoutine = null;
     }
 
     private static bool HasFrames(Sprite[] arr) => arr != null && arr.Length > 0;
