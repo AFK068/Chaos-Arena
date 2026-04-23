@@ -206,6 +206,9 @@ public class HulkZBoss : MonoBehaviour, IDamageable
         _dead = true;
         if (_mainRoutine != null) StopCoroutine(_mainRoutine);
         StopVelocity();
+
+        var shadow = transform.Find("Shadow");
+        if (shadow != null) shadow.gameObject.SetActive(false);
         if (_aiPath != null) _aiPath.enabled = false;
         if (_rb != null) _rb.simulated = false;
         foreach (var col in GetComponents<Collider2D>()) col.enabled = false;
