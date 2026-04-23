@@ -1,0 +1,2158 @@
+fileFormatVersion: 2
+guid: 6d5ef88c024a34d179a38e6c7ee48399
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1520791920264646395
+    second: Spritesheet_TheDarkRitual_BigWander_0
+  - first:
+      213: 217878927799922229
+    second: Spritesheet_TheDarkRitual_BigWander_1
+  - first:
+      213: 2689048667205201879
+    second: Spritesheet_TheDarkRitual_BigWander_2
+  - first:
+      213: -2113359099722831100
+    second: Spritesheet_TheDarkRitual_BigWander_3
+  - first:
+      213: 7399374816447580720
+    second: Spritesheet_TheDarkRitual_BigWander_4
+  - first:
+      213: -267227625944034396
+    second: Spritesheet_TheDarkRitual_BigWander_5
+  - first:
+      213: -2461882150450253011
+    second: Spritesheet_TheDarkRitual_BigWander_6
+  - first:
+      213: -3113513788547770014
+    second: Spritesheet_TheDarkRitual_BigWander_7
+  - first:
+      213: -8694770121201913032
+    second: Spritesheet_TheDarkRitual_BigWander_8
+  - first:
+      213: 4811106320768545318
+    second: Spritesheet_TheDarkRitual_BigWander_9
+  - first:
+      213: 7810876405296571851
+    second: Spritesheet_TheDarkRitual_BigWander_10
+  - first:
+      213: 6617021903070114848
+    second: Spritesheet_TheDarkRitual_BigWander_11
+  - first:
+      213: 6116525514240122234
+    second: Spritesheet_TheDarkRitual_BigWander_12
+  - first:
+      213: -5683174763596746891
+    second: Spritesheet_TheDarkRitual_BigWander_13
+  - first:
+      213: -7996642880349252265
+    second: Spritesheet_TheDarkRitual_BigWander_14
+  - first:
+      213: 4530678211508388187
+    second: Spritesheet_TheDarkRitual_BigWander_15
+  - first:
+      213: 3722688469902789703
+    second: Spritesheet_TheDarkRitual_BigWander_16
+  - first:
+      213: 4361977897939024386
+    second: Spritesheet_TheDarkRitual_BigWander_17
+  - first:
+      213: -6811346877861791073
+    second: Spritesheet_TheDarkRitual_BigWander_18
+  - first:
+      213: -3114188642846971179
+    second: Spritesheet_TheDarkRitual_BigWander_19
+  - first:
+      213: -9179975753006150122
+    second: Spritesheet_TheDarkRitual_BigWander_20
+  - first:
+      213: -76339362290827405
+    second: Spritesheet_TheDarkRitual_BigWander_21
+  - first:
+      213: -4677523532973899598
+    second: Spritesheet_TheDarkRitual_BigWander_22
+  - first:
+      213: -8941042393659937184
+    second: Spritesheet_TheDarkRitual_BigWander_23
+  - first:
+      213: -4736910050356824994
+    second: Spritesheet_TheDarkRitual_BigWander_24
+  - first:
+      213: -8756168614773596261
+    second: Spritesheet_TheDarkRitual_BigWander_25
+  - first:
+      213: 8050936742862883156
+    second: Spritesheet_TheDarkRitual_BigWander_26
+  - first:
+      213: 8974105979428634302
+    second: Spritesheet_TheDarkRitual_BigWander_27
+  - first:
+      213: 1860232838876794884
+    second: Spritesheet_TheDarkRitual_BigWander_28
+  - first:
+      213: 5561529530284026834
+    second: Spritesheet_TheDarkRitual_BigWander_29
+  - first:
+      213: -6133062151913555306
+    second: Spritesheet_TheDarkRitual_BigWander_30
+  - first:
+      213: 7117671277794745314
+    second: Spritesheet_TheDarkRitual_BigWander_31
+  - first:
+      213: 8441705164848705762
+    second: Spritesheet_TheDarkRitual_BigWander_32
+  - first:
+      213: -4773006238815314788
+    second: Spritesheet_TheDarkRitual_BigWander_33
+  - first:
+      213: 7193452507877763851
+    second: Spritesheet_TheDarkRitual_BigWander_34
+  - first:
+      213: -2753942441526210877
+    second: Spritesheet_TheDarkRitual_BigWander_35
+  - first:
+      213: 9072459363722226978
+    second: Spritesheet_TheDarkRitual_BigWander_36
+  - first:
+      213: -502005545884362967
+    second: Spritesheet_TheDarkRitual_BigWander_37
+  - first:
+      213: -1877687605648626798
+    second: Spritesheet_TheDarkRitual_BigWander_38
+  - first:
+      213: 7687241494555668161
+    second: Spritesheet_TheDarkRitual_BigWander_39
+  - first:
+      213: 8104721739424481045
+    second: Spritesheet_TheDarkRitual_BigWander_40
+  - first:
+      213: 3992435392634341292
+    second: Spritesheet_TheDarkRitual_BigWander_41
+  - first:
+      213: -7889424064471543273
+    second: Spritesheet_TheDarkRitual_BigWander_42
+  - first:
+      213: -2997745504064567625
+    second: Spritesheet_TheDarkRitual_BigWander_43
+  - first:
+      213: -3758018056586027328
+    second: Spritesheet_TheDarkRitual_BigWander_44
+  - first:
+      213: -5774114244917839171
+    second: Spritesheet_TheDarkRitual_BigWander_45
+  - first:
+      213: -4642574208604829216
+    second: Spritesheet_TheDarkRitual_BigWander_46
+  - first:
+      213: 2800187047257417983
+    second: Spritesheet_TheDarkRitual_BigWander_47
+  - first:
+      213: -6090756961689659351
+    second: Spritesheet_TheDarkRitual_BigWander_48
+  - first:
+      213: 2973073405375388793
+    second: Spritesheet_TheDarkRitual_BigWander_49
+  - first:
+      213: -489164815061673238
+    second: Spritesheet_TheDarkRitual_BigWander_50
+  - first:
+      213: 4229345379459572513
+    second: Spritesheet_TheDarkRitual_BigWander_51
+  - first:
+      213: -2517911948893531963
+    second: Spritesheet_TheDarkRitual_BigWander_52
+  - first:
+      213: -1931692267140514717
+    second: Spritesheet_TheDarkRitual_BigWander_53
+  - first:
+      213: 6634474753912047221
+    second: Spritesheet_TheDarkRitual_BigWander_54
+  - first:
+      213: -7222232100871639977
+    second: Spritesheet_TheDarkRitual_BigWander_55
+  - first:
+      213: 1744323585142554736
+    second: Spritesheet_TheDarkRitual_BigWander_56
+  - first:
+      213: 8991523581151581934
+    second: Spritesheet_TheDarkRitual_BigWander_57
+  - first:
+      213: -8992015486842139136
+    second: Spritesheet_TheDarkRitual_BigWander_58
+  - first:
+      213: -1596952281160404899
+    second: Spritesheet_TheDarkRitual_BigWander_59
+  - first:
+      213: 3144897058472518214
+    second: Spritesheet_TheDarkRitual_BigWander_60
+  - first:
+      213: -7606882596120440846
+    second: Spritesheet_TheDarkRitual_BigWander_61
+  - first:
+      213: 7519809829430239626
+    second: Spritesheet_TheDarkRitual_BigWander_62
+  - first:
+      213: -6194255884763246339
+    second: Spritesheet_TheDarkRitual_BigWander_63
+  - first:
+      213: 1299220979704961195
+    second: Spritesheet_TheDarkRitual_BigWander_64
+  - first:
+      213: 4000085888245588709
+    second: Spritesheet_TheDarkRitual_BigWander_65
+  - first:
+      213: -4255182125337989821
+    second: Spritesheet_TheDarkRitual_BigWander_66
+  - first:
+      213: 1810815979305695677
+    second: Spritesheet_TheDarkRitual_BigWander_67
+  - first:
+      213: 2669109808809527027
+    second: Spritesheet_TheDarkRitual_BigWander_68
+  - first:
+      213: 7386933999841201718
+    second: Spritesheet_TheDarkRitual_BigWander_69
+  - first:
+      213: 4876946739882568182
+    second: Spritesheet_TheDarkRitual_BigWander_70
+  - first:
+      213: 5995713667215346970
+    second: Spritesheet_TheDarkRitual_BigWander_71
+  - first:
+      213: 5977876755200745853
+    second: Spritesheet_TheDarkRitual_BigWander_72
+  - first:
+      213: 727494713744592435
+    second: Spritesheet_TheDarkRitual_BigWander_73
+  - first:
+      213: 3610971649050074428
+    second: Spritesheet_TheDarkRitual_BigWander_74
+  - first:
+      213: -2219105564481131784
+    second: Spritesheet_TheDarkRitual_BigWander_75
+  - first:
+      213: -7337234432924186610
+    second: Spritesheet_TheDarkRitual_BigWander_76
+  - first:
+      213: 5112305458952080719
+    second: Spritesheet_TheDarkRitual_BigWander_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 113
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50177575ecf05eae0800000000000000
+      internalID: -1520791920264646395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 113
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53eae8ffabf060300800000000000000
+      internalID: 217878927799922229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 113
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfe080048b615520800000000000000
+      internalID: 2689048667205201879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 113
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b6e2a8817dba2e0800000000000000
+      internalID: -2113359099722831100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 113
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a4456213cdfa660800000000000000
+      internalID: 7399374816447580720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 113
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a35f69d3ed9a4cf0800000000000000
+      internalID: -267227625944034396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 113
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23b98f4a33a5ddd0800000000000000
+      internalID: -2461882150450253011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 113
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269545694b39ac4d0800000000000000
+      internalID: -3113513788547770014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 113
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833741244a8f55780800000000000000
+      internalID: -8694770121201913032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 113
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622bb0a55bb74c240800000000000000
+      internalID: 4811106320768545318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5ae22f4bec56c60800000000000000
+      internalID: 7810876405296571851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0243973cc5264db50800000000000000
+      internalID: 6617021903070114848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d55e76c8342e450800000000000000
+      internalID: 6116525514240122234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fe95bc9ae4121b0800000000000000
+      internalID: -5683174763596746891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75550291ba7360190800000000000000
+      internalID: -7996642880349252265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b514f8c24d330ee30800000000000000
+      internalID: 4530678211508388187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c8ff19075a9a330800000000000000
+      internalID: 3722688469902789703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ab2c499cbd88c30800000000000000
+      internalID: 4361977897939024386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9af4174a1c3971a0800000000000000
+      internalID: -6811346877861791073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 96
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5daec83dded28c4d0800000000000000
+      internalID: -3114188642846971179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e8e53b0bc2a9080800000000000000
+      internalID: -9179975753006150122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 69
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f764421c9c0fef0800000000000000
+      internalID: -76339362290827405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b08f8c1129161fb0800000000000000
+      internalID: -4677523532973899598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_23
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 64
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ee03c80590be380800000000000000
+      internalID: -8941042393659937184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 81
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54f08b086d134eb0800000000000000
+      internalID: -4736910050356824994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 67
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fdefa7907db7680800000000000000
+      internalID: -8756168614773596261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 85
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4598b7bdf4caabf60800000000000000
+      internalID: 8050936742862883156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 64
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe7d8867dd6a8c70800000000000000
+      internalID: 8974105979428634302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_28
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 83
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40094c839efd0d910800000000000000
+      internalID: 1860232838876794884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 81
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbac6c34a58e2d40800000000000000
+      internalID: 5561529530284026834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_30
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 81
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69abcc9977cf2eaa0800000000000000
+      internalID: -6133062151913555306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_31
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 81
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebd4fce05c07c260800000000000000
+      internalID: 7117671277794745314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_32
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 81
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e033611f16f62570800000000000000
+      internalID: 8441705164848705762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_33
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 66
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c90b04d10e2cdb0800000000000000
+      internalID: -4773006238815314788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_34
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 67
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b62b081f644d360800000000000000
+      internalID: 7193452507877763851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_35
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 69
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce45f0c0f708c9d0800000000000000
+      internalID: -2753942441526210877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_36
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 68
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d64dd29b9d7ed70800000000000000
+      internalID: 9072459363722226978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_37
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 65
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9275942ad948809f0800000000000000
+      internalID: -502005545884362967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 66
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29be822321d11f5e0800000000000000
+      internalID: -1877687605648626798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_39
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 72
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce22a919619eaa60800000000000000
+      internalID: 7687241494555668161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f38c93b71c97070800000000000000
+      internalID: 8104721739424481045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7caa636daf76730800000000000000
+      internalID: 3992435392634341292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_42
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 32
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71251c20d92238290800000000000000
+      internalID: -7889424064471543273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_43
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 32
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b60537c85ed566d0800000000000000
+      internalID: -2997745504064567625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 49
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce9fa50d76d8dbc0800000000000000
+      internalID: -3758018056586027328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_45
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 35
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba3623dfa93edfa0800000000000000
+      internalID: -5774114244917839171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 53
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e908bcca53429fb0800000000000000
+      internalID: -4642574208604829216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 32
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8ad6098434cd620800000000000000
+      internalID: 2800187047257417983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_48
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 51
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928104540d8497ba0800000000000000
+      internalID: -6090756961689659351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_49
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 48
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c9f8a928a724920800000000000000
+      internalID: 2973073405375388793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_50
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 48
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea11a141332639f0800000000000000
+      internalID: -489164815061673238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_51
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 50
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123a02fe637a1ba30800000000000000
+      internalID: 4229345379459572513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_52
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 52
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c05d764c649e0dd0800000000000000
+      internalID: -2517911948893531963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_53
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 49
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c78b91e104135e0800000000000000
+      internalID: -1931692267140514717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_54
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 32
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576893243a3621c50800000000000000
+      internalID: 6634474753912047221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_55
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 32
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c6f165b2a75cb90800000000000000
+      internalID: -7222232100871639977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_56
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 31
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07002c11f05153810800000000000000
+      internalID: 1744323585142554736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_57
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee69614de0f48cc70800000000000000
+      internalID: 8991523581151581934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_58
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 16
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e86f37e81f53380800000000000000
+      internalID: -8992015486842139136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_59
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 16
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d503f2e7c5c76d9e0800000000000000
+      internalID: -1596952281160404899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voodoo
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 16
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642ec69563be4ab20800000000000000
+      internalID: 3144897058472518214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffc322f49cee6690800000000000000
+      internalID: -7606882596120440846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a812eadb23bbb5860800000000000000
+      internalID: 7519809829430239626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_63
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df050d46715990aa0800000000000000
+      internalID: -6194255884763246339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_64
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 16
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba89c04f892c70210800000000000000
+      internalID: 1299220979704961195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_65
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e26ee70ce8238730800000000000000
+      internalID: 4000085888245588709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_66
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 16
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d23a4e66e82f4c0800000000000000
+      internalID: -4255182125337989821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_67
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 16
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9fd100a8f412910800000000000000
+      internalID: 1810815979305695677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f64a94ca359a0520800000000000000
+      internalID: 2669109808809527027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_69
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e4acfc559a38660800000000000000
+      internalID: 7386933999841201718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_70
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9233388356ea340800000000000000
+      internalID: 4876946739882568182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d435d40dd053350800000000000000
+      internalID: 5995713667215346970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_72
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d712ec89c3fa5f250800000000000000
+      internalID: 5977876755200745853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e88b47694981a00800000000000000
+      internalID: 727494713744592435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dd2a3459fbc1230800000000000000
+      internalID: 3610971649050074428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_75
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa62061f372431e0800000000000000
+      internalID: -2219105564481131784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e080ac75828ec2a90800000000000000
+      internalID: -7337234432924186610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_TheDarkRitual_BigWander_77
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d01209abe82f640800000000000000
+      internalID: 5112305458952080719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4fddbe5c96a2d497a81a50744661b1be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spritesheet_TheDarkRitual_BigWander_0: -1520791920264646395
+      Spritesheet_TheDarkRitual_BigWander_1: 217878927799922229
+      Spritesheet_TheDarkRitual_BigWander_10: 7810876405296571851
+      Spritesheet_TheDarkRitual_BigWander_11: 6617021903070114848
+      Spritesheet_TheDarkRitual_BigWander_12: 6116525514240122234
+      Spritesheet_TheDarkRitual_BigWander_13: -5683174763596746891
+      Spritesheet_TheDarkRitual_BigWander_14: -7996642880349252265
+      Spritesheet_TheDarkRitual_BigWander_15: 4530678211508388187
+      Spritesheet_TheDarkRitual_BigWander_16: 3722688469902789703
+      Spritesheet_TheDarkRitual_BigWander_17: 4361977897939024386
+      Spritesheet_TheDarkRitual_BigWander_18: -6811346877861791073
+      Spritesheet_TheDarkRitual_BigWander_19: -3114188642846971179
+      Spritesheet_TheDarkRitual_BigWander_2: 2689048667205201879
+      Spritesheet_TheDarkRitual_BigWander_20: -9179975753006150122
+      Spritesheet_TheDarkRitual_BigWander_21: -76339362290827405
+      Spritesheet_TheDarkRitual_BigWander_22: -4677523532973899598
+      Spritesheet_TheDarkRitual_BigWander_23: -8941042393659937184
+      Spritesheet_TheDarkRitual_BigWander_24: -4736910050356824994
+      Spritesheet_TheDarkRitual_BigWander_25: -8756168614773596261
+      Spritesheet_TheDarkRitual_BigWander_26: 8050936742862883156
+      Spritesheet_TheDarkRitual_BigWander_27: 8974105979428634302
+      Spritesheet_TheDarkRitual_BigWander_28: 1860232838876794884
+      Spritesheet_TheDarkRitual_BigWander_29: 5561529530284026834
+      Spritesheet_TheDarkRitual_BigWander_3: -2113359099722831100
+      Spritesheet_TheDarkRitual_BigWander_30: -6133062151913555306
+      Spritesheet_TheDarkRitual_BigWander_31: 7117671277794745314
+      Spritesheet_TheDarkRitual_BigWander_32: 8441705164848705762
+      Spritesheet_TheDarkRitual_BigWander_33: -4773006238815314788
+      Spritesheet_TheDarkRitual_BigWander_34: 7193452507877763851
+      Spritesheet_TheDarkRitual_BigWander_35: -2753942441526210877
+      Spritesheet_TheDarkRitual_BigWander_36: 9072459363722226978
+      Spritesheet_TheDarkRitual_BigWander_37: -502005545884362967
+      Spritesheet_TheDarkRitual_BigWander_38: -1877687605648626798
+      Spritesheet_TheDarkRitual_BigWander_39: 7687241494555668161
+      Spritesheet_TheDarkRitual_BigWander_4: 7399374816447580720
+      Spritesheet_TheDarkRitual_BigWander_40: 8104721739424481045
+      Spritesheet_TheDarkRitual_BigWander_41: 3992435392634341292
+      Spritesheet_TheDarkRitual_BigWander_42: -7889424064471543273
+      Spritesheet_TheDarkRitual_BigWander_43: -2997745504064567625
+      Spritesheet_TheDarkRitual_BigWander_44: -3758018056586027328
+      Spritesheet_TheDarkRitual_BigWander_45: -5774114244917839171
+      Spritesheet_TheDarkRitual_BigWander_46: -4642574208604829216
+      Spritesheet_TheDarkRitual_BigWander_47: 2800187047257417983
+      Spritesheet_TheDarkRitual_BigWander_48: -6090756961689659351
+      Spritesheet_TheDarkRitual_BigWander_49: 2973073405375388793
+      Spritesheet_TheDarkRitual_BigWander_5: -267227625944034396
+      Spritesheet_TheDarkRitual_BigWander_50: -489164815061673238
+      Spritesheet_TheDarkRitual_BigWander_51: 4229345379459572513
+      Spritesheet_TheDarkRitual_BigWander_52: -2517911948893531963
+      Spritesheet_TheDarkRitual_BigWander_53: -1931692267140514717
+      Spritesheet_TheDarkRitual_BigWander_54: 6634474753912047221
+      Spritesheet_TheDarkRitual_BigWander_55: -7222232100871639977
+      Spritesheet_TheDarkRitual_BigWander_56: 1744323585142554736
+      Spritesheet_TheDarkRitual_BigWander_57: 8991523581151581934
+      Spritesheet_TheDarkRitual_BigWander_58: -8992015486842139136
+      Spritesheet_TheDarkRitual_BigWander_59: -1596952281160404899
+      Spritesheet_TheDarkRitual_BigWander_6: -2461882150450253011
+      Spritesheet_TheDarkRitual_BigWander_62: 7519809829430239626
+      Spritesheet_TheDarkRitual_BigWander_63: -6194255884763246339
+      Spritesheet_TheDarkRitual_BigWander_64: 1299220979704961195
+      Spritesheet_TheDarkRitual_BigWander_65: 4000085888245588709
+      Spritesheet_TheDarkRitual_BigWander_66: -4255182125337989821
+      Spritesheet_TheDarkRitual_BigWander_67: 1810815979305695677
+      Spritesheet_TheDarkRitual_BigWander_68: 2669109808809527027
+      Spritesheet_TheDarkRitual_BigWander_69: 7386933999841201718
+      Spritesheet_TheDarkRitual_BigWander_7: -3113513788547770014
+      Spritesheet_TheDarkRitual_BigWander_70: 4876946739882568182
+      Spritesheet_TheDarkRitual_BigWander_71: 5995713667215346970
+      Spritesheet_TheDarkRitual_BigWander_72: 5977876755200745853
+      Spritesheet_TheDarkRitual_BigWander_73: 727494713744592435
+      Spritesheet_TheDarkRitual_BigWander_74: 3610971649050074428
+      Spritesheet_TheDarkRitual_BigWander_75: -2219105564481131784
+      Spritesheet_TheDarkRitual_BigWander_76: -7337234432924186610
+      Spritesheet_TheDarkRitual_BigWander_77: 5112305458952080719
+      Spritesheet_TheDarkRitual_BigWander_8: -8694770121201913032
+      Spritesheet_TheDarkRitual_BigWander_9: 4811106320768545318
+      book: -7606882596120440846
+      voodoo: 3144897058472518214
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
