@@ -23,6 +23,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     private DebuffVisualHandler _debuffVisuals;
     private EnemyAI _enemyAI;
     private CacodaemonBoss _cacodaemonBoss;
+    private HulkZBoss _hulkZBoss;
 
     private void Awake()
     {
@@ -31,6 +32,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         _debuffVisuals = GetComponent<DebuffVisualHandler>();
         _enemyAI = GetComponent<EnemyAI>();
         _cacodaemonBoss = GetComponent<CacodaemonBoss>();
+        _hulkZBoss = GetComponent<HulkZBoss>();
 
         if (spriteRenderer == null)
         {
@@ -122,6 +124,12 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         _debuffVisuals?.HideEffect(DebuffType.Burn);
 
         if (_cacodaemonBoss != null && _cacodaemonBoss.TryPlayDeathAnimation())
+        {
+            enabled = false;
+            return;
+        }
+
+        if (_hulkZBoss != null && _hulkZBoss.TryPlayDeathAnimation())
         {
             enabled = false;
             return;
