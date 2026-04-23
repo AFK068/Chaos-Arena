@@ -24,6 +24,7 @@ public class ScrollBuff : MonoBehaviour
     {
         _shoot = GetComponent<PlayerShoot>();
         _shoot.OnProjectileFired += OnProjectileFired;
+        _shoot.ModifyFireRate(2f);
     }
 
     private void OnDestroy()

@@ -853,28 +853,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RareCollectibles_Spriteatlas_O_BigWander_24
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 95
-        width: 66
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d08c67e199eb79f0800000000000000
-      internalID: -469524923267907376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: RareCollectibles_Spriteatlas_O_BigWander_25
       rect:
         serializedVersion: 2
@@ -2084,6 +2062,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: svitok
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799f9f87c76a6492eaebc8523efa6c49
+      internalID: 1884251106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -2178,6 +2178,7 @@ TextureImporter:
       glasses: 2037425444016496419
       mask: 26065948206801466
       ring: 2032377733
+      svitok: 1884251106
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

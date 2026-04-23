@@ -26,6 +26,8 @@ public class PlayerShoot : MonoBehaviour
     private bool _fireRageActive;
     private Coroutine _fireRageCoroutine;
 
+    public void ModifyFireRate(float multiplier) => fireRate *= multiplier;
+
     public void ApplyFireRateBuff(float multiplier, float duration)
     {
         if (_fireRageCoroutine != null) StopCoroutine(_fireRageCoroutine);
