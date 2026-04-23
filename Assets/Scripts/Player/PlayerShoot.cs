@@ -21,6 +21,8 @@ public class PlayerShoot : MonoBehaviour
 
     public bool IsShooting => isShooting;
 
+    public event System.Action<ProjectileBase> OnProjectileFired;
+
     private bool _fireRageActive;
     private Coroutine _fireRageCoroutine;
 
@@ -78,5 +80,6 @@ public class PlayerShoot : MonoBehaviour
 
         ProjectileBase projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
         projectile.Launch(direction);
+        OnProjectileFired?.Invoke(projectile);
     }
 }

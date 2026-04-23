@@ -14,6 +14,10 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private Color hitFlashColor = new Color(1f, 0.45f, 0.45f, 1f);
 
     public event System.Action OnDamageTaken;
+    public event System.Action OnShieldBroken;
+
+    public bool ShieldActive => _shieldActive;
+    private bool _shieldActive;
 
     private int _currentHealth;
     private float _dodgeChance;
@@ -62,8 +66,17 @@ public class PlayerHealth : MonoBehaviour
         _dodgeChance = Mathf.Max(_dodgeChance, Mathf.Clamp01(amount));
     }
 
+    public void GrantShield() => _shieldActive = true;
+    public void RemoveShield() { _shieldActive = false; }
+
     public void TakeDamage(int amount)
     {
+        if (_shieldActive)
+        {
+            _shieldActive = false;
+            OnShieldBroken?.Invoke();
+            return;
+        }
         if (_dodgeChance > 0f && Random.value < _dodgeChance) return;
 
         _currentHealth -= Mathf.Max(amount, 0);

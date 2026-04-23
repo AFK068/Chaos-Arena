@@ -347,15 +347,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RareCollectibles_Spriteatlas_O_BigWander_0
+      name: glasses
       rect:
         serializedVersion: 2
         x: 0
         y: 144
         width: 16
         height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49999994, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -619,7 +619,7 @@ TextureImporter:
         width: 19
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -782,28 +782,6 @@ TextureImporter:
       bones: []
       spriteID: fc4596dc98ec42540800000000000000
       internalID: 4982334179030684879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RareCollectibles_Spriteatlas_O_BigWander_20
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 95
-        width: 17
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: acc887f32d48ea930800000000000000
-      internalID: 4156405544652410058
       vertices: []
       indices: 
       edges: []
@@ -2084,6 +2062,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ring
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 111
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbbbb91c9d864589b1956febba2a672
+      internalID: 2032377733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -2098,7 +2098,6 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RareCollectibles_Spriteatlas_O_BigWander_0: 2037425444016496419
       RareCollectibles_Spriteatlas_O_BigWander_1: 7138845768789331695
       RareCollectibles_Spriteatlas_O_BigWander_10: -5252385274679593649
       RareCollectibles_Spriteatlas_O_BigWander_11: 3613077042200198273
@@ -2176,7 +2175,9 @@ TextureImporter:
       RareCollectibles_Spriteatlas_O_BigWander_78: 5168241645382989440
       RareCollectibles_Spriteatlas_O_BigWander_8: -6271422835792584230
       RareCollectibles_Spriteatlas_O_BigWander_9: 5035945253877186187
+      glasses: 2037425444016496419
       mask: 26065948206801466
+      ring: 2032377733
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
