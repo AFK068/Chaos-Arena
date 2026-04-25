@@ -18,8 +18,10 @@ public class PlayerShoot : MonoBehaviour
     private float fireTimer = 0f;
     private PlayerMovement playerMovement;
     private bool isShooting = false;
+    private float _projectileDamageMultiplier = 1f;
 
     public bool IsShooting => isShooting;
+    public float ProjectileDamageMultiplier => _projectileDamageMultiplier;
 
     public event System.Action<ProjectileBase> OnProjectileFired;
 
@@ -27,6 +29,7 @@ public class PlayerShoot : MonoBehaviour
     private Coroutine _fireRageCoroutine;
 
     public void ModifyFireRate(float multiplier) => fireRate *= multiplier;
+    public void ModifyProjectileDamage(float multiplier) => _projectileDamageMultiplier *= Mathf.Max(0f, multiplier);
 
     public void ApplyFireRateBuff(float multiplier, float duration)
     {
@@ -81,6 +84,7 @@ public class PlayerShoot : MonoBehaviour
         playerMovement?.SetFacingDirection(direction);
 
         ProjectileBase projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+        projectile.ApplyDamageMultiplier(_projectileDamageMultiplier);
         projectile.Launch(direction);
         OnProjectileFired?.Invoke(projectile);
     }

@@ -123,6 +123,16 @@ public class PlayerHealth : MonoBehaviour
         UpdateHearts();
     }
 
+    public void ApplyMaxHealthCap(int cap)
+    {
+        int clampedCap = Mathf.Max(1, cap);
+        absoluteMaxHealth = clampedCap;
+        maxHealth = Mathf.Min(maxHealth, absoluteMaxHealth);
+        _currentHealth = Mathf.Min(_currentHealth, maxHealth);
+        GenerateHearts();
+        UpdateHearts();
+    }
+
     private void UpdateHearts()
     {
         for (int i = 0; i < hearts.Length; i++)

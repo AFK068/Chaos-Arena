@@ -50,6 +50,7 @@ public class ScrollBuff : MonoBehaviour
     private void Spawn(Vector3 pos, Vector2 dir)
     {
         var proj = Instantiate(_shoot.ProjectilePrefab, pos, Quaternion.identity);
+        proj.ApplyDamageMultiplier(_shoot.ProjectileDamageMultiplier);
         proj.Launch(dir);
     }
 }

@@ -21,6 +21,14 @@ public class ProjectileBase : MonoBehaviour
 
     public ProjectilePickup PickupPrefab => pickupPrefab;
 
+    public void ApplyDamageMultiplier(float multiplier)
+    {
+        float validMultiplier = Mathf.Max(0f, multiplier);
+        damage = Mathf.Max(1, Mathf.RoundToInt(damage * validMultiplier));
+        if (debuffPower > 0f)
+            debuffPower *= validMultiplier;
+    }
+
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
