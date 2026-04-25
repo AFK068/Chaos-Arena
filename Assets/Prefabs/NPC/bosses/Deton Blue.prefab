@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f0462ad53644c57856e2a8f89e95f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 20
+  maxHealth: 180
   spriteRenderer: {fileID: 0}
   hitFlashDuration: 0.08
   defaultHitColor: {r: 1, g: 0.45, b: 0.45, a: 1}

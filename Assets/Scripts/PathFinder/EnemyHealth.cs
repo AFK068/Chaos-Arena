@@ -24,6 +24,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     private EnemyAI _enemyAI;
     private CacodaemonBoss _cacodaemonBoss;
     private HulkZBoss _hulkZBoss;
+    private ExperimentZ10Boss _experimentZ10Boss;
 
     private void Awake()
     {
@@ -33,6 +34,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         _enemyAI = GetComponent<EnemyAI>();
         _cacodaemonBoss = GetComponent<CacodaemonBoss>();
         _hulkZBoss = GetComponent<HulkZBoss>();
+        _experimentZ10Boss = GetComponent<ExperimentZ10Boss>();
 
         if (spriteRenderer == null)
         {
@@ -130,6 +132,12 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         }
 
         if (_hulkZBoss != null && _hulkZBoss.TryPlayDeathAnimation())
+        {
+            enabled = false;
+            return;
+        }
+
+        if (_experimentZ10Boss != null && _experimentZ10Boss.TryPlayDeathAnimation())
         {
             enabled = false;
             return;
