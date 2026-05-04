@@ -13,8 +13,11 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float hitFlashDuration = 0.1f;
     [SerializeField] private Color hitFlashColor = new Color(1f, 0.45f, 0.45f, 1f);
 
+    [SerializeField] private float deathDelay = 1.2f;
+
     public event System.Action OnDamageTaken;
     public event System.Action OnShieldBroken;
+    public event System.Action OnPlayerDied;
 
     public bool ShieldActive => _shieldActive;
     private bool _shieldActive;
@@ -25,6 +28,7 @@ public class PlayerHealth : MonoBehaviour
     private Color _baseColor;
     private Coroutine _flashCoroutine;
     private Coroutine _shakeCoroutine;
+    private bool _isDead;
 
     void Start()
     {
@@ -71,6 +75,8 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
+        if (_isDead) return;
+
         if (_shieldActive)
         {
             _shieldActive = false;
@@ -97,8 +103,38 @@ public class PlayerHealth : MonoBehaviour
 
         if (_currentHealth == 0)
         {
-            Debug.LogWarning("TODO: Add player death logic when HP reaches 0.");
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        _isDead = true;
+        OnPlayerDied?.Invoke();
+
+        var input = GetComponent<UnityEngine.InputSystem.PlayerInput>();
+        if (input != null) input.enabled = false;
+
+        var movement = GetComponent<PlayerMovement>();
+        if (movement != null) movement.enabled = false;
+
+        var shoot = GetComponent<PlayerShoot>();
+        if (shoot != null) shoot.enabled = false;
+
+        var rb = GetComponent<Rigidbody2D>();
+        if (rb != null) rb.linearVelocity = Vector2.zero;
+
+        StartCoroutine(DeathRoutine());
+    }
+
+    private IEnumerator DeathRoutine()
+    {
+        yield return new WaitForSeconds(deathDelay);
+
+        if (GameManager.Instance != null)
+            GameManager.Instance.GoToGameOver();
+        else
+            UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
     }
 
     public void Heal(int amount)
