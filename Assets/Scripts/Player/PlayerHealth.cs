@@ -130,11 +130,7 @@ public class PlayerHealth : MonoBehaviour
     private IEnumerator DeathRoutine()
     {
         yield return new WaitForSeconds(deathDelay);
-
-        if (GameManager.Instance != null)
-            GameManager.Instance.GoToGameOver();
-        else
-            UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+        GameManager.Instance.GoToGameOver();
     }
 
     public void Heal(int amount)

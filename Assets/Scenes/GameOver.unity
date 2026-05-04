@@ -456,8 +456,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684d42182250f449199010f0f94291af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOverUI
-  gameplayScene: Gameplay
-  mainMenuScene: MainMenu
 --- !u!1 &548264634
 GameObject:
   m_ObjectHideFlags: 0

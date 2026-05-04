@@ -9,6 +9,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string mainMenuScene = "MainMenu";
     [SerializeField] private string gameOverScene  = "GameOver";
 
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    private static void Bootstrap()
+    {
+        if (Instance != null) return;
+        var go = new GameObject(nameof(GameManager));
+        go.AddComponent<GameManager>();
+    }
+
     private void Awake()
     {
         if (Instance != null) { Destroy(gameObject); return; }
