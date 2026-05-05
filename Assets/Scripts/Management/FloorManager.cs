@@ -70,6 +70,7 @@ public class FloorManager : MonoBehaviour
     public void GoToNextFloor()
     {
         CurrentFloor++;
+        GameManager.Instance.CurrentRun.Floor = CurrentFloor;
         GenerateFloor();
     }
 

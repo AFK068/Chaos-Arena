@@ -103,6 +103,8 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 
     private void Die()
     {
+        GetComponent<EnemyDeathNotifier>()?.Notify();
+
         if (_poisonCoroutine != null)
         {
             StopCoroutine(_poisonCoroutine);

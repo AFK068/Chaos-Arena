@@ -1,13 +1,17 @@
 using UnityEngine;
 
 // RoomSpawner вешает этот компонент на каждого заспавненного врага.
-// Room подписывается на OnDied чтобы считать убийства.
+// Room подписывается на OnDied чтобы считать живых в комнате.
+// EnemyHealth.Die() вызывает Notify() — это единственный валидный путь смерти,
+// чтобы выгрузка сцены не считалась за убийство.
 public class EnemyDeathNotifier : MonoBehaviour
 {
     public System.Action OnDied;
+    public static System.Action OnAnyEnemyKilled;
 
-    private void OnDestroy()
+    public void Notify()
     {
         OnDied?.Invoke();
+        OnAnyEnemyKilled?.Invoke();
     }
 }

@@ -112,6 +112,10 @@ public class PlayerHealth : MonoBehaviour
         _isDead = true;
         OnPlayerDied?.Invoke();
 
+        var wallet = GetComponent<PlayerWallet>();
+        if (wallet != null)
+            GameManager.Instance.CurrentRun.Coins = wallet.Coins;
+
         var input = GetComponent<UnityEngine.InputSystem.PlayerInput>();
         if (input != null) input.enabled = false;
 
