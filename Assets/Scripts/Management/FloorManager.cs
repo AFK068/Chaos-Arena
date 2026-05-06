@@ -11,6 +11,10 @@ public class FloorManager : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private MinimapUI minimap;
 
+    [SerializeField] private GameObject portalPrefab;
+
+    public GameObject PortalPrefab => portalPrefab;
+
     public int CurrentFloor { get; private set; } = 1;
 
     private List<FloorNode> _nodes;

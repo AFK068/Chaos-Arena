@@ -83,6 +83,38 @@ public class Room : MonoBehaviour
     {
         State = RoomState.Cleared;
         SetDoorsLocked(false);
+
+        if (Node.type == RoomType.Boss)
+            SpawnBossLoot();
+    }
+
+    private void SpawnBossLoot()
+    {
+        var portal = FloorManager.Instance.PortalPrefab;
+        if (portal != null)
+            Instantiate(portal, Center, Quaternion.identity);
+
+        var pool = Node.data.bossDropPool;
+        if (pool == null || pool.Length == 0) return;
+
+        int count = Mathf.Max(0, Node.data.bossDropCount);
+        float startAngle = Random.Range(0f, 360f);
+        const float radius = 1.5f;
+        const float duration = 0.5f;
+
+        for (int i = 0; i < count; i++)
+        {
+            var prefab = pool[Random.Range(0, pool.Length)];
+            if (prefab == null) continue;
+
+            float angle = (startAngle + i * (360f / count)) * Mathf.Deg2Rad;
+            var target = Center + new Vector3(Mathf.Cos(angle) * radius, Mathf.Sin(angle) * radius, 0f);
+
+            var instance = Instantiate(prefab, Center, Quaternion.identity);
+            var drop = instance.GetComponent<ItemDrop>();
+            if (drop == null) drop = instance.AddComponent<ItemDrop>();
+            drop.Throw(target, duration);
+        }
     }
 
     private void SetDoorsLocked(bool locked)
