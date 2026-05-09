@@ -247,7 +247,7 @@ MonoBehaviour:
   aggroRange: 10
   player: {fileID: 0}
   patrolSpeed: 2
-  chaseSpeed: 3
+  chaseSpeed: 4
   canLeavePatrolArea: 0
   patrolRadius: 5
   contactDamage: 1
