@@ -24,7 +24,7 @@ public class FloorGenerator
         new RoomTypeWeight { type = RoomType.Gauntlet,  weight = 15 },
     };
 
-    public List<FloorNode> Generate()
+    public List<FloorNode> Generate(RoomDataPool pool)
     {
         var nodes = new List<FloorNode>();
         var grid = new Dictionary<Vector2Int, int>();
@@ -61,11 +61,11 @@ public class FloorGenerator
             current = next;
         }
 
-        AssignSpecialRooms(nodes);
+        AssignSpecialRooms(nodes, pool);
         return nodes;
     }
 
-    private void AssignSpecialRooms(List<FloorNode> nodes)
+    private void AssignSpecialRooms(List<FloorNode> nodes, RoomDataPool pool)
     {
         var distances = BfsDistances(nodes, startId: 0);
 
@@ -83,29 +83,34 @@ public class FloorGenerator
             deadEnds.RemoveAt(0);
         }
 
-        // Остальные тупики — взвешенный рандом
+        // Остальные тупики — взвешенный рандом, только из типов с непустым пулом
         foreach (var n in deadEnds)
-            n.type = SelectWeighted(deadEndWeights);
+            n.type = SelectWeighted(deadEndWeights, pool);
 
-        // Проходные комнаты — взвешенный рандом
+        // Проходные комнаты — взвешенный рандом, только из типов с непустым пулом
         foreach (var n in nodes)
             if (n.type == RoomType.Normal && n.NeighborCount() > 1)
-                n.type = SelectWeighted(throughRoomWeights);
+                n.type = SelectWeighted(throughRoomWeights, pool);
     }
 
-    private static RoomType SelectWeighted(RoomTypeWeight[] weights)
+    private static RoomType SelectWeighted(RoomTypeWeight[] weights, RoomDataPool pool)
     {
         float total = 0f;
-        foreach (var w in weights) total += w.weight;
+        foreach (var w in weights)
+            if (pool == null || pool.HasContent(w.type))
+                total += w.weight;
+
+        if (total <= 0f) return RoomType.Normal;
 
         float roll = Random.Range(0f, total);
         float cumulative = 0f;
         foreach (var w in weights)
         {
+            if (pool != null && !pool.HasContent(w.type)) continue;
             cumulative += w.weight;
             if (roll <= cumulative) return w.type;
         }
-        return weights[weights.Length - 1].type;
+        return RoomType.Normal;
     }
 
     private static int[] BfsDistances(List<FloorNode> nodes, int startId)

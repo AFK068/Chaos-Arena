@@ -45,7 +45,7 @@ public class FloorManager : MonoBehaviour
 
         if (ActivePool == null) { Debug.LogError("FloorManager: назначь хотя бы один пул в floorPools!"); return; }
 
-        _nodes = generator.Generate();
+        _nodes = generator.Generate(ActivePool);
 
         foreach (var node in _nodes)
         {

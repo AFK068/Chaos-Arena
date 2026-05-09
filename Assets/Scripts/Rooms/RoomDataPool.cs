@@ -30,6 +30,25 @@ public class RoomDataPool : ScriptableObject
         };
     }
 
+    public bool HasContent(RoomType type)
+    {
+        return type switch
+        {
+            RoomType.Start     => startRoom != null,
+            RoomType.Normal    => HasAny(normalRooms),
+            RoomType.Challenge => HasAny(challengeRooms),
+            RoomType.Gauntlet  => HasAny(gauntletRooms),
+            RoomType.Chest     => HasAny(chestRooms),
+            RoomType.Shop      => HasAny(shopRooms),
+            RoomType.Secret    => HasAny(secretRooms),
+            RoomType.Boss      => HasAny(bossRooms),
+            RoomType.Empty     => HasAny(emptyRooms),
+            _                  => false
+        };
+    }
+
+    private static bool HasAny(RoomData[] pool) => pool != null && pool.Length > 0;
+
     private static RoomData PickRandom(RoomData[] pool)
     {
         if (pool == null || pool.Length == 0)
