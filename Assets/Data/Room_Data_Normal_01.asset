@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Room_Data_Normal_01
   m_EditorClassIdentifier: Assembly-CSharp::RoomData
   type: 1
-  roomPrefab: {fileID: 3058668947987505461, guid: ad2535077fd8949588eaafee848e785c, type: 3}
+  roomPrefab: {fileID: 3058668947987505461, guid: bf13277843839478d971dbcfbe6a4710, type: 3}
   enemies: []
   chestCount: 1
+  bossDropPool: []
+  bossDropCount: 1

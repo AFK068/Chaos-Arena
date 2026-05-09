@@ -539,6 +539,7 @@ MonoBehaviour:
   cameraFollow: {fileID: 519420033}
   player: {fileID: 1867968312}
   minimap: {fileID: 707387648}
+  portalPrefab: {fileID: 0}
 --- !u!4 &482682038
 Transform:
   m_ObjectHideFlags: 0
