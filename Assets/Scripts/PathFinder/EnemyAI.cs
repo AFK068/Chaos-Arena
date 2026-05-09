@@ -33,6 +33,10 @@ public class EnemyAI : MonoBehaviour
         spawnPoint = transform.position;
         aiPath.maxSpeed = patrolSpeed;
 
+        int floor = FloorManager.Instance != null ? FloorManager.Instance.CurrentFloor : 1;
+        bool isBoss = DifficultyScaler.IsBoss(gameObject);
+        contactDamage = DifficultyScaler.ScaleDamage(contactDamage, floor, isBoss);
+
         if (player == null)
         {
             player = GameObject.FindGameObjectWithTag("Player").transform;

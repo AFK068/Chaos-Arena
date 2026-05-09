@@ -28,6 +28,10 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 
     private void Awake()
     {
+        int floor = FloorManager.Instance != null ? FloorManager.Instance.CurrentFloor : 1;
+        bool isBoss = DifficultyScaler.IsBoss(gameObject);
+        maxHealth = DifficultyScaler.ScaleHp(maxHealth, floor, isBoss);
+
         _currentHealth = maxHealth;
         _damageReceivers = GetComponents<IDamageable>();
         _debuffVisuals = GetComponent<DebuffVisualHandler>();
