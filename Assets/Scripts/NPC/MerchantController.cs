@@ -10,6 +10,11 @@ public class MerchantController : MonoBehaviour
     [Header("Additional Item Pool")]
     [SerializeField] private List<GameObject> additionalItemPool = new();
 
+    [Header("Prices")]
+    [SerializeField] private int expensiveItemPrice = 12;
+    [SerializeField] private int cheapItemPrice = 8;
+    [SerializeField] private int additionalItemPrice = 4;
+
     [Header("Shop")]
     [SerializeField] private GameObject coinPrefab;
     [SerializeField] private int coinsPerPurchase = 5;
@@ -60,15 +65,9 @@ public class MerchantController : MonoBehaviour
 
     private void SpawnItems()
     {
-        var playerGo = GameObject.FindGameObjectWithTag("Player");
-        var wallet = playerGo?.GetComponent<PlayerWallet>();
-
-        int coins = wallet != null ? wallet.Coins : 10;
-
-        // Цены: дорогой 65%, дешёвый 50%, дополнительный 35%
-        int expensivePrice = Mathf.Max(5, Mathf.CeilToInt(coins * 0.65f));
-        int cheapPrice     = Mathf.Max(3, Mathf.CeilToInt(coins * 0.50f));
-        int additionalPrice = Mathf.Max(2, Mathf.CeilToInt(coins * 0.35f));
+        int expensivePrice = expensiveItemPrice;
+        int cheapPrice = cheapItemPrice;
+        int additionalPrice = additionalItemPrice;
 
         // Пул без уже купленных
         var inventory = GameManager.Instance?.PlayerInventory;

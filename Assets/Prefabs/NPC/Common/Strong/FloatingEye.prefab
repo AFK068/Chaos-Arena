@@ -109,6 +109,8 @@ GameObject:
   - component: {fileID: 8328725583940298074}
   - component: {fileID: 4337607468995706114}
   - component: {fileID: 3730432508048742734}
+  - component: {fileID: -2230236276030769343}
+  - component: {fileID: -949864770262335497}
   m_Layer: 0
   m_Name: FloatingEye
   m_TagString: Untagged
@@ -366,6 +368,7 @@ MonoBehaviour:
   burnHitColor: {r: 1, g: 0.4, b: 0, a: 1}
   freezeSlowMultiplier: 0.3
   poisonSlowMultiplier: 0.7
+  debuffTintStrength: 0.35
 --- !u!114 &4337607468995706114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,3 +400,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 909242003059c4062a11900ae9a10945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AIAnimationController
+--- !u!114 &-2230236276030769343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7872169323958364801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1484ce070e9c4ac3950d1ee255cbc7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoinDrop
+  dropChance: 0.45
+  spawnRadius: 0.3
+--- !u!114 &-949864770262335497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7872169323958364801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb13497cb7e54b0687a509945564c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDeathEffect
