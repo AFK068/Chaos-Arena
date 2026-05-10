@@ -44,9 +44,9 @@ GameObject:
   - component: {fileID: 4161935388550095344}
   - component: {fileID: 3649792479787937352}
   - component: {fileID: 7898512758870045603}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DoorEast
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -249,9 +249,9 @@ GameObject:
   - component: {fileID: 7041127531399856786}
   - component: {fileID: 4641691858374018510}
   - component: {fileID: 6826321667194742132}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DoorWest
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 6698704352294231706}
   m_Layer: 3
   m_Name: Wall2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -795,9 +795,9 @@ GameObject:
   - component: {fileID: 8163958692739229981}
   - component: {fileID: 958924217032338762}
   - component: {fileID: 4237535875705201128}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DoorSouth
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1125,6 +1125,7 @@ MonoBehaviour:
   - {fileID: 6429787464705125640}
   - {fileID: 2551099646729212053}
   - {fileID: 1001234338883669890}
+  positionJitter: 0.3
 --- !u!1 &3135508678410979586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +1170,7 @@ GameObject:
   - component: {fileID: 2639457991473885422}
   m_Layer: 3
   m_Name: Wall3
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1336,7 +1337,7 @@ GameObject:
   - component: {fileID: 4014033478722084209}
   m_Layer: 0
   m_Name: Doors
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1526,7 +1527,7 @@ GameObject:
   - component: {fileID: 6305358284898369728}
   m_Layer: 3
   m_Name: Wall1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1663,7 +1664,7 @@ GameObject:
   - component: {fileID: 1105795289047383678}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1930,9 +1931,9 @@ GameObject:
   - component: {fileID: 1846882160219477717}
   - component: {fileID: 1679708230107756493}
   - component: {fileID: 5755724419489255946}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DoorNorth
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2288,7 +2289,7 @@ GameObject:
   - component: {fileID: 7862272061765195897}
   m_Layer: 3
   m_Name: Wall4
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

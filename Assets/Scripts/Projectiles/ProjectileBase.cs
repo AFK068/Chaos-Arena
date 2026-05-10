@@ -73,14 +73,19 @@ public class ProjectileBase : MonoBehaviour
             return;
         }
 
-        if (!other.TryGetComponent<IDamageable>(out var damageable))
+        if (other.TryGetComponent<IDamageable>(out var damageable))
         {
+            _hasHit = true;
+            var hitData = new HitData(damage, debuffType, debuffDuration, debuffPower, debuffTickInterval, debuffEffectPrefab);
+            damageable.ApplyHit(hitData);
+            Destroy(gameObject);
             return;
         }
 
-        _hasHit = true;
-        var hitData = new HitData(damage, debuffType, debuffDuration, debuffPower, debuffTickInterval, debuffEffectPrefab);
-        damageable.ApplyHit(hitData);
-        Destroy(gameObject);
+        if (other.CompareTag("Wall"))
+        {
+            _hasHit = true;
+            Destroy(gameObject);
+        }
     }
 }

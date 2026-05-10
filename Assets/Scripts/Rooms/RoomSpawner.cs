@@ -72,6 +72,10 @@ public class RoomSpawner : MonoBehaviour
 
         var enemy = Instantiate(prefab, basePos + jitter, Quaternion.identity);
         var notifier = enemy.AddComponent<EnemyDeathNotifier>();
+
+        var ai = enemy.GetComponent<EnemyAI>();
+        if (ai != null) ai.alwaysChase = true;
+
         onEnemySpawned(notifier);
     }
 }

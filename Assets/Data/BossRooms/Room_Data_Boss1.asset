@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Room_Data_Boss1
   m_EditorClassIdentifier: Assembly-CSharp::RoomData
   type: 7
-  roomPrefab: {fileID: 3058668947987505461, guid: f1d04aa4fc1c74651a757c446fdbea83, type: 3}
+  roomPrefab: {fileID: 3058668947987505461, guid: bf13277843839478d971dbcfbe6a4710, type: 3}
   enemyPool: []
   minCount: 1
   maxCount: 3
