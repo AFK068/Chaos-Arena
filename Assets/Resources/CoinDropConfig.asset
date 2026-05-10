@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c77652b4fe84eeaaf6bec3b96a4801, type: 3}
   m_Name: CoinDropConfig
   m_EditorClassIdentifier: Assembly-CSharp::CoinDropConfig
-  dropChance: 0.25
+  dropChance: 0.4
   coinPool:
   - prefab: {fileID: 7351263101010314638, guid: 0a23db569f93b47e99e8a1a3396ec8e9, type: 3}
     weight: 0.8

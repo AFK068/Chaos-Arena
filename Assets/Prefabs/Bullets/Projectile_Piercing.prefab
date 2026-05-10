@@ -181,6 +181,7 @@ MonoBehaviour:
   pickupPrefab: {fileID: 6725619004127860285, guid: 33a7ff2f1697d483d87d15c549db8097, type: 3}
   rotateToDirection: 1
   spriteForwardAngleOffset: 0
+  piercing: 1
 --- !u!114 &-6933720836732030845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,3 +227,4 @@ MonoBehaviour:
   - {fileID: -8038976213705442086, guid: 109bc8afc468243a49c65fb553962d8a, type: 3}
   fps: 24
   autoResizeCollider: 0
+  destroyAfterPlay: 0

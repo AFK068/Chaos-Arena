@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: -6927740455700311194}
   - component: {fileID: 166482588693554979}
   - component: {fileID: 5536446663019517481}
+  - component: {fileID: 126743098296902249}
   m_Layer: 0
   m_Name: Frank Blue
   m_TagString: Untagged
@@ -310,6 +311,7 @@ MonoBehaviour:
   burnHitColor: {r: 1, g: 0.4, b: 0, a: 1}
   freezeSlowMultiplier: 0.3
   poisonSlowMultiplier: 0.7
+  debuffTintStrength: 0.35
 --- !u!114 &5536446663019517481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,6 +329,26 @@ MonoBehaviour:
     prefab: {fileID: 1022105811692557038, guid: f0fef14951f0a4b18881469215d007d6, type: 3}
     offset: {x: 0, y: -0.8}
     scale: {x: 6, y: 5}
+--- !u!114 &126743098296902249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3323176362265702555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1014c89d1e1a4d3a840153027e953d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossTrapSpawner
+  trapPrefabs:
+  - {fileID: 2279592339674409845, guid: d1ec69e7191064663b4ba8cc0eabe6b6, type: 3}
+  - {fileID: 6624400396733689126, guid: 8509152c0d9aa487dbfe25ded7db5cfd, type: 3}
+  - {fileID: 6968968463223210398, guid: eb69df8be2cfc41eebf666a1fa2e9a9d, type: 3}
+  spawnInterval: 2
+  spawnRadius: 0.8
+  armDelay: 0.3
+  warnDelay: 0.8
 --- !u!1 &5421945258416678252
 GameObject:
   m_ObjectHideFlags: 0

@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8865213299799223759}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 1.94389, y: -0.08209, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &6342974358998662344
 SpriteRenderer:
   serializedVersion: 2
@@ -235,6 +235,7 @@ MonoBehaviour:
   - {fileID: 4061664550933521935, guid: 8b6610b1bd2db4fad894b54121efbd9c, type: 3}
   fps: 12
   autoResizeCollider: 1
+  destroyAfterPlay: 0
 --- !u!114 &1532225508266299593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,4 +249,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardZone
   damage: 1
+  armDelay: 0
   damageCooldown: 0.8
+  autoDestroyAfterAnimation: 1
+  fallbackLifetime: 2
+  postArmLifetime: 0.5

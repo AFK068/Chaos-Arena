@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -15,9 +16,11 @@ public class ProjectileBase : MonoBehaviour
     [SerializeField] private ProjectilePickup pickupPrefab;
     [SerializeField] private bool rotateToDirection = false;
     [SerializeField] private float spriteForwardAngleOffset = 0f;
+    [SerializeField] private bool piercing = false;
 
     protected Rigidbody2D rb;
     private bool _hasHit;
+    private readonly HashSet<Collider2D> _hitColliders = new();
 
     public ProjectilePickup PickupPrefab => pickupPrefab;
 
@@ -68,17 +71,18 @@ public class ProjectileBase : MonoBehaviour
 
     private void TryApplyHit(Collider2D other)
     {
-        if (_hasHit || other == null)
-        {
-            return;
-        }
+        if (_hasHit || other == null || _hitColliders.Contains(other)) return;
 
         if (other.TryGetComponent<IDamageable>(out var damageable))
         {
-            _hasHit = true;
+            _hitColliders.Add(other);
             var hitData = new HitData(damage, debuffType, debuffDuration, debuffPower, debuffTickInterval, debuffEffectPrefab);
             damageable.ApplyHit(hitData);
-            Destroy(gameObject);
+            if (!piercing)
+            {
+                _hasHit = true;
+                Destroy(gameObject);
+            }
             return;
         }
 
