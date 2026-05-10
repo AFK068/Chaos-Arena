@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 3922138093251318618}
   - component: {fileID: 224151809391751117}
   - component: {fileID: 5294374401532801025}
+  - component: {fileID: 3148197107275840605}
   m_Layer: 0
   m_Name: PickupFullHeart
   m_TagString: Untagged
@@ -272,3 +273,19 @@ MonoBehaviour:
   - {fileID: 3442932681371584229, guid: 0b1b4b0184ece44009aa0aecf843f0a0, type: 3}
   fps: 6
   autoResizeCollider: 0
+  destroyAfterPlay: 0
+--- !u!114 &3148197107275840605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8895093136567177330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  labelText: A Full Heart\n\nSomeone left this behind.\nTheir loss, your gain.\n\nRestores
+    one full heart
+  offset: {x: 0, y: 1.2, z: 0}

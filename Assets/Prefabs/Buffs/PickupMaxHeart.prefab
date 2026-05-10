@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5706531578907071279}
   - component: {fileID: 8171465295293406759}
   - component: {fileID: 1078414041675523649}
+  - component: {fileID: -5749673369187148912}
   m_Layer: 0
   m_Name: PickupMaxHeart
   m_TagString: Untagged
@@ -168,6 +169,7 @@ MonoBehaviour:
   - {fileID: 1806020472510520511, guid: 0b1b4b0184ece44009aa0aecf843f0a0, type: 3}
   fps: 6
   autoResizeCollider: 0
+  destroyAfterPlay: 0
 --- !u!114 &1078414041675523649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,6 +183,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MaxHealthPickup
   amount: 2
+--- !u!114 &-5749673369187148912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2494308995940708507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  labelText: 'Room for More\n\nThe body adapts.\nSo does the will to survive.\n\nPermanently
+    increases max health\n(default: 5 hearts)'
+  offset: {x: 0, y: 1.2, z: 0}
 --- !u!1 &3818856488849226080
 GameObject:
   m_ObjectHideFlags: 0
