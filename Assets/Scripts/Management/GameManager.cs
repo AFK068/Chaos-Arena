@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string gameOverScene  = "GameOver";
 
     public RunStats CurrentRun { get; } = new RunStats();
+    public HashSet<string> PlayerInventory { get; } = new();
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void Bootstrap()
@@ -36,12 +38,14 @@ public class GameManager : MonoBehaviour
     public void StartRun()
     {
         CurrentRun.Reset();
+        PlayerInventory.Clear();
         SceneManager.LoadScene(gameplayScene);
     }
 
     public void RestartRun()
     {
         CurrentRun.Reset();
+        PlayerInventory.Clear();
         SceneManager.LoadScene(gameplayScene);
     }
 

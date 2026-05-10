@@ -198,12 +198,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b33c37338acf540d3aea59fbbd0c578c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MerchantController
-  slots: []
-  itemsPerRow: 3
+  mainItemPool:
+  - {fileID: 7945220397486212235, guid: 183604851292f415ea44684880a2860e, type: 3}
+  - {fileID: 6421110084409960331, guid: b4438d63b28d541c694debfca24ed66e, type: 3}
+  - {fileID: 8440270210167959566, guid: aab54ebd4a6af4ab5991d775100554e4, type: 3}
+  - {fileID: 7704590255354673651, guid: be47deba125104d53aa321c09fa22cf5, type: 3}
+  - {fileID: 5345745754893298155, guid: a35b48d1c24d9416e8832753797c4636, type: 3}
+  - {fileID: 4029022104797535306, guid: d09b80b9168fd444c977a827dc930ac8, type: 3}
+  - {fileID: 2512751302941042946, guid: dbb74df63e89a45efb6aa18be2939ebe, type: 3}
+  - {fileID: 2512751302941042946, guid: 4fa521617c6fb4aa095cf29929684982, type: 3}
+  - {fileID: 2512751302941042946, guid: 33a7ff2f1697d483d87d15c549db8097, type: 3}
+  - {fileID: 2512751302941042946, guid: 8c1149b95f282490abd623154dfb88cd, type: 3}
+  additionalItemPool:
+  - {fileID: 8895093136567177330, guid: f553e4246c7b249a99f3cc24d60fc074, type: 3}
+  - {fileID: 5733035831477995174, guid: 0ac89ffe8d2254baba80e19ded250344, type: 3}
+  - {fileID: 2494308995940708507, guid: 1aa9b6624d14d4ac9a1c952fcf66bf0c, type: 3}
   coinPrefab: {fileID: 7351263101010314638, guid: 0a23db569f93b47e99e8a1a3396ec8e9, type: 3}
   coinsPerPurchase: 5
   columnSpacing: 4
-  rowSpacing: 3
   gridOffset: {x: 0, y: -1.5}
   idleFrames:
   - {fileID: -212626487177622742, guid: 021591aa843be450dbfcfbb6ab82f27e, type: 3}
