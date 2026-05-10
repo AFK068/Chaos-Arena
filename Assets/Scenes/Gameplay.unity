@@ -536,6 +536,8 @@ MonoBehaviour:
       weight: 15
   floorPools:
   - {fileID: 11400000, guid: 9f55937bc0bba4756b0b6f422858774c, type: 2}
+  - {fileID: 11400000, guid: f6b3e5a31ac2849669facf08005ea565, type: 2}
+  - {fileID: 11400000, guid: 7f68772fbd76a47b4a7b2566648a2961, type: 2}
   cameraFollow: {fileID: 519420033}
   player: {fileID: 1867968312}
   minimap: {fileID: 707387648}

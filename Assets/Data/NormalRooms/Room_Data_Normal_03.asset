@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996d923cb31454b22a5f6c4c8e88c3de, type: 3}
+  m_Name: Room_Data_Normal_03
+  m_EditorClassIdentifier: Assembly-CSharp::RoomData
+  type: 1
+  roomPrefab: {fileID: 3058668947987505461, guid: bf13277843839478d971dbcfbe6a4710, type: 3}
+  enemyPool:
+  - {fileID: 2554987348267877565, guid: ba595661839594bcab6f53d1212d0876, type: 3}
+  - {fileID: 896436052381682334, guid: 680388748919048de9d93cde5e035f1f, type: 3}
+  - {fileID: 8663803048153260948, guid: 5f1e067c566b64e649e85404c5dfbec0, type: 3}
+  - {fileID: 7136792964515890006, guid: ccc441cac215a422588a44ca7242c67f, type: 3}
+  - {fileID: 8393744770610929706, guid: 7b0b19a1afeaf488aae3d104c5f046d9, type: 3}
+  - {fileID: 8977945915213419209, guid: baa6d9b75486a45dc89446b8b0c87647, type: 3}
+  - {fileID: 1490909612527824147, guid: 77adb3ea775424cecbc0278e32b80447, type: 3}
+  - {fileID: 7237728087798416038, guid: ef9b353d7e95e4b4793b8e170a738476, type: 3}
+  - {fileID: 1909941004508480951, guid: 392f39bfb25eb46c99fc6d26d6add7ea, type: 3}
+  - {fileID: 3313876131204996883, guid: e36031503b26b43c997ec9041e5e4801, type: 3}
+  - {fileID: 1867110590221380523, guid: 6c3cdc793758546d383261b662dbcbc6, type: 3}
+  - {fileID: 7872169323958364801, guid: 877fdd3bfb9bd41ee974f0d3913d0ef6, type: 3}
+  - {fileID: 860034047301245656, guid: 419dc1c5b742c41069cc86cf3ef97030, type: 3}
+  - {fileID: 6372678029441086902, guid: f5f40f923f3cd430e9efa478eade2f45, type: 3}
+  - {fileID: 9207975947708369990, guid: 8fc29405386494de69ec4ca9155c7866, type: 3}
+  minCount: 3
+  maxCount: 6
+  enemies: []
+  chestCount: 0
+  bossDropPool: []
+  bossDropCount: 0

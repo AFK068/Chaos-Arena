@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55bf646cc0e294e61b344b7d47bb3cf3, type: 3}
+  m_Name: RoomDataPool1
+  m_EditorClassIdentifier: Assembly-CSharp::RoomDataPool
+  startRoom: {fileID: 11400000, guid: e54626ab59df2405c99af99871895c7d, type: 2}
+  normalRooms:
+  - {fileID: 11400000, guid: df472044b8a884eb08234a36529eefd2, type: 2}
+  challengeRooms: []
+  gauntletRooms: []
+  chestRooms: []
+  shopRooms: []
+  secretRooms: []
+  bossRooms:
+  - {fileID: 11400000, guid: d160fcd8605294b1fb8c00f925b3f17c, type: 2}
+  - {fileID: 11400000, guid: 1ea88022092b544899570c05930c2ac4, type: 2}
+  - {fileID: 11400000, guid: 24fe22dcc09374aab9e78d4bf4ea1a33, type: 2}
+  - {fileID: 11400000, guid: 8b9340430e5214f1296d4c5c4e528e70, type: 2}
+  - {fileID: 11400000, guid: 781447f9ca4824fb4b526d70cb839ca3, type: 2}
+  - {fileID: 11400000, guid: ee3eed2e6a67c4e1db2233b30e9a4970, type: 2}
+  emptyRooms: []

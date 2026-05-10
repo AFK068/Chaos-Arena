@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996d923cb31454b22a5f6c4c8e88c3de, type: 3}
+  m_Name: Room_Data_Boss2
+  m_EditorClassIdentifier: Assembly-CSharp::RoomData
+  type: 7
+  roomPrefab: {fileID: 3058668947987505461, guid: f1d04aa4fc1c74651a757c446fdbea83, type: 3}
+  enemyPool: []
+  minCount: 1
+  maxCount: 3
+  enemies:
+  - prefab: {fileID: 9119490756670326097, guid: b6a63a60ca88448dcaf321925891ab3f, type: 3}
+    count: 1
+  chestCount: 1
+  bossDropPool: []
+  bossDropCount: 1

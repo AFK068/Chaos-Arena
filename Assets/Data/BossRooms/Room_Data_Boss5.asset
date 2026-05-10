@@ -10,11 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 996d923cb31454b22a5f6c4c8e88c3de, type: 3}
-  m_Name: Room_Data_Normal_01
+  m_Name: Room_Data_Boss5
   m_EditorClassIdentifier: Assembly-CSharp::RoomData
-  type: 1
-  roomPrefab: {fileID: 3058668947987505461, guid: bf13277843839478d971dbcfbe6a4710, type: 3}
-  enemies: []
+  type: 7
+  roomPrefab: {fileID: 3058668947987505461, guid: f1d04aa4fc1c74651a757c446fdbea83, type: 3}
+  enemyPool: []
+  minCount: 1
+  maxCount: 3
+  enemies:
+  - prefab: {fileID: 3323176362265702555, guid: 650ecdc299d40477cba33017b9e56bd0, type: 3}
+    count: 1
   chestCount: 1
   bossDropPool: []
   bossDropCount: 1

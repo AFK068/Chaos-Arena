@@ -136,11 +136,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileBase
   speed: 10
   lifeTime: 2
-  damage: 1
+  damage: 100
   debuffType: 0
   debuffDuration: 0
   debuffPower: 0
   debuffTickInterval: 0.25
+  debuffEffectPrefab: {fileID: 0}
   pickupPrefab: {fileID: 6725619004127860285, guid: 3db7cb7c6297a44dc97789a09abb3b54, type: 3}
   rotateToDirection: 1
   spriteForwardAngleOffset: 0

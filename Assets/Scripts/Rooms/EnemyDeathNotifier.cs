@@ -6,12 +6,12 @@ using UnityEngine;
 // чтобы выгрузка сцены не считалась за убийство.
 public class EnemyDeathNotifier : MonoBehaviour
 {
-    public System.Action OnDied;
+    public System.Action<EnemyDeathNotifier> OnDied;
     public static System.Action OnAnyEnemyKilled;
 
     public void Notify()
     {
-        OnDied?.Invoke();
+        OnDied?.Invoke(this);
         OnAnyEnemyKilled?.Invoke();
     }
 }

@@ -70,9 +70,9 @@ public class Room : MonoBehaviour
         notifier.OnDied += OnEnemyDied;
     }
 
-    private void OnEnemyDied()
+    private void OnEnemyDied(EnemyDeathNotifier sender)
     {
-        _aliveEnemies.RemoveAll(e => e == null);
+        _aliveEnemies.Remove(sender);
         if (_aliveEnemies.Count == 0)
             ClearRoom();
     }

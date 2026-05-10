@@ -1000,7 +1000,7 @@ GameObject:
   - component: {fileID: 551213510276063560}
   - component: {fileID: 1632861567833373381}
   m_Layer: 0
-  m_Name: Room_test
+  m_Name: Room_Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1125,6 +1125,7 @@ MonoBehaviour:
   - {fileID: 6429787464705125640}
   - {fileID: 2551099646729212053}
   - {fileID: 1001234338883669890}
+  positionJitter: 0.3
 --- !u!1 &3135508678410979586
 GameObject:
   m_ObjectHideFlags: 0
