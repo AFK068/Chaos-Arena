@@ -6,6 +6,9 @@ public class FloorGenerator
 {
     [SerializeField] private int targetRoomCount = 10;
     [SerializeField] private int maxGridRadius = 4;
+    [SerializeField] [Range(0f, 1f)] private float branchChance = 0.1f;
+    [SerializeField] private int minDeadEnds = 2;
+    [SerializeField] private int maxGenerationAttempts = 8;
 
     [Header("Веса для тупиков (кроме Boss)")]
     [SerializeField] private RoomTypeWeight[] deadEndWeights = new RoomTypeWeight[]
@@ -26,6 +29,34 @@ public class FloorGenerator
 
     public List<FloorNode> Generate(RoomDataPool pool)
     {
+        List<FloorNode> bestNodes = null;
+        int bestDeadEnds = -1;
+
+        for (int attempt = 0; attempt < Mathf.Max(1, maxGenerationAttempts); attempt++)
+        {
+            var nodes = GenerateGraph();
+            int deadEnds = CountDeadEnds(nodes);
+
+            if (deadEnds >= minDeadEnds)
+            {
+                AssignSpecialRooms(nodes, pool);
+                return nodes;
+            }
+
+            if (deadEnds > bestDeadEnds)
+            {
+                bestDeadEnds = deadEnds;
+                bestNodes = nodes;
+            }
+        }
+
+        // Не нашли граф с достаточным числом тупиков — берём лучший из попыток
+        AssignSpecialRooms(bestNodes, pool);
+        return bestNodes;
+    }
+
+    private List<FloorNode> GenerateGraph()
+    {
         var nodes = new List<FloorNode>();
         var grid = new Dictionary<Vector2Int, int>();
 
@@ -37,6 +68,11 @@ public class FloorGenerator
 
         while (nodes.Count < targetRoomCount)
         {
+            // Иногда прыгаем в случайную существующую комнату — это создаёт разветвления
+            // вместо длинных змееобразных проходов
+            if (nodes.Count > 1 && Random.value < branchChance)
+                current = nodes[Random.Range(0, nodes.Count)].gridPos;
+
             var dir = (Direction)Random.Range(0, 4);
             var next = current + GetOffset(dir);
 
@@ -61,8 +97,16 @@ public class FloorGenerator
             current = next;
         }
 
-        AssignSpecialRooms(nodes, pool);
         return nodes;
+    }
+
+    private static int CountDeadEnds(List<FloorNode> nodes)
+    {
+        int count = 0;
+        foreach (var n in nodes)
+            if (n.id != 0 && n.NeighborCount() == 1)
+                count++;
+        return count;
     }
 
     private void AssignSpecialRooms(List<FloorNode> nodes, RoomDataPool pool)
@@ -83,35 +127,41 @@ public class FloorGenerator
             deadEnds.RemoveAt(0);
         }
 
-        // Гарантируем Shop и Chest на следующих тупиках (если в пуле есть контент)
-        TryGuaranteeType(deadEnds, RoomType.Shop, pool);
-        TryGuaranteeType(deadEnds, RoomType.Chest, pool);
+        // Гарантируем Shop и Chest на следующих тупиках (если в пуле есть контент).
+        // Уже занятые гарантией типы — кап-1 за этаж, исключаются из случайного выбора ниже.
+        var alreadyAssigned = new HashSet<RoomType>();
+        if (TryGuaranteeType(deadEnds, RoomType.Shop, pool)) alreadyAssigned.Add(RoomType.Shop);
+        if (TryGuaranteeType(deadEnds, RoomType.Chest, pool)) alreadyAssigned.Add(RoomType.Chest);
 
-        // Остальные тупики — взвешенный рандом, только из типов с непустым пулом
+        // Остальные тупики — взвешенный рандом, без уже гарантированных типов
         foreach (var n in deadEnds)
-            n.type = SelectWeighted(deadEndWeights, pool);
+            n.type = SelectWeighted(deadEndWeights, pool, alreadyAssigned);
 
-        // Проходные комнаты — взвешенный рандом, только из типов с непустым пулом
+        // Проходные комнаты — взвешенный рандом
         foreach (var n in nodes)
             if (n.type == RoomType.Normal && n.NeighborCount() > 1)
-                n.type = SelectWeighted(throughRoomWeights, pool);
+                n.type = SelectWeighted(throughRoomWeights, pool, null);
     }
 
-    private static void TryGuaranteeType(List<FloorNode> deadEnds, RoomType type, RoomDataPool pool)
+    private static bool TryGuaranteeType(List<FloorNode> deadEnds, RoomType type, RoomDataPool pool)
     {
-        if (deadEnds.Count == 0) return;
-        if (pool != null && !pool.HasContent(type)) return;
+        if (deadEnds.Count == 0) return false;
+        if (pool != null && !pool.HasContent(type)) return false;
 
         deadEnds[0].type = type;
         deadEnds.RemoveAt(0);
+        return true;
     }
 
-    private static RoomType SelectWeighted(RoomTypeWeight[] weights, RoomDataPool pool)
+    private static RoomType SelectWeighted(RoomTypeWeight[] weights, RoomDataPool pool, HashSet<RoomType> exclude)
     {
         float total = 0f;
         foreach (var w in weights)
-            if (pool == null || pool.HasContent(w.type))
-                total += w.weight;
+        {
+            if (pool != null && !pool.HasContent(w.type)) continue;
+            if (exclude != null && exclude.Contains(w.type)) continue;
+            total += w.weight;
+        }
 
         if (total <= 0f) return RoomType.Normal;
 
@@ -120,6 +170,7 @@ public class FloorGenerator
         foreach (var w in weights)
         {
             if (pool != null && !pool.HasContent(w.type)) continue;
+            if (exclude != null && exclude.Contains(w.type)) continue;
             cumulative += w.weight;
             if (roll <= cumulative) return w.type;
         }
