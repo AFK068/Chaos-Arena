@@ -104,6 +104,8 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         if (_hulkZBoss != null && _hulkZBoss.TryPlayDeathAnimation()) { enabled = false; return; }
         if (_experimentZ10Boss != null && _experimentZ10Boss.TryPlayDeathAnimation()) { enabled = false; return; }
 
+        GetComponent<CoinDrop>()?.DropImmediate(transform.position);
+        GetComponent<EnemyDeathEffect>()?.Play(transform.position);
         Destroy(gameObject);
     }
 

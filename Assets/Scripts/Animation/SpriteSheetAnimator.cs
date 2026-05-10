@@ -5,6 +5,7 @@ public class SpriteSheetAnimator : MonoBehaviour
     [SerializeField] private Sprite[] frames;
     [SerializeField] private float fps = 12f;
     [SerializeField] private bool autoResizeCollider = false;
+    [SerializeField] private bool destroyAfterPlay = false;
 
     public int FrameCount => frames != null ? frames.Length : 0;
     public float FramesPerSecond => fps;
@@ -40,7 +41,12 @@ public class SpriteSheetAnimator : MonoBehaviour
         if (_timer >= 1f / fps)
         {
             _timer -= 1f / fps;
-            _currentFrame = (_currentFrame + 1) % frames.Length;
+            _currentFrame++;
+            if (_currentFrame >= frames.Length)
+            {
+                if (destroyAfterPlay) { Destroy(gameObject); return; }
+                _currentFrame = 0;
+            }
             var sprite = frames[_currentFrame];
             _renderer.sprite = sprite;
             if (autoResizeCollider)

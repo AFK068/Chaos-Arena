@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15965aa903390401888826bca65964d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
-  value: 5
+  value: 2
   attractSpeed: 5
   fadeStartDistance: 0.8
   destroyDistance: 0.2

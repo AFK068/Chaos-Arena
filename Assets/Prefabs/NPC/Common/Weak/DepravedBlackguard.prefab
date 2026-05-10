@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 4060603340328884584}
   - component: {fileID: 3066481236418520994}
   - component: {fileID: 7951832601106340644}
+  - component: {fileID: 7751987567265812071}
+  - component: {fileID: -1162135807121825826}
   m_Layer: 0
   m_Name: DepravedBlackguard
   m_TagString: Untagged
@@ -275,6 +277,7 @@ MonoBehaviour:
   burnHitColor: {r: 1, g: 0.4, b: 0, a: 1}
   freezeSlowMultiplier: 0.3
   poisonSlowMultiplier: 0.7
+  debuffTintStrength: 0.35
 --- !u!114 &3066481236418520994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,6 +309,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 909242003059c4062a11900ae9a10945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AIAnimationController
+--- !u!114 &7751987567265812071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896436052381682334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1484ce070e9c4ac3950d1ee255cbc7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoinDrop
+  dropChance: 0.45
+  spawnRadius: 0.3
+--- !u!114 &-1162135807121825826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896436052381682334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb13497cb7e54b0687a509945564c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDeathEffect
 --- !u!1 &7414794991680180237
 GameObject:
   m_ObjectHideFlags: 0
