@@ -5,6 +5,7 @@ public class EnemyAI : MonoBehaviour
 {
     [Header("Detection")]
     public float aggroRange = 10f;
+    public bool alwaysChase = false;
     public Transform player;
 
     [Header("Speed")]
@@ -52,7 +53,7 @@ public class EnemyAI : MonoBehaviour
 
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
-        if (distanceToPlayer <= aggroRange)
+        if (alwaysChase || distanceToPlayer <= aggroRange)
         {
             if (!isChasing)
             {
