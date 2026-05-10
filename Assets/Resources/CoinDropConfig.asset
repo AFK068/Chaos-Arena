@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c77652b4fe84eeaaf6bec3b96a4801, type: 3}
   m_Name: CoinDropConfig
   m_EditorClassIdentifier: Assembly-CSharp::CoinDropConfig
+  dropChance: 0.25
   coinPool:
   - prefab: {fileID: 7351263101010314638, guid: 0a23db569f93b47e99e8a1a3396ec8e9, type: 3}
-    weight: 0.5
+    weight: 0.8
   - prefab: {fileID: 8998910522375703808, guid: 6bacd1590e98c4ee293193e855d3cd6f, type: 3}
-    weight: 0.15
-  - prefab: {fileID: 186912020940436703, guid: 799c1c8cd7a51492992d99e2c9bb6ceb, type: 3}
     weight: 0.1
+  - prefab: {fileID: 186912020940436703, guid: 799c1c8cd7a51492992d99e2c9bb6ceb, type: 3}
+    weight: 0.06
   - prefab: {fileID: 4993015454308079078, guid: ec776b3e66732478ca0f9b6f828eee9f, type: 3}
-    weight: 0.05
+    weight: 0.03
   - prefab: {fileID: 4158167429440937308, guid: 2093e74c99579431db275b6d52196163, type: 3}
-    weight: 0.02
+    weight: 0.01

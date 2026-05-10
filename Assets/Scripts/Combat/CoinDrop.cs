@@ -9,15 +9,14 @@ public struct CoinDropEntry
 
 public class CoinDrop : MonoBehaviour
 {
-    [SerializeField] [Range(0f, 1f)] private float dropChance = 0.45f;
     [SerializeField] private float spawnRadius = 0.3f;
 
-    public float DropChance => dropChance;
     public float SpawnRadius => spawnRadius;
 
     public void DropImmediate(Vector3 position)
     {
-        if (Random.value <= dropChance)
+        float chance = Config != null ? Config.dropChance : 0.45f;
+        if (Random.value <= chance)
             SpawnCoin(position, spawnRadius);
     }
 
