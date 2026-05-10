@@ -2,22 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class MerchantSlot
-{
-    public GameObject itemPrefab;
-    public int price;
-}
-
 public class MerchantController : MonoBehaviour
 {
+    [Header("Main Item Pool")]
+    [SerializeField] private List<GameObject> mainItemPool = new();
+
+    [Header("Additional Item Pool")]
+    [SerializeField] private List<GameObject> additionalItemPool = new();
+
     [Header("Shop")]
-    [SerializeField] private List<MerchantSlot> slots = new();
-    [SerializeField] private int itemsPerRow = 3;
     [SerializeField] private GameObject coinPrefab;
     [SerializeField] private int coinsPerPurchase = 5;
     [SerializeField] private float columnSpacing = 2.0f;
-    [SerializeField] private float rowSpacing = 2.0f;
     [SerializeField] private Vector2 gridOffset = new Vector2(0f, -1.5f);
 
     [Header("Sprites")]
@@ -64,27 +60,103 @@ public class MerchantController : MonoBehaviour
 
     private void SpawnItems()
     {
-        for (int i = 0; i < slots.Count; i++)
+        var playerGo = GameObject.FindGameObjectWithTag("Player");
+        var wallet = playerGo?.GetComponent<PlayerWallet>();
+
+        int coins = wallet != null ? wallet.Coins : 10;
+
+        // Цены: дорогой 65%, дешёвый 50%, дополнительный 35%
+        int expensivePrice = Mathf.Max(5, Mathf.CeilToInt(coins * 0.65f));
+        int cheapPrice     = Mathf.Max(3, Mathf.CeilToInt(coins * 0.50f));
+        int additionalPrice = Mathf.Max(2, Mathf.CeilToInt(coins * 0.35f));
+
+        // Пул без уже купленных
+        var inventory = GameManager.Instance?.PlayerInventory;
+        var available = new List<GameObject>();
+        foreach (var prefab in mainItemPool)
         {
-            var slot = slots[i];
-            if (slot.itemPrefab == null) continue;
+            if (prefab == null) continue;
+            if (inventory != null && inventory.Contains(prefab.name)) continue;
+            available.Add(prefab);
+        }
+        Shuffle(available);
 
-            int row = i / itemsPerRow;
-            int col = i % itemsPerRow;
-            int itemsInThisRow = Mathf.Min(itemsPerRow, slots.Count - row * itemsPerRow);
-            float rowWidth = (itemsInThisRow - 1) * columnSpacing;
+        var spawnList = new List<(GameObject prefab, int price)>();
+        if (available.Count > 0) spawnList.Add((available[0], expensivePrice));
+        if (available.Count > 1) spawnList.Add((available[1], cheapPrice));
 
+        // Дополнительный предмет — случайный из пула
+        var additionalPrefab = PickAdditional();
+        if (additionalPrefab != null) spawnList.Add((additionalPrefab, additionalPrice));
+
+        // Размещение в ряд по центру
+        int count = spawnList.Count;
+        float totalWidth = (count - 1) * columnSpacing;
+        for (int i = 0; i < count; i++)
+        {
+            var (prefab, price) = spawnList[i];
             var worldPos = transform.position + new Vector3(
-                col * columnSpacing - rowWidth / 2f + gridOffset.x,
-                -row * rowSpacing + gridOffset.y,
+                -totalWidth / 2f + i * columnSpacing + gridOffset.x,
+                gridOffset.y,
                 0f);
 
-            var go = Instantiate(slot.itemPrefab, worldPos, Quaternion.identity);
-
-            SetupShopItem(go, slot.price);
+            var go = Instantiate(prefab, worldPos, Quaternion.identity);
+            var capturedName = prefab.name;
+            SetupShopItem(go, price, capturedName);
 
             var tag = go.AddComponent<ShopPriceTag>();
-            tag.Init(slot.price);
+            tag.Init(price);
+        }
+    }
+
+    private GameObject PickAdditional()
+    {
+        if (additionalItemPool == null || additionalItemPool.Count == 0) return null;
+        return additionalItemPool[Random.Range(0, additionalItemPool.Count)];
+    }
+
+    private void SetupShopItem(GameObject go, int price, string prefabName)
+    {
+        var attract = go.GetComponent<PickupAttract>();
+        if (attract != null) Destroy(attract);
+
+        void MarkPurchased()
+        {
+            GameManager.Instance?.PlayerInventory.Add(prefabName);
+        }
+
+        if (go.TryGetComponent<ProjectilePickup>(out var pp))
+        {
+            pp.SetPrice(price);
+            pp.OnPurchased += MarkPurchased;
+            if (price > 0 && coinPrefab != null)
+            {
+                var ce = go.AddComponent<CoinPayEffect>();
+                ce.Init(transform, coinPrefab, coinsPerPurchase);
+                pp.OnPurchased += ce.Play;
+            }
+            return;
+        }
+
+        if (!go.TryGetComponent<InteractablePickup>(out var ip))
+            ip = go.AddComponent<InteractablePickup>();
+
+        ip.SetPrice(price);
+        ip.OnPurchased += MarkPurchased;
+        if (price > 0 && coinPrefab != null)
+        {
+            var ce = go.AddComponent<CoinPayEffect>();
+            ce.Init(transform, coinPrefab, coinsPerPurchase);
+            ip.OnPurchased += ce.Play;
+        }
+    }
+
+    private static void Shuffle<T>(List<T> list)
+    {
+        for (int i = list.Count - 1; i > 0; i--)
+        {
+            int j = Random.Range(0, i + 1);
+            (list[i], list[j]) = (list[j], list[i]);
         }
     }
 
@@ -133,36 +205,6 @@ public class MerchantController : MonoBehaviour
         _currentFrames = frames;
         _frameIndex = 0;
         _frameTimer = 0f;
-    }
-
-    private void SetupShopItem(GameObject go, int itemPrice)
-    {
-        // Убираем авто-подбор — в магазине только по F
-        var attract = go.GetComponent<PickupAttract>();
-        if (attract != null) Destroy(attract);
-
-        if (go.TryGetComponent<ProjectilePickup>(out var pp))
-        {
-            pp.SetPrice(itemPrice);
-            if (itemPrice > 0 && coinPrefab != null)
-            {
-                var ce = go.AddComponent<CoinPayEffect>();
-                ce.Init(transform, coinPrefab, coinsPerPurchase);
-                pp.OnPurchased += ce.Play;
-            }
-            return;
-        }
-
-        if (!go.TryGetComponent<InteractablePickup>(out var ip))
-            ip = go.AddComponent<InteractablePickup>();
-
-        ip.SetPrice(itemPrice);
-        if (itemPrice > 0 && coinPrefab != null)
-        {
-            var ce = go.AddComponent<CoinPayEffect>();
-            ce.Init(transform, coinPrefab, coinsPerPurchase);
-            ip.OnPurchased += ce.Play;
-        }
     }
 
     private bool PlayerNearby() =>

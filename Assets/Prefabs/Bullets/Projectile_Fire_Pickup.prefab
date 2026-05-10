@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6038886070394462349}
   - component: {fileID: 6725619004127860285}
   - component: {fileID: 3327653356643432937}
+  - component: {fileID: 7495083039902626014}
+  - component: {fileID: 2425832946095900326}
   m_Layer: 0
   m_Name: Projectile_Fire_Pickup
   m_TagString: Untagged
@@ -145,6 +147,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 6186537617237227091, guid: beaf726e2938d4cf38483153fd48811a, type: 3}
   pickupRenderer: {fileID: 1080147671650006833}
   pickupCooldown: 0
+  price: 0
 --- !u!95 &3327653356643432937
 Animator:
   serializedVersion: 7
@@ -167,3 +170,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7495083039902626014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2512751302941042946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  labelText: Ember Flask\n\nThe fire does not ask permission.\nIt simply continues.\n\nProjectiles
+    ignite enemies / burn damage over time
+  offset: {x: 0, y: 1.2, z: 0}
+--- !u!114 &2425832946095900326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2512751302941042946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 358c678f5804f427ba8056a4f3b7a065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PickupFloat
+  floatHeight: 0.15
+  floatSpeed: 2
+  swayAngle: 8
+  swaySpeed: 1.5
+  pulseAmount: 0.06
+  pulseSpeed: 3
+  shadow: {fileID: 0}

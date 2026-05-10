@@ -146,6 +146,10 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField] private int absoluteMaxHealth = 10;
 
+    public int CurrentHealth => _currentHealth;
+    public int MaxHealth => maxHealth;
+    public int AbsoluteMaxHealth => absoluteMaxHealth;
+
     public void AddMaxHealth(int amount)
     {
         if (maxHealth >= absoluteMaxHealth)

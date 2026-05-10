@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6038886070394462349}
   - component: {fileID: 6725619004127860285}
   - component: {fileID: 4542557144357278128}
+  - component: {fileID: 3443089908106282068}
+  - component: {fileID: -1610982597310294969}
   m_Layer: 0
   m_Name: Projectile_Piercing_Pickup
   m_TagString: Untagged
@@ -191,3 +193,37 @@ MonoBehaviour:
   - {fileID: -8038976213705442086, guid: 109bc8afc468243a49c65fb553962d8a, type: 3}
   fps: 24
   autoResizeCollider: 0
+--- !u!114 &3443089908106282068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2512751302941042946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  labelText: Phase Round\n\nThe wall did not stop it.\nNeither did the man behind
+    it.\n\nProjectiles pass through enemies
+  offset: {x: 0, y: 1.2, z: 0}
+--- !u!114 &-1610982597310294969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2512751302941042946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 358c678f5804f427ba8056a4f3b7a065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PickupFloat
+  floatHeight: 0.15
+  floatSpeed: 2
+  swayAngle: 8
+  swaySpeed: 1.5
+  pulseAmount: 0.06
+  pulseSpeed: 3
+  shadow: {fileID: 0}

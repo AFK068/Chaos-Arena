@@ -50,7 +50,7 @@ public class LabelUI : MonoBehaviour
         textGo.AddComponent<RectTransform>();
 
         _text = textGo.AddComponent<TextMeshProUGUI>();
-        _text.fontSize = 32;
+        _text.fontSize = 16;
         _text.alignment = TextAlignmentOptions.Center;
         _text.color = new Color(0.96f, 0.88f, 0.70f, 1f);
         _text.textWrappingMode = TextWrappingModes.NoWrap;
