@@ -112,6 +112,7 @@ GameObject:
   - component: {fileID: 442123084893213583}
   - component: {fileID: 3492521801046050372}
   - component: {fileID: 2540695244635478976}
+  - component: {fileID: -7866158649524610586}
   m_Layer: 0
   m_Name: Deton Blue
   m_TagString: Untagged
@@ -453,3 +454,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2658633ff434f45b0a4053100089523d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossChestDrop
+--- !u!114 &-7866158649524610586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517888546601482937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd41004ba53bb410d92115c3395cd8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDeathAnimator
+  deathFrames:
+  - {fileID: 1052950113, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: 1728821339, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: 1588751589, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: -439878773, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: -658863175, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: 2091658136, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: 1866960552, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: -1900099094, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: -395766891, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: 157603067, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: -864748956, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: 1557440972, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  - {fileID: 175437376, guid: a25a7bedb0058d044b564394e84ce3ab, type: 3}
+  fps: 6
+  lingerDuration: 0.5

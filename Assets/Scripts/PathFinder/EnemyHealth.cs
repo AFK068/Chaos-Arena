@@ -100,6 +100,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         _baseColor = _originalBaseColor;
         if (spriteRenderer != null) spriteRenderer.color = _baseColor;
 
+        if (GetComponent<BossDeathAnimator>()?.TryPlayDeathAnimation() == true) { enabled = false; return; }
         if (_cacodaemonBoss != null && _cacodaemonBoss.TryPlayDeathAnimation()) { enabled = false; return; }
         if (_hulkZBoss != null && _hulkZBoss.TryPlayDeathAnimation()) { enabled = false; return; }
         if (_experimentZ10Boss != null && _experimentZ10Boss.TryPlayDeathAnimation()) { enabled = false; return; }

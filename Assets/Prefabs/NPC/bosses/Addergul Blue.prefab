@@ -112,6 +112,7 @@ GameObject:
   - component: {fileID: -1305106040150466500}
   - component: {fileID: 3625660552940156045}
   - component: {fileID: -1848221634583544144}
+  - component: {fileID: 1084023201713769397}
   m_Layer: 0
   m_Name: Addergul Blue
   m_TagString: Untagged
@@ -453,3 +454,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2658633ff434f45b0a4053100089523d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossChestDrop
+--- !u!114 &1084023201713769397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9119490756670326097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd41004ba53bb410d92115c3395cd8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDeathAnimator
+  deathFrames:
+  - {fileID: -142749140, guid: ab5b3862b04b7004498775000b716299, type: 3}
+  - {fileID: 1989239027, guid: ab5b3862b04b7004498775000b716299, type: 3}
+  - {fileID: 1819910617, guid: ab5b3862b04b7004498775000b716299, type: 3}
+  - {fileID: -343019432, guid: ab5b3862b04b7004498775000b716299, type: 3}
+  - {fileID: 679474132, guid: ab5b3862b04b7004498775000b716299, type: 3}
+  - {fileID: -1903201860, guid: ab5b3862b04b7004498775000b716299, type: 3}
+  fps: 3
+  lingerDuration: 0.5

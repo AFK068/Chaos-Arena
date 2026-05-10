@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 5536446663019517481}
   - component: {fileID: 126743098296902249}
   - component: {fileID: 8070035240009739191}
+  - component: {fileID: 3680589070612436865}
   m_Layer: 0
   m_Name: Frank Blue
   m_TagString: Untagged
@@ -362,6 +363,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2658633ff434f45b0a4053100089523d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossChestDrop
+--- !u!114 &3680589070612436865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3323176362265702555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd41004ba53bb410d92115c3395cd8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDeathAnimator
+  deathFrames:
+  - {fileID: -191771304, guid: e2d94bb807ea88d4983aa6263808a327, type: 3}
+  - {fileID: 1229987115, guid: e2d94bb807ea88d4983aa6263808a327, type: 3}
+  - {fileID: 1326289742, guid: e2d94bb807ea88d4983aa6263808a327, type: 3}
+  - {fileID: 1723287326, guid: e2d94bb807ea88d4983aa6263808a327, type: 3}
+  - {fileID: 956475106, guid: e2d94bb807ea88d4983aa6263808a327, type: 3}
+  - {fileID: -762349153, guid: e2d94bb807ea88d4983aa6263808a327, type: 3}
+  - {fileID: -1897284137, guid: e2d94bb807ea88d4983aa6263808a327, type: 3}
+  - {fileID: -1624060609, guid: e2d94bb807ea88d4983aa6263808a327, type: 3}
+  - {fileID: 31426116, guid: e2d94bb807ea88d4983aa6263808a327, type: 3}
+  - {fileID: -292270291, guid: e2d94bb807ea88d4983aa6263808a327, type: 3}
+  fps: 4
+  lingerDuration: 0.5
 --- !u!1 &5421945258416678252
 GameObject:
   m_ObjectHideFlags: 0
