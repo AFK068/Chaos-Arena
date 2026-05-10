@@ -1,5 +1,13 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+
+[System.Serializable]
+public struct CoinDenomination
+{
+    public GameObject prefab;
+    public int value;
+}
 
 public class Chest : MonoBehaviour, IInteractable
 {
@@ -9,10 +17,20 @@ public class Chest : MonoBehaviour, IInteractable
     [SerializeField] private float openFps = 12f;
     [SerializeField] private float destroyDelay = 3f;
 
-    [Header("Drops")]
-    [SerializeField] private GameObject[] dropPrefabs;
+    [Header("Loot - Items")]
+    [SerializeField] private GameObject[] guaranteedItems;
+    [SerializeField] private GameObject[] itemPool;
+    [SerializeField] [Range(0f, 1f)] private float itemDropChance = 0.4f;
+
+    [Header("Loot - Coins")]
+    [SerializeField] private GameObject coinPrefab;
+    [SerializeField] private int minCoins = 10;
+    [SerializeField] private int maxCoins = 15;
+
+    [Header("Drop Physics")]
     [SerializeField] private float dropRadius = 1f;
     [SerializeField] private float dropDuration = 0.4f;
+
     private SpriteRenderer _renderer;
     private bool _opened;
     private float _baseBottomY;
@@ -30,7 +48,6 @@ public class Chest : MonoBehaviour, IInteractable
     }
 
     public bool CanInteract(GameObject interactor) => !_opened;
-
     public void Interact(GameObject interactor)
     {
         if (_opened) return;
@@ -42,31 +59,74 @@ public class Chest : MonoBehaviour, IInteractable
 
     private void SpawnDrops()
     {
-        if (dropPrefabs == null || dropPrefabs.Length == 0) return;
+        var drops = new List<GameObject>();
 
-        var count = dropPrefabs.Length;
-        // Случайный начальный угол чтобы было не всегда одинаково
-        var startAngle = Random.Range(0f, 360f / count);
+        var guaranteed = (guaranteedItems != null && guaranteedItems.Length > 0) ? guaranteedItems : LootConfig?.guaranteedItems;
+        if (guaranteed != null)
+            foreach (var item in guaranteed)
+                if (item != null)
+                    drops.Add(Instantiate(item, transform.position, Quaternion.identity));
 
-        for (var i = 0; i < count; i++)
+        if (Random.value <= itemDropChance)
         {
-            if (dropPrefabs[i] == null) continue;
+            var item = PickItem();
+            if (item != null)
+                drops.Add(Instantiate(item, transform.position, Quaternion.identity));
+        }
 
-            // Равномерно по кругу
-            var angle = startAngle + i * (360f / count);
-            var rad = angle * Mathf.Deg2Rad;
+        drops.AddRange(GenerateCoins());
+
+        if (drops.Count == 0) return;
+
+        float startAngle = Random.Range(0f, 360f / drops.Count);
+        for (int i = 0; i < drops.Count; i++)
+        {
+            float angle = startAngle + i * (360f / drops.Count);
+            float rad = angle * Mathf.Deg2Rad;
             var target = transform.position + new Vector3(
                 Mathf.Cos(rad) * dropRadius,
-                Mathf.Sin(rad) * dropRadius,
-                0f
-            );
+                Mathf.Sin(rad) * dropRadius, 0f);
 
-            var instance = Instantiate(dropPrefabs[i], transform.position, Quaternion.identity);
-            var drop = instance.GetComponent<ItemDrop>();
-            if (drop == null)
-                drop = instance.AddComponent<ItemDrop>();
+            var drop = drops[i].GetComponent<ItemDrop>() ?? drops[i].AddComponent<ItemDrop>();
             drop.Throw(target, dropDuration);
         }
+    }
+
+    private static ChestLootConfig _lootConfig;
+    private static ChestLootConfig LootConfig
+    {
+        get
+        {
+            if (_lootConfig == null)
+                _lootConfig = Resources.Load<ChestLootConfig>("ChestLootConfig");
+            return _lootConfig;
+        }
+    }
+
+    private GameObject PickItem()
+    {
+        var pool = (itemPool != null && itemPool.Length > 0) ? itemPool : LootConfig?.itemPool;
+        if (pool == null || pool.Length == 0) return null;
+        var inventory = GameManager.Instance?.PlayerInventory;
+        var available = new List<GameObject>();
+        foreach (var prefab in pool)
+        {
+            if (prefab == null) continue;
+            if (inventory != null && inventory.Contains(prefab.name)) continue;
+            available.Add(prefab);
+        }
+        if (available.Count == 0) return null;
+        return available[Random.Range(0, available.Count)];
+    }
+
+    private List<GameObject> GenerateCoins()
+    {
+        var result = new List<GameObject>();
+        if (coinPrefab == null) return result;
+        int count = Random.Range(minCoins, maxCoins + 1);
+        for (int i = 0; i < count; i++)
+            result.Add(Instantiate(coinPrefab, transform.position, Quaternion.identity));
+        return result;
     }
 
     private IEnumerator OpenRoutine()

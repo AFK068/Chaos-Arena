@@ -179,6 +179,13 @@ MonoBehaviour:
   disappearColor: {r: 0.7254902, g: 0.8784314, b: 0.98039216, a: 1}
   openFps: 10
   destroyDelay: 0.5
+  itemPool: []
+  itemDropChance: 0.4
+  coinPrefab: {fileID: 7351263101010314638, guid: 0a23db569f93b47e99e8a1a3396ec8e9, type: 3}
+  minCoins: 10
+  maxCoins: 15
+  dropRadius: 1
+  dropDuration: 0.4
 --- !u!1 &4559699886158853739
 GameObject:
   m_ObjectHideFlags: 0
