@@ -18,7 +18,8 @@ MonoBehaviour:
   challengeRooms: []
   gauntletRooms: []
   chestRooms: []
-  shopRooms: []
+  shopRooms:
+  - {fileID: 11400000, guid: 3d9a5d4a738154eb2a1847298ac68497, type: 2}
   secretRooms: []
   bossRooms:
   - {fileID: 11400000, guid: d160fcd8605294b1fb8c00f925b3f17c, type: 2}

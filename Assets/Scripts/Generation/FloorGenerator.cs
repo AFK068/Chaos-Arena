@@ -83,6 +83,10 @@ public class FloorGenerator
             deadEnds.RemoveAt(0);
         }
 
+        // Гарантируем Shop и Chest на следующих тупиках (если в пуле есть контент)
+        TryGuaranteeType(deadEnds, RoomType.Shop, pool);
+        TryGuaranteeType(deadEnds, RoomType.Chest, pool);
+
         // Остальные тупики — взвешенный рандом, только из типов с непустым пулом
         foreach (var n in deadEnds)
             n.type = SelectWeighted(deadEndWeights, pool);
@@ -91,6 +95,15 @@ public class FloorGenerator
         foreach (var n in nodes)
             if (n.type == RoomType.Normal && n.NeighborCount() > 1)
                 n.type = SelectWeighted(throughRoomWeights, pool);
+    }
+
+    private static void TryGuaranteeType(List<FloorNode> deadEnds, RoomType type, RoomDataPool pool)
+    {
+        if (deadEnds.Count == 0) return;
+        if (pool != null && !pool.HasContent(type)) return;
+
+        deadEnds[0].type = type;
+        deadEnds.RemoveAt(0);
     }
 
     private static RoomType SelectWeighted(RoomTypeWeight[] weights, RoomDataPool pool)

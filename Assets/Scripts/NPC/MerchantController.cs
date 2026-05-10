@@ -37,6 +37,7 @@ public class MerchantController : MonoBehaviour
     private Vector3 _origin;
     private Transform _player;
     private SpriteRenderer _sr;
+    private Rigidbody2D _rb;
     private Sprite[] _currentFrames;
     private int _frameIndex;
     private float _frameTimer;
@@ -47,6 +48,7 @@ public class MerchantController : MonoBehaviour
         _origin = transform.position;
         _player = GameObject.FindGameObjectWithTag("Player")?.transform;
         _sr = GetComponent<SpriteRenderer>();
+        _rb = GetComponent<Rigidbody2D>();
         SpawnItems();
         StartCoroutine(WanderRoutine());
     }
@@ -165,6 +167,7 @@ public class MerchantController : MonoBehaviour
         {
             if (PlayerNearby())
             {
+                StopMoving();
                 SetFrames(showFrames);
                 yield return null;
                 continue;
@@ -177,14 +180,22 @@ public class MerchantController : MonoBehaviour
             {
                 var dir = ((Vector2)target - (Vector2)transform.position).normalized;
                 Flip(dir.x);
-                transform.position = Vector2.MoveTowards(
-                    transform.position, target, moveSpeed * Time.deltaTime);
+                if (_rb != null)
+                    _rb.linearVelocity = dir * moveSpeed;
+                else
+                    transform.position = Vector2.MoveTowards(transform.position, target, moveSpeed * Time.deltaTime);
                 yield return null;
             }
 
+            StopMoving();
             SetFrames(idleFrames);
             yield return new WaitForSeconds(Random.Range(waitMinTime, waitMaxTime));
         }
+    }
+
+    private void StopMoving()
+    {
+        if (_rb != null) _rb.linearVelocity = Vector2.zero;
     }
 
     private void Flip(float dirX)

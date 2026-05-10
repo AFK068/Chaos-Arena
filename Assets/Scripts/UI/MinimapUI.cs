@@ -110,10 +110,15 @@ public class MinimapUI : MonoBehaviour
             if (!neighbor.HasValue) continue;
             int nId = neighbor.Value;
 
-            // Показать соседнюю комнату как тёмно-серую если ещё скрыта
+            // Показать соседнюю комнату: Boss — настоящим цветом, остальные — тёмно-серым
             if (!_revealedRooms.Contains(nId) && _roomIcons.TryGetValue(nId, out var neighborIcon))
                 if (neighborIcon.color == Color.clear)
-                    neighborIcon.color = new Color(0.25f, 0.25f, 0.25f, 1f);
+                {
+                    var neighborNode = _nodes[nId];
+                    neighborIcon.color = neighborNode.type == RoomType.Boss
+                        ? GetRoomColor(RoomType.Boss)
+                        : new Color(0.25f, 0.25f, 0.25f, 1f);
+                }
 
             // Показать коннектор между текущей и соседней комнатой
             var key = nodeId < nId ? (nodeId, nId) : (nId, nodeId);
