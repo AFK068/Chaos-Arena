@@ -111,6 +111,7 @@ GameObject:
   - component: {fileID: -5851208607463038209}
   - component: {fileID: 442123084893213583}
   - component: {fileID: 3492521801046050372}
+  - component: {fileID: 2540695244635478976}
   m_Layer: 0
   m_Name: Deton Blue
   m_TagString: Untagged
@@ -440,3 +441,15 @@ MonoBehaviour:
   spawnRadius: 0.8
   armDelay: 0.3
   warnDelay: 0.8
+--- !u!114 &2540695244635478976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517888546601482937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2658633ff434f45b0a4053100089523d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossChestDrop

@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 8875422342807312938}
   - component: {fileID: -1305106040150466500}
   - component: {fileID: 3154901156245564005}
+  - component: {fileID: -5151572730798435348}
   m_Layer: 0
   m_Name: Cacodaemon
   m_TagString: Untagged
@@ -344,6 +345,7 @@ MonoBehaviour:
   burnHitColor: {r: 1, g: 0.4, b: 0, a: 1}
   freezeSlowMultiplier: 0.3
   poisonSlowMultiplier: 0.7
+  debuffTintStrength: 0.35
 --- !u!114 &-1305106040150466500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,3 +444,15 @@ MonoBehaviour:
   tiredSummonInterval: 1
   contactDamage: 1
   contactDamageCooldown: 0.8
+--- !u!114 &-5151572730798435348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9119490756670326097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2658633ff434f45b0a4053100089523d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossChestDrop
