@@ -136,7 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileBase
   speed: 10
   lifeTime: 2
-  damage: 100
+  damage: 1
   debuffType: 0
   debuffDuration: 0
   debuffPower: 0

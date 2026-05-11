@@ -2178,7 +2178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerShoot
   shootPoint: {fileID: 1225756556}
   projectilePrefab: {fileID: 6186537617237227091, guid: 2502ed7e126a14f7b9871c7cec12189b, type: 3}
-  fireRate: 0.1
+  fireRate: 0.35
 --- !u!58 &1867968320
 CircleCollider2D:
   m_ObjectHideFlags: 0
