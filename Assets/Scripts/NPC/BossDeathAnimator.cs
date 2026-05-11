@@ -26,7 +26,14 @@ public class BossDeathAnimator : MonoBehaviour
             animator.enabled = false;
 
         var rb = GetComponent<Rigidbody2D>();
-        if (rb != null) rb.linearVelocity = Vector2.zero;
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.simulated = false;
+        }
+
+        foreach (var col in GetComponentsInChildren<Collider2D>())
+            col.enabled = false;
 
         StartCoroutine(DeathRoutine());
         return true;
