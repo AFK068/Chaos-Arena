@@ -21,10 +21,6 @@ public class RoomData : ScriptableObject
 
     // Chest
     public int chestCount = 1;
-
-    // Boss
-    public GameObject[] bossDropPool;
-    public int bossDropCount = 1;
 }
 
 [Serializable]

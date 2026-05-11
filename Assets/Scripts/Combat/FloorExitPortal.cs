@@ -1,16 +1,18 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
-public class FloorExitPortal : MonoBehaviour
+public class FloorExitPortal : MonoBehaviour, IInteractable
 {
     private bool _used;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public bool CanInteract(GameObject interactor) => !_used;
+
+    public void Interact(GameObject interactor)
     {
         if (_used) return;
-        if (!other.CompareTag("Player")) return;
-
         _used = true;
         FloorManager.Instance.GoToNextFloor();
     }
+
+    public Vector3 GetInteractionPosition() => transform.position;
 }

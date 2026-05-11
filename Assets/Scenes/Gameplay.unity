@@ -518,6 +518,9 @@ MonoBehaviour:
   generator:
     targetRoomCount: 8
     maxGridRadius: 4
+    branchChance: 0.1
+    minDeadEnds: 2
+    maxGenerationAttempts: 8
     deadEndWeights:
     - type: 5
       weight: 40
@@ -542,6 +545,7 @@ MonoBehaviour:
   player: {fileID: 1867968312}
   minimap: {fileID: 707387648}
   portalPrefab: {fileID: 1085171403162255623, guid: be65ab613ea644e9db60f3d8b3f4fc0e, type: 3}
+  bossChestPrefab: {fileID: 6790150856475909180, guid: 167dca7e2c608435ca3170350bd8af8d, type: 3}
 --- !u!4 &482682038
 Transform:
   m_ObjectHideFlags: 0

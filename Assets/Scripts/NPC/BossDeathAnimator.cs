@@ -16,6 +16,7 @@ public class BossDeathAnimator : MonoBehaviour
 
         foreach (var behaviour in GetComponentsInChildren<MonoBehaviour>())
         {
+            if (behaviour == null) continue;
             if (behaviour == this) continue;
             behaviour.StopAllCoroutines();
             behaviour.enabled = false;

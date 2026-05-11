@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -94,31 +95,52 @@ public class Room : MonoBehaviour
 
     private void SpawnBossLoot()
     {
-        var portal = FloorManager.Instance.PortalPrefab;
-        if (portal != null)
-            Instantiate(portal, Center, Quaternion.identity);
+        const float horizontalOffset = 4f;
 
-        var pool = Node.data.bossDropPool;
-        if (pool == null || pool.Length == 0) return;
+        var chestPos = Center + new Vector3(-horizontalOffset, 0f, 0f);
+        var portalPos = Center + new Vector3(horizontalOffset, 0f, 0f);
 
-        int count = Mathf.Max(0, Node.data.bossDropCount);
-        float startAngle = Random.Range(0f, 360f);
-        const float radius = 1.5f;
-        const float duration = 0.5f;
+        StartCoroutine(SpawnWithEffect(FloorManager.Instance.BossChestPrefab, chestPos));
+        StartCoroutine(SpawnWithEffect(FloorManager.Instance.PortalPrefab, portalPos));
+    }
 
-        for (int i = 0; i < count; i++)
+    private static GameObject _spawnEffectCached;
+    private static bool _spawnEffectLoaded;
+
+    private static GameObject SpawnEffectPrefab
+    {
+        get
         {
-            var prefab = pool[Random.Range(0, pool.Length)];
-            if (prefab == null) continue;
-
-            float angle = (startAngle + i * (360f / count)) * Mathf.Deg2Rad;
-            var target = Center + new Vector3(Mathf.Cos(angle) * radius, Mathf.Sin(angle) * radius, 0f);
-
-            var instance = Instantiate(prefab, Center, Quaternion.identity);
-            var drop = instance.GetComponent<ItemDrop>();
-            if (drop == null) drop = instance.AddComponent<ItemDrop>();
-            drop.Throw(target, duration);
+            if (!_spawnEffectLoaded)
+            {
+                _spawnEffectCached = Resources.Load<GameObject>("Effects/SpawnEffect");
+                _spawnEffectLoaded = true;
+            }
+            return _spawnEffectCached;
         }
+    }
+
+    private IEnumerator SpawnWithEffect(GameObject prefab, Vector3 pos)
+    {
+        if (prefab == null) yield break;
+
+        float delay = 0f;
+        var effectPrefab = SpawnEffectPrefab;
+        if (effectPrefab != null)
+        {
+            var effect = Instantiate(effectPrefab, pos, Quaternion.identity);
+            effect.transform.localScale = Vector3.one * 2f;
+
+            var anim = effect.GetComponent<SpriteSheetAnimator>();
+            delay = anim != null ? anim.AnimationDuration : 0.5f;
+
+            if (!effect.TryGetComponent<DestroyAfterSpriteSheetAnimation>(out _))
+                effect.AddComponent<DestroyAfterSpriteSheetAnimation>();
+        }
+
+        yield return new WaitForSeconds(delay);
+
+        Instantiate(prefab, pos, Quaternion.identity);
     }
 
     private void SetDoorsLocked(bool locked)

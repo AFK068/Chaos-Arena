@@ -108,7 +108,6 @@ GameObject:
   - component: {fileID: 5297737848328751253}
   - component: {fileID: 7806995181629298979}
   - component: {fileID: 5156987113124165555}
-  - component: {fileID: -2616721945852356685}
   m_Layer: 0
   m_Name: ExperimentZ10Boss
   m_TagString: Untagged
@@ -470,15 +469,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &-2616721945852356685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6996168407925662422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2658633ff434f45b0a4053100089523d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BossChestDrop

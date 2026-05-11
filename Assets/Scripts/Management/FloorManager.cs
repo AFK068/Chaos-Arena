@@ -12,8 +12,10 @@ public class FloorManager : MonoBehaviour
     [SerializeField] private MinimapUI minimap;
 
     [SerializeField] private GameObject portalPrefab;
+    [SerializeField] private GameObject bossChestPrefab;
 
     public GameObject PortalPrefab => portalPrefab;
+    public GameObject BossChestPrefab => bossChestPrefab;
 
     public int CurrentFloor { get; private set; } = 1;
 
