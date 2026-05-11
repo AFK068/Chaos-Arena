@@ -5,6 +5,26 @@ public class PlayerInteractor : MonoBehaviour
 {
     [SerializeField] private float interactRadius = 1.2f;
     [SerializeField] private LayerMask interactLayerMask = ~0;
+    [SerializeField] private GameObject interactPrompt;
+
+    private void Update()
+    {
+        if (interactPrompt == null) return;
+        bool shouldShow = FindBestInteractable() != null;
+        if (interactPrompt.activeSelf != shouldShow)
+            interactPrompt.SetActive(shouldShow);
+
+        if (shouldShow)
+        {
+            var s = interactPrompt.transform.localScale;
+            float desiredSign = Mathf.Sign(transform.localScale.x);
+            if (Mathf.Sign(s.x) != desiredSign)
+            {
+                s.x = -s.x;
+                interactPrompt.transform.localScale = s;
+            }
+        }
+    }
 
     public void OnInteract(InputAction.CallbackContext context)
     {
