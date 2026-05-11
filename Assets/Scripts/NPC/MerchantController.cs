@@ -176,8 +176,12 @@ public class MerchantController : MonoBehaviour
             var target = _origin + (Vector3)(Random.insideUnitCircle * wanderRadius);
 
             SetFrames(walkFrames);
+            float elapsed = 0f;
             while (!PlayerNearby() && Vector2.Distance(transform.position, target) > 0.1f)
             {
+                elapsed += Time.deltaTime;
+                if (elapsed > 2f) break;
+
                 var dir = ((Vector2)target - (Vector2)transform.position).normalized;
                 Flip(dir.x);
                 if (_rb != null)
