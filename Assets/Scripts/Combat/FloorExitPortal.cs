@@ -11,7 +11,13 @@ public class FloorExitPortal : MonoBehaviour, IInteractable
     {
         if (_used) return;
         _used = true;
-        FloorManager.Instance.GoToNextFloor();
+
+        if (FloorTransitionFX.Instance == null)
+            new GameObject("FloorTransitionFX").AddComponent<FloorTransitionFX>();
+
+        FloorTransitionFX.Instance.Play(
+            FloorManager.Instance.CurrentFloor + 1,
+            FloorManager.Instance.GoToNextFloor);
     }
 
     public Vector3 GetInteractionPosition() => transform.position;

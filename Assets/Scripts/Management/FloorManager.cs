@@ -41,6 +41,10 @@ public class FloorManager : MonoBehaviour
     private void Start()
     {
         GenerateFloor();
+
+        if (FloorTransitionFX.Instance == null)
+            new GameObject("FloorTransitionFX").AddComponent<FloorTransitionFX>();
+        FloorTransitionFX.Instance.PlayFromBlack(CurrentFloor, null);
     }
 
     public void GenerateFloor()
