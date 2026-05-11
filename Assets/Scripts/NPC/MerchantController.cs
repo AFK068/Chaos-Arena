@@ -25,6 +25,7 @@ public class MerchantController : MonoBehaviour
     [SerializeField] private Sprite[] idleFrames;
     [SerializeField] private Sprite[] walkFrames;
     [SerializeField] private Sprite[] showFrames;
+    [SerializeField] private Sprite deadSprite;
     [SerializeField] private float fps = 8f;
 
     [Header("Wander")]
@@ -42,6 +43,9 @@ public class MerchantController : MonoBehaviour
     private int _frameIndex;
     private float _frameTimer;
     private bool _facingRight = true;
+    private bool _isDead;
+    private readonly List<GameObject> _spawnedItems = new();
+    private Room _room;
 
     private void Start()
     {
@@ -51,6 +55,42 @@ public class MerchantController : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         SpawnItems();
         StartCoroutine(WanderRoutine());
+
+        _room = GetComponentInParent<Room>();
+        if (_room != null) _room.OnLeft += HandleRoomLeft;
+    }
+
+    private void OnDestroy()
+    {
+        if (_room != null) _room.OnLeft -= HandleRoomLeft;
+    }
+
+    private void HandleRoomLeft()
+    {
+        if (_isDead) return;
+        Die();
+    }
+
+    private void Die()
+    {
+        _isDead = true;
+
+        StopAllCoroutines();
+        if (_rb != null)
+        {
+            _rb.linearVelocity = Vector2.zero;
+            _rb.simulated = false;
+        }
+
+        var col = GetComponent<Collider2D>();
+        if (col != null) col.enabled = false;
+
+        _currentFrames = null;
+        if (_sr != null && deadSprite != null) _sr.sprite = deadSprite;
+
+        foreach (var item in _spawnedItems)
+            if (item != null) Destroy(item);
+        _spawnedItems.Clear();
     }
 
     private void Update()
@@ -102,6 +142,7 @@ public class MerchantController : MonoBehaviour
                 0f);
 
             var go = Instantiate(prefab, worldPos, Quaternion.identity);
+            _spawnedItems.Add(go);
             var capturedName = prefab.name;
             SetupShopItem(go, price, capturedName);
 

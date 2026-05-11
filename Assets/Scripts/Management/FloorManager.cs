@@ -85,6 +85,8 @@ public class FloorManager : MonoBehaviour
 
         _transitioning = true;
 
+        _currentRoom?.NotifyLeft();
+
         Direction entryDir = Opposite(fromDirection);
         player.position = targetRoom.GetEntryPosition(entryDir);
         cameraFollow.PanToRoom(targetRoom.Center);

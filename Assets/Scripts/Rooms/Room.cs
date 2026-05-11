@@ -14,6 +14,10 @@ public class Room : MonoBehaviour
     public FloorNode Node { get; private set; }
     public Vector3 Center => transform.position;
 
+    public event System.Action OnLeft;
+
+    public void NotifyLeft() => OnLeft?.Invoke();
+
     public Vector3 GetEntryPosition(Direction entryDirection) =>
         entryPoints[(int)entryDirection] != null
             ? entryPoints[(int)entryDirection].position

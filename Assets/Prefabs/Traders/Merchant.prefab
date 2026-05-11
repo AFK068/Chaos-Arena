@@ -124,6 +124,9 @@ MonoBehaviour:
   - {fileID: 8895093136567177330, guid: f553e4246c7b249a99f3cc24d60fc074, type: 3}
   - {fileID: 5733035831477995174, guid: 0ac89ffe8d2254baba80e19ded250344, type: 3}
   - {fileID: 2494308995940708507, guid: 1aa9b6624d14d4ac9a1c952fcf66bf0c, type: 3}
+  expensiveItemPrice: 12
+  cheapItemPrice: 8
+  additionalItemPrice: 4
   coinPrefab: {fileID: 7351263101010314638, guid: 0a23db569f93b47e99e8a1a3396ec8e9, type: 3}
   coinsPerPurchase: 5
   columnSpacing: 4
@@ -159,6 +162,7 @@ MonoBehaviour:
   - {fileID: 5940764571905084140, guid: 508022c5d7ebb4b6b8130d0feb2fb4b2, type: 3}
   - {fileID: 856725353749036671, guid: 508022c5d7ebb4b6b8130d0feb2fb4b2, type: 3}
   - {fileID: -7199231874026545488, guid: 508022c5d7ebb4b6b8130d0feb2fb4b2, type: 3}
+  deadSprite: {fileID: -7692532821448207450, guid: a4de6863879f9474b8377abe6a5497e8, type: 3}
   fps: 8
   wanderRadius: 4
   moveSpeed: 1.5
