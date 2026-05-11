@@ -519,6 +519,7 @@ MonoBehaviour:
     targetRoomCount: 8
     maxGridRadius: 4
     branchChance: 0.1
+    chestRoomChance: 0.3
     minDeadEnds: 2
     maxGenerationAttempts: 8
     deadEndWeights:
@@ -1683,7 +1684,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2666167170978389918, guid: 37efca4911b954f9086d852055a37055, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -7,6 +7,7 @@ public class FloorGenerator
     [SerializeField] private int targetRoomCount = 10;
     [SerializeField] private int maxGridRadius = 4;
     [SerializeField] [Range(0f, 1f)] private float branchChance = 0.1f;
+    [SerializeField] [Range(0f, 1f)] private float chestRoomChance = 0.99f;
     [SerializeField] private int minDeadEnds = 2;
     [SerializeField] private int maxGenerationAttempts = 8;
 
@@ -127,15 +128,16 @@ public class FloorGenerator
             deadEnds.RemoveAt(0);
         }
 
-        // Гарантируем Shop и Chest на следующих тупиках (если в пуле есть контент).
-        // Уже занятые гарантией типы — кап-1 за этаж, исключаются из случайного выбора ниже.
-        var alreadyAssigned = new HashSet<RoomType>();
-        if (TryGuaranteeType(deadEnds, RoomType.Shop, pool)) alreadyAssigned.Add(RoomType.Shop);
-        if (TryGuaranteeType(deadEnds, RoomType.Chest, pool)) alreadyAssigned.Add(RoomType.Chest);
+        // Shop — гарантированная, кап-1.
+        // Chest — появляется только через явный проброс (chestRoomChance), кап-1.
+        // Оба типа исключаются из случайного выбора оставшихся тупиков.
+        var excludeFromRandom = new HashSet<RoomType> { RoomType.Chest };
+        if (TryGuaranteeType(deadEnds, RoomType.Shop, pool)) excludeFromRandom.Add(RoomType.Shop);
+        if (Random.value < chestRoomChance) TryGuaranteeType(deadEnds, RoomType.Chest, pool);
 
-        // Остальные тупики — взвешенный рандом, без уже гарантированных типов
+        // Остальные тупики — взвешенный рандом, без уже занятых типов
         foreach (var n in deadEnds)
-            n.type = SelectWeighted(deadEndWeights, pool, alreadyAssigned);
+            n.type = SelectWeighted(deadEndWeights, pool, excludeFromRandom);
 
         // Проходные комнаты — взвешенный рандом
         foreach (var n in nodes)

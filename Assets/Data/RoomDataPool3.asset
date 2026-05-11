@@ -17,7 +17,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cb3b2afbee6084ccb86e534bf757183e, type: 2}
   challengeRooms: []
   gauntletRooms: []
-  chestRooms: []
+  chestRooms:
+  - {fileID: 11400000, guid: 02c3601e939db4b79aea236c513aaae6, type: 2}
   shopRooms:
   - {fileID: 11400000, guid: 3d9a5d4a738154eb2a1847298ac68497, type: 2}
   secretRooms: []
