@@ -88,6 +88,8 @@ public class PlayerMovement : MonoBehaviour
         _rageActive = false;
     }
 
+    public void ModifyMoveSpeed(float multiplier) => moveSpeed *= multiplier;
+
     public void AddDashCharge()
     {
         if (dashCharges >= maxDashCharges) return;

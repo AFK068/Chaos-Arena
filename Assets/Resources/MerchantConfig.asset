@@ -9,12 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6ef00cce383b4403a3bf07d12364c01, type: 3}
-  m_Name: ChestLootConfig
-  m_EditorClassIdentifier: Assembly-CSharp::ChestLootConfig
-  guaranteedItems:
-  - {fileID: 8895093136567177330, guid: f553e4246c7b249a99f3cc24d60fc074, type: 3}
-  itemPool:
+  m_Script: {fileID: 11500000, guid: 75e34febaf3cf4ed2a93aa640bb3819a, type: 3}
+  m_Name: MerchantConfig
+  m_EditorClassIdentifier: Assembly-CSharp::MerchantConfig
+  mainItemPool:
   - {fileID: 2512751302941042946, guid: dbb74df63e89a45efb6aa18be2939ebe, type: 3}
   - {fileID: 2512751302941042946, guid: 4fa521617c6fb4aa095cf29929684982, type: 3}
   - {fileID: 2512751302941042946, guid: 33a7ff2f1697d483d87d15c549db8097, type: 3}
@@ -31,3 +29,7 @@ MonoBehaviour:
   - {fileID: 7481586105062178794, guid: 3c14856cd77cb4a9d84fe45f771828c9, type: 3}
   - {fileID: 5345745754893298155, guid: a35b48d1c24d9416e8832753797c4636, type: 3}
   - {fileID: 4029022104797535306, guid: d09b80b9168fd444c977a827dc930ac8, type: 3}
+  additionalItemPool:
+  - {fileID: 8895093136567177330, guid: f553e4246c7b249a99f3cc24d60fc074, type: 3}
+  - {fileID: 5733035831477995174, guid: 0ac89ffe8d2254baba80e19ded250344, type: 3}
+  - {fileID: 2494308995940708507, guid: 1aa9b6624d14d4ac9a1c952fcf66bf0c, type: 3}

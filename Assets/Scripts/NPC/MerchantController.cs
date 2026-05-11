@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class MerchantController : MonoBehaviour
 {
-    [Header("Main Item Pool")]
+    [Header("Main Item Pool (overrides config)")]
     [SerializeField] private List<GameObject> mainItemPool = new();
 
-    [Header("Additional Item Pool")]
+    [Header("Additional Item Pool (overrides config)")]
     [SerializeField] private List<GameObject> additionalItemPool = new();
 
+    private static MerchantConfig _activeConfig;
+    private static MerchantConfig ActiveConfig
+    {
+        get
+        {
+            if (_activeConfig == null)
+                _activeConfig = Resources.Load<MerchantConfig>("MerchantConfig");
+            return _activeConfig;
+        }
+    }
+
     [Header("Prices")]
-    [SerializeField] private int expensiveItemPrice = 12;
-    [SerializeField] private int cheapItemPrice = 8;
     [SerializeField] private int additionalItemPrice = 4;
 
     [Header("Shop")]
@@ -107,14 +116,17 @@ public class MerchantController : MonoBehaviour
 
     private void SpawnItems()
     {
-        int expensivePrice = expensiveItemPrice;
-        int cheapPrice = cheapItemPrice;
-        int additionalPrice = additionalItemPrice;
+        int expensivePrice = Random.Range(25, 51);
+        int cheapPrice = Random.Range(25, 51);
+        int additionalPrice = Random.Range(10, 16);
 
         // Пул без уже купленных
         var inventory = GameManager.Instance?.PlayerInventory;
+        var pool = (mainItemPool != null && mainItemPool.Count > 0)
+            ? mainItemPool
+            : (ActiveConfig != null && ActiveConfig.mainItemPool != null ? new List<GameObject>(ActiveConfig.mainItemPool) : new List<GameObject>());
         var available = new List<GameObject>();
-        foreach (var prefab in mainItemPool)
+        foreach (var prefab in pool)
         {
             if (prefab == null) continue;
             if (inventory != null && inventory.Contains(prefab.name)) continue;
@@ -153,8 +165,11 @@ public class MerchantController : MonoBehaviour
 
     private GameObject PickAdditional()
     {
-        if (additionalItemPool == null || additionalItemPool.Count == 0) return null;
-        return additionalItemPool[Random.Range(0, additionalItemPool.Count)];
+        var pool = (additionalItemPool != null && additionalItemPool.Count > 0)
+            ? additionalItemPool
+            : (ActiveConfig != null && ActiveConfig.additionalItemPool != null ? new List<GameObject>(ActiveConfig.additionalItemPool) : null);
+        if (pool == null || pool.Count == 0) return null;
+        return pool[Random.Range(0, pool.Count)];
     }
 
     private void SetupShopItem(GameObject go, int price, string prefabName)

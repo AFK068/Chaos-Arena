@@ -787,28 +787,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RareCollectibles_Spriteatlas_O_BigWander_21
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 111
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e52735ecb694e9a0800000000000000
-      internalID: -6204668648566086168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: RareCollectibles_Spriteatlas_O_BigWander_22
       rect:
         serializedVersion: 2
@@ -919,7 +897,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RareCollectibles_Spriteatlas_O_BigWander_28
+      name: knife
       rect:
         serializedVersion: 2
         x: 85
@@ -941,7 +919,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RareCollectibles_Spriteatlas_O_BigWander_29
+      name: feather
       rect:
         serializedVersion: 2
         x: 96
@@ -1051,7 +1029,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RareCollectibles_Spriteatlas_O_BigWander_34
+      name: 1
       rect:
         serializedVersion: 2
         x: 145
@@ -2071,7 +2049,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2080,6 +2058,28 @@ TextureImporter:
       bones: []
       spriteID: 799f9f87c76a6492eaebc8523efa6c49
       internalID: 1884251106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necklace
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc69bc354f56492998821176eb1326f
+      internalID: -454382546
       vertices: []
       indices: 
       edges: []
@@ -2098,6 +2098,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      1: 2749226802556391901
       RareCollectibles_Spriteatlas_O_BigWander_1: 7138845768789331695
       RareCollectibles_Spriteatlas_O_BigWander_10: -5252385274679593649
       RareCollectibles_Spriteatlas_O_BigWander_11: 3613077042200198273
@@ -2117,14 +2118,11 @@ TextureImporter:
       RareCollectibles_Spriteatlas_O_BigWander_25: 730920480028177188
       RareCollectibles_Spriteatlas_O_BigWander_26: -1519306101274897112
       RareCollectibles_Spriteatlas_O_BigWander_27: 3905751501818840689
-      RareCollectibles_Spriteatlas_O_BigWander_28: 1717212481786359178
-      RareCollectibles_Spriteatlas_O_BigWander_29: -5586470007026425142
       RareCollectibles_Spriteatlas_O_BigWander_3: -458198777656967135
       RareCollectibles_Spriteatlas_O_BigWander_30: 8930707282765082327
       RareCollectibles_Spriteatlas_O_BigWander_31: 1500896585933872435
       RareCollectibles_Spriteatlas_O_BigWander_32: -3734967999806579673
       RareCollectibles_Spriteatlas_O_BigWander_33: -7951286141658829253
-      RareCollectibles_Spriteatlas_O_BigWander_34: 2749226802556391901
       RareCollectibles_Spriteatlas_O_BigWander_35: -9055416430579629129
       RareCollectibles_Spriteatlas_O_BigWander_36: -7983884252224848662
       RareCollectibles_Spriteatlas_O_BigWander_37: 5538260141681429940
@@ -2175,8 +2173,11 @@ TextureImporter:
       RareCollectibles_Spriteatlas_O_BigWander_78: 5168241645382989440
       RareCollectibles_Spriteatlas_O_BigWander_8: -6271422835792584230
       RareCollectibles_Spriteatlas_O_BigWander_9: 5035945253877186187
+      feather: -5586470007026425142
       glasses: 2037425444016496419
+      knife: 1717212481786359178
       mask: 26065948206801466
+      necklace: -454382546
       ring: 2032377733
       svitok: 1884251106
   mipmapLimitGroupName: 

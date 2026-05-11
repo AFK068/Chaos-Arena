@@ -145,6 +145,7 @@ MonoBehaviour:
   pickupPrefab: {fileID: 6725619004127860285, guid: 3db7cb7c6297a44dc97789a09abb3b54, type: 3}
   rotateToDirection: 1
   spriteForwardAngleOffset: 0
+  piercing: 0
 --- !u!58 &1324078702587318839
 CircleCollider2D:
   m_ObjectHideFlags: 0

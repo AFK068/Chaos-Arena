@@ -1048,7 +1048,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet_TheDarkRitual_BigWander_32
+      name: scull
       rect:
         serializedVersion: 2
         x: 147
@@ -1598,7 +1598,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet_TheDarkRitual_BigWander_57
+      name: eye
       rect:
         serializedVersion: 2
         x: 145
@@ -1752,7 +1752,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet_TheDarkRitual_BigWander_64
+      name: bowl
       rect:
         serializedVersion: 2
         x: 98
@@ -2099,7 +2099,6 @@ TextureImporter:
       Spritesheet_TheDarkRitual_BigWander_3: -2113359099722831100
       Spritesheet_TheDarkRitual_BigWander_30: -6133062151913555306
       Spritesheet_TheDarkRitual_BigWander_31: 7117671277794745314
-      Spritesheet_TheDarkRitual_BigWander_32: 8441705164848705762
       Spritesheet_TheDarkRitual_BigWander_33: -4773006238815314788
       Spritesheet_TheDarkRitual_BigWander_34: 7193452507877763851
       Spritesheet_TheDarkRitual_BigWander_35: -2753942441526210877
@@ -2126,13 +2125,11 @@ TextureImporter:
       Spritesheet_TheDarkRitual_BigWander_54: 6634474753912047221
       Spritesheet_TheDarkRitual_BigWander_55: -7222232100871639977
       Spritesheet_TheDarkRitual_BigWander_56: 1744323585142554736
-      Spritesheet_TheDarkRitual_BigWander_57: 8991523581151581934
       Spritesheet_TheDarkRitual_BigWander_58: -8992015486842139136
       Spritesheet_TheDarkRitual_BigWander_59: -1596952281160404899
       Spritesheet_TheDarkRitual_BigWander_6: -2461882150450253011
       Spritesheet_TheDarkRitual_BigWander_62: 7519809829430239626
       Spritesheet_TheDarkRitual_BigWander_63: -6194255884763246339
-      Spritesheet_TheDarkRitual_BigWander_64: 1299220979704961195
       Spritesheet_TheDarkRitual_BigWander_65: 4000085888245588709
       Spritesheet_TheDarkRitual_BigWander_66: -4255182125337989821
       Spritesheet_TheDarkRitual_BigWander_67: 1810815979305695677
@@ -2150,6 +2147,9 @@ TextureImporter:
       Spritesheet_TheDarkRitual_BigWander_8: -8694770121201913032
       Spritesheet_TheDarkRitual_BigWander_9: 4811106320768545318
       book: -7606882596120440846
+      bowl: 1299220979704961195
+      eye: 8991523581151581934
+      scull: 8441705164848705762
       voodoo: 3144897058472518214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
