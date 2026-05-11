@@ -16,6 +16,7 @@ public class FloorManager : MonoBehaviour
 
     public GameObject PortalPrefab => portalPrefab;
     public GameObject BossChestPrefab => bossChestPrefab;
+    public CameraFollow CameraFollowRef => cameraFollow;
 
     public int CurrentFloor { get; private set; } = 1;
 

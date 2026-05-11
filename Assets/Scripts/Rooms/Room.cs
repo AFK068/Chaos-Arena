@@ -53,6 +53,9 @@ public class Room : MonoBehaviour
         if (State == RoomState.Cleared) return;
         State = RoomState.Active;
 
+        if (Node.type == RoomType.Boss)
+            FloorManager.Instance.CameraFollowRef?.Shake(1.5f, 0.15f);
+
         bool needsClearing = Node.type is RoomType.Normal or RoomType.Boss or RoomType.Gauntlet;
         if (needsClearing && _spawner != null)
         {
