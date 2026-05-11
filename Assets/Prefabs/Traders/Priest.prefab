@@ -200,11 +200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b33c37338acf540d3aea59fbbd0c578c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MerchantController
-  config: {fileID: 0}
   mainItemPool: []
   additionalItemPool: []
-  expensiveItemPrice: 12
-  cheapItemPrice: 8
   additionalItemPrice: 4
   coinPrefab: {fileID: 7351263101010314638, guid: 0a23db569f93b47e99e8a1a3396ec8e9, type: 3}
   coinsPerPurchase: 5
@@ -245,8 +242,8 @@ MonoBehaviour:
   - {fileID: -5880867219896812316, guid: eb372b6eae5dd49a08a72d46b5c27adc, type: 3}
   - {fileID: -4637444600427316508, guid: eb372b6eae5dd49a08a72d46b5c27adc, type: 3}
   - {fileID: -3615400461519533691, guid: eb372b6eae5dd49a08a72d46b5c27adc, type: 3}
-  deadSprite: {fileID: -7692532821448207450, guid: a4de6863879f9474b8377abe6a5497e8, type: 3}
   fps: 8
+  skeletonPrefab: {fileID: 193556856281652335, guid: b1bcd62e76c8d42c78991d728b138d8a, type: 3}
   wanderRadius: 4
   moveSpeed: 1.5
   waitMinTime: 1

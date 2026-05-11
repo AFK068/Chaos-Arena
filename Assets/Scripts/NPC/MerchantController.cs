@@ -34,8 +34,11 @@ public class MerchantController : MonoBehaviour
     [SerializeField] private Sprite[] idleFrames;
     [SerializeField] private Sprite[] walkFrames;
     [SerializeField] private Sprite[] showFrames;
-    [SerializeField] private Sprite deadSprite;
     [SerializeField] private float fps = 8f;
+
+    [Header("Death")]
+    [SerializeField] private GameObject skeletonPrefab;
+    [SerializeField] private float skeletonSpawnDelay = 0.5f;
 
     [Header("Wander")]
     [SerializeField] private float wanderRadius = 4f;
@@ -84,22 +87,21 @@ public class MerchantController : MonoBehaviour
     {
         _isDead = true;
 
-        StopAllCoroutines();
-        if (_rb != null)
-        {
-            _rb.linearVelocity = Vector2.zero;
-            _rb.simulated = false;
-        }
-
-        var col = GetComponent<Collider2D>();
-        if (col != null) col.enabled = false;
-
-        _currentFrames = null;
-        if (_sr != null && deadSprite != null) _sr.sprite = deadSprite;
-
         foreach (var item in _spawnedItems)
             if (item != null) Destroy(item);
         _spawnedItems.Clear();
+
+        StartCoroutine(SpawnSkeletonRoutine());
+    }
+
+    private IEnumerator SpawnSkeletonRoutine()
+    {
+        yield return new WaitForSeconds(skeletonSpawnDelay);
+
+        if (skeletonPrefab != null)
+            Instantiate(skeletonPrefab, transform.position, Quaternion.identity, FloorManager.RuntimeRoot);
+
+        Destroy(gameObject);
     }
 
     private void Update()
