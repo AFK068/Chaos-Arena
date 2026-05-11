@@ -4,12 +4,17 @@ using UnityEngine.InputSystem;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
+    [SerializeField] private GameObject settingsPanel;
 
     private bool _isPaused;
 
     void Update()
     {
-        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Keyboard.current == null || !Keyboard.current.escapeKey.wasPressedThisFrame) return;
+
+        if (settingsPanel != null && settingsPanel.activeSelf)
+            OnCloseSettings();
+        else
             Toggle();
     }
 
@@ -34,6 +39,18 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void OnContinue() => Resume();
+
+    public void OnOpenSettings()
+    {
+        if (settingsPanel != null) settingsPanel.SetActive(true);
+        if (pausePanel != null) pausePanel.SetActive(false);
+    }
+
+    public void OnCloseSettings()
+    {
+        if (settingsPanel != null) settingsPanel.SetActive(false);
+        if (pausePanel != null) pausePanel.SetActive(true);
+    }
 
     public void OnQuit()
     {

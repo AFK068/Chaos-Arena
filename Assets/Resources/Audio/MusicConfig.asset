@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261c5ad5943b441f1896e6f962b40224, type: 3}
+  m_Name: MusicConfig
+  m_EditorClassIdentifier: Assembly-CSharp::MusicConfig
+  menu:
+    clips:
+    - {fileID: 8300000, guid: 87f8e5875abf549a99a0c731f72cc373, type: 3}
+    - {fileID: 8300000, guid: 1fb18f1236b034887a17a0e9a93a8a26, type: 3}
+    loop: 1
+  gameplay:
+    clips:
+    - {fileID: 8300000, guid: c3cfc8b961d60428eab6b5434a1cb1e4, type: 3}
+    - {fileID: 8300000, guid: edd081432b8cf4b3f997ef8ef49f4cdb, type: 3}
+    - {fileID: 8300000, guid: 87f8e5875abf549a99a0c731f72cc373, type: 3}
+    - {fileID: 8300000, guid: 1fb18f1236b034887a17a0e9a93a8a26, type: 3}
+    loop: 0
+  boss:
+    clips:
+    - {fileID: 8300000, guid: 6525c430362904f21bc43723223459c3, type: 3}
+    - {fileID: 8300000, guid: 5ebab10b36f234dbab0b3eb193654bff, type: 3}
+    - {fileID: 8300000, guid: 247c659f4ccd24d8ca66795b24096a65, type: 3}
+    loop: 1

@@ -50,6 +50,11 @@ public class Room : MonoBehaviour
 
     public void OnRoomEntered()
     {
+        if (Node.type == RoomType.Boss)
+            AudioManager.Instance?.PlayBossMusic();
+        else
+            AudioManager.Instance?.PlayGameplayMusic();
+
         if (State == RoomState.Cleared) return;
         State = RoomState.Active;
 
