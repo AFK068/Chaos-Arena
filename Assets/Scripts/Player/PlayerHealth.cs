@@ -126,7 +126,11 @@ public class PlayerHealth : MonoBehaviour
         if (shoot != null) shoot.enabled = false;
 
         var rb = GetComponent<Rigidbody2D>();
-        if (rb != null) rb.linearVelocity = Vector2.zero;
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.bodyType = RigidbodyType2D.Static;
+        }
 
         StartCoroutine(DeathRoutine());
     }

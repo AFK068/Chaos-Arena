@@ -1601,6 +1601,7 @@ GameObject:
   - component: {fileID: 1867968322}
   - component: {fileID: 1867968321}
   - component: {fileID: 1867968323}
+  - component: {fileID: 1867968324}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2145,6 +2146,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1105de9a975764c5cad1dc469722d2c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerWallet
+--- !u!114 &1867968324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867968309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf0942490cd94c6f9c42b80871b037c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDeathAnimator
+  deathFrames:
+  - {fileID: -3992138497773211457, guid: 37efca4911b954f9086d852055a37055, type: 3}
+  - {fileID: -5874971370176989219, guid: 37efca4911b954f9086d852055a37055, type: 3}
+  - {fileID: -4280462947151646352, guid: 37efca4911b954f9086d852055a37055, type: 3}
+  fps: 3
 --- !u!1001 &1869167586
 PrefabInstance:
   m_ObjectHideFlags: 0

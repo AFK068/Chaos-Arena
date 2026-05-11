@@ -803,7 +803,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prototype_character_27
+      name: death_1
       rect:
         serializedVersion: 2
         x: 10
@@ -825,7 +825,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prototype_character_28
+      name: death_2
       rect:
         serializedVersion: 2
         x: 42
@@ -847,7 +847,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prototype_character_29
+      name: death_3
       rect:
         serializedVersion: 2
         x: 74
@@ -952,6 +952,9 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+      death_1: -3992138497773211457
+      death_2: -5874971370176989219
+      death_3: -4280462947151646352
       prototype_character_0: 2666167170978389918
       prototype_character_1: 8562117810355511841
       prototype_character_10: -1090819813129615499
@@ -972,9 +975,6 @@ TextureImporter:
       prototype_character_24: -4381023856897657659
       prototype_character_25: -8800713528243343766
       prototype_character_26: 4693669256740232284
-      prototype_character_27: -3992138497773211457
-      prototype_character_28: -5874971370176989219
-      prototype_character_29: -4280462947151646352
       prototype_character_3: -7489708013853389806
       prototype_character_30: -8693093938180812259
       prototype_character_31: 1316622561570692573
