@@ -37,7 +37,7 @@ public class CoinDrop : MonoBehaviour
         if (Config == null || Config.coinPool == null || Config.coinPool.Length == 0) return;
         var prefab = PickWeighted(Config.coinPool);
         if (prefab == null) return;
-        var instance = Object.Instantiate(prefab, position, Quaternion.identity);
+        var instance = Object.Instantiate(prefab, position, Quaternion.identity, FloorManager.RuntimeRoot);
         var target = position + (Vector3)(Random.insideUnitCircle.normalized * spawnRadius);
         var drop = instance.GetComponent<ItemDrop>() ?? instance.AddComponent<ItemDrop>();
         drop.Throw(target, 0.4f);

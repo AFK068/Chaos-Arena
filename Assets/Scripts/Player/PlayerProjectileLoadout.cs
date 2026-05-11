@@ -44,7 +44,7 @@ public class PlayerProjectileLoadout : MonoBehaviour
             return;
         }
 
-        var droppedPickup = Instantiate(pickupPrefab, (Vector2)transform.position + dropOffset, Quaternion.identity);
+        var droppedPickup = Instantiate(pickupPrefab, (Vector2)transform.position + dropOffset, Quaternion.identity, FloorManager.RuntimeRoot);
         droppedPickup.Configure(projectileToDrop);
         droppedPickup.SetPickupCooldown(droppedPickupCooldown);
     }

@@ -127,11 +127,13 @@ public class Room : MonoBehaviour
     {
         if (prefab == null) yield break;
 
+        var parent = FloorManager.RuntimeRoot;
+
         float delay = 0f;
         var effectPrefab = SpawnEffectPrefab;
         if (effectPrefab != null)
         {
-            var effect = Instantiate(effectPrefab, pos, Quaternion.identity);
+            var effect = Instantiate(effectPrefab, pos, Quaternion.identity, parent);
             effect.transform.localScale = Vector3.one * 2f;
 
             var anim = effect.GetComponent<SpriteSheetAnimator>();
@@ -143,7 +145,7 @@ public class Room : MonoBehaviour
 
         yield return new WaitForSeconds(delay);
 
-        Instantiate(prefab, pos, Quaternion.identity);
+        Instantiate(prefab, pos, Quaternion.identity, parent);
     }
 
     private void SetDoorsLocked(bool locked)

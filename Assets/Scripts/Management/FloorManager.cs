@@ -20,10 +20,13 @@ public class FloorManager : MonoBehaviour
 
     public int CurrentFloor { get; private set; } = 1;
 
+    public static Transform RuntimeRoot => Instance != null ? Instance._runtimeRoot : null;
+
     private List<FloorNode> _nodes;
     private readonly Dictionary<int, Room> _rooms = new();
     private Room _currentRoom;
     private bool _transitioning;
+    private Transform _runtimeRoot;
 
     private RoomDataPool ActivePool =>
         floorPools != null && floorPools.Length > 0
@@ -45,6 +48,10 @@ public class FloorManager : MonoBehaviour
         foreach (var room in _rooms.Values)
             if (room != null) Destroy(room.gameObject);
         _rooms.Clear();
+
+        if (_runtimeRoot != null) Destroy(_runtimeRoot.gameObject);
+        _runtimeRoot = new GameObject("FloorRuntime").transform;
+        _runtimeRoot.SetParent(transform, false);
 
         if (ActivePool == null) { Debug.LogError("FloorManager: назначь хотя бы один пул в floorPools!"); return; }
 

@@ -153,7 +153,7 @@ public class MerchantController : MonoBehaviour
                 gridOffset.y,
                 0f);
 
-            var go = Instantiate(prefab, worldPos, Quaternion.identity);
+            var go = Instantiate(prefab, worldPos, Quaternion.identity, FloorManager.RuntimeRoot);
             _spawnedItems.Add(go);
             var capturedName = prefab.name;
             SetupShopItem(go, price, capturedName);

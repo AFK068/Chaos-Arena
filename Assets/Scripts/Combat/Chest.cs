@@ -60,18 +60,19 @@ public class Chest : MonoBehaviour, IInteractable
     private void SpawnDrops()
     {
         var drops = new List<GameObject>();
+        var parent = FloorManager.RuntimeRoot;
 
         var guaranteed = (guaranteedItems != null && guaranteedItems.Length > 0) ? guaranteedItems : LootConfig?.guaranteedItems;
         if (guaranteed != null)
             foreach (var item in guaranteed)
                 if (item != null)
-                    drops.Add(Instantiate(item, transform.position, Quaternion.identity));
+                    drops.Add(Instantiate(item, transform.position, Quaternion.identity, parent));
 
         if (Random.value <= itemDropChance)
         {
             var item = PickItem();
             if (item != null)
-                drops.Add(Instantiate(item, transform.position, Quaternion.identity));
+                drops.Add(Instantiate(item, transform.position, Quaternion.identity, parent));
         }
 
         drops.AddRange(GenerateCoins());
@@ -123,9 +124,10 @@ public class Chest : MonoBehaviour, IInteractable
     {
         var result = new List<GameObject>();
         if (coinPrefab == null) return result;
+        var parent = FloorManager.RuntimeRoot;
         int count = Random.Range(minCoins, maxCoins + 1);
         for (int i = 0; i < count; i++)
-            result.Add(Instantiate(coinPrefab, transform.position, Quaternion.identity));
+            result.Add(Instantiate(coinPrefab, transform.position, Quaternion.identity, parent));
         return result;
     }
 
