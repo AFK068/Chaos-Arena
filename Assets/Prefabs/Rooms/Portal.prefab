@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 85290012277790155}
   - component: {fileID: 373404685182066269}
   - component: {fileID: 5259891247060254049}
+  - component: {fileID: 3039320994612432213}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -29,8 +30,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -5816642994671486895, guid: 6ca4c24d54e9c4a1588d8bda867a5520, type: 3}
+  m_Sprite: {fileID: 2868536861935197575, guid: 1c756ff51df844ea29b8a6915bc266bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,7 +132,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.3857143, y: 1.3914286}
+    oldSize: {x: 0.18, y: 0.32}
     newSize: {x: 9.7, y: 9.74}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -151,3 +152,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21f18aa4504734b3d8c525c354add557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FloorExitPortal
+--- !u!114 &3039320994612432213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085171403162255623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56673f2ca443b4ff48f8a0a1bb046b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteSheetAnimator
+  frames:
+  - {fileID: 2868536861935197575, guid: 1c756ff51df844ea29b8a6915bc266bf, type: 3}
+  - {fileID: -2464535481402407059, guid: 1c756ff51df844ea29b8a6915bc266bf, type: 3}
+  - {fileID: -3098284262369920369, guid: 1c756ff51df844ea29b8a6915bc266bf, type: 3}
+  - {fileID: 1745666360947111558, guid: 1c756ff51df844ea29b8a6915bc266bf, type: 3}
+  - {fileID: -4574659595201047104, guid: 1c756ff51df844ea29b8a6915bc266bf, type: 3}
+  - {fileID: 637009261245918201, guid: 1c756ff51df844ea29b8a6915bc266bf, type: 3}
+  fps: 12
+  autoResizeCollider: 0
+  destroyAfterPlay: 0
