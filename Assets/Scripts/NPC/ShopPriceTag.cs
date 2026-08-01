@@ -61,7 +61,7 @@ public class ShopPriceTag : MonoBehaviour
         _text.fontStyle = FontStyles.Bold;
         _text.textWrappingMode = TextWrappingModes.NoWrap;
 
-        var font = Resources.Load<TMP_FontAsset>("Fonts & Materials/BoldPixels Font");
+        var font = Resources.Load<TMP_FontAsset>("Fonts & Materials/Press Start 2P Font");
         if (font != null) _text.font = font;
     }
 

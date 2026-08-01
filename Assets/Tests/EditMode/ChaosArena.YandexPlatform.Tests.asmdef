@@ -2,7 +2,8 @@
   "name": "ChaosArena.YandexPlatform.Tests",
   "rootNamespace": "ChaosArena.Platform.Tests",
   "references": [
-    "ChaosArena.YandexPlatform"
+    "ChaosArena.YandexPlatform",
+    "Unity.TextMeshPro"
   ],
   "includePlatforms": [
     "Editor"

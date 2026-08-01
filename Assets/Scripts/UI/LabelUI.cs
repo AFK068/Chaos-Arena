@@ -64,7 +64,7 @@ public class LabelUI : MonoBehaviour
         _text.overflowMode = TextOverflowModes.Ellipsis;
         _text.margin = new Vector4(24f, 0f, 24f, 0f);
 
-        var font = Resources.Load<TMP_FontAsset>("Fonts & Materials/BoldPixels Font");
+        var font = Resources.Load<TMP_FontAsset>("Fonts & Materials/Press Start 2P Font");
         if (font != null) _text.font = font;
 
         if (LocalizationService.Instance != null)

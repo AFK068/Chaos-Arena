@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using ChaosArena.Platform;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -154,11 +155,13 @@ public sealed class MobileControlsController : MonoBehaviour
 
         var textRect = CreateRect("Label", buttonRect);
         Stretch(textRect);
-        var text = textRect.gameObject.AddComponent<Text>();
+        var text = textRect.gameObject.AddComponent<TextMeshProUGUI>();
         text.text = LocalizationService.GetText(localizationKey);
-        text.alignment = TextAnchor.MiddleCenter;
-        text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-        text.fontSize = localizationKey == "II" ? 32 : 24;
+        text.alignment = TextAlignmentOptions.Center;
+        text.font = Resources.Load<TMP_FontAsset>("Fonts & Materials/Press Start 2P Font");
+        text.enableAutoSizing = true;
+        text.fontSizeMin = 10f;
+        text.fontSizeMax = localizationKey == "II" ? 26f : 18f;
         text.color = Color.white;
         text.raycastTarget = false;
         _localizedLabels.Add(new MobileLabel(text, localizationKey));
@@ -220,13 +223,13 @@ public sealed class MobileControlsController : MonoBehaviour
 
     private readonly struct MobileLabel
     {
-        public MobileLabel(Text text, string key)
+        public MobileLabel(TextMeshProUGUI text, string key)
         {
             Text = text;
             Key = key;
         }
 
-        public Text Text { get; }
+        public TextMeshProUGUI Text { get; }
         public string Key { get; }
     }
 }
