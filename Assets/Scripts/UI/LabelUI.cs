@@ -57,7 +57,10 @@ public class LabelUI : MonoBehaviour
         textRect.offsetMax = Vector2.zero;
 
         _text = textGo.AddComponent<TextMeshProUGUI>();
-        _text.fontSize = 28f;
+        _text.fontSize = 24f;
+        _text.enableAutoSizing = true;
+        _text.fontSizeMin = 18f;
+        _text.fontSizeMax = 24f;
         _text.alignment = TextAlignmentOptions.Center;
         _text.color = new Color(0.96f, 0.88f, 0.70f, 1f);
         _text.textWrappingMode = TextWrappingModes.Normal;

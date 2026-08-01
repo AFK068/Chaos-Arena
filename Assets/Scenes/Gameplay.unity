@@ -473,7 +473,7 @@ MonoBehaviour:
   m_text: PAUSED
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
-  m_sharedMaterial: {fileID: -4607011417953349969, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
+  m_sharedMaterial: {fileID: 8472025408092480003, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -497,12 +497,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 130
-  m_fontSizeBase: 130
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 56
+  m_fontSizeMax: 80
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -514,7 +514,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
-  m_sharedMaterial: {fileID: -4607011417953349969, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
+  m_sharedMaterial: {fileID: 8472025408092480003, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2781,7 +2781,7 @@ MonoBehaviour:
   m_text: E
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
-  m_sharedMaterial: {fileID: -4607011417953349969, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
+  m_sharedMaterial: {fileID: 8472025408092480003, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2878,7 +2878,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4607011417953349969, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
+  - {fileID: 8472025408092480003, guid: 6737c4ba58f3d4255a3168249cd54a82, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
