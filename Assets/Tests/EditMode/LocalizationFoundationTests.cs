@@ -47,6 +47,7 @@ namespace ChaosArena.Platform.Tests
         public void CatalogUsesEnglishFallbackAndExposesMissingKeys()
         {
             Assert.That(LocalizationCatalog.Get(LocalizationCatalog.NewRun, "tr"), Is.EqualTo("New Run"));
+            Assert.That(LocalizationCatalog.Get(LocalizationCatalog.Return, "ru"), Is.EqualTo("Назад"));
             Assert.That(LocalizationCatalog.Get("missing.key", "ru"), Is.EqualTo("missing.key"));
             Assert.That(LocalizationCatalog.Format(LocalizationCatalog.FloorFormat, "ru", 7), Is.EqualTo("ЭТАЖ 7"));
         }

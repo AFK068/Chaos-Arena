@@ -15,6 +15,7 @@ namespace ChaosArena.Platform
         public const string Kills = "stats.kills";
         public const string Sounds = "settings.sounds";
         public const string Music = "settings.music";
+        public const string Return = "settings.return";
         public const string SettingsTitle = "settings.title";
         public const string Paused = "pause.title";
         public const string Continue = "pause.continue";
@@ -51,6 +52,7 @@ namespace ChaosArena.Platform
                 [Kills] = new("Kills", "Убийства"),
                 [Sounds] = new("Sounds", "Звуки"),
                 [Music] = new("Music", "Музыка"),
+                [Return] = new("Return", "Назад"),
                 [SettingsTitle] = new("SETTINGS", "НАСТРОЙКИ"),
                 [Paused] = new("PAUSED", "ПАУЗА"),
                 [Continue] = new("Continue", "Продолжить"),

@@ -53,6 +53,7 @@ To localize an existing TextMeshPro label in the Unity Editor:
 | Kills | `stats.kills` |
 | Sounds | `settings.sounds` |
 | Music | `settings.music` |
+| Return | `settings.return` |
 | SETTINGS | `settings.title` |
 | PAUSED | `pause.title` |
 | Continue | `pause.continue` |
