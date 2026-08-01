@@ -16,6 +16,18 @@ public sealed class SfxPlaybackRulesTests
     }
 
     [Test]
+    public void HighRandomValueDoesNotWrapBackToTheFirstPreviousClip()
+    {
+        Assert.That(SfxPlaybackRules.PickVariantIndex(3, 0, 0.99f), Is.EqualTo(2));
+    }
+
+    [Test]
+    public void HighRandomValueDoesNotRepeatTheLastPreviousClip()
+    {
+        Assert.That(SfxPlaybackRules.PickVariantIndex(3, 2, 0.99f), Is.EqualTo(1));
+    }
+
+    [Test]
     public void MinimumIntervalBlocksOnlyTheSpamWindow()
     {
         Assert.That(SfxPlaybackRules.CanPlay(10.04f, 10f, 0.05f), Is.False);

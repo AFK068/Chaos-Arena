@@ -14,7 +14,8 @@ public class AudioManager : MonoBehaviour
     private const string MusicVolumeParam = "MusicVolume";
     // This must match the exposed parameter in Resources/Audio/MainMixer.mixer.
     private const string SfxVolumeParam = "SFXVolume";
-    private const float DefaultVolume = 0.7f;
+    private const float DefaultMusicVolume = 0.1f;
+    private const float DefaultSfxVolume = 0.7f;
     private const float CrossfadeDuration = 1f;
     private const int SfxPoolSize = 12;
 
@@ -74,8 +75,8 @@ public class AudioManager : MonoBehaviour
             _sfxSources[i] = source;
         }
 
-        MusicVolume = PlayerPrefs.GetFloat(MusicVolumeKey, DefaultVolume);
-        SfxVolume = PlayerPrefs.GetFloat(SfxVolumeKey, DefaultVolume);
+        MusicVolume = PlayerPrefs.GetFloat(MusicVolumeKey, DefaultMusicVolume);
+        SfxVolume = PlayerPrefs.GetFloat(SfxVolumeKey, DefaultSfxVolume);
         ApplyMusicVolume();
         ApplySfxVolume();
 

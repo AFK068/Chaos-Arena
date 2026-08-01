@@ -49,8 +49,11 @@ public static class SfxPlaybackRules
         if (clipCount <= 0) return -1;
         if (clipCount == 1) return 0;
 
-        var candidate = Mathf.Clamp((int)(Mathf.Clamp01(randomValue) * clipCount), 0, clipCount - 1);
-        if (previousIndex >= 0 && candidate >= previousIndex) candidate = (candidate + 1) % clipCount;
+        if (previousIndex < 0 || previousIndex >= clipCount)
+            return Mathf.Clamp((int)(Mathf.Clamp01(randomValue) * clipCount), 0, clipCount - 1);
+
+        var candidate = Mathf.Clamp((int)(Mathf.Clamp01(randomValue) * (clipCount - 1)), 0, clipCount - 2);
+        if (candidate >= previousIndex) candidate++;
         return candidate;
     }
 
