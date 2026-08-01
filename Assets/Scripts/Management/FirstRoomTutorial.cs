@@ -87,7 +87,10 @@ public sealed class FirstRoomTutorial : MonoBehaviour
 
         _text = textObject.AddComponent<TextMeshProUGUI>();
         _text.alignment = TextAlignmentOptions.Center;
-        _text.fontSize = 62f;
+        _text.fontSize = 44f;
+        _text.enableAutoSizing = true;
+        _text.fontSizeMin = 28f;
+        _text.fontSizeMax = 44f;
         _text.enableWordWrapping = true;
         _text.overflowMode = TextOverflowModes.Ellipsis;
         _text.color = new Color(0.96f, 0.88f, 0.70f, 1f);

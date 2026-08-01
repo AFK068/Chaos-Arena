@@ -33,23 +33,35 @@ public static class PressStart2PFontGenerator
         if (missingFromSource.Count != 0)
             throw new InvalidOperationException($"Press Start 2P source is missing: {FormatCodePoints(missingFromSource)}");
 
-        // Keep the .meta file so regenerating the atlas preserves every serialized reference.
-        if (File.Exists(AssetPath))
+        // Never delete and recreate this asset.  The material and atlas are subassets
+        // with local IDs, and every scene/prefab serializes those IDs alongside the
+        // font GUID.  Updating the existing dynamic atlas in place keeps them valid.
+        var fontAsset = AssetDatabase.LoadAssetAtPath<TMP_FontAsset>(AssetPath);
+        if (fontAsset == null)
         {
-            File.Delete(AssetPath);
-            AssetDatabase.Refresh();
+            fontAsset = TMP_FontAsset.CreateFontAsset(
+                sourceFont,
+                SamplingPointSize,
+                AtlasPadding,
+                GlyphRenderMode.SDFAA,
+                AtlasSize,
+                AtlasSize,
+                AtlasPopulationMode.Dynamic,
+                false);
+            fontAsset.name = "Press Start 2P Font";
+            AssetDatabase.CreateAsset(fontAsset, AssetPath);
+            AssetDatabase.AddObjectToAsset(fontAsset.material, fontAsset);
+            foreach (var atlasTexture in fontAsset.atlasTextures)
+                AssetDatabase.AddObjectToAsset(atlasTexture, fontAsset);
         }
 
-        // TMP fills the atlas while dynamic, then the saved production asset is locked static.
-        var fontAsset = TMP_FontAsset.CreateFontAsset(
-            sourceFont,
-            SamplingPointSize,
-            AtlasPadding,
-            GlyphRenderMode.SDFAA,
-            AtlasSize,
-            AtlasSize,
-            AtlasPopulationMode.Dynamic,
-            false);
+        if (fontAsset.material == null || fontAsset.atlasTextures == null ||
+            fontAsset.atlasTextures.Length == 0 || fontAsset.atlasTextures[0] == null)
+        {
+            throw new InvalidOperationException(
+                $"Existing production font is incomplete at {AssetPath}; refusing to replace its serialized subassets.");
+        }
+
         fontAsset.name = "Press Start 2P Font";
         fontAsset.creationSettings = new FontAssetCreationSettings
         {
@@ -64,14 +76,20 @@ public static class PressStart2PFontGenerator
             characterSequence = characters,
             renderMode = (int)GlyphRenderMode.SDFAA
         };
-        AssetDatabase.CreateAsset(fontAsset, AssetPath);
-        AssetDatabase.AddObjectToAsset(fontAsset.material, fontAsset);
-        foreach (var atlasTexture in fontAsset.atlasTextures)
-            AssetDatabase.AddObjectToAsset(atlasTexture, fontAsset);
-        AssetDatabase.SaveAssets();
-
-        if (!fontAsset.TryAddCharacters(characters, out var missingFromAtlas) || !string.IsNullOrEmpty(missingFromAtlas))
-            throw new InvalidOperationException($"Press Start 2P atlas is missing: {FormatCodePoints(missingFromAtlas)}");
+        var missingFromExistingAtlas = characters.Where(character => !fontAsset.HasCharacter(character, false, false)).ToArray();
+        if (missingFromExistingAtlas.Length != 0)
+        {
+            // An existing static asset is only made dynamic when the corpus really
+            // expanded.  Toggling it for an unchanged atlas causes TMP to attempt
+            // to repack every glyph and makes repeated generation non-idempotent.
+            fontAsset.atlasPopulationMode = AtlasPopulationMode.Dynamic;
+            AssetDatabase.SaveAssets();
+            if (!fontAsset.TryAddCharacters(new string(missingFromExistingAtlas), out var missingFromAtlas) ||
+                !string.IsNullOrEmpty(missingFromAtlas))
+            {
+                throw new InvalidOperationException($"Press Start 2P atlas is missing: {FormatCodePoints(missingFromAtlas)}");
+            }
+        }
 
         fontAsset.atlasPopulationMode = AtlasPopulationMode.Static;
         fontAsset.fallbackFontAssetTable = new List<TMP_FontAsset>();
