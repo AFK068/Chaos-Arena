@@ -1,0 +1,21 @@
+{
+  "name": "ChaosArena.YandexPlatform.Tests",
+  "rootNamespace": "ChaosArena.Platform.Tests",
+  "references": [
+    "ChaosArena.YandexPlatform"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

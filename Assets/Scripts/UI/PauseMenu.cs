@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using ChaosArena.Platform;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -27,14 +28,14 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         _isPaused = true;
-        Time.timeScale = 0f;
+        YandexPlatformService.SetLocalPause(true);
         if (pausePanel != null) pausePanel.SetActive(true);
     }
 
     public void Resume()
     {
         _isPaused = false;
-        Time.timeScale = 1f;
+        YandexPlatformService.SetLocalPause(false);
         if (pausePanel != null) pausePanel.SetActive(false);
     }
 
@@ -54,9 +55,13 @@ public class PauseMenu : MonoBehaviour
 
     public void OnQuit()
     {
-        Time.timeScale = 1f;
+        Resume();
         GameManager.Instance.GoToMainMenu();
     }
 
-    void OnDestroy() => Time.timeScale = 1f;
+    void OnDestroy()
+    {
+        if (_isPaused)
+            YandexPlatformService.SetLocalPause(false);
+    }
 }

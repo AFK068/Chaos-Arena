@@ -1,11 +1,16 @@
 using UnityEngine;
+using ChaosArena.Platform;
 
 public class MainMenuUI : MonoBehaviour
 {
     [SerializeField] private GameObject mainPanel;
     [SerializeField] private GameObject settingsPanel;
 
-    private void Start() => AudioManager.Instance?.PlayMenuMusic();
+    private void Start()
+    {
+        AudioManager.Instance?.PlayMenuMusic();
+        YandexPlatformService.NotifyMainMenuInteractive();
+    }
 
     public void OnNewRun() => GameManager.Instance.StartRun();
 

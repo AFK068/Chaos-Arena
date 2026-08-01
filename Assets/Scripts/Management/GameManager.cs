@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using ChaosArena.Platform;
 
 public class GameManager : MonoBehaviour
 {
@@ -39,6 +40,7 @@ public class GameManager : MonoBehaviour
     {
         CurrentRun.Reset();
         PlayerInventory.Clear();
+        YandexPlatformService.SetGameplayIntent(true);
         SceneManager.LoadScene(gameplayScene);
     }
 
@@ -46,6 +48,7 @@ public class GameManager : MonoBehaviour
     {
         CurrentRun.Reset();
         PlayerInventory.Clear();
+        YandexPlatformService.SetGameplayIntent(true);
         SceneManager.LoadScene(gameplayScene);
     }
 
@@ -53,10 +56,17 @@ public class GameManager : MonoBehaviour
     {
         CurrentRun.StopTimer();
         PlayerStats.RecordRun(CurrentRun);
+        YandexPlatformService.SetGameplayIntent(false);
+        YandexPlatformService.SetLocalPause(false);
         SceneManager.LoadScene(gameOverScene);
     }
 
-    public void GoToMainMenu() => SceneManager.LoadScene(mainMenuScene);
+    public void GoToMainMenu()
+    {
+        YandexPlatformService.SetGameplayIntent(false);
+        YandexPlatformService.SetLocalPause(false);
+        SceneManager.LoadScene(mainMenuScene);
+    }
 
     private void HandleEnemyKilled() => CurrentRun.Kills++;
 
