@@ -174,12 +174,19 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext context)
     {
-        _moveInput = context.ReadValue<Vector2>();
+        SetMoveInput(context.ReadValue<Vector2>());
     }
+
+    public void SetMoveInput(Vector2 moveInput) => _moveInput = Vector2.ClampMagnitude(moveInput, 1f);
 
     public void OnDash(InputAction.CallbackContext context)
     {
         if (!context.started) return;
+        TryDash();
+    }
+
+    public void TryDash()
+    {
         if (_currentCharges <= 0 || _moveInput == Vector2.zero) return;
 
         int slot = -1;

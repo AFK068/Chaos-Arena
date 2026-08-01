@@ -48,6 +48,8 @@ namespace ChaosArena.Platform.Tests
         {
             Assert.That(LocalizationCatalog.Get(LocalizationCatalog.NewRun, "tr"), Is.EqualTo("New Run"));
             Assert.That(LocalizationCatalog.Get(LocalizationCatalog.Return, "ru"), Is.EqualTo("Назад"));
+            Assert.That(LocalizationCatalog.Get(LocalizationCatalog.MobileDash, "ru"), Is.EqualTo("Рывок"));
+            Assert.That(LocalizationCatalog.Get(LocalizationCatalog.MobileInteract, "en"), Is.EqualTo("Use"));
             Assert.That(LocalizationCatalog.Get("missing.key", "ru"), Is.EqualTo("missing.key"));
             Assert.That(LocalizationCatalog.Format(LocalizationCatalog.FloorFormat, "ru", 7), Is.EqualTo("ЭТАЖ 7"));
         }
