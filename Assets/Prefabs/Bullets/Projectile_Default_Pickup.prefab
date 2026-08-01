@@ -182,6 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  contentKey: content.projectile.default
   labelText: Iron Will\n\nNo element. No trick.\nJust the shot, and whoever is in
     the way.\n\nStandard projectiles
   offset: {x: 0, y: 1.2, z: 0}

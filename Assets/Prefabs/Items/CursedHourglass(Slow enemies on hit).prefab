@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  contentKey: content.item.cursed_hourglass
   labelText: "Cursed Hourglass\\n\\nTime doesn't stop. It just forgets about them
     for a moment.\\nPain has its own gravity \u2014 and they all feel it.\\n\\nOn
     hit: slows all nearby enemies to 30% speed for 1.5s"

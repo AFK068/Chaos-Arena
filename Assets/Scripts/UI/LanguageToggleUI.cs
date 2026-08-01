@@ -25,14 +25,13 @@ public sealed class LanguageToggleUI : MonoBehaviour
         if (LocalizationService.Instance == null)
             return;
 
-        if (LocalizationService.Instance.CurrentLanguage == LocalizationLanguagePolicy.Russian)
-            LocalizationService.Instance.UseEnglish();
-        else
-            LocalizationService.Instance.UseRussian();
+        LocalizationService.Instance.SetManualLanguage(
+            LocalizationLanguagePolicy.NextManualLanguage(LocalizationService.Instance.CurrentLanguage));
     }
 
     public void UseRussian() => LocalizationService.Instance?.UseRussian();
     public void UseEnglish() => LocalizationService.Instance?.UseEnglish();
+    public void UseTurkish() => LocalizationService.Instance?.UseTurkish();
     public void UsePlatformLanguage() => LocalizationService.Instance?.UsePlatformLanguage();
     public void ResetToAuto() => LocalizationService.Instance?.ResetToAuto();
 
@@ -43,8 +42,11 @@ public sealed class LanguageToggleUI : MonoBehaviour
         if (label == null)
             return;
 
-        label.text = LocalizationService.Instance?.CurrentLanguage == LocalizationLanguagePolicy.Russian
-            ? "RU"
-            : "EN";
+        label.text = LocalizationService.Instance?.CurrentLanguage switch
+        {
+            LocalizationLanguagePolicy.Russian => "RU",
+            LocalizationLanguagePolicy.Turkish => "TR",
+            _ => "EN"
+        };
     }
 }

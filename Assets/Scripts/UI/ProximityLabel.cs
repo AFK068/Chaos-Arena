@@ -1,11 +1,18 @@
 using UnityEngine;
+using ChaosArena.Platform;
 
 public class ProximityLabel : MonoBehaviour
 {
+    [Tooltip("Stable localization key. The serialized English labelText remains the fallback for old/missing content.")]
+    [SerializeField] private string contentKey;
     [SerializeField] private string labelText = "Item";
     [SerializeField] private Vector3 offset = new Vector3(0f, 0.6f, 0f);
 
-    public string LabelText => labelText;
+    public string ContentKey => contentKey;
+    public string LabelText =>
+        string.IsNullOrWhiteSpace(contentKey) || !LocalizationCatalog.HasKey(contentKey)
+            ? labelText
+            : LocalizationService.GetText(contentKey);
     public Vector3 Offset => offset;
 
     private void Awake()

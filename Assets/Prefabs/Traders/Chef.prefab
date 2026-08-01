@@ -295,6 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  contentKey: content.trader.chef
   labelText: Chef\n\nThe blade-smiling cook of the road.\n\nFeeds your guts and your
     courage.
   offset: {x: 0, y: 1.3, z: 0}

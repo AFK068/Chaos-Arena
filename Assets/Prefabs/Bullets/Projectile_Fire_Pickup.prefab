@@ -182,6 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  contentKey: content.projectile.fire
   labelText: Ember Flask\n\nThe fire does not ask permission.\nIt simply continues.\n\nProjectiles
     ignite enemies / burn damage over time
   offset: {x: 0, y: 1.2, z: 0}
