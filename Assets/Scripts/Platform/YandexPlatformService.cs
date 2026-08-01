@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
@@ -12,6 +13,23 @@ namespace ChaosArena.Platform
         private const string FallbackLanguage = "en";
 
         public static YandexPlatformService Instance { get; private set; }
+
+        private static event Action<string>? LanguageReadySubscribers;
+
+        /// <summary>
+        /// Subscribers receive the already-known value immediately, so services
+        /// created after SDK initialization do not miss the startup language.
+        /// </summary>
+        public static event Action<string> LanguageReady
+        {
+            add
+            {
+                LanguageReadySubscribers += value;
+                if (Instance != null && Instance.IsBridgeReady)
+                    Instance.InvokeLanguageSubscriber(value, Instance.LanguageCode);
+            }
+            remove => LanguageReadySubscribers -= value;
+        }
 
         public string LanguageCode { get; private set; } = FallbackLanguage;
         public bool IsBridgeReady { get; private set; }
@@ -98,6 +116,7 @@ namespace ChaosArena.Platform
         {
             LanguageCode = string.IsNullOrWhiteSpace(languageCode) ? FallbackLanguage : languageCode;
             IsBridgeReady = true;
+            NotifyLanguageReady();
             _state.SetBridgeReady();
             ApplyLocalRuntimePause();
             ReportGameReadyIfPossible();
@@ -149,6 +168,31 @@ namespace ChaosArena.Platform
             // local pause owner still holds them.
             AudioListener.pause = _state.ShouldPauseAudio;
             Time.timeScale = _state.ShouldPauseSimulation ? 0f : 1f;
+        }
+
+        private void NotifyLanguageReady()
+        {
+            var subscribers = LanguageReadySubscribers;
+            if (subscribers == null)
+                return;
+
+            foreach (var callback in subscribers.GetInvocationList())
+            {
+                if (callback is Action<string> subscriber)
+                    InvokeLanguageSubscriber(subscriber, LanguageCode);
+            }
+        }
+
+        private void InvokeLanguageSubscriber(Action<string> subscriber, string languageCode)
+        {
+            try
+            {
+                subscriber(languageCode);
+            }
+            catch (Exception exception)
+            {
+                Debug.LogException(exception);
+            }
         }
     }
 }

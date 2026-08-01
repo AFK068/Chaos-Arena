@@ -1,4 +1,5 @@
 using System.Collections;
+using ChaosArena.Platform;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -104,7 +105,7 @@ public class FloorTransitionFX : MonoBehaviour
         _monster.GetComponent<RectTransform>().anchoredPosition = new Vector2(-9999f, 0f);
         _player.GetComponent<RectTransform>().anchoredPosition = new Vector2(-9999f, 0f);
         _label.GetComponent<RectTransform>().anchoredPosition = new Vector2(-9999f, 0f);
-        _label.text = $"FLOOR {floor}";
+        _label.text = LocalizationService.FormatText(LocalizationCatalog.FloorFormat, floor);
         _label.color = textColor;
         _canvasGroup.blocksRaycasts = true;
 
