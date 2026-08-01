@@ -56,7 +56,7 @@ public class LabelUI : MonoBehaviour
         _text.textWrappingMode = TextWrappingModes.NoWrap;
         _text.overflowMode = TextOverflowModes.Overflow;
 
-        var font = Resources.Load<TMP_FontAsset>("Fonts & Materials/BoldPixels Font");
+        var font = Resources.Load<TMP_FontAsset>("Fonts & Materials/Press Start 2P Font");
         if (font != null) _text.font = font;
     }
 

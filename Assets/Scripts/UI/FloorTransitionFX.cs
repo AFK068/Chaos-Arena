@@ -72,7 +72,13 @@ public class FloorTransitionFX : MonoBehaviour
         _label.fontSize = fontSize;
         _label.color = textColor;
         _label.alignment = TextAlignmentOptions.Center;
-        if (font != null) _label.font = font;
+        var canonicalFont = Resources.Load<TMP_FontAsset>("Fonts & Materials/Press Start 2P Font");
+        if (canonicalFont != null)
+            _label.font = canonicalFont;
+        else if (font != null)
+            _label.font = font;
+        else
+            Debug.LogError("Press Start 2P Font is missing from Resources.", this);
         var labelRect = _label.GetComponent<RectTransform>();
         labelRect.sizeDelta = new Vector2(300f, 80f);
         labelRect.anchoredPosition = new Vector2(-9999f, 0f);
