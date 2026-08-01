@@ -15,6 +15,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     [SerializeField] [Range(0f, 1f)] private float debuffTintStrength = 0.35f;
 
     private int _currentHealth;
+    private bool _isDead;
     private Color _baseColor;
     private Color _originalBaseColor;
     private Coroutine _flashCoroutine;
@@ -83,10 +84,24 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 
     public void TakeDamage(int amount)
     {
-        _currentHealth -= Mathf.Max(amount, 0);
+        if (_isDead) return;
+
+        var appliedDamage = Mathf.Max(amount, 0);
+        if (appliedDamage == 0) return;
+
+        _currentHealth -= appliedDamage;
         _currentHealth = Mathf.Max(_currentHealth, 0);
 
-        if (_currentHealth == 0) Die();
+        if (_currentHealth == 0)
+        {
+            _isDead = true;
+            AudioManager.Instance?.PlaySfx(SfxCue.EnemyDeath);
+            Die();
+        }
+        else
+        {
+            AudioManager.Instance?.PlaySfx(SfxCue.EnemyHit);
+        }
     }
 
     private void Die()

@@ -36,6 +36,7 @@ public class Coin : MonoBehaviour
             if (dist <= destroyDistance)
             {
                 wallet.AddCoins(value);
+                AudioManager.Instance?.PlaySfx(SfxCue.Coin);
                 Destroy(gameObject);
                 yield break;
             }

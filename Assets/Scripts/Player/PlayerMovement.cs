@@ -196,6 +196,7 @@ public class PlayerMovement : MonoBehaviour
         if (_currentCharges == dashCharges - 1)
             _recoveryTimer = 0f;
 
+        AudioManager.Instance?.PlaySfx(SfxCue.Dash);
         StartCoroutine(DashRoutine());
     }
 

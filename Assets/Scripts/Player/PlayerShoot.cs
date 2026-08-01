@@ -80,6 +80,8 @@ public class PlayerShoot : MonoBehaviour
 
     private void Shoot(Vector2 direction)
     {
+        if (projectilePrefab == null || shootPoint == null) return;
+
         // Поворачиваем персонажа в сторону стрельбы
         playerMovement?.SetFacingDirection(direction);
 
@@ -87,5 +89,6 @@ public class PlayerShoot : MonoBehaviour
         projectile.ApplyDamageMultiplier(_projectileDamageMultiplier);
         projectile.Launch(direction);
         OnProjectileFired?.Invoke(projectile);
+        AudioManager.Instance?.PlaySfx(SfxCue.Shoot);
     }
 }

@@ -88,6 +88,10 @@ public class PlayerHealth : MonoBehaviour
         _currentHealth -= Mathf.Max(amount, 0);
         _currentHealth = Mathf.Max(_currentHealth, 0);
         OnDamageTaken?.Invoke();
+        if (_currentHealth == 0)
+            AudioManager.Instance?.PlaySfx(SfxCue.PlayerDeath);
+        else if (amount > 0)
+            AudioManager.Instance?.PlaySfx(SfxCue.PlayerHit);
         UpdateHearts();
 
         if (playerRenderer != null)

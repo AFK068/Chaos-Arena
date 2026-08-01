@@ -52,6 +52,7 @@ public class Chest : MonoBehaviour, IInteractable
     {
         if (_opened) return;
         _opened = true;
+        AudioManager.Instance?.PlaySfx(SfxCue.Chest);
         StartCoroutine(OpenRoutine());
     }
 
