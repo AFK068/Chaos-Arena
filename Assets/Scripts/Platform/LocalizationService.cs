@@ -54,6 +54,7 @@ namespace ChaosArena.Platform
 
         public void UseRussian() => SetManualLanguage(LocalizationLanguagePolicy.Russian);
         public void UseEnglish() => SetManualLanguage(LocalizationLanguagePolicy.English);
+        public void UseTurkish() => SetManualLanguage(LocalizationLanguagePolicy.Turkish);
 
         public void SetManualLanguage(string languageCode)
         {

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using ChaosArena.Platform;
 using UnityEngine;
 
 public class FloorManager : MonoBehaviour
@@ -26,6 +27,7 @@ public class FloorManager : MonoBehaviour
     private readonly Dictionary<int, Room> _rooms = new();
     private Room _currentRoom;
     private bool _transitioning;
+    private bool _tutorialShownForFloor;
     private Transform _runtimeRoot;
 
     private RoomDataPool ActivePool =>
@@ -49,6 +51,7 @@ public class FloorManager : MonoBehaviour
 
     public void GenerateFloor()
     {
+        _tutorialShownForFloor = false;
         foreach (var room in _rooms.Values)
             if (room != null) Destroy(room.gameObject);
         _rooms.Clear();
@@ -83,6 +86,7 @@ public class FloorManager : MonoBehaviour
         player.position = startRoom.Center;
         cameraFollow.SnapToRoom(startRoom.Center);
         EnterRoom(startRoom);
+        ShowFirstRoomTutorial(startRoom);
     }
 
     public void GoToNextFloor()
@@ -115,6 +119,15 @@ public class FloorManager : MonoBehaviour
         room.OnRoomEntered();
         minimap.RevealRoom(room.Node.id);
         minimap.SetCurrentRoom(room.Node.id);
+    }
+
+    private void ShowFirstRoomTutorial(Room room)
+    {
+        if (!FirstRoomTutorialGate.ShouldShow(CurrentFloor, room.Node.id, _tutorialShownForFloor))
+            return;
+
+        _tutorialShownForFloor = true;
+        FirstRoomTutorial.Create(room, _runtimeRoot, FindFirstObjectByType<PauseMenu>());
     }
 
     private static Vector3 GridToWorld(Vector2Int gridPos) =>

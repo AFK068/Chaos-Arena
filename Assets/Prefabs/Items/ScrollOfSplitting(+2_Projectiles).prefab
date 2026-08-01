@@ -236,6 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  contentKey: content.item.scroll_of_splitting
   labelText: Scroll of Splitting\n\nOne thought, three arrows.\nThe scroll does not
     care which one hits.\n\n+2 projectiles per shot / -50% fire rate
   offset: {x: 0, y: 1.4, z: 0}

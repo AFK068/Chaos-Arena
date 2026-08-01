@@ -6,6 +6,7 @@ namespace ChaosArena.Platform
     {
         public const string English = "en";
         public const string Russian = "ru";
+        public const string Turkish = "tr";
 
         public static string FromSdkLanguage(string? sdkLanguage)
         {
@@ -14,14 +15,29 @@ namespace ChaosArena.Platform
                 .ToLowerInvariant()
                 .Split('-', '_')[0];
 
-            return primaryLanguage is "ru" or "be" or "kk" or "uk" or "uz"
-                ? Russian
-                : English;
+            return primaryLanguage switch
+            {
+                "tr" => Turkish,
+                "ru" or "be" or "kk" or "uk" or "uz" => Russian,
+                _ => English
+            };
         }
 
-        public static string NormalizeSupportedLanguage(string? languageCode) =>
-            string.Equals(languageCode, Russian, StringComparison.OrdinalIgnoreCase)
-                ? Russian
-                : English;
+        public static string NormalizeSupportedLanguage(string? languageCode)
+        {
+            if (string.Equals(languageCode, Russian, StringComparison.OrdinalIgnoreCase))
+                return Russian;
+            if (string.Equals(languageCode, Turkish, StringComparison.OrdinalIgnoreCase))
+                return Turkish;
+            return English;
+        }
+
+        public static string NextManualLanguage(string? currentLanguage) =>
+            NormalizeSupportedLanguage(currentLanguage) switch
+            {
+                English => Russian,
+                Russian => Turkish,
+                _ => English
+            };
     }
 }

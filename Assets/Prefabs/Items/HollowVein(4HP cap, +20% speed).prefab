@@ -236,6 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  contentKey: content.item.hollow_vein
   labelText: Hollow Vein\n\nLess to lose. More to run with.\nThe body learns to carry
     nothing.\n\nMax HP capped at 4. +20% movement speed
   offset: {x: 0, y: 1.3, z: 0}

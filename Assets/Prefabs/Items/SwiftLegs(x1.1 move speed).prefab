@@ -236,6 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550caf7d3cc645689bb69ce7a419bdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProximityLabel
+  contentKey: content.item.swift_legs
   labelText: Swift Legs\n\nNot faster than fear. Just faster than what follows it.\n\n+10%
     movement speed
   offset: {x: 0, y: 1.3, z: 0}
