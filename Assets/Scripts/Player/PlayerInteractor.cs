@@ -33,6 +33,12 @@ public class PlayerInteractor : MonoBehaviour
             return;
         }
 
+        TryInteract();
+    }
+
+    public void TryInteract()
+    {
+
         var target = FindBestInteractable();
         if (target != null)
         {

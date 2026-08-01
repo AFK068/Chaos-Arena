@@ -56,7 +56,12 @@ public class PlayerShoot : MonoBehaviour
 
     public void OnShoot(InputAction.CallbackContext context)
     {
-        shootDir = context.ReadValue<Vector2>();
+        SetShootDirection(context.ReadValue<Vector2>());
+    }
+
+    public void SetShootDirection(Vector2 direction)
+    {
+        shootDir = Vector2.ClampMagnitude(direction, 1f);
 
         if (shootDir.sqrMagnitude < 0.01f)
         {

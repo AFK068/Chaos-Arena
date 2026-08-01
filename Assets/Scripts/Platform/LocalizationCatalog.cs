@@ -27,6 +27,8 @@ namespace ChaosArena.Platform
         public const string MainMenu = "game_over.main_menu";
         public const string FloorFormat = "transition.floor";
         public const string Item = "common.item";
+        public const string MobileDash = "mobile.dash";
+        public const string MobileInteract = "mobile.interact";
 
         private readonly struct Entry
         {
@@ -64,6 +66,8 @@ namespace ChaosArena.Platform
                 [MainMenu] = new("Main Menu", "Главное меню"),
                 [FloorFormat] = new("FLOOR {0}", "ЭТАЖ {0}"),
                 [Item] = new("Item", "Предмет"),
+                [MobileDash] = new("Dash", "Рывок"),
+                [MobileInteract] = new("Use", "Взаим."),
             };
 
         public static string Get(string key, string? languageCode)
