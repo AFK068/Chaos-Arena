@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using ChaosArena.Platform;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
@@ -90,13 +91,17 @@ public static class PressStart2PFontGenerator
         const string russianAlphabet = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
         const string turkish = "ÇĞİÖŞÜçğıöşü";
         const string punctuation = "…№";
-        const string localized =
-            "New RunSettingsQuitBest floorDeathsTotal coinsKillsSoundsMusicReturnSETTINGS" +
-            "PAUSEDContinueGAME OVEREnemies slainCoins collectedRun timeFloor reachedMain Menu" +
-            "FLOOR {0}ItemDashUseВзаим.Новый забегНастройкиВыйтиЛучший этажСмертиВсего монет" +
-            "УбийстваЗвукиМузыкаНазадНАСТРОЙКИПАУЗАПродолжитьИГРА ОКОНЧЕНАВрагов повержено" +
-            "Монет собраноВремя забегаДостигнутый этажГлавное менюЭТАЖПредметРывок";
-        return new string((ascii + russianAlphabet + turkish + punctuation + localized).Distinct().OrderBy(character => character).ToArray());
+        var localized = string.Concat(LocalizationCatalog.Keys.SelectMany(key => new[]
+        {
+            LocalizationCatalog.Get(key, LocalizationLanguagePolicy.English),
+            LocalizationCatalog.Get(key, LocalizationLanguagePolicy.Russian),
+            LocalizationCatalog.Get(key, LocalizationLanguagePolicy.Turkish)
+        }));
+        return new string((ascii + russianAlphabet + turkish + punctuation + localized)
+            .Where(character => !char.IsControl(character))
+            .Distinct()
+            .OrderBy(character => character)
+            .ToArray());
     }
 
     private static List<char> FindMissing(Font font, string characters) =>

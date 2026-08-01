@@ -6,18 +6,6 @@ using UnityEngine;
 
 public sealed class PressStart2PFontTests
 {
-    private static readonly string[] LocalizationKeys =
-    {
-        LocalizationCatalog.NewRun, LocalizationCatalog.Settings, LocalizationCatalog.Quit,
-        LocalizationCatalog.BestFloor, LocalizationCatalog.Deaths, LocalizationCatalog.TotalCoins,
-        LocalizationCatalog.Kills, LocalizationCatalog.Sounds, LocalizationCatalog.Music,
-        LocalizationCatalog.Return, LocalizationCatalog.SettingsTitle, LocalizationCatalog.Paused,
-        LocalizationCatalog.Continue, LocalizationCatalog.GameOver, LocalizationCatalog.EnemiesSlain,
-        LocalizationCatalog.CoinsCollected, LocalizationCatalog.RunTime, LocalizationCatalog.FloorReached,
-        LocalizationCatalog.MainMenu, LocalizationCatalog.FloorFormat, LocalizationCatalog.Item,
-        LocalizationCatalog.MobileDash, LocalizationCatalog.MobileInteract
-    };
-
     [Test]
     public void StaticFontCoversPlayerVisibleEnglishRussianAndTurkishCorpus()
     {
@@ -29,7 +17,7 @@ public sealed class PressStart2PFontTests
         var corpus = "$ 0123456789 " +
                      "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя " +
                      "ÇĞİÖŞÜçğıöşü … № ";
-        foreach (var key in LocalizationKeys)
+        foreach (var key in LocalizationCatalog.Keys)
         {
             corpus += LocalizationCatalog.Get(key, "en");
             corpus += LocalizationCatalog.Get(key, "ru");

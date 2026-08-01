@@ -111,8 +111,8 @@ namespace ChaosArena.Platform.Tests
                 }
             }
 
-            Assert.That(keys, Has.Count.EqualTo(24));
-            Assert.That(keys.Distinct(), Has.Count.EqualTo(24));
+            Assert.That(keys.Count, Is.EqualTo(24));
+            Assert.That(keys.Distinct().Count(), Is.EqualTo(24));
             Assert.That(keys, Is.EquivalentTo(LocalizationCatalog.ProximityContentKeys));
         }
 

@@ -92,8 +92,11 @@ public sealed class FirstRoomTutorial : MonoBehaviour
         _text.overflowMode = TextOverflowModes.Ellipsis;
         _text.color = new Color(0.96f, 0.88f, 0.70f, 1f);
         _text.raycastTarget = false;
-        _text.font = Resources.Load<TMP_FontAsset>("Fonts & Materials/Press Start 2P Font")
-            ?? Resources.Load<TMP_FontAsset>("Fonts & Materials/BoldPixels Font");
+        var font = Resources.Load<TMP_FontAsset>("Fonts & Materials/Press Start 2P Font");
+        if (font != null)
+            _text.font = font;
+        else
+            Debug.LogError("Press Start 2P Font is missing from Resources.", this);
     }
 
     private void RefreshText()
