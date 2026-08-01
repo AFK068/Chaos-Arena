@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System;
+using System.Linq;
 using ChaosArena.Platform;
 using NUnit.Framework;
 using TMPro;
@@ -45,13 +46,13 @@ public sealed class PressStart2PFontTests
     [Test]
     public void CanonicalFontHasAttachedAtlasMaterialAndIsTheTmpDefault()
     {
+        // Reload from the serialized asset.  A TMP atlas that only exists in the
+        // current process would otherwise make this test pass despite failing after
+        // an editor restart.
+        AssetDatabase.ImportAsset(FontAssetPath, ImportAssetOptions.ForceUpdate);
         var font = Resources.Load<TMP_FontAsset>(FontResourcePath);
         Assert.That(font, Is.Not.Null);
-        Assert.That(font.material, Is.Not.Null);
-        Assert.That(font.atlasTextures, Is.Not.Null.And.Not.Empty);
-        Assert.That(font.atlasTextures[0], Is.Not.Null);
-        AssertSamePersistentAsset(font.material.GetTexture(ShaderUtilities.ID_MainTex), font.atlasTextures[0],
-            "Canonical font material MainTex must be its atlas texture.");
+        AssertCanonicalSubassetIntegrity(font);
         Assert.That(TMP_Settings.defaultFontAsset, Is.SameAs(font));
     }
 
@@ -120,12 +121,9 @@ public sealed class PressStart2PFontTests
         Assert.That(afterFirstRun, Is.EqualTo(before));
         Assert.That(afterSecondRun, Is.EqualTo(before));
 
+        AssetDatabase.ImportAsset(FontAssetPath, ImportAssetOptions.ForceUpdate);
         var font = AssetDatabase.LoadAssetAtPath<TMP_FontAsset>(FontAssetPath);
-        Assert.That(font.material, Is.Not.Null);
-        Assert.That(font.atlasTextures, Is.Not.Null.And.Not.Empty);
-        Assert.That(font.atlasTextures[0], Is.Not.Null);
-        AssertSamePersistentAsset(font.material.GetTexture(ShaderUtilities.ID_MainTex), font.atlasTextures[0],
-            "Generator must preserve the canonical material-to-atlas binding.");
+        AssertCanonicalSubassetIntegrity(font);
     }
 
     private static void AssertTextReferences(IEnumerable<GameObject> roots, TMP_FontAsset font, string assetPath)
@@ -156,6 +154,25 @@ public sealed class PressStart2PFontTests
         Assert.That(AssetDatabase.TryGetGUIDAndLocalFileIdentifier(font.material, out var materialGuid, out long materialId), Is.True);
         Assert.That(AssetDatabase.TryGetGUIDAndLocalFileIdentifier(font.atlasTextures[0], out var atlasGuid, out long atlasId), Is.True);
         return (materialGuid, materialId, atlasGuid, atlasId);
+    }
+
+    private static void AssertCanonicalSubassetIntegrity(TMP_FontAsset font)
+    {
+        Assert.That(font.material, Is.Not.Null);
+        Assert.That(font.atlasTextures, Is.Not.Null.And.Not.Empty);
+        Assert.That(font.atlasTextures.Length, Is.EqualTo(1), "The canonical TMP font must have one atlas.");
+        Assert.That(font.atlasTextures[0], Is.Not.Null);
+        AssertSamePersistentAsset(font.material.GetTexture(ShaderUtilities.ID_MainTex), font.atlasTextures[0],
+            "Canonical font material MainTex must be its atlas texture.");
+
+        var subassets = AssetDatabase.LoadAllAssetsAtPath(FontAssetPath);
+        Assert.That(subassets.OfType<TMP_FontAsset>().Count(), Is.EqualTo(1), "Expected exactly one TMP font subasset.");
+        Assert.That(subassets.OfType<Material>().Count(), Is.EqualTo(1), "Expected exactly one TMP material subasset.");
+        Assert.That(subassets.OfType<Texture2D>().Count(), Is.EqualTo(1), "Expected exactly one TMP atlas texture subasset.");
+        AssertSamePersistentAsset(subassets.OfType<Material>().Single(), font.material,
+            "The only material subasset must be font.material.");
+        AssertSamePersistentAsset(subassets.OfType<Texture2D>().Single(), font.atlasTextures[0],
+            "The only texture subasset must be font.atlasTextures[0].");
     }
 
     private static void AssertSamePersistentAsset(UnityEngine.Object actual, UnityEngine.Object expected, string message)

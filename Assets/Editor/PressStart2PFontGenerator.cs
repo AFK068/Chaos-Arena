@@ -33,9 +33,6 @@ public static class PressStart2PFontGenerator
         if (missingFromSource.Count != 0)
             throw new InvalidOperationException($"Press Start 2P source is missing: {FormatCodePoints(missingFromSource)}");
 
-        // Never delete and recreate this asset.  The material and atlas are subassets
-        // with local IDs, and every scene/prefab serializes those IDs alongside the
-        // font GUID.  Updating the existing dynamic atlas in place keeps them valid.
         var fontAsset = AssetDatabase.LoadAssetAtPath<TMP_FontAsset>(AssetPath);
         if (fontAsset == null)
         {
@@ -55,12 +52,13 @@ public static class PressStart2PFontGenerator
                 AssetDatabase.AddObjectToAsset(atlasTexture, fontAsset);
         }
 
-        if (fontAsset.material == null || fontAsset.atlasTextures == null ||
-            fontAsset.atlasTextures.Length == 0 || fontAsset.atlasTextures[0] == null)
-        {
-            throw new InvalidOperationException(
-                $"Existing production font is incomplete at {AssetPath}; refusing to replace its serialized subassets.");
-        }
+        // TMP can allocate a replacement material and atlas when a previously static
+        // font is switched to Dynamic.  Those replacements are not automatically
+        // attached to the .asset file.  Saving them as references creates a font that
+        // works in the current editor session but renders every glyph as a rectangle
+        // after a restart.  Keep exactly one persistent material and atlas, copy any
+        // dynamic updates back into them, then explicitly restore every link.
+        var (canonicalMaterial, canonicalAtlas) = GetCanonicalSubassets(fontAsset);
 
         fontAsset.name = "Press Start 2P Font";
         fontAsset.creationSettings = new FontAssetCreationSettings
@@ -89,14 +87,30 @@ public static class PressStart2PFontGenerator
             {
                 throw new InvalidOperationException($"Press Start 2P atlas is missing: {FormatCodePoints(missingFromAtlas)}");
             }
+
+            CopyDynamicAtlasIntoCanonicalSubassets(fontAsset, canonicalMaterial, canonicalAtlas);
         }
 
         fontAsset.atlasPopulationMode = AtlasPopulationMode.Static;
         fontAsset.fallbackFontAssetTable = new List<TMP_FontAsset>();
+        RestoreCanonicalLinks(fontAsset, canonicalMaterial, canonicalAtlas);
+        RemoveDuplicateSubassets(fontAsset, canonicalMaterial, canonicalAtlas);
         EditorUtility.SetDirty(fontAsset);
-        EditorUtility.SetDirty(fontAsset.material);
+        EditorUtility.SetDirty(canonicalMaterial);
+        EditorUtility.SetDirty(canonicalAtlas);
         AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
+        AssetDatabase.ImportAsset(AssetPath, ImportAssetOptions.ForceUpdate);
+
+        // Verify the on-disk form, not just the in-memory objects.  This is the
+        // condition that matters after a clean editor restart and in player builds.
+        var reloaded = AssetDatabase.LoadAssetAtPath<TMP_FontAsset>(AssetPath);
+        var (reloadedMaterial, reloadedAtlas) = GetCanonicalSubassets(reloaded);
+        if (reloaded.material != reloadedMaterial || reloaded.atlasTextures.Length != 1 ||
+            reloaded.atlasTextures[0] != reloadedAtlas ||
+            reloadedMaterial.GetTexture(ShaderUtilities.ID_MainTex) != reloadedAtlas)
+        {
+            throw new InvalidOperationException($"{AssetPath} did not persist a coherent TMP material/atlas binding.");
+        }
 
         Debug.Log($"Generated {AssetPath}: {fontAsset.characterTable.Count} static characters, {AtlasSize}x{AtlasSize} atlas.");
     }
@@ -127,5 +141,89 @@ public static class PressStart2PFontGenerator
 
     private static string FormatCodePoints(IEnumerable<char> characters) =>
         string.Join(", ", characters.Select(character => $"U+{(int)character:X4}"));
+
+    private static (Material Material, Texture2D Atlas) GetCanonicalSubassets(TMP_FontAsset fontAsset)
+    {
+        if (fontAsset == null)
+            throw new InvalidOperationException($"TMP font is missing at {AssetPath}.");
+
+        var subassets = AssetDatabase.LoadAllAssetsAtPath(AssetPath);
+        var material = fontAsset.material;
+        var atlas = fontAsset.atlasTextures != null && fontAsset.atlasTextures.Length > 0
+            ? fontAsset.atlasTextures[0]
+            : null;
+
+        // A corrupted YAML reference loads as null after a restart.  Recover from
+        // the actual attached objects, preferring the material that already owns an
+        // attached atlas texture.
+        if (material == null || !AssetDatabase.Contains(material))
+        {
+            material = subassets.OfType<Material>()
+                .FirstOrDefault(candidate => candidate.GetTexture(ShaderUtilities.ID_MainTex) is Texture2D attachedAtlas &&
+                                             AssetDatabase.Contains(attachedAtlas))
+                ?? subassets.OfType<Material>().FirstOrDefault();
+        }
+
+        if (atlas == null || !AssetDatabase.Contains(atlas))
+        {
+            atlas = material?.GetTexture(ShaderUtilities.ID_MainTex) as Texture2D;
+            if (atlas == null || !AssetDatabase.Contains(atlas))
+                atlas = subassets.OfType<Texture2D>().FirstOrDefault();
+        }
+
+        if (material == null || atlas == null)
+            throw new InvalidOperationException($"{AssetPath} has no persistent TMP material and atlas subassets.");
+
+        return (material, atlas);
+    }
+
+    private static void CopyDynamicAtlasIntoCanonicalSubassets(
+        TMP_FontAsset fontAsset,
+        Material canonicalMaterial,
+        Texture2D canonicalAtlas)
+    {
+        var dynamicMaterial = fontAsset.material;
+        var dynamicAtlas = fontAsset.atlasTextures != null && fontAsset.atlasTextures.Length > 0
+            ? fontAsset.atlasTextures[0]
+            : null;
+        if (dynamicMaterial == null || dynamicAtlas == null)
+            throw new InvalidOperationException("TMP replaced the canonical subassets with an incomplete dynamic atlas.");
+
+        if (dynamicAtlas != canonicalAtlas)
+        {
+            if (dynamicAtlas.width != canonicalAtlas.width || dynamicAtlas.height != canonicalAtlas.height ||
+                dynamicAtlas.graphicsFormat != canonicalAtlas.graphicsFormat)
+            {
+                throw new InvalidOperationException("TMP generated an incompatible dynamic atlas; refusing to serialize a broken binding.");
+            }
+
+            Graphics.CopyTexture(dynamicAtlas, canonicalAtlas);
+        }
+
+        if (dynamicMaterial != canonicalMaterial)
+            canonicalMaterial.CopyPropertiesFromMaterial(dynamicMaterial);
+
+        RestoreCanonicalLinks(fontAsset, canonicalMaterial, canonicalAtlas);
+    }
+
+    private static void RestoreCanonicalLinks(TMP_FontAsset fontAsset, Material canonicalMaterial, Texture2D canonicalAtlas)
+    {
+        canonicalMaterial.SetTexture(ShaderUtilities.ID_MainTex, canonicalAtlas);
+        fontAsset.material = canonicalMaterial;
+        fontAsset.atlasTextures = new[] { canonicalAtlas };
+    }
+
+    private static void RemoveDuplicateSubassets(TMP_FontAsset fontAsset, Material canonicalMaterial, Texture2D canonicalAtlas)
+    {
+        foreach (var subasset in AssetDatabase.LoadAllAssetsAtPath(AssetPath))
+        {
+            if (subasset == fontAsset || subasset == canonicalMaterial || subasset == canonicalAtlas ||
+                (subasset is not Material && subasset is not Texture2D))
+                continue;
+
+            AssetDatabase.RemoveObjectFromAsset(subasset);
+            UnityEngine.Object.DestroyImmediate(subasset, true);
+        }
+    }
 }
 #endif
