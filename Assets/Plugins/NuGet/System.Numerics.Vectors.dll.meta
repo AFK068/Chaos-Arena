@@ -12,17 +12,20 @@ PluginImporter:
   validateReferences: 1
   platformData:
     Any:
-      enabled: 1
+      enabled: 0
       settings:
-        Exclude Editor: 1
+        Exclude Editor: 0
     Editor:
       enabled: 0
       settings:
         DefaultValueInitialized: true
+    WebGL:
+      enabled: 0
+      settings: {}
     WindowsStoreApps:
       enabled: 0
       settings:
         CPU: AnyCPU
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

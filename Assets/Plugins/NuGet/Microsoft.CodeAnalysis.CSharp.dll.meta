@@ -18,6 +18,9 @@ PluginImporter:
       enabled: 1
       settings:
         DefaultValueInitialized: true
+    WebGL:
+      enabled: 0
+      settings: {}
     WindowsStoreApps:
       enabled: 0
       settings:

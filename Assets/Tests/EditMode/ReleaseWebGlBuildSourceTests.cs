@@ -26,5 +26,21 @@ namespace ChaosArena.Platform.Tests
             Assert.That(source, Does.Contain("JsonUtility.ToJson"));
             Assert.That(source, Does.Contain("EditorApplication.Exit(exitCode)"));
         }
+
+        [Test]
+        public void ReleaseBuilder_FailsClosedWhenMcpCouldEnterAPlayer()
+        {
+            var source = File.ReadAllText("Assets/Editor/ReleaseWebGlBuild.cs");
+
+            Assert.That(source, Does.Contain("ValidateMcpPlayerIsolation();"));
+            Assert.That(source, Does.Contain("McpRuntimeAsmdefRelativePath"));
+            Assert.That(source, Does.Contain("McpTestFilesAsmdefRelativePath"));
+            Assert.That(source, Does.Contain("RequireEditorOnlyAsmdef"));
+            Assert.That(source, Does.Contain("McpRuntimeLinkXmlRelativePath"));
+            Assert.That(source, Does.Contain("McpRuntimeLinkXmlMetaRelativePath"));
+            Assert.That(source, Does.Contain("HasPlatformEnabled(importer, \"Any\", false)"));
+            Assert.That(source, Does.Contain("HasPlatformEnabled(importer, \"WebGL\", false)"));
+            Assert.That(source, Does.Not.Contain("HasPlatformEnabled(importer, \"Editor\", true)"));
+        }
     }
 }

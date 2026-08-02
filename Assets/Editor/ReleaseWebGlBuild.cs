@@ -18,6 +18,11 @@ public static class ReleaseWebGlBuild
 {
     private const string ReleaseOutputPathArgument = "-releaseOutputPath";
     private const string ResultFileName = "build-result.json";
+    private const string McpRuntimeAsmdefRelativePath = "Packages/com.ivanmurzak.unity.mcp/Runtime/com.IvanMurzak.Unity.MCP.Runtime.asmdef";
+    private const string McpTestFilesAsmdefRelativePath = "Packages/com.ivanmurzak.unity.mcp/TestFiles/com.IvanMurzak.Unity.MCP.TestFiles.asmdef";
+    private const string McpRuntimeLinkXmlRelativePath = "Packages/com.ivanmurzak.unity.mcp/Runtime/link.xml";
+    private const string McpRuntimeLinkXmlMetaRelativePath = "Packages/com.ivanmurzak.unity.mcp/Runtime/link.xml.meta";
+    private const string NuGetPluginDirectoryRelativePath = "Assets/Plugins/NuGet";
 
     /// <summary>
     /// Builds all enabled scenes for WebGL and exits a batch-mode Unity process
@@ -34,6 +39,7 @@ public static class ReleaseWebGlBuild
         {
             outputDirectory = ReadOutputDirectory();
             scenes = GetEnabledScenes();
+            ValidateMcpPlayerIsolation();
             Directory.CreateDirectory(outputDirectory);
 
             report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
@@ -97,6 +103,59 @@ public static class ReleaseWebGlBuild
             throw new BuildFailedException("WebGL build requires at least one enabled scene in Build Settings.");
 
         return scenes.ToArray();
+    }
+
+    /// <summary>
+    /// Rejects a release build if Unity-MCP or one of its NuGet dependencies can
+    /// enter a player. The files are deliberately checked at build time: package
+    /// updates and importer changes otherwise bypass source review.
+    /// </summary>
+    private static void ValidateMcpPlayerIsolation()
+    {
+        var projectRoot = Path.GetFullPath(Path.Combine(Application.dataPath, ".."));
+        RequireEditorOnlyAsmdef(projectRoot, McpRuntimeAsmdefRelativePath, "runtime");
+        RequireEditorOnlyAsmdef(projectRoot, McpTestFilesAsmdefRelativePath, "test files");
+
+        var runtimeLinkXmlPath = Path.Combine(projectRoot, McpRuntimeLinkXmlRelativePath);
+        var runtimeLinkXmlMetaPath = Path.Combine(projectRoot, McpRuntimeLinkXmlMetaRelativePath);
+        if (File.Exists(runtimeLinkXmlPath) || File.Exists(runtimeLinkXmlMetaPath))
+            throw new BuildFailedException("Unity-MCP Runtime/link.xml and its metadata must not be present in a player-visible package path.");
+
+        var nuGetPluginDirectory = Path.Combine(projectRoot, NuGetPluginDirectoryRelativePath);
+        if (!Directory.Exists(nuGetPluginDirectory))
+            throw new BuildFailedException($"Missing Unity-MCP NuGet plugin directory: {nuGetPluginDirectory}");
+
+        var importerPaths = Directory.GetFiles(nuGetPluginDirectory, "*.dll.meta", SearchOption.TopDirectoryOnly);
+        if (importerPaths.Length == 0)
+            throw new BuildFailedException("Unity-MCP NuGet plugin directory contains no DLL importer metadata.");
+
+        foreach (var importerPath in importerPaths)
+        {
+            var importer = File.ReadAllText(importerPath);
+            if (!HasPlatformEnabled(importer, "Any", false)
+                || !HasPlatformEnabled(importer, "WebGL", false))
+            {
+                throw new BuildFailedException(
+                    $"Unity-MCP NuGet DLL must be excluded from player platforms and WebGL: {importerPath}");
+            }
+        }
+    }
+
+    private static void RequireEditorOnlyAsmdef(string projectRoot, string relativePath, string description)
+    {
+        var asmdefPath = Path.Combine(projectRoot, relativePath);
+        if (!File.Exists(asmdefPath))
+            throw new BuildFailedException($"Missing embedded Unity-MCP {description} assembly definition: {asmdefPath}");
+
+        var asmdef = File.ReadAllText(asmdefPath);
+        if (!asmdef.Contains("\"includePlatforms\": [\n        \"Editor\"\n    ]"))
+            throw new BuildFailedException($"Unity-MCP {description} assembly must be limited to the Editor platform.");
+    }
+
+    private static bool HasPlatformEnabled(string importerYaml, string platform, bool enabled)
+    {
+        var expectedBlock = $"\n    {platform}:\n      enabled: {(enabled ? 1 : 0)}\n";
+        return importerYaml.Contains(expectedBlock);
     }
 
     private static void TryWriteFailureResult(string outputDirectory, BuildReport report, string[] scenes, Exception exception)

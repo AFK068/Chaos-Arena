@@ -30,3 +30,11 @@ builder deliberately does not delete an existing output directory.
 `CI=true` and `UNITY_MCP_KEEP_CONNECTED=false` disable the Unity-MCP
 connection attempt in headless batch/CI builds. They do not change or weaken
 the builder's `StrictMode` setting.
+
+The release builder also fails closed before invoking Unity's player build if
+the embedded Unity-MCP runtime or test-files assembly is not Editor-only, if
+its runtime `link.xml` exists, or if any DLL in `Assets/Plugins/NuGet` is
+enabled for Any Platform or WebGL. The actual MCP assemblies remain
+Editor-enabled; BCL duplicates already provided by Unity may be disabled there.
+This keeps MCP tooling available in the Editor while preventing its dependency
+closure from entering a release.
