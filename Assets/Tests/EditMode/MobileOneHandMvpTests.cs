@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.IO;
+using System.Text.RegularExpressions;
 using ChaosArena.Platform;
 using NUnit.Framework;
 
@@ -7,6 +8,27 @@ namespace ChaosArena.Platform.Tests
 {
     public sealed class MobileOneHandMvpTests
     {
+        private static readonly Regex MetaGuidPattern = new(@"^guid: [0-9a-f]{32}$", RegexOptions.Compiled);
+
+        [Test]
+        public void AssetMetaFiles_ContainLowercase32CharacterGuids()
+        {
+            foreach (var metaPath in Directory.EnumerateFiles(Path.GetFullPath("Assets"), "*.meta", SearchOption.AllDirectories))
+            {
+                var hasValidGuid = false;
+                foreach (var line in File.ReadLines(metaPath))
+                {
+                    if (!line.StartsWith("guid:"))
+                        continue;
+
+                    hasValidGuid = MetaGuidPattern.IsMatch(line);
+                    break;
+                }
+
+                Assert.That(hasValidGuid, Is.True, metaPath);
+            }
+        }
+
         [Test]
         public void AutoAimHysteresis_OnlySwitchesForMateriallyCloserTarget()
         {

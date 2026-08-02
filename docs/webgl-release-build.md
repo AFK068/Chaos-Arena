@@ -3,6 +3,7 @@
 From the repository root on macOS, run Unity 6000.3.1f1 in batch mode:
 
 ```sh
+CI=true UNITY_MCP_KEEP_CONNECTED=false \
 "/Applications/Unity/Hub/Editor/6000.3.1f1/Unity.app/Contents/MacOS/Unity" \
   -batchmode \
   -nographics \
@@ -25,3 +26,7 @@ any exception text.
 
 Use a clean, disposable output directory for each release candidate. The
 builder deliberately does not delete an existing output directory.
+
+`CI=true` and `UNITY_MCP_KEEP_CONNECTED=false` disable the Unity-MCP
+connection attempt in headless batch/CI builds. They do not change or weaken
+the builder's `StrictMode` setting.
