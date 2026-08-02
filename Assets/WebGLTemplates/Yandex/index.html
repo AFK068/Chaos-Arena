@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <title>{{{ PRODUCT_NAME }}}</title>
+    <link rel="icon" type="image/png" href="TemplateData/favicon.png">
+    <style>
+      :root {
+        color-scheme: dark;
+        background: #090710;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        overscroll-behavior: none;
+        background: #090710;
+      }
+
+      body {
+        touch-action: none;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+      }
+
+      #unity-container {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        background: radial-gradient(circle at 50% 42%, #24122f 0%, #090710 68%);
+      }
+
+      #unity-canvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: {{{ BACKGROUND_FILENAME ? 'url(\'Build/' + BACKGROUND_FILENAME.replace(/'/g, '%27') + '\') center / cover' : BACKGROUND_COLOR }}};
+        outline: none;
+      }
+
+      #loading {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        pointer-events: none;
+        transition: opacity 180ms ease;
+      }
+
+      #loading.hidden {
+        opacity: 0;
+      }
+
+      #loading-icon {
+        width: min(34vw, 176px);
+        aspect-ratio: 1;
+        border-radius: 22%;
+        box-shadow: 0 14px 44px rgba(0, 0, 0, 0.55), 0 0 34px rgba(255, 58, 62, 0.18);
+      }
+
+      #progress-track {
+        width: min(64vw, 360px);
+        height: 10px;
+        padding: 2px;
+        border: 1px solid rgba(235, 220, 255, 0.5);
+        border-radius: 999px;
+        background: rgba(5, 3, 9, 0.72);
+      }
+
+      #progress-bar {
+        width: 0;
+        height: 100%;
+        border-radius: inherit;
+        background: linear-gradient(90deg, #7d3db5, #ff3a3e);
+        transition: width 80ms linear;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="unity-container">
+      <canvas id="unity-canvas" width={{{ WIDTH }}} height={{{ HEIGHT }}} tabindex="-1"></canvas>
+      <div id="loading" aria-hidden="true">
+        <img id="loading-icon" src="TemplateData/favicon.png" alt="">
+        <div id="progress-track"><div id="progress-bar"></div></div>
+      </div>
+    </main>
+
+    <script src="Build/{{{ LOADER_FILENAME }}}"></script>
+    <script>
+      const canvas = document.querySelector("#unity-canvas");
+      const loading = document.querySelector("#loading");
+      const progressBar = document.querySelector("#progress-bar");
+
+      document.addEventListener("contextmenu", (event) => event.preventDefault());
+
+      createUnityInstance(canvas, {
+        arguments: [],
+        dataUrl: "Build/{{{ DATA_FILENAME }}}",
+        frameworkUrl: "Build/{{{ FRAMEWORK_FILENAME }}}",
+#if USE_THREADS
+        workerUrl: "Build/{{{ WORKER_FILENAME }}}",
+#endif
+#if USE_WASM
+        codeUrl: "Build/{{{ CODE_FILENAME }}}",
+#endif
+#if SYMBOLS_FILENAME
+        symbolsUrl: "Build/{{{ SYMBOLS_FILENAME }}}",
+#endif
+        streamingAssetsUrl: "StreamingAssets",
+        autoSyncPersistentDataPath: true,
+        companyName: {{{ JSON.stringify(COMPANY_NAME) }}},
+        productName: {{{ JSON.stringify(PRODUCT_NAME) }}},
+        productVersion: {{{ JSON.stringify(PRODUCT_VERSION) }}},
+      }, (progress) => {
+        progressBar.style.width = `${Math.round(progress * 100)}%`;
+      }).then(() => {
+        loading.classList.add("hidden");
+        window.setTimeout(() => loading.remove(), 200);
+      }).catch((message) => {
+        console.error(message);
+      });
+    </script>
+  </body>
+</html>
