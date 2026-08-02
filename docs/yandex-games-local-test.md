@@ -66,7 +66,7 @@ To localize an existing TextMeshPro label in the Unity Editor:
 | FLOOR {0} | `transition.floor` |
 | Item | `common.item` |
 
-`CHAOS ARENA` deliberately has no key and remains unchanged in every language.
+The localized title is owned by `LocalizationCatalog.GameTitle`: `Chaos Arena` / `Арена Хаоса` / `Kaos Arenası`.
 
 Official references:
 

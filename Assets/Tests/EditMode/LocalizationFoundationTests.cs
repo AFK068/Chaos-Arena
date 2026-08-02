@@ -133,8 +133,9 @@ namespace ChaosArena.Platform.Tests
             Assert.That(LocalizationCatalog.Get(LocalizationCatalog.NewRun, "tr"), Is.EqualTo("Yeni Koşu"));
             Assert.That(LocalizationCatalog.Get(LocalizationCatalog.Return, "ru"), Is.EqualTo("Назад"));
             Assert.That(LocalizationCatalog.Get(LocalizationCatalog.MobileDash, "tr"), Is.EqualTo("Atıl"));
-            Assert.That(LocalizationCatalog.Get(LocalizationCatalog.GameTitle, "ru"), Is.EqualTo("АРЕНА ХАОСА"));
-            Assert.That(LocalizationCatalog.Get(LocalizationCatalog.GameTitle, "tr"), Is.EqualTo("KAOS ARENASI"));
+            Assert.That(LocalizationCatalog.Get(LocalizationCatalog.GameTitle, "en"), Is.EqualTo("Chaos Arena"));
+            Assert.That(LocalizationCatalog.Get(LocalizationCatalog.GameTitle, "ru"), Is.EqualTo("Арена Хаоса"));
+            Assert.That(LocalizationCatalog.Get(LocalizationCatalog.GameTitle, "tr"), Is.EqualTo("Kaos Arenası"));
             Assert.That(LocalizationCatalog.Get(LocalizationCatalog.FloorReached, "ru"), Is.EqualTo("Достигнутый этаж"));
             Assert.That(LocalizationCatalog.Get("missing.key", "ru"), Is.EqualTo("missing.key"));
             Assert.That(LocalizationCatalog.Format(LocalizationCatalog.FloorFormat, "tr", 7), Is.EqualTo("KAT 7"));

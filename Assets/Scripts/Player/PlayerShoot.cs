@@ -14,7 +14,10 @@ public class PlayerShoot : MonoBehaviour
         set => projectilePrefab = value;
     }
 
-    private Vector2 shootDir = Vector2.zero;
+    // Input-action aim and touch auto-aim are separate sources. This prevents a
+    // mobile source from changing keyboard/mouse/gamepad intent.
+    private Vector2 manualShootDir = Vector2.zero;
+    private Vector2 mobileAutoAimDir = Vector2.zero;
     private float fireTimer = 0f;
     private PlayerMovement playerMovement;
     private bool isShooting = false;
@@ -61,24 +64,34 @@ public class PlayerShoot : MonoBehaviour
 
     public void SetShootDirection(Vector2 direction)
     {
-        shootDir = Vector2.ClampMagnitude(direction, 1f);
+        manualShootDir = Vector2.ClampMagnitude(direction, 1f);
+        RefreshShootingState();
+    }
 
-        if (shootDir.sqrMagnitude < 0.01f)
-        {
-            isShooting = false;
-        }
-        else
-        {
-            isShooting = true;
-        }
+    /// <summary>Used only by the runtime mobile auto-aim controller.</summary>
+    public void SetMobileAutoAimDirection(Vector2 direction)
+    {
+        mobileAutoAimDir = Vector2.ClampMagnitude(direction, 1f);
+        RefreshShootingState();
+    }
+
+    private Vector2 ActiveShootDirection => manualShootDir.sqrMagnitude >= 0.01f
+        ? manualShootDir
+        : mobileAutoAimDir;
+
+    private void RefreshShootingState()
+    {
+        isShooting = ActiveShootDirection.sqrMagnitude >= 0.01f;
     }
 
     void Update()
     {
         fireTimer += Time.deltaTime;
-        if (shootDir != Vector2.zero && fireTimer >= fireRate)
+        var shootDirection = ActiveShootDirection;
+        isShooting = shootDirection.sqrMagnitude >= 0.01f;
+        if (isShooting && fireTimer >= fireRate)
         {
-            Shoot(shootDir);
+            Shoot(shootDirection);
             fireTimer = 0f;
         }
     }

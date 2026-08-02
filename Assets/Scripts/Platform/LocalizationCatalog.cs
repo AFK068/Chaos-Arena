@@ -36,6 +36,8 @@ namespace ChaosArena.Platform
         public const string Item = "common.item";
         public const string MobileDash = "mobile.dash";
         public const string MobileInteract = "mobile.interact";
+        public const string MobileHandLeft = "mobile.hand_left";
+        public const string MobileHandRight = "mobile.hand_right";
         public const string TutorialDesktop = "tutorial.desktop";
         public const string TutorialMobile = "tutorial.mobile";
         public const string PickupRageNotice = "pickup.rage.notice";
@@ -95,7 +97,7 @@ namespace ChaosArena.Platform
             {
                 // Treat the title as player-facing copy rather than an untranslated
                 // proper noun.
-                [GameTitle] = new("CHAOS ARENA", "АРЕНА ХАОСА", "KAOS ARENASI"),
+                [GameTitle] = new("Chaos Arena", "Арена Хаоса", "Kaos Arenası"),
                 [NewRun] = new("New Run", "Новый забег", "Yeni Koşu"),
                 [Settings] = new("Settings", "Настройки", "Ayarlar"),
                 [Quit] = new("Quit", "Выйти", "Çıkış"),
@@ -119,8 +121,10 @@ namespace ChaosArena.Platform
                 [Item] = new("Item", "Предмет", "Eşya"),
                 [MobileDash] = new("Dash", "Рывок", "Atıl"),
                 [MobileInteract] = new("Use", "Взаим.", "Kullan"),
+                [MobileHandLeft] = new("LEFT HAND", "ЛЕВАЯ РУКА", "SOL EL"),
+                [MobileHandRight] = new("RIGHT HAND", "ПРАВАЯ РУКА", "SAĞ EL"),
                 [TutorialDesktop] = new("WASD  MOVE\nARROWS  AIM + SHOOT\nSHIFT  DASH\nE / F  USE", "WASD  ДВИЖЕНИЕ\nСТРЕЛКИ  ПРИЦЕЛ + ВЫСТРЕЛ\nSHIFT  РЫВОК\nE / F  ИСПОЛЬЗОВАТЬ", "WASD  HAREKET\nOKLAR  NİŞAN + ATEŞ\nSHIFT  ATIL\nE / F  KULLAN"),
-                [TutorialMobile] = new("LEFT STICK  MOVE\nRIGHT STICK  AIM + FIRE\nDASH  QUICK MOVE\nUSE  INTERACT", "ЛЕВЫЙ СТИК  ДВИЖЕНИЕ\nПРАВЫЙ СТИК  ПРИЦЕЛ + ОГОНЬ\nРЫВОК  БЫСТРОЕ ДВИЖЕНИЕ\nИСП.  ВЗАИМОДЕЙСТВИЕ", "SOL ÇUBUK  HAREKET\nSAĞ ÇUBUK  NİŞAN + ATEŞ\nATIL  HIZLI HAREKET\nKULLAN  ETKİLEŞİM"),
+                [TutorialMobile] = new("MOVE STICK  MOVE\nAUTO AIM + FIRE\nDASH  QUICK MOVE\nUSE  INTERACT", "СТИК ДВИЖЕНИЯ  ДВИЖЕНИЕ\nАВТОПРИЦЕЛ + ОГОНЬ\nРЫВОК  БЫСТРОЕ ДВИЖЕНИЕ\nИСП.  ВЗАИМОДЕЙСТВИЕ", "HAREKET ÇUBUĞU  HAREKET\nOTOMATİK NİŞAN VE ATEŞ\nATIL  HIZLI HAREKET\nKULLAN  ETKİLEŞİM"),
                 [PickupRageNotice] = new("RAGE!\nMove speed +50%  |  Fire rate x2\nDash cooldown halved", "ЯРОСТЬ!\nСкорость +50%  |  Темп огня x2\nОткат рывка вдвое меньше", "ÖFKE!\nHız +%50  |  Ateş hızı x2\nAtıl bekleme süresi yarıya iner"),
                 [PickupDashChargeNotice] = new("DASH CHARGE RESTORED", "ЗАРЯД РЫВКА ВОССТАНОВЛЕН", "ATIL YÜKÜ YENİLENDİ"),
 

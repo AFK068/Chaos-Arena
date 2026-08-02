@@ -17,17 +17,24 @@ public sealed class MobileControlsController : MonoBehaviour
     private const float ButtonSize = 144f;
     private const float PauseButtonSize = 112f;
     private const float EdgePadding = 20f;
+    private const float ClusterGap = 12f;
 
     private PlayerMovement _movement;
     private PlayerShoot _shoot;
     private PlayerInteractor _interactor;
     private PauseMenu _pauseMenu;
+    private MobileAutoAimController _autoAim;
     private GameObject _overlay;
     private RectTransform _safeAreaRoot;
     private Rect _lastSafeArea;
     private Vector2Int _lastScreenSize;
     private bool _pauseOverlayOpen;
+    private bool _landscapeGameplayActive;
+    private bool _landscapeVisibilityInitialized;
+    private MobileHand _hand;
+    private TextMeshProUGUI _handLabel;
     private readonly List<MobileLabel> _localizedLabels = new();
+    private readonly List<MobileControlPlacement> _handPlacements = new();
 
     private void Awake()
     {
@@ -49,6 +56,10 @@ public sealed class MobileControlsController : MonoBehaviour
         }
         if (LocalizationService.Instance != null)
             LocalizationService.Instance.LanguageChanged += OnLanguageChanged;
+        _autoAim = GetComponent<MobileAutoAimController>();
+        if (_autoAim == null)
+            _autoAim = gameObject.AddComponent<MobileAutoAimController>();
+        _hand = MobileHandPreference.Load(new PlayerPrefsMobileHandStore());
         CreateOverlay();
         RefreshSafeArea();
         UpdateLandscapeVisibility();
@@ -65,8 +76,7 @@ public sealed class MobileControlsController : MonoBehaviour
 
     private void OnDisable()
     {
-        _movement?.SetMoveInput(Vector2.zero);
-        _shoot?.SetShootDirection(Vector2.zero);
+        ClearMobileGameplayInput();
     }
 
     private void OnDestroy()
@@ -101,27 +111,28 @@ public sealed class MobileControlsController : MonoBehaviour
         _safeAreaRoot = CreateRect("SafeArea", _overlay.transform);
         Stretch(_safeAreaRoot);
 
-        var moveStick = CreateStick("MoveStick", new Vector2(0f, 0f), new Vector2(EdgePadding, EdgePadding));
+        var moveStick = CreateStick("MoveStick", new Vector2(EdgePadding, EdgePadding));
         moveStick.ValueChanged += value => _movement?.SetMoveInput(value);
 
-        var aimStick = CreateStick("AimAndFireStick", new Vector2(1f, 0f), new Vector2(-EdgePadding, EdgePadding));
-        aimStick.ValueChanged += value => _shoot?.SetShootDirection(value);
-
-        CreateButton("DashButton", LocalizationCatalog.MobileDash, new Vector2(1f, 0f), new Vector2(-EdgePadding - ButtonSize, EdgePadding + ControlSize),
-            () => _movement?.TryDash());
-        CreateButton("InteractButton", LocalizationCatalog.MobileInteract, new Vector2(0f, 0f), new Vector2(EdgePadding + ButtonSize, EdgePadding + ControlSize),
+        CreateButton("DashButton", LocalizationCatalog.MobileDash,
+            new Vector2(EdgePadding + ControlSize + ClusterGap, EdgePadding), () => _movement?.TryMobileDash());
+        CreateButton("InteractButton", LocalizationCatalog.MobileInteract,
+            new Vector2(EdgePadding + ControlSize + ClusterGap, EdgePadding + ButtonSize + ClusterGap),
             () => _interactor?.TryInteract());
-        CreateButton("PauseButton", "II", new Vector2(1f, 0f), new Vector2(-EdgePadding, EdgePadding + ControlSize + ButtonSize * 2f + 12f),
+        CreateButton("PauseButton", "II",
+            new Vector2(EdgePadding + ControlSize + ClusterGap + 16f, EdgePadding + (ButtonSize + ClusterGap) * 2f),
             () => _pauseMenu?.Toggle(), PauseButtonSize);
+        var handButton = CreateButton("HandSelector", GetHandLocalizationKey(),
+            new Vector2(EdgePadding + ControlSize - PauseButtonSize, EdgePadding + (ButtonSize + ClusterGap) * 2f),
+            ToggleHand, PauseButtonSize);
+        _handLabel = handButton.GetComponentInChildren<TextMeshProUGUI>();
+        ApplyHandLayout();
     }
 
-    private MobileTouchStick CreateStick(string name, Vector2 anchor, Vector2 position)
+    private MobileTouchStick CreateStick(string name, Vector2 clusterPosition)
     {
         var baseRect = CreateRect(name, _safeAreaRoot);
-        baseRect.anchorMin = anchor;
-        baseRect.anchorMax = anchor;
-        baseRect.pivot = anchor;
-        baseRect.anchoredPosition = position;
+        RegisterHandPlacement(baseRect, clusterPosition);
         baseRect.sizeDelta = Vector2.one * ControlSize;
         var image = baseRect.gameObject.AddComponent<Image>();
         image.color = new Color(0.08f, 0.12f, 0.2f, 0.62f);
@@ -138,13 +149,11 @@ public sealed class MobileControlsController : MonoBehaviour
         return stick;
     }
 
-    private void CreateButton(string name, string localizationKey, Vector2 anchor, Vector2 position, UnityEngine.Events.UnityAction action, float size = ButtonSize)
+    private RectTransform CreateButton(string name, string localizationKey, Vector2 clusterPosition,
+        UnityEngine.Events.UnityAction action, float size = ButtonSize)
     {
         var buttonRect = CreateRect(name, _safeAreaRoot);
-        buttonRect.anchorMin = anchor;
-        buttonRect.anchorMax = anchor;
-        buttonRect.pivot = anchor;
-        buttonRect.anchoredPosition = position;
+        RegisterHandPlacement(buttonRect, clusterPosition);
         buttonRect.sizeDelta = Vector2.one * size;
 
         var image = buttonRect.gameObject.AddComponent<Image>();
@@ -165,6 +174,7 @@ public sealed class MobileControlsController : MonoBehaviour
         text.color = Color.white;
         text.raycastTarget = false;
         _localizedLabels.Add(new MobileLabel(text, localizationKey));
+        return buttonRect;
     }
 
     private void RefreshSafeArea()
@@ -179,18 +189,36 @@ public sealed class MobileControlsController : MonoBehaviour
         _safeAreaRoot.offsetMax = Vector2.zero;
     }
 
+    private void RegisterHandPlacement(RectTransform rect, Vector2 clusterPosition)
+    {
+        _handPlacements.Add(new MobileControlPlacement(rect, clusterPosition));
+    }
+
+    private void ApplyHandLayout()
+    {
+        var placement = MobileControlMath.GetHandPlacement(_hand);
+        foreach (var control in _handPlacements)
+        {
+            control.Rect.anchorMin = new Vector2(placement.AnchorX, 0f);
+            control.Rect.anchorMax = new Vector2(placement.AnchorX, 0f);
+            control.Rect.pivot = new Vector2(placement.AnchorX, 0f);
+            control.Rect.anchoredPosition = new Vector2(control.ClusterPosition.x * placement.HorizontalSign,
+                control.ClusterPosition.y);
+        }
+    }
+
     private void UpdateLandscapeVisibility()
     {
         var visible = Screen.width >= Screen.height && !_pauseOverlayOpen;
-        if (_overlay.activeSelf == visible)
+        if (_landscapeVisibilityInitialized && _landscapeGameplayActive == visible)
             return;
 
+        _landscapeVisibilityInitialized = true;
+        _landscapeGameplayActive = visible;
         _overlay.SetActive(visible);
+        _autoAim?.SetGameplayActive(visible);
         if (!visible)
-        {
-            _movement?.SetMoveInput(Vector2.zero);
-            _shoot?.SetShootDirection(Vector2.zero);
-        }
+            ClearMobileGameplayInput();
     }
 
     private void OnPauseOverlayVisibilityChanged(bool isOpen)
@@ -203,6 +231,28 @@ public sealed class MobileControlsController : MonoBehaviour
     {
         foreach (var label in _localizedLabels)
             label.Text.text = LocalizationService.GetText(label.Key);
+        if (_handLabel != null)
+            _handLabel.text = LocalizationService.GetText(GetHandLocalizationKey());
+    }
+
+    private void ToggleHand()
+    {
+        _hand = MobileHandPreference.Toggle(new PlayerPrefsMobileHandStore());
+        PlayerPrefs.Save();
+        ApplyHandLayout();
+        if (_handLabel != null)
+            _handLabel.text = LocalizationService.GetText(GetHandLocalizationKey());
+    }
+
+    private string GetHandLocalizationKey() => _hand == MobileHand.Left
+        ? LocalizationCatalog.MobileHandLeft
+        : LocalizationCatalog.MobileHandRight;
+
+    private void ClearMobileGameplayInput()
+    {
+        _movement?.ClearMoveInput();
+        _shoot?.SetMobileAutoAimDirection(Vector2.zero);
+        _autoAim?.SetGameplayActive(false);
     }
 
     private static RectTransform CreateRect(string name, Transform parent)
@@ -231,5 +281,23 @@ public sealed class MobileControlsController : MonoBehaviour
 
         public TextMeshProUGUI Text { get; }
         public string Key { get; }
+    }
+
+    private readonly struct MobileControlPlacement
+    {
+        public MobileControlPlacement(RectTransform rect, Vector2 clusterPosition)
+        {
+            Rect = rect;
+            ClusterPosition = clusterPosition;
+        }
+
+        public RectTransform Rect { get; }
+        public Vector2 ClusterPosition { get; }
+    }
+
+    private sealed class PlayerPrefsMobileHandStore : IMobileHandPreferenceStore
+    {
+        public string GetString(string key, string defaultValue) => PlayerPrefs.GetString(key, defaultValue);
+        public void SetString(string key, string value) => PlayerPrefs.SetString(key, value);
     }
 }

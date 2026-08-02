@@ -1,8 +1,10 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class EnemyHealth : MonoBehaviour, IDamageable
 {
+    private static readonly HashSet<EnemyHealth> ActiveEnemyRegistry = new();
     [SerializeField] private int maxHealth = 3;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private float hitFlashDuration = 0.08f;
@@ -27,6 +29,13 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     private CacodaemonBoss _cacodaemonBoss;
     private HulkZBoss _hulkZBoss;
     private ExperimentZ10Boss _experimentZ10Boss;
+
+    /// <summary>Read-only active-enemy source for systems such as mobile auto aim.</summary>
+    public static IReadOnlyCollection<EnemyHealth> ActiveEnemies => ActiveEnemyRegistry;
+    public bool IsAlive => !_isDead && _currentHealth > 0;
+
+    private void OnEnable() => ActiveEnemyRegistry.Add(this);
+    private void OnDisable() => ActiveEnemyRegistry.Remove(this);
 
     private void Awake()
     {

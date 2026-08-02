@@ -1,4 +1,5 @@
 using System.Collections;
+using ChaosArena.Platform;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D _rb;
     private Vector2 _moveInput;
+    private Vector2 _lastNonZeroMoveDirection;
+    private float _lastNonZeroMoveTime = float.NegativeInfinity;
     private Vector2 _lastFacingDirection = Vector2.down;
     private Animator _animator;
     private PlayerShoot _playerShoot;
@@ -181,7 +184,23 @@ public class PlayerMovement : MonoBehaviour
         SetMoveInput(context.ReadValue<Vector2>());
     }
 
-    public void SetMoveInput(Vector2 moveInput) => _moveInput = Vector2.ClampMagnitude(moveInput, 1f);
+    public void SetMoveInput(Vector2 moveInput)
+    {
+        _moveInput = Vector2.ClampMagnitude(moveInput, 1f);
+        if (_moveInput.sqrMagnitude < 0.01f)
+            return;
+
+        _lastNonZeroMoveDirection = _moveInput.normalized;
+        _lastNonZeroMoveTime = Time.unscaledTime;
+    }
+
+    /// <summary>Clears touch movement and its dash fallback on pause/orientation exit.</summary>
+    public void ClearMoveInput()
+    {
+        _moveInput = Vector2.zero;
+        _lastNonZeroMoveDirection = Vector2.zero;
+        _lastNonZeroMoveTime = float.NegativeInfinity;
+    }
 
     public void OnDash(InputAction.CallbackContext context)
     {
@@ -191,7 +210,23 @@ public class PlayerMovement : MonoBehaviour
 
     public void TryDash()
     {
-        if (_currentCharges <= 0 || _moveInput == Vector2.zero) return;
+        TryDash(_moveInput);
+    }
+
+    /// <summary>Touch dash may use a just-released stick direction, unlike manual Dash.</summary>
+    public void TryMobileDash()
+    {
+        var direction = MobileControlMath.ResolveDashDirection(
+            _moveInput.x, _moveInput.y,
+            _lastNonZeroMoveDirection.x, _lastNonZeroMoveDirection.y,
+            _lastNonZeroMoveTime, Time.unscaledTime);
+        TryDash(new Vector2(direction.X, direction.Y));
+    }
+
+    public void TryDash(Vector2 direction)
+    {
+        direction = Vector2.ClampMagnitude(direction, 1f);
+        if (_isDashing || _currentCharges <= 0 || direction.sqrMagnitude < 0.01f) return;
 
         int slot = -1;
         for (int i = _chargesCooldown.Length - 1; i >= 0; i--)
@@ -208,14 +243,14 @@ public class PlayerMovement : MonoBehaviour
             _recoveryTimer = 0f;
 
         AudioManager.Instance?.PlaySfx(SfxCue.Dash);
-        StartCoroutine(DashRoutine());
+        StartCoroutine(DashRoutine(direction));
     }
 
-    private IEnumerator DashRoutine()
+    private IEnumerator DashRoutine(Vector2 direction)
     {
         _isDashing = true;
         trail.emitting = true;
-        _rb.linearVelocity = _moveInput.normalized * dashSpeed;
+        _rb.linearVelocity = direction * dashSpeed;
 
         yield return new WaitForSeconds(dashDuration);
 
