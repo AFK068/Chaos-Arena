@@ -48,6 +48,46 @@ namespace ChaosArena.Platform
             return System.MathF.Sqrt((screenWidth / referenceWidth) * (screenHeight / referenceHeight));
         }
 
+        /// <summary>
+        /// Keeps an already acquired target until another candidate is materially
+        /// closer. This avoids rapid target swaps when enemies are adjacent.
+        /// </summary>
+        public static bool ShouldSwitchAutoAimTarget(float currentDistanceSquared, float candidateDistanceSquared,
+            float switchDistanceRatio = 0.85f)
+        {
+            if (currentDistanceSquared < 0f)
+                return true;
+            if (candidateDistanceSquared < 0f)
+                return false;
+
+            var ratio = Clamp01(switchDistanceRatio);
+            return candidateDistanceSquared < currentDistanceSquared * ratio * ratio;
+        }
+
+        /// <summary>
+        /// Mobile dash accepts the live stick direction, or a very recent last
+        /// non-zero direction after a player releases the stick to tap Dash.
+        /// </summary>
+        public static MobileStickVector ResolveDashDirection(float currentX, float currentY,
+            float lastX, float lastY, float lastNonZeroTime, float now, float maxAge = 0.45f)
+        {
+            var current = NormalizeStick(currentX, currentY);
+            if (current.X != 0f || current.Y != 0f)
+                return current;
+
+            if (maxAge < 0f || now - lastNonZeroTime > maxAge)
+                return MobileStickVector.Zero;
+
+            return NormalizeStick(lastX, lastY);
+        }
+
+        public static MobileHandPlacement GetHandPlacement(MobileHand hand)
+        {
+            return hand == MobileHand.Left
+                ? new MobileHandPlacement(0f, 1f)
+                : new MobileHandPlacement(1f, -1f);
+        }
+
         private static float Clamp01(float value) => value < 0f ? 0f : value > 1f ? 1f : value;
     }
 
@@ -81,5 +121,17 @@ namespace ChaosArena.Platform
         public float MinY { get; }
         public float MaxX { get; }
         public float MaxY { get; }
+    }
+
+    public readonly struct MobileHandPlacement
+    {
+        public MobileHandPlacement(float anchorX, float horizontalSign)
+        {
+            AnchorX = anchorX;
+            HorizontalSign = horizontalSign;
+        }
+
+        public float AnchorX { get; }
+        public float HorizontalSign { get; }
     }
 }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using ChaosArena.Platform;
 
 public class GameOverUI : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class GameOverUI : MonoBehaviour
     [SerializeField] private TMP_Text coinsValue;
     [SerializeField] private TMP_Text killsValue;
     [SerializeField] private TMP_Text durationValue;
+    private bool _newRunRequested;
 
     void Start()
     {
@@ -17,8 +19,31 @@ public class GameOverUI : MonoBehaviour
         if (durationValue != null) durationValue.text = FormatDuration(run.Duration);
     }
 
-    public void OnNewRun() => GameManager.Instance.RestartRun();
-    public void OnMainMenu() => GameManager.Instance.GoToMainMenu();
+    public void OnNewRun()
+    {
+        var gameManager = GameManager.Instance;
+        if (_newRunRequested || gameManager == null || !gameManager.TryBeginGameOverRestart(out var requestToken))
+            return;
+
+        _newRunRequested = true;
+        if (!YandexAdsService.RequestFullscreenBefore(() => gameManager.CompleteGameOverRestart(requestToken)))
+        {
+            _newRunRequested = false;
+            gameManager.CancelGameOverRestart();
+        }
+    }
+
+    public void OnMainMenu()
+    {
+        var gameManager = GameManager.Instance;
+        if (gameManager == null)
+            return;
+
+        _newRunRequested = false;
+        gameManager.CancelGameOverRestart();
+        YandexAdsService.CancelPendingFullscreenRequest();
+        gameManager.GoToMainMenu();
+    }
 
     private static string FormatDuration(float seconds)
     {
