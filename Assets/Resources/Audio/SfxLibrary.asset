@@ -14,55 +14,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SfxLibrary
   slots:
   - cue: 0
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: 0f6920000ee9e4e4a8c7bbcc9162aca8, type: 3}
     volume: 1
     minInterval: 0.06
     minPitch: 0.95
     maxPitch: 1.05
   - cue: 1
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: ab1506861ead948369a0d8be4ae820fc, type: 3}
     volume: 1
     minInterval: 0.1
     minPitch: 0.95
     maxPitch: 1.05
   - cue: 2
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: ec3381f8e38404cedb57fb36418a059e, type: 3}
     volume: 1
     minInterval: 0.08
     minPitch: 0.97
     maxPitch: 1.03
   - cue: 3
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: 9c550f54aedce40d88a62a1cbdbf715a, type: 3}
     volume: 1
     minInterval: 0
     minPitch: 1
     maxPitch: 1
   - cue: 4
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: 276a0675dd68142a1814d55991dd544b, type: 3}
     volume: 0.85
     minInterval: 0.04
     minPitch: 0.94
     maxPitch: 1.06
   - cue: 5
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: 30e47c6cb914145c3b296a7e75c47f10, type: 3}
     volume: 1
     minInterval: 0.04
     minPitch: 0.95
     maxPitch: 1.05
   - cue: 6
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: 268287b15cfdd4138a8b29923de1027f, type: 3}
     volume: 0.7
     minInterval: 0.08
     minPitch: 0.97
     maxPitch: 1.04
   - cue: 7
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: c318d4eceb1464f7e9f32e7d4228fead, type: 3}
     volume: 1
     minInterval: 0.1
     minPitch: 0.97
     maxPitch: 1.03
   - cue: 8
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: b1dbdd8d14c8540249dcd5bcc408bda9, type: 3}
     volume: 0.8
     minInterval: 0.05
     minPitch: 0.98
