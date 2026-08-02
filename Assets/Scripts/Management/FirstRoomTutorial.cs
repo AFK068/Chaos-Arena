@@ -34,6 +34,7 @@ public sealed class FirstRoomTutorial : MonoBehaviour
             _pauseMenu.OverlayVisibilityChanged += OnPauseOverlayVisibilityChanged;
         if (LocalizationService.Instance != null)
             LocalizationService.Instance.LanguageChanged += OnLanguageChanged;
+        YandexPlatformService.TouchDeviceReady += OnTouchDeviceReady;
 
         CreateVisual();
         RefreshText();
@@ -49,6 +50,7 @@ public sealed class FirstRoomTutorial : MonoBehaviour
             _pauseMenu.OverlayVisibilityChanged -= OnPauseOverlayVisibilityChanged;
         if (LocalizationService.Instance != null)
             LocalizationService.Instance.LanguageChanged -= OnLanguageChanged;
+        YandexPlatformService.TouchDeviceReady -= OnTouchDeviceReady;
     }
 
     private void CreateVisual()
@@ -107,15 +109,15 @@ public sealed class FirstRoomTutorial : MonoBehaviour
         if (_text == null)
             return;
 
-        var isTouch = MobileControlMath.IsTouchRuntime(
-            Application.isMobilePlatform,
-            SystemInfo.deviceType == DeviceType.Handheld,
-            UnityEngine.InputSystem.Touchscreen.current != null);
         _text.text = LocalizationService.GetText(
-            isTouch ? LocalizationCatalog.TutorialMobile : LocalizationCatalog.TutorialDesktop);
+            YandexPlatformService.IsTouchDevice
+                ? LocalizationCatalog.TutorialMobile
+                : LocalizationCatalog.TutorialDesktop);
     }
 
     private void OnLanguageChanged(string _) => RefreshText();
+
+    private void OnTouchDeviceReady(bool _) => RefreshText();
 
     private void OnPauseOverlayVisibilityChanged(bool isOpen) => gameObject.SetActive(!isOpen);
 

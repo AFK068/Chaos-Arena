@@ -26,12 +26,4 @@ public class MainMenuUI : MonoBehaviour
         if (mainPanel != null) mainPanel.SetActive(true);
     }
 
-    public void OnQuit()
-    {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
-    }
 }

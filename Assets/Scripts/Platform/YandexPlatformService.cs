@@ -16,6 +16,7 @@ namespace ChaosArena.Platform
 
         private static event Action<string>? LanguageReadySubscribers;
         private static event Action? BridgeReadySubscribers;
+        private static event Action<bool>? TouchDeviceReadySubscribers;
 
         /// <summary>
         /// Subscribers receive the already-known value immediately, so services
@@ -46,6 +47,19 @@ namespace ChaosArena.Platform
 
         public string LanguageCode { get; private set; } = FallbackLanguage;
         public bool IsBridgeReady { get; private set; }
+        public static bool IsTouchDevice { get; private set; }
+        public static bool IsTouchDeviceKnown { get; private set; }
+
+        public static event Action<bool> TouchDeviceReady
+        {
+            add
+            {
+                TouchDeviceReadySubscribers += value;
+                if (IsTouchDeviceKnown)
+                    InvokeTouchDeviceSubscriber(value, IsTouchDevice);
+            }
+            remove => TouchDeviceReadySubscribers -= value;
+        }
 
         private readonly GameplayStateMachine _state = new();
         private bool _menuIsInteractive;
@@ -91,6 +105,10 @@ namespace ChaosArena.Platform
             YandexGames_Initialize(gameObject.name);
 #else
             // Editor and non-WebGL builds stay playable without a JavaScript SDK.
+            SetTouchDevice(MobileControlMath.IsTouchRuntime(
+                Application.isMobilePlatform,
+                SystemInfo.deviceType == DeviceType.Handheld,
+                string.Empty));
             OnYandexGamesInitialized(FallbackLanguage);
 #endif
         }
@@ -134,6 +152,12 @@ namespace ChaosArena.Platform
             _state.SetBridgeReady();
             ApplyLocalRuntimePause();
             ReportGameReadyIfPossible();
+        }
+
+        // Called by the WebGL bridge with the authoritative SDK deviceInfo.type.
+        public void OnYandexGamesDeviceTypeDetected(string deviceType)
+        {
+            SetTouchDevice(MobileControlMath.IsTouchRuntime(false, false, deviceType));
         }
 
         // Called by the WebGL bridge. Failure is intentionally non-fatal.
@@ -207,6 +231,34 @@ namespace ChaosArena.Platform
             {
                 if (callback is Action subscriber)
                     InvokeBridgeSubscriber(subscriber);
+            }
+        }
+
+        private static void SetTouchDevice(bool isTouchDevice)
+        {
+            IsTouchDevice = isTouchDevice;
+            IsTouchDeviceKnown = true;
+
+            var subscribers = TouchDeviceReadySubscribers;
+            if (subscribers == null)
+                return;
+
+            foreach (var callback in subscribers.GetInvocationList())
+            {
+                if (callback is Action<bool> subscriber)
+                    InvokeTouchDeviceSubscriber(subscriber, isTouchDevice);
+            }
+        }
+
+        private static void InvokeTouchDeviceSubscriber(Action<bool> subscriber, bool isTouchDevice)
+        {
+            try
+            {
+                subscriber(isTouchDevice);
+            }
+            catch (Exception exception)
+            {
+                Debug.LogException(exception);
             }
         }
 

@@ -20,6 +20,29 @@ namespace ChaosArena.Platform.Tests
         }
 
         [Test]
+        public void DeviceBridge_UsesYandexDeviceInfoInsteadOfTouchscreenPresence()
+        {
+            var jslib = File.ReadAllText("Assets/Plugins/WebGL/YandexGames.jslib");
+            var controls = File.ReadAllText("Assets/Scripts/UI/MobileControlsController.cs");
+
+            Assert.That(jslib, Does.Contain("sdk.deviceInfo.type"));
+            Assert.That(jslib, Does.Contain("OnYandexGamesDeviceTypeDetected"));
+            Assert.That(controls, Does.Contain("YandexPlatformService.TouchDeviceReady"));
+            Assert.That(controls, Does.Not.Contain("Touchscreen.current"));
+        }
+
+        [Test]
+        public void MainMenu_HasNoBrowserQuitAction()
+        {
+            var menu = File.ReadAllText("Assets/Scripts/UI/MainMenuUI.cs");
+            var scene = File.ReadAllText("Assets/Scenes/MainMenu.unity");
+
+            Assert.That(menu, Does.Not.Contain("Application.Quit"));
+            Assert.That(menu, Does.Not.Contain("OnQuit"));
+            Assert.That(scene, Does.Not.Contain("Button_Quit"));
+        }
+
+        [Test]
         public void PlayerBridge_AcquiresGuestWithoutScopesThenReadsAndWritesAggregateProgress()
         {
             var source = File.ReadAllText("Assets/Plugins/WebGL/YandexGames.jslib");

@@ -33,13 +33,16 @@ namespace ChaosArena.Platform.Tests
             Assert.That(area.MaxY, Is.EqualTo(1f));
         }
 
-        [TestCase(false, false, false, false)]
-        [TestCase(true, false, false, true)]
-        [TestCase(false, true, false, true)]
-        [TestCase(false, false, true, true)]
-        public void IsTouchRuntime_AcceptsAnyMobileSignal(bool mobilePlatform, bool handheld, bool touchscreen, bool expected)
+        [TestCase(false, false, "", false)]
+        [TestCase(true, false, "desktop", true)]
+        [TestCase(false, true, "desktop", true)]
+        [TestCase(false, false, "mobile", true)]
+        [TestCase(false, false, "tablet", true)]
+        [TestCase(false, false, "desktop", false)]
+        public void IsTouchRuntime_UsesPlatformOrSdkDeviceType(
+            bool mobilePlatform, bool handheld, string sdkDeviceType, bool expected)
         {
-            Assert.That(MobileControlMath.IsTouchRuntime(mobilePlatform, handheld, touchscreen), Is.EqualTo(expected));
+            Assert.That(MobileControlMath.IsTouchRuntime(mobilePlatform, handheld, sdkDeviceType), Is.EqualTo(expected));
         }
 
         [Test]
