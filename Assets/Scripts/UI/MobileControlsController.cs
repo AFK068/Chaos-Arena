@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using ChaosArena.Platform;
 using TMPro;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 /// <summary>
@@ -45,7 +44,12 @@ public sealed class MobileControlsController : MonoBehaviour
 
     private void Start()
     {
-        if (!ShouldShowTouchControls())
+        YandexPlatformService.TouchDeviceReady += OnTouchDeviceReady;
+    }
+
+    private void OnTouchDeviceReady(bool isTouchDevice)
+    {
+        if (!isTouchDevice || _overlay != null)
             return;
 
         _pauseMenu = FindFirstObjectByType<PauseMenu>();
@@ -81,18 +85,11 @@ public sealed class MobileControlsController : MonoBehaviour
 
     private void OnDestroy()
     {
+        YandexPlatformService.TouchDeviceReady -= OnTouchDeviceReady;
         if (_pauseMenu != null)
             _pauseMenu.OverlayVisibilityChanged -= OnPauseOverlayVisibilityChanged;
         if (LocalizationService.Instance != null)
             LocalizationService.Instance.LanguageChanged -= OnLanguageChanged;
-    }
-
-    private static bool ShouldShowTouchControls()
-    {
-        return MobileControlMath.IsTouchRuntime(
-            Application.isMobilePlatform,
-            SystemInfo.deviceType == DeviceType.Handheld,
-            Touchscreen.current != null);
     }
 
     private void CreateOverlay()

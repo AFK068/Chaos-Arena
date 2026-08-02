@@ -9,6 +9,16 @@ mergeInto(LibraryManager.library, {
       }
     }
 
+    function detectBrowserDeviceType() {
+      if (navigator.userAgentData && navigator.userAgentData.mobile === true) {
+        return 'mobile';
+      }
+
+      return /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent || '')
+        ? 'mobile'
+        : 'desktop';
+    }
+
     function loadSdk() {
       if (window.YaGames) {
         return Promise.resolve();
@@ -37,13 +47,18 @@ mergeInto(LibraryManager.library, {
         bridge.language = sdk.environment && sdk.environment.i18n
           ? sdk.environment.i18n.lang
           : 'en';
+        bridge.deviceType = sdk.deviceInfo && sdk.deviceInfo.type
+          ? sdk.deviceInfo.type
+          : detectBrowserDeviceType();
 
         sdk.on('game_api_pause', function () { send('OnYandexGamesPlatformPause'); });
         sdk.on('game_api_resume', function () { send('OnYandexGamesPlatformResume'); });
+        send('OnYandexGamesDeviceTypeDetected', bridge.deviceType);
         send('OnYandexGamesInitialized', bridge.language);
       })
       .catch(function (error) {
         var text = error && error.message ? error.message : String(error);
+        send('OnYandexGamesDeviceTypeDetected', detectBrowserDeviceType());
         send('OnYandexGamesError', text);
       });
   },

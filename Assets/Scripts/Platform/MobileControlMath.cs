@@ -32,8 +32,16 @@ namespace ChaosArena.Platform
                 Clamp01((safeY + safeHeight) / screenHeight));
         }
 
-        public static bool IsTouchRuntime(bool isMobilePlatform, bool isHandheld, bool hasTouchscreen) =>
-            isMobilePlatform || isHandheld || hasTouchscreen;
+        /// <summary>
+        /// A touchscreen alone does not make a desktop browser a mobile runtime.
+        /// In WebGL the Yandex SDK device type is the authoritative signal.
+        /// </summary>
+        public static bool IsTouchRuntime(bool isMobilePlatform, bool isHandheld, string sdkDeviceType) =>
+            isMobilePlatform || isHandheld || IsTouchDeviceType(sdkDeviceType);
+
+        public static bool IsTouchDeviceType(string sdkDeviceType) =>
+            string.Equals(sdkDeviceType, "mobile", System.StringComparison.OrdinalIgnoreCase)
+            || string.Equals(sdkDeviceType, "tablet", System.StringComparison.OrdinalIgnoreCase);
 
         /// <summary>
         /// CanvasScaler with Match Width Or Height = 0.5 scales controls by the
