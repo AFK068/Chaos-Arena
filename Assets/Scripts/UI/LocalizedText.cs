@@ -8,6 +8,8 @@ public sealed class LocalizedText : MonoBehaviour
     [SerializeField] private string key;
     [SerializeField] private TMP_Text targetText;
 
+    public string Key => key;
+
     private void Awake()
     {
         if (targetText == null)

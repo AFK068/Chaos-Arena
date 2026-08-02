@@ -50,9 +50,11 @@ public class PlayerMovement : MonoBehaviour
         _recoveryTimer = 0f;
     }
 
-    public void RestoreDashCharge()
+    public bool RestoreDashCharge()
     {
-        if (_currentCharges >= dashCharges) return;
+        if (_currentCharges >= dashCharges)
+            return false;
+
         for (int i = 0; i < _chargesCooldown.Length; i++)
         {
             if (_chargesCooldown[i] < 1f)
@@ -60,9 +62,11 @@ public class PlayerMovement : MonoBehaviour
                 _chargesCooldown[i] = 1f;
                 _currentCharges++;
                 _recoveryTimer = 0f;
-                break;
+                return true;
             }
         }
+
+        return false;
     }
 
     private bool _rageActive;

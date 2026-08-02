@@ -10,6 +10,9 @@ namespace ChaosArena.Platform
     /// </summary>
     public static class LocalizationCatalog
     {
+        // Keep the player-facing title consistent with the selected storefront
+        // language and its localized card metadata.
+        public const string GameTitle = "brand.game_title";
         public const string NewRun = "menu.new_run";
         public const string Settings = "menu.settings";
         public const string Quit = "menu.quit";
@@ -35,6 +38,8 @@ namespace ChaosArena.Platform
         public const string MobileInteract = "mobile.interact";
         public const string TutorialDesktop = "tutorial.desktop";
         public const string TutorialMobile = "tutorial.mobile";
+        public const string PickupRageNotice = "pickup.rage.notice";
+        public const string PickupDashChargeNotice = "pickup.dash_charge.notice";
 
         public const string BuffFullHeart = "content.buff.full_heart";
         public const string BuffHalfHeart = "content.buff.half_heart";
@@ -88,6 +93,9 @@ namespace ChaosArena.Platform
         private static readonly IReadOnlyDictionary<string, Entry> Entries =
             new Dictionary<string, Entry>(StringComparer.Ordinal)
             {
+                // Treat the title as player-facing copy rather than an untranslated
+                // proper noun.
+                [GameTitle] = new("CHAOS ARENA", "АРЕНА ХАОСА", "KAOS ARENASI"),
                 [NewRun] = new("New Run", "Новый забег", "Yeni Koşu"),
                 [Settings] = new("Settings", "Настройки", "Ayarlar"),
                 [Quit] = new("Quit", "Выйти", "Çıkış"),
@@ -113,6 +121,8 @@ namespace ChaosArena.Platform
                 [MobileInteract] = new("Use", "Взаим.", "Kullan"),
                 [TutorialDesktop] = new("WASD  MOVE\nARROWS  AIM + SHOOT\nSHIFT  DASH\nE / F  USE", "WASD  ДВИЖЕНИЕ\nСТРЕЛКИ  ПРИЦЕЛ + ВЫСТРЕЛ\nSHIFT  РЫВОК\nE / F  ИСПОЛЬЗОВАТЬ", "WASD  HAREKET\nOKLAR  NİŞAN + ATEŞ\nSHIFT  ATIL\nE / F  KULLAN"),
                 [TutorialMobile] = new("LEFT STICK  MOVE\nRIGHT STICK  AIM + FIRE\nDASH  QUICK MOVE\nUSE  INTERACT", "ЛЕВЫЙ СТИК  ДВИЖЕНИЕ\nПРАВЫЙ СТИК  ПРИЦЕЛ + ОГОНЬ\nРЫВОК  БЫСТРОЕ ДВИЖЕНИЕ\nИСП.  ВЗАИМОДЕЙСТВИЕ", "SOL ÇUBUK  HAREKET\nSAĞ ÇUBUK  NİŞAN + ATEŞ\nATIL  HIZLI HAREKET\nKULLAN  ETKİLEŞİM"),
+                [PickupRageNotice] = new("RAGE!\nMove speed +50%  |  Fire rate x2\nDash cooldown halved", "ЯРОСТЬ!\nСкорость +50%  |  Темп огня x2\nОткат рывка вдвое меньше", "ÖFKE!\nHız +%50  |  Ateş hızı x2\nAtıl bekleme süresi yarıya iner"),
+                [PickupDashChargeNotice] = new("DASH CHARGE RESTORED", "ЗАРЯД РЫВКА ВОССТАНОВЛЕН", "ATIL YÜKÜ YENİLENDİ"),
 
                 [BuffFullHeart] = new("A Full Heart\n\nSomeone left this behind.\nTheir loss, your gain.\n\nRestores one full heart", "Полное сердце\n\nКто-то оставил его здесь.\nЕго потеря — твоя находка.\n\nВосстанавливает одно полное сердце", "Tam Kalp\n\nBiri bunu burada bıraktı.\nOnun kaybı, senin kazancın.\n\nBir tam kalbi yeniler"),
                 [BuffHalfHeart] = new("Half a Heart\n\nStill beats.\nJust not as loud.\n\nRestores half a heart", "Половина сердца\n\nВсё ещё бьётся.\nПросто тише.\n\nВосстанавливает половину сердца", "Yarım Kalp\n\nHâlâ atıyor.\nSadece daha sessiz.\n\nYarım kalbi yeniler"),

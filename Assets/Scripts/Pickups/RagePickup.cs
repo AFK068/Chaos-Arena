@@ -1,4 +1,5 @@
 using UnityEngine;
+using ChaosArena.Platform;
 
 public class RagePickup : MonoBehaviour, IPickupEffect
 {
@@ -10,8 +11,24 @@ public class RagePickup : MonoBehaviour, IPickupEffect
 
     public void OnPickup(GameObject player)
     {
-        player.GetComponent<PlayerMovement>()?.ApplyRageBuff(speedMultiplier, dashCooldownMultiplier, duration);
-        player.GetComponent<PlayerShoot>()?.ApplyFireRateBuff(fireRateMultiplier, duration);
+        var applied = false;
+
+        var movement = player.GetComponent<PlayerMovement>();
+        if (movement != null)
+        {
+            movement.ApplyRageBuff(speedMultiplier, dashCooldownMultiplier, duration);
+            applied = true;
+        }
+
+        var shooting = player.GetComponent<PlayerShoot>();
+        if (shooting != null)
+        {
+            shooting.ApplyFireRateBuff(fireRateMultiplier, duration);
+            applied = true;
+        }
+
         RageEffect.Spawn(effectPrefab, player.transform, duration);
+        if (applied)
+            PickupNotificationUI.Show(LocalizationCatalog.PickupRageNotice);
     }
 }
