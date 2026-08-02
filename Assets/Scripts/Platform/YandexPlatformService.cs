@@ -6,7 +6,7 @@ namespace ChaosArena.Platform
 {
     /// <summary>
     /// Minimal, fail-open Yandex Games lifecycle integration. It deliberately
-    /// excludes ads, authorization, saves, and translated UI content.
+    /// excludes ads, player data, saves, and translated UI content.
     /// </summary>
     public sealed class YandexPlatformService : MonoBehaviour
     {
@@ -15,6 +15,7 @@ namespace ChaosArena.Platform
         public static YandexPlatformService Instance { get; private set; }
 
         private static event Action<string>? LanguageReadySubscribers;
+        private static event Action? BridgeReadySubscribers;
 
         /// <summary>
         /// Subscribers receive the already-known value immediately, so services
@@ -29,6 +30,18 @@ namespace ChaosArena.Platform
                     Instance.InvokeLanguageSubscriber(value, Instance.LanguageCode);
             }
             remove => LanguageReadySubscribers -= value;
+        }
+
+        /// <summary>Used by optional platform features that must wait for YaGames.init.</summary>
+        public static event Action BridgeReady
+        {
+            add
+            {
+                BridgeReadySubscribers += value;
+                if (Instance != null && Instance.IsBridgeReady)
+                    Instance.InvokeBridgeSubscriber(value);
+            }
+            remove => BridgeReadySubscribers -= value;
         }
 
         public string LanguageCode { get; private set; } = FallbackLanguage;
@@ -117,6 +130,7 @@ namespace ChaosArena.Platform
             LanguageCode = string.IsNullOrWhiteSpace(languageCode) ? FallbackLanguage : languageCode;
             IsBridgeReady = true;
             NotifyLanguageReady();
+            NotifyBridgeReady();
             _state.SetBridgeReady();
             ApplyLocalRuntimePause();
             ReportGameReadyIfPossible();
@@ -183,11 +197,36 @@ namespace ChaosArena.Platform
             }
         }
 
+        private void NotifyBridgeReady()
+        {
+            var subscribers = BridgeReadySubscribers;
+            if (subscribers == null)
+                return;
+
+            foreach (var callback in subscribers.GetInvocationList())
+            {
+                if (callback is Action subscriber)
+                    InvokeBridgeSubscriber(subscriber);
+            }
+        }
+
         private void InvokeLanguageSubscriber(Action<string> subscriber, string languageCode)
         {
             try
             {
                 subscriber(languageCode);
+            }
+            catch (Exception exception)
+            {
+                Debug.LogException(exception);
+            }
+        }
+
+        private void InvokeBridgeSubscriber(Action subscriber)
+        {
+            try
+            {
+                subscriber();
             }
             catch (Exception exception)
             {

@@ -67,5 +67,187 @@ mergeInto(LibraryManager.library, {
     if (sdk && sdk.features && sdk.features.GameplayAPI) {
       sdk.features.GameplayAPI.stop();
     }
+  },
+
+  YandexGames_SetFullscreenAdReceiver: function (gameObjectNamePointer) {
+    var bridge = window.YandexGamesUnityBridge = window.YandexGamesUnityBridge || {};
+    bridge.fullscreenAdReceiverName = UTF8ToString(gameObjectNamePointer);
+  },
+
+  YandexGames_ShowFullscreenAdv: function (requestIdPointer) {
+    var bridge = window.YandexGamesUnityBridge = window.YandexGamesUnityBridge || {};
+    var requestId = UTF8ToString(requestIdPointer);
+    var completed = false;
+
+    function sendTerminal(result) {
+      if (completed) {
+        return;
+      }
+      completed = true;
+
+      if (typeof SendMessage === 'function' && bridge.fullscreenAdReceiverName) {
+        // JSON.stringify is required because SendMessage accepts a string payload.
+        SendMessage(
+          bridge.fullscreenAdReceiverName,
+          'OnYandexGamesFullscreenAdTerminal',
+          JSON.stringify({ requestId: requestId, result: result }));
+      }
+    }
+
+    var sdk = bridge.sdk;
+    if (!sdk || !sdk.adv || typeof sdk.adv.showFullscreenAdv !== 'function') {
+      sendTerminal('unavailable');
+      return;
+    }
+
+    try {
+      var result = sdk.adv.showFullscreenAdv({
+        callbacks: {
+          onOpen: function () {},
+          onClose: function (wasShown) { sendTerminal('closed'); },
+          onError: function () { sendTerminal('error'); }
+        }
+      });
+
+      // Some SDK implementations surface failures as a rejected promise in
+      // addition to the callbacks. Both paths share the terminal guard.
+      if (result && typeof result.catch === 'function') {
+        result.catch(function () { sendTerminal('error'); });
+      }
+    } catch (error) {
+      sendTerminal('error');
+    }
+  },
+
+  YandexGames_SetPlayerReceiver: function (gameObjectNamePointer) {
+    var bridge = window.YandexGamesUnityBridge = window.YandexGamesUnityBridge || {};
+    bridge.playerReceiverName = UTF8ToString(gameObjectNamePointer);
+  },
+
+  YandexGames_PlayerGetGuest: function (requestIdPointer) {
+    var bridge = window.YandexGamesUnityBridge = window.YandexGamesUnityBridge || {};
+    var requestId = UTF8ToString(requestIdPointer);
+    var completed = false;
+
+    function sendTerminal(result, data) {
+      if (completed) {
+        return;
+      }
+      completed = true;
+      if (typeof SendMessage === 'function' && bridge.playerReceiverName) {
+        // JSON.stringify escapes request ids and returned document text before it
+        // crosses the SendMessage string boundary.
+        SendMessage(bridge.playerReceiverName, 'OnYandexGamesPlayerTerminal', JSON.stringify({
+          requestId: requestId,
+          operation: 'getPlayer',
+          result: result,
+          data: data || ''
+        }));
+      }
+    }
+
+    if (!bridge.sdk || typeof bridge.sdk.getPlayer !== 'function') {
+      sendTerminal('error', '');
+      return;
+    }
+
+    try {
+      // Explicitly suppress scope prompts for passive guest/bootstrap access.
+      Promise.resolve(bridge.sdk.getPlayer({ scopes: false }))
+        .then(function (player) {
+          bridge.player = player;
+          sendTerminal('ok', '');
+        })
+        .catch(function () { sendTerminal('error', ''); });
+    } catch (error) {
+      sendTerminal('error', '');
+    }
+  },
+
+  YandexGames_PlayerGetData: function (requestIdPointer) {
+    var bridge = window.YandexGamesUnityBridge = window.YandexGamesUnityBridge || {};
+    var requestId = UTF8ToString(requestIdPointer);
+    var completed = false;
+    var progressKey = 'chaos_arena.progress.v1';
+
+    function sendTerminal(result, data) {
+      if (completed) {
+        return;
+      }
+      completed = true;
+      if (typeof SendMessage === 'function' && bridge.playerReceiverName) {
+        SendMessage(bridge.playerReceiverName, 'OnYandexGamesPlayerTerminal', JSON.stringify({
+          requestId: requestId,
+          operation: 'getData',
+          result: result,
+          data: data || ''
+        }));
+      }
+    }
+
+    var player = bridge.player;
+    if (!player || typeof player.getData !== 'function') {
+      sendTerminal('error', '');
+      return;
+    }
+
+    try {
+      Promise.resolve(player.getData([progressKey]))
+        .then(function (data) {
+          var serialized = '';
+          try {
+            if (data && data[progressKey] !== undefined && data[progressKey] !== null) {
+              serialized = JSON.stringify(data[progressKey]);
+            }
+          } catch (error) {
+            sendTerminal('error', '');
+            return;
+          }
+          sendTerminal('ok', serialized);
+        })
+        .catch(function () { sendTerminal('error', ''); });
+    } catch (error) {
+      sendTerminal('error', '');
+    }
+  },
+
+  YandexGames_PlayerSetData: function (requestIdPointer, serializedDocumentPointer) {
+    var bridge = window.YandexGamesUnityBridge = window.YandexGamesUnityBridge || {};
+    var requestId = UTF8ToString(requestIdPointer);
+    var serializedDocument = UTF8ToString(serializedDocumentPointer);
+    var completed = false;
+    var progressKey = 'chaos_arena.progress.v1';
+
+    function sendTerminal(result) {
+      if (completed) {
+        return;
+      }
+      completed = true;
+      if (typeof SendMessage === 'function' && bridge.playerReceiverName) {
+        SendMessage(bridge.playerReceiverName, 'OnYandexGamesPlayerTerminal', JSON.stringify({
+          requestId: requestId,
+          operation: 'setData',
+          result: result,
+          data: ''
+        }));
+      }
+    }
+
+    var player = bridge.player;
+    if (!player || typeof player.setData !== 'function') {
+      sendTerminal('error');
+      return;
+    }
+
+    try {
+      var document = JSON.parse(serializedDocument);
+      var data = {};
+      data[progressKey] = document;
+      Promise.resolve(player.setData(data, true))
+        .then(function () { sendTerminal('ok'); })
+        .catch(function () { sendTerminal('error'); });
+    } catch (error) {
+      sendTerminal('error');
+    }
   }
 });
