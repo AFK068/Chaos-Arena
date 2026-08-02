@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 
     public RunStats CurrentRun { get; } = new RunStats();
     public HashSet<string> PlayerInventory { get; } = new();
+    private readonly GameOverRestartNavigation _gameOverRestartNavigation = new();
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void Bootstrap()
@@ -52,8 +53,27 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(gameplayScene);
     }
 
+    /// <summary>Starts the one pending Game Over restart intent.</summary>
+    public bool TryBeginGameOverRestart(out ulong requestToken)
+    {
+        requestToken = 0;
+        return SceneManager.GetActiveScene().name == gameOverScene &&
+               _gameOverRestartNavigation.TryBegin(out requestToken);
+    }
+
+    /// <summary>Completes only the still-current Game Over restart intent.</summary>
+    public void CompleteGameOverRestart(ulong requestToken)
+    {
+        if (_gameOverRestartNavigation.TryComplete(
+                requestToken, SceneManager.GetActiveScene().name == gameOverScene))
+            RestartRun();
+    }
+
+    public void CancelGameOverRestart() => _gameOverRestartNavigation.Cancel();
+
     public void GoToGameOver()
     {
+        CancelGameOverRestart();
         CurrentRun.StopTimer();
         PlayerStats.RecordRun(CurrentRun);
         YandexPlatformService.SetGameplayIntent(false);
@@ -63,6 +83,7 @@ public class GameManager : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        CancelGameOverRestart();
         YandexPlatformService.SetGameplayIntent(false);
         YandexPlatformService.SetLocalPause(false);
         SceneManager.LoadScene(mainMenuScene);
